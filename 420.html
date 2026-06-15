@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>北京茅驻京酒业发展有限公司 - 销售作战包 (eid=420)</title>
 <style>
 :root { --bg:#f9f9f9; --panel:#fff; --border:#dcdcdc; --txt:#222; --muted:#666; --accent:#0a66c2; }
@@ -8,7 +9,7 @@ body { font-family: -apple-system, "Helvetica Neue", "PingFang SC", "Microsoft Y
        margin: 0; background: var(--bg); color: var(--txt); line-height: 1.6; font-size: 14px; }
 .wrap { max-width: 1180px; margin: 0 auto; padding: 1em 2em 4em; }
 .top { display: flex; justify-content: space-between; align-items: baseline; padding: 1em 0;
-       border-bottom: 2px solid var(--txt); margin-bottom: 1em; }
+       border-bottom: 2px solid var(--txt); margin-bottom: 1em; flex-wrap: wrap; gap: .5em; }
 .top h1 { margin: 0; font-size: 1.6em; }
 .top a { color: var(--accent); text-decoration: none; font-size: .95em; }
 .top a:hover { text-decoration: underline; }
@@ -19,11 +20,15 @@ body { font-family: -apple-system, "Helvetica Neue", "PingFang SC", "Microsoft Y
 .card a { color: var(--accent); text-decoration: none; font-weight: 600; }
 .card a:hover { text-decoration: underline; }
 .tag { display: inline-block; font-size: .8em; padding: 1px 8px; border-radius: 10px;
-       margin-left: .4em; vertical-align: middle; }
+       margin-left: .25em; vertical-align: middle; }
 .tag-livestream { background: #e1f0ff; color: #0a66c2; }
 .tag-health { background: #e1ffe6; color: #1f7a3f; }
 .tag-grey { background: #fff4d6; color: #8a6a00; }
 .tag-trust { background: #ffe4ef; color: #b3306a; }
+.tag-bidding { background: #e8e4ff; color: #4a3d9e; }
+.tag-franchise { background: #ffe8d6; color: #a65a00; }
+.tag-impulse { background: #eee; color: #555; }
+.tag-credit { background: #d6f5ff; color: #006680; }
 .meta { color: var(--muted); font-size: .85em; margin-top: .3em; }
 .preview { color: #444; margin-top: .5em; font-size: .9em;
            display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3;
@@ -43,6 +48,11 @@ body { font-family: -apple-system, "Helvetica Neue", "PingFang SC", "Microsoft Y
 .panel li { margin: .2em 0; }
 .section-label { background: #e8eef7; color: #0a66c2; font-weight: 600;
                  padding: .3em .8em; border-radius: 4px; display: inline-block; margin-bottom: .8em; }
+.post28-banner { background: #f0f7ff; border: 1px solid #b8d4f0; border-radius: 6px;
+                 padding: .6em 1em; margin-bottom: 1em; font-size: .92em; }
+.post28-banner a { color: var(--accent); font-weight: 600; text-decoration: none; }
+.post28-banner a:hover { text-decoration: underline; }
+.contact-link { margin-left: 1em; padding-left: 1em; border-left: 1px solid #b8d4f0; }
 .feedback { background: #fffce8; border: 1px solid #e7d36b; border-radius: 8px;
             padding: 1.2em 1.6em; margin-top: 2em; }
 .feedback h2 { margin-top: 0; }
@@ -51,8 +61,8 @@ body { font-family: -apple-system, "Helvetica Neue", "PingFang SC", "Microsoft Y
     width: 100%; padding: .5em .7em; border: 1px solid #ccc; border-radius: 4px;
     font-size: .95em; font-family: inherit; }
 .feedback textarea { min-height: 100px; resize: vertical; }
-.feedback .row { display: flex; gap: 1em; margin: .5em 0; }
-.feedback .row > div { flex: 1; }
+.feedback .row { display: flex; gap: 1em; margin: .5em 0; flex-wrap: wrap; }
+.feedback .row > div { flex: 1; min-width: 120px; }
 .feedback button { background: #0a66c2; color: #fff; border: 0; padding: .7em 1.5em;
                    border-radius: 4px; font-size: .95em; cursor: pointer; margin: .5em .5em .5em 0; }
 .feedback button:hover { background: #084e96; }
@@ -68,37 +78,44 @@ nav.compact a:hover { text-decoration: underline; }
 <body>
 <div class="wrap">
 <div class="top">
-<h1>北京茅驻京酒业发展有限公司 <span class="tag tag-health">health</span></h1>
+<h1>北京茅驻京酒业发展有限公司 <span class="tag tag-franchise">franchise</span> <span class="tag tag-health">health</span></h1>
 <a href="index.html">← 返回主页</a>
 </div>
 
+<div class="post28-banner">
+<strong>最终分类 (post28)</strong>: franchise+health · 招商加盟 + 大健康合规
+<span class="contact-link"><strong>联系方式</strong>: <a href="#kp">4 个候选触达点 →</a></span>
+</div>
+
 <nav class="compact">
-<strong>段标签</strong>: health / 类1_食品保健 &nbsp;|&nbsp;
-<a href="#cheat">cheat (一页推介)</a> · <a href="#appendix">辅料 (4源数据)</a> · <a href="#feedback">反馈</a>
+<a href="#cheat">cheat (推介)</a> ·
+<a href="#kp">联系方式</a> ·
+<a href="#appendix">辅料 (4源)</a> ·
+<a href="#feedback">反馈</a>
 </nav>
 
 <div class="panel" id="cheat">
 <div class="section-label">上半 — Cheat Sheet (现场推介用)</div>
-<h1 id="eid420">销售作战包 — 北京茅驻京酒业发展有限公司 (eid=420)</h1>
-<p><em>段标签: health / 类1_食品保健</em></p>
-<h2 id="1">1. 公司一行</h2>
-<p>北京茅驻京酒业发展有限公司 / TK2K / health / 类1_食品保健 / 999.99万元 / 成立3年 / 13701388588</p>
-<h2 id="2">2. 业态画像</h2>
-<p>主营酒类与食品销售，运营“龙场格物”等品牌，通过代理商、分销商及多层级销售体系铺货，自建“茅驻京白酒销售系统”电商平台。客户对象含下级经销商、团购客户及线上消费者。持有食品经营、电信业务、进出口资质，具备线上与跨境能力。系统支撑经销商管理、分佣提成、会员运营，数字化程度高，但官网无法访问且面临消费者对“茅驻京”称号的信任质疑，亟需国家背书强化品牌可信度。</p>
-<h2 id="3">3. 实际业务证据</h2>
+<h1>销售作战包 — 北京茅驻京酒业发展有限公司 (eid=420)</h1>
+<p><em>最终分类 (post28): <strong>franchise+health</strong> · 招商加盟 + 大健康合规</em></p>
+<h2>1. 公司一行</h2>
+<p>北京茅驻京酒业发展有限公司 / FTK2K / franchise+health / 999.99万 / 成立3年</p>
+<h2>2. 业态画像</h2>
+<p>主营酒类经营，包括自主品牌“龙场格物”系列酒、家族酒及生日酒定制，客户面向C端消费者与B端代理商/经销商。销售渠道以线下烟酒行、加盟代理网络为主，并存线上电商及自有官网。经营模式侧重招商加盟/多层级分销，拥有代理商管理系统和多层级分账体系。对应post28招商加盟段，需强化加盟背书；同时食品销售属大健康合规段，需食品安全证书降低信任风险。</p>
+<h2>3. 实际业务证据</h2>
 <ul>
-<li>软著“酒水销售一体化管理系统V1.0” (2024年登记，2022年开发)：证明企业使用自研系统进行酒水销售全流程管理，具备线上经营基础</li>
-<li>软著“代理商（经销商）管理系统V1.0” (2023年开发)：直接证实存在加盟代理体系，系统化管理代理商，有对加盟商赋信的需求</li>
-<li>ICP备案“茅驻京白酒销售系统” (京ICP备2024064442号-2X，2024年备案)：拥有自营电商平台，需解决线上商品展示和信任问题以提升转化率</li>
+<li>QCC软著‘代理商（经销商）管理系统’证明存在加盟管理业务</li>
+<li>QCC软著‘多层级销售分帐提成管理系统’证明存在多级分销和分账模式</li>
+<li>百度搜索结果官网显示‘家族酒定制|生日酒定制’，反映个性化定制酒服务</li>
 </ul>
-<h2 id="4-4">4. 4 源信号摘要</h2>
+<h2>4. 4 源信号摘要</h2>
 <ul>
 <li><strong>QCC经营范围首项</strong>: 酒类经营；食品销售；基础电信业务；互联网信息服务</li>
-<li><strong>官网核心业务</strong>: 官网无法访问，无任何有效内容</li>
-<li><strong>APP评分下载</strong>: 未发现APP，无下载数据</li>
-<li><strong>百度风险词</strong>: 相关搜索包含“茅台驻京办负责人”，存在消费者对企业背景的隐含质疑</li>
+<li><strong>官网核心业务</strong>: 家族酒定制｜生日酒定制</li>
+<li><strong>APP评分下载</strong>: 无APP</li>
+<li><strong>百度风险词</strong>: 无严重风险，但相关搜索有‘茅台集团北京总部’可能引发蹭名联想</li>
 </ul>
-<h2 id="5-8">5. 信号识别表 (8 条)</h2>
+<h2>5. 信号识别表 (8 条)</h2>
 <table>
 <thead>
 <tr>
@@ -111,103 +128,180 @@ nav.compact a:hover { text-decoration: underline; }
 <tbody>
 <tr>
 <td>1</td>
-<td>百度相关搜索</td>
-<td>“茅台驻京办负责人”搜索词，暗示消费者对公司与茅台集团关系存疑</td>
-<td>企业名称可能被误认为挂靠大型酒企，急需权威证书来证明自身正规性，化解消费者质疑</td>
+<td>QCC软著</td>
+<td>代理商（经销商）管理系统V1.0，证明公司存在经销商/加盟商管理业务</td>
+<td>公司依赖代理加盟网络，加盟商易质疑总部资质。市监总局合作证书可作为国家级背书，增强加盟商信心，降低流失率；无证书可能被竞品挖角。</td>
 </tr>
 <tr>
 <td>2</td>
-<td>官网页面无效</td>
-<td>官网无法访问，连接重置，线上展示缺失</td>
-<td>无官网导致消费者和合作伙伴难以验证公司实力，需要可以替代展示的权威电子证书</td>
+<td>QCC软著</td>
+<td>分销商管理系统+多层级销售分帐提成管理系统，显示多层级分销和分账体系</td>
+<td>多级分账易被疑为传销，需合规证明。市监合作证书可对外展示平台合规性，降低监管抽查风险；不办则可能引发市场局介入，影响加盟招商。</td>
 </tr>
 <tr>
 <td>3</td>
-<td>QCC软著</td>
-<td>拥有“代理商（经销商）管理系统”V1.0</td>
-<td>公司存在加盟或代理体系，加盟商/经销商在拓展市场时极度依赖总部提供的品牌信任背书</td>
+<td>QCC行政许可</td>
+<td>食品经营许可证，散装食品销售和预包装食品销售，有效至2028年</td>
+<td>酒类经营需食品合规背书。市监总局商品证书可让每款酒获得国家电商质检中心核验，扫码可查质检报告，提升线上转化率；无证书易被质疑假酒，丢失电商渠道流量。</td>
 </tr>
 <tr>
 <td>4</td>
-<td>QCC软著</td>
-<td>拥有“分销商管理系统”V1.0</td>
-<td>多层级分销网络需要对下线进行信用赋能，商品国家级认证可成为分销商说服下级的工具</td>
+<td>百度相关搜索</td>
+<td>相关搜索含“茅台集团北京总部”“飞天茅台酒”，可能存在蹭茅台名牌嫌疑</td>
+<td>公司品牌名称易被误认与茅台有关，需自证独立。市监合作证书可强化“龙场格物”品牌国家认可度，与茅台划清界限，避免被投诉山寨；不办品牌信任持续受损。</td>
 </tr>
 <tr>
 <td>5</td>
-<td>QCC经营范围</td>
-<td>食品销售+基础电信业务+互联网信息服务</td>
-<td>企业肯定涉及线上食品酒类零售，平台要求质检报告与经营合规证明，商品存证能一揽子解决</td>
+<td>百度信任质疑</td>
+<td>低可见度：无媒体新闻、无电商覆盖，网络声量弱</td>
+<td>小公司形象影响招商与销售。市监合作证书为市监总局唯一合作单位证书，可快速提升公司形象，用于名片、宣传册，吸引加盟商和消费者关注；不办始终为“无人知晓”的小微企业。</td>
 </tr>
 <tr>
 <td>6</td>
-<td>QCC资质证书</td>
-<td>持有电信业务经营许可证、进出口货物收发货人备案</td>
-<td>具备电商和跨境资质但缺乏国家级的商品信任背书，合作证书可放大这些资质价值</td>
+<td>QCC商标</td>
+<td>拥有26件商标，但部分“茅驻京”“龙场格物”系列商标无效驳回</td>
+<td>品牌保护和宣传需求强烈。市监合作证书可将已注册的商标与市监背书绑定，在招商时展示权威性，弥补部分商标无效的短板；不办则品牌故事缺乏信任支撑。</td>
 </tr>
 <tr>
 <td>7</td>
-<td>QCC商标</td>
-<td>26个注册商标（如龙场格物），覆盖酒、食品等多类</td>
-<td>品牌矩阵庞大，需要统一的权威背书来提升整体品牌形象，增强消费者信心</td>
+<td>QCC资质证书</td>
+<td>电信业务经营许可证+进出口货物收发货人备案，具备开展电商和跨境资质</td>
+<td>线上销售场景多，平台要求资质证明。市监总局商品证书可直接用于电商详情页，消费者扫码核验，降低退货率，满足平台合规要求；无证书商品可能被限流或下架。</td>
 </tr>
 <tr>
 <td>8</td>
-<td>QCC软著</td>
-<td>“酒粉会员管理系统”V1.0</td>
-<td>拥有会员运营体系，会员对产品质量敏感，商品证书扫码可查可验，能降低会员疑虑并促进复购</td>
+<td>官网LLM抽取</td>
+<td>官网宣传‘家族酒定制|生日酒定制’，提供个性化酒类定制服务</td>
+<td>定制酒客户对品质疑虑更重。办理市监商品证书可在定制酒瓶身贴‘国家电商质检中心核验’二维码，客户扫码即见质检报告，提升复购与转介；不办定制业务难以与大厂竞争。</td>
 </tr>
 </tbody>
 </table>
-<h2 id="6-5-ok">6. 产品匹配点 (5 条, 状态: ok)</h2>
+<h2>6. 产品匹配点 (8 条, 状态: ok)</h2>
 <ul>
-<li><strong>[信号 1] 公司名被疑挂靠茅台</strong></li>
-<li>您这个名称容易被误会，但只要办了‘市监总局合作证书’，就相当于国家给您公司发了张‘身份证’，证明您是正规军，不是挂靠谁。这个证书是国家市场监督管理总局唯一发出的合作伙伴证明，比您解释一百遍都管用。</li>
-<li><em>来源: 实战QA§第4条</em></li>
-<li><strong>[信号 2] 官网无法打开，无线上形象</strong></li>
-<li>官网打不开没关系，‘市监总局合作证书’的电子版可以直接放在您网店、朋友圈和代理商展示页，消费者扫码就能看到总局认可的信息，这比一个普通官网更有说服力。</li>
-<li><em>来源: 培训材料§Slide 25</em></li>
-<li><strong>[信号 3] 代理商管理系统证明有加盟体系</strong></li>
-<li>您那么多代理商最愁的就是客户不信，您作为总部办了合作证书，等于给所有代理商一个国家级信任招牌，他们出去谈单子直接就亮这个，客户马上觉得靠谱。这笔投入是为整个渠道赋能。</li>
-<li><em>来源: 实战QA§第20条</em></li>
-<li><strong>[信号 5] 线上销售食品酒类需平台质检</strong></li>
-<li>线上卖酒平台经常要您提交质检报告，现在给您商品办‘市监总局商品证书’，由国家电商质检中心事先核验并出具证书，上传就能通过审核，消费者扫码还能看，直接提高成交率，避免下架风险。</li>
-<li><em>来源: 培训材料§Slide 8 &amp; Slide 22</em></li>
-<li><strong>[信号 8] 会员管理系统需要增强会员信任</strong></li>
-<li>您有酒粉会员系统，把商品证书的二维码放进去或者印在产品上，会员随时扫码验证，眼见为实。国家背书让他们对您的酒更信赖，复购率和客单价都会提高。</li>
-<li><em>来源: 实战QA§第16条</em></li>
+<li><strong>[信号 1] 代理商管理系统，依赖加盟网络</strong></li>
+<li>【信号】贵司拥有代理商管理系统，招商加盟是核心模式。【产品关联】市监总局合作证书（培训材料Slide 25）可让总部展示为市监总局合作单位，所有资质荣誉获国家认可。【预期收益】招商时出示实体证书，加盟商信任度提升30%以上，转化更快。【不办风险】加盟商质疑公司实力，流向有背书的竞品品牌。</li>
+<li><em>来源: 培训材料§Slide 25-26</em></li>
+<li><strong>[信号 2] 多层级分账系统，易被疑违规</strong></li>
+<li>【信号】多层级分账系统容易引发传销误解。【产品关联】市监总局合作证书（培训材料Slide 2、QA第4条）对外证明公司合规经营，获市监总局认可。【预期收益】招商会上可展示证书，消除代理顾虑，降低监管问询概率。【不办风险】一旦被举报，市场监督管理局可能上门核查，影响正常经营。</li>
+<li><em>来源: 实战QA§第4条, 培训材料§Slide 2</em></li>
+<li><strong>[信号 3] 食品经营许可证，酒类需质量背书</strong></li>
+<li>【信号】预包装酒类销售，消费者关注真伪与质量。【产品关联】市监总局商品证书（培训材料Slide 8、9）由国家电商质检中心核验，为每款酒颁发‘国家级身份证’。【预期收益】扫码即可查看质检报告，线上订单转化率提升，复购增加。【不办风险】无权威证书，客户转向京东/天猫有认证的店铺，销量流失。</li>
+<li><em>来源: 培训材料§Slide 8-9</em></li>
+<li><strong>[信号 4] 相关搜索蹭茅台，品牌需独立</strong></li>
+<li>【信号】百度搜‘茅台集团北京总部’可能关联到贵司，存在混淆风险。【产品关联】市监总局合作证书（培训材料Slide 4）等于挂上‘市监总局合作伙伴’金字招牌。【预期收益】宣传时强调自有品牌‘龙场格物’，市监背书强化独立性，避免被认定为山寨，减少客诉。【不办风险】被误认为茅台贴牌，甚至遭遇商标侵权投诉。</li>
+<li><em>来源: 培训材料§Slide 4, QA第1条</em></li>
+<li><strong>[信号 5] 网络声量弱，品牌知名度低</strong></li>
+<li>【信号】贵司在媒体和电商端曝光弱，招商和销售受限。【产品关联】市监总局合作证书（培训材料Slide 18）是提升企业形象的利器，315后市场信任重建必备。【预期收益】证书展示在官网、朋友圈，快速建立权威感，吸引合作伙伴主动咨询。【不办风险】持续“隐形”，被区域大商忽视，扩张艰难。</li>
+<li><em>来源: 培训材料§Slide 18, QA第4条</em></li>
+<li><strong>[信号 7] 具备ICP和进出口资质，商品需平台合规</strong></li>
+<li>【信号】有电信和进出口证，线上/跨境是重要渠道。【产品关联】市监总局商品证书（培训材料Slide 6）可直接用于平台详情页，满足京东/天猫等资质审核。【预期收益】商品获得‘国家电商质检中心核验’标签，降低退货率，避免因无质检报告被下架。【不办风险】618、双11大促前被平台要求补充资质，错失旺季。</li>
+<li><em>来源: 培训材料§Slide 6, 市场经营类目存证推荐表</em></li>
+<li><strong>[信号 8] 家族酒定制，客户担心品质</strong></li>
+<li>【信号】定制酒客户对非标品的信任门槛更高。【产品关联】市监总局商品证书（培训材料Slide 26）可为每瓶定制酒贴防伪二维码，注明核验信息。【预期收益】客户收到酒后扫码验证，安心饮用并主动分享，带动转介。【不办风险】被客户质疑“小作坊三无产品”，大单丢失，口碑破坏。</li>
+<li><em>来源: 培训材料§Slide 26, QA第15条</em></li>
+<li><strong>[信号 6] 部分商标无效，需强化品牌信任</strong></li>
+<li>【信号】已注册多枚‘龙场格物’商标，但部分被驳回。【产品关联】市监总局合作证书（培训材料Slide 2）是市监总局唯一发出的合作证书，比商标更能体现国家认可。【预期收益】在招商手册中并列证书与商标，弥补驳回商标的信任缺失，提升加盟商签约信心。【不办风险】竞品利用商标弱点攻击，意向合作者望而却步。</li>
+<li><em>来源: 培训材料§Slide 2, QA第4条</em></li>
 </ul>
-<h3 id="2_1">待人工补充话术 (2 条无产品匹配)</h3>
-<ul>
-<li>信号 4: 分销商管理系统的具体话术产品文档未单独提及，可用代理商话术覆盖，但建议补充分销专属场景</li>
-<li>信号 7: 多商标品牌展示缺乏直接的‘合作证书展示荣誉’的突出话术，可人工强化商标集阵在证书上的应用说法</li>
-</ul>
-<h2 id="7-discovery">7. Discovery 问题 + 异议库</h2>
-<h3 id="discovery">Discovery (挖诉求)</h3>
+<h2>7. Discovery 问题 + 异议库</h2>
+<h3>Discovery (挖诉求)</h3>
 <ol>
-<li>问题1：不少客户搜‘茅台驻京办负责人’，您觉得他们为什么这么搜？(信号id=1)</li>
-<li>问题2：官网打不开，会影响多少潜在合作方和客户的信任？(信号id=2)</li>
-<li>问题3：您的代理商目前靠什么证明自己是正规军？(信号id=3)</li>
-<li>问题4：线上卖酒，平台要求提交质检报告最让您头疼的是什么？(信号id=5)</li>
-<li>问题5：您的会员如果在产品质量上有疑虑，怎么让他们放心？(信号id=8)</li>
+<li>问题1：贵公司目前主要通过什么渠道招募代理商？加盟商最常提出的质疑点是什么？（基于信号id=1）</li>
+<li>问题2：您那个多层级分账系统在推广时，有没有代理担心过合规性？您是怎么打消他们顾虑的？（基于信号id=2）</li>
+<li>问题3：您的酒款在线上平台销售时，是否遇到过被要求提供质检报告或资质证明的情况？（基于信号id=3）</li>
+<li>问题4：如果现在有一个市监总局级别的官方背书，能让您花很少的钱贴上‘国家认可’标签，您觉得在招商时会有多大帮助？（基于信号id=5）</li>
+<li>问题5：做定制酒的客户，最常问您什么问题？是不是担心酒的品质和来源？您通常怎么证明？（基于信号id=8）</li>
 </ol>
-<h3 id="_1">异议库 (产品维度)</h3>
-<p><strong>异议 1: 这个证书真的能帮我提升销量？</strong></p>
-<p>市监总局合作证书能证明你的企业被国家认可，消费者看到后会更加信任，从而促进购买。这在315后尤为重要，权威背书让你在同行中脱颖而出。</p>
+<h3>异议库 (产品维度)</h3>
+<p><strong>异议 1: 你说了半天，我就想知道办了到底有啥用？真有用我就办。</strong></p>
+<p>办了‘市监总局合作证书’，等于你的公司获得了市监总局和国家级质检中心的认可，是最高级别的信用背书，能马上用在对外的宣传、招商、招聘中。‘市监总局商品证书’则让每款酒有了国家认证的身份证，解决客户对质量的担忧，直接提高销量。这比任何广告都管用。</p>
 <p><em>来源: 实战QA§第4条</em></p>
-<p><strong>异议 2: 我产品已有检测报告，为什么要再做商品存证？</strong></p>
-<p>普通检测报告只是产品合格证明，而商品证书是国家电商质检中心和市监总局的认可，是国家级背书，扫码即可查验，让消费者更放心。</p>
-<p><em>来源: 实战QA§第16条</em></p>
-<p><strong>异议 3: 我是做加盟商的，这个证书是总部做还是我自己做？</strong></p>
-<p>总部做合作证书可以统一给加盟商展示，提升整个品牌的信任度，加盟商自己也可以做商品证书，针对具体商品再做背书。</p>
-<p><em>来源: 实战QA§第20条</em></p>
+<p><strong>异议 2: 你说的市监总局、国家电商质检中心这些机构，我怎么知道你们是真的合作关系？</strong></p>
+<p>我们和市监总局、国家电商质检中心有正式协议，没有协议我们哪敢打着他们名义做事。如果您需要，我可以通过微信把协议发给您看，上面都有公章。我们是官方唯一授权的平台。</p>
+<p><em>来源: 实战QA§第7条</em></p>
+<p><strong>异议 3: 办这个得花多少钱？风险大不大？</strong></p>
+<p>我们有套餐，5680元起，包含市监总局合作证书和3个商品证书。相比能带来的招商和销量增长，是一次性小投入。全流程线上办理，7天内出证，没有后续隐性费用。如果担心效果，您可以先从商品证书开始，马上看到消费者反馈。</p>
+<p><em>来源: 实战QA§第32条, 培训材料§Slide 13</em></p>
 </div>
+
+
+<div class="panel" id="kp">
+<div class="section-label">联系方式 · KP 触达情报 (S/M/A/X 判别)</div>
+<h2>KP 触达情报</h2>
+<p><em>生成时间: 自动管线 · eid=420 · 北京茅驻京酒业发展有限公司</em></p>
+<h3>A. 候选触达点（去重后全量）</h3>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>触达点</th>
+<th>类型</th>
+<th>角色推断</th>
+<th>来源</th>
+<th>证据 / 注释</th>
+<th>建议动作</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>13701388588</td>
+<td>手机</td>
+<td>工商登记号 (候选)</td>
+<td>QCC CSV 有效手机号 + qcc-cli get_contact_info</td>
+<td>工商登记号，无其他强信号; 与 ICP 备案官网同批 CLI 号码 (M1,S7)</td>
+<td>候选；建议支付宝/微信验证姓氏</td>
+</tr>
+<tr>
+<td>2</td>
+<td>17611737069</td>
+<td>手机</td>
+<td>工商登记号 (候选)</td>
+<td>QCC CSV 有效手机号 + qcc-cli get_contact_info</td>
+<td>工商登记号，无其他强信号; 与 ICP 备案官网同批 CLI 号码 (M1,S7)</td>
+<td>候选；建议支付宝/微信验证姓氏</td>
+</tr>
+<tr>
+<td>3</td>
+<td>907185@qq.com</td>
+<td>邮箱</td>
+<td>个人/免费邮箱</td>
+<td>QCC CSV 邮箱</td>
+<td>— (—)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>4</td>
+<td>https://www.maozj.com</td>
+<td>官网</td>
+<td>官网</td>
+<td>qcc-cli get_contact_info</td>
+<td>ICP 备案: 是 (—)</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<h3>B. 公司背景增量信息（辅助判断）</h3>
+<ul>
+<li>法人: <strong>鲁文峰</strong> · 注册资本 999.99万元 · 成立 2022-03-28</li>
+<li>参保人数: 3 · 企业规模: XS(微型) · 段标签: franchise+health</li>
+<li>疑似关联企业 (related_party_suspects): 0 条</li>
+<li>官网: www.maozj.com</li>
+<li>百度公开线索:</li>
+<li>北京茅驻京酒业发展有限公司(公司) - 百度百科</li>
+<li>北京茅驻京酒业发展有限公司(公司) - 百度百科</li>
+<li>北京茅驻京酒业发展有限公司 | 家族酒定制 | 生日酒定制</li>
+</ul>
+<h3>C. 不可达 / 已排除项</h3>
+<p>（无）</p>
+</div>
+
 
 <div class="panel" id="appendix">
 <div class="section-label">下半 — 辅料 (电话前/上门前看)</div>
-<h1 id="eid420">辅料 — 北京茅驻京酒业发展有限公司 (eid=420)</h1>
-<h2 id="1-qcc">1. QCC 全字段 (人读版)</h2>
-<h3 id="basic_info">basic_info</h3>
+<h1>辅料 — 北京茅驻京酒业发展有限公司 (eid=420)</h1>
+<h2>1. QCC 全字段 (人读版)</h2>
+<h3>basic_info</h3>
 <pre><code>* 企业名称: 北京茅驻京酒业发展有限公司
 * 基本信息:
 统一社会信用代码: 91110108MA7M8FTK2K
@@ -216,7 +310,7 @@ nav.compact a:hover { text-decoration: underline; }
 成立日期: 2022-03-28
 经营范围: 许可项目：酒类经营；食品销售；基础电信业务；互联网信息服务
 </code></pre>
-<h3 id="administrative_license">administrative_license</h3>
+<h3>administrative_license</h3>
 <pre><code>* 企业名称: 北京茅驻京酒业发展有限公司
 * 行政许可:
 共 3 条记录
@@ -224,13 +318,13 @@ nav.compact a:hover { text-decoration: underline; }
 2 JY11101081935487 北京市市场监督管理行政许可决定书 有效 2023-12-27 2028-12-26 北京市海淀区市场监督管理局 散装食品销售和预包装食品销售 - 详情
 3 91110108MA7M8FTK2K 营业执照 有效 2022-03-28 2099-12-31 北京市海淀区市场监督管理局 北京茅驻京酒业发展有限公司 北京市市场监督管理局 详情
 </code></pre>
-<h3 id="qualifications">qualifications</h3>
+<h3>qualifications</h3>
 <pre><code>* 企业名称: 北京茅驻京酒业发展有限公司
 * 资质证书:
 共有 3 条资质证书记录
 证书类型分布: 食品经营许可证(1)、电信业务经营许可证(1)、进出口货物收发货人(1)
 </code></pre>
-<h3 id="trademark_info">trademark_info</h3>
+<h3>trademark_info</h3>
 <pre><code>* 企业名称: 北京茅驻京酒业发展有限公司
 * 商标信息:
 共 26 条记录
@@ -244,8 +338,25 @@ nav.compact a:hover { text-decoration: underline; }
 8 龙场格物 35类 广告销售 已注册 81474890 2024-10-18 2025-04-28 详情
 9 龙场格物双喜 33类 酒 已注册 81474902 2024-10-18 2025-04-28 详情
 10 龙场格物同花顺 33类 酒 已注册 79826804 2024-07-16 2025-01-14 详情
+11 龙场格物揽月 33类 酒 已注册 77555885 2024-03-26 2024-09-07 详情
+12 龙场格物同福 33类 酒 已注册 76067089 2023-12-28 2024-06-21 详情
+13 龙场格物九章 33类 酒 已注册 73323687 2023-08-07 2024-02-07 详情
+14 龙场格物问天 33类 酒 已注册 73316457 2023-08-07 2024-02-07 详情
+15 龙场格物天眼 33类 酒 商标无效·初审驳回 73330137 2023-08-07 - 详情
+16 龙场格物•致知 33类 酒 商标无效·初审驳回 71300493 2023-05-04 - 详情
+17 龙场格物悟道 33类 酒 商标无效·初审驳回 71314483 2023-05-04 - 详情
+18 茅驻京 龙场格物 35类 广告销售 商标无效·初审驳回 71304770 2023-05-04 - 详情
+19 茅半升 35类 广告销售 已注册 70470114 2023-03-27 2023-09-14 详情
+20 茅驻京 35类 广告销售 商标无效·初审驳回 68758888 2022-12-07 - 详情
+21 般若台 33类 酒 商标无效·初审驳回 68748300 2022-12-07 - 详情
+22 龙场格物 33类 酒 已注册 68430869 2022-11-18 2023-05-21 详情
+23 茅亦授 35类 广告销售 商标无效·初审驳回 68416549 2022-11-18 - 详情
+24 茅半升 9类 科学仪器 已注册 66381241 2022-08-03 2023-01-21 详情
+25 茅已授 35类 广告销售 商标无效·初审驳回 66360937 2022-08-03 - 详情
+26 和合喝 33类 酒 商标无效·初审驳回 66355374 2022-08-02 - 详情
+
 </code></pre>
-<h3 id="software_copyright_info">software_copyright_info</h3>
+<h3>software_copyright_info</h3>
 <pre><code>* 企业名称: 北京茅驻京酒业发展有限公司
 * 软件著作权:
 共 11 条记录
@@ -260,13 +371,13 @@ nav.compact a:hover { text-decoration: underline; }
 9 分销商管理系统 - V1.0 2024SR0320188 2023-12-07 2023-12-07 2024-02-27 原始取得
 10 多层级销售分帐提成管理系统 - V1.0 2024SR0319797 2024-01-03 2024-01-03 2024-02-27 原始取得
 </code></pre>
-<h3 id="works_copyright_info">works_copyright_info</h3>
+<h3>works_copyright_info</h3>
 <pre><code>* 企业名称: 北京茅驻京酒业发展有限公司
 * 作品著作权:
 共 1 条记录
 1 王阳明 美术 - 2023-12-28 国作登字-2024-F-00055924 2024-02-20
 </code></pre>
-<h3 id="network_service_filing">network_service_filing</h3>
+<h3>network_service_filing</h3>
 <pre><code>* 企业名称: 北京茅驻京酒业发展有限公司
 * 网络服务备案:
 共 3 条记录
@@ -274,19 +385,19 @@ nav.compact a:hover { text-decoration: underline; }
 2 - - maozj.com 京ICP备2024064442号-1 2024-04-26 -
 1 茅驻京白酒销售系统 京ICP备2024064442号-2X 2024-07-08 详情
 </code></pre>
-<h3 id="telecom_permission">telecom_permission</h3>
+<h3>telecom_permission</h3>
 <pre><code>* 企业名称: 北京茅驻京酒业发展有限公司
 * 电信许可:
 共 1 条记录
 1 京B2-20253002 北京市 第二类增值电信业务 信息服务业务（仅限互联网信息服务） - 2025-09-11 2030-09-11 有效 详情
 </code></pre>
-<h3 id="credit_commitment">credit_commitment</h3>
+<h3>credit_commitment</h3>
 <pre><code>* 企业名称: 北京茅驻京酒业发展有限公司
 * 信用承诺:
 共 1 条记录
 1 11010820230529001153 主动型 主动型,自愿向社会作出公开承诺将依法纳税 本单位向社会作出公开承诺：①依法纳税，不拖欠税款；②自觉参加各类公益活动，积极承担社会责任；③自愿接受社会各界对本单位经营活动的监督。 2023-05-29 全部履行 国家税务总局北京市海淀区税务局
 </code></pre>
-<h2 id="2">2. 官网内容</h2>
+<h2>2. 官网内容</h2>
 <ul>
 <li><strong>core_business</strong>: </li>
 <li><strong>customer_object</strong>: </li>
@@ -297,22 +408,22 @@ nav.compact a:hover { text-decoration: underline; }
 <li><strong>disclaimer_red_flags</strong>: []</li>
 <li><strong>suggested_segments</strong>: []</li>
 <li>
-<p><strong>evidence</strong>: ['首页 homepage: 无法访问此网站，连接已重置，无有效内容。']</p>
+<p><strong>evidence</strong>: ["首页 homepage: 无法访问此网站，连接已重置，无有效内容。"]</p>
 </li>
 <li>
 <p>抓取来源: L3_nodriver (384 chars)</p>
 </li>
 </ul>
-<h2 id="3-app-ios-android">3. APP 矩阵 (iOS + Android)</h2>
+<h2>3. APP 矩阵 (iOS + Android)</h2>
 <p>(无)</p>
-<h2 id="4">4. 百度信号摘要</h2>
+<h2>4. 百度信号摘要</h2>
 <ul>
-<li>相关搜索: ['茅台集团北京总部', '飞天茅台酒', '茅酱酒业有限公司', '茅台迎宾酒', '北京京实酒业有限公司', '茅台驻京办负责人', '酒业', '北京司茅酒', '北京国茅汇酒行有限公司官网', '茅坛酒是茅台集团的吗']</li>
+<li>相关搜索: ["茅台集团北京总部", "飞天茅台酒", "茅酱酒业有限公司", "茅台迎宾酒", "北京京实酒业有限公司", "茅台驻京办负责人", "酒业", "北京司茅酒", "北京国茅汇酒行有限公司官网", "茅坛酒是茅台集团的吗"]</li>
 <li>信任质疑 (来自 related): []</li>
 <li>信任质疑 (来自 QA): []</li>
-<li>关键词命中段: ['seg_brand_honor', 'seg_new_company_trust', 'seg_franchise_recruitment', 'seg_livestream_compliance', 'seg_bidding_b2b_display', 'seg_regulatory_compliance', 'seg_credit_repair', 'seg_defensive_ip', 'seg_impulse_unknown', 'seg_grey_sales_facade', 'is_marketing_std_enterprise', 'is_high_capital_new_company', 'is_nff_board', 'is_3a_certified', 'is_shell_suspect']</li>
+<li>关键词命中段: ["seg_brand_honor", "seg_new_company_trust", "seg_franchise_recruitment", "seg_livestream_compliance", "seg_bidding_b2b_display", "seg_regulatory_compliance", "seg_credit_repair", "seg_defensive_ip", "seg_impulse_unknown", "seg_grey_sales_facade", "is_marketing_std_enterprise", "is_high_capital_new_company", "is_nff_board", "is_3a_certified", "is_shell_suspect"]</li>
 <li>
-<p>灰色信号: {'scam_accusation': [], 'regulatory_punishment': [], 'illegal_finance': [], 'grey_business_model': [], 'trust_doubt_general': [], 'low_visibility': {'score': 2, 'checks': {'no_official_site': False, 'no_ecommerce': True, 'no_media_news': True, 'only_business_query': False, 'sug_all_enterprise_suffix': False}}, 'summary': {'core_categories_hit': 0, 'core_total_count': 0, 'is_grey_candidate': False}}</p>
+<p>灰色信号: {"scam_accusation": [], "regulatory_punishment": [], "illegal_finance": [], "grey_business_model": [], "trust_doubt_general": [], "low_visibility": {"score": 2, "checks": {"no_official_site": false, "no_ecommerce": true, "no_media_news": true, "only_business_query": false, "sug_all_enterprise_suffix": false}}, "summary": {"core_categories_hit": 0, "core_total_count": 0, "is_grey_candidate": false}}</p>
 </li>
 <li>
 <p>各域 top 标题:</p>
@@ -340,9 +451,13 @@ nav.compact a:hover { text-decoration: underline; }
 </ul>
 </li>
 </ul>
-<h2 id="5-b">5. 研发能力佐证 (B 类软著)</h2>
+<h2>5. 研发能力佐证 (B 类软著)</h2>
 <p>该公司有 <strong>10 个内部系统软著</strong>, 显示研发能力 + 数字化基础。</p>
-<p><strong>销售用法</strong>: 开场可说 "看你们有这么多内部系统, 数字化基础不错, 我们的存证服务也是配合这种数字化做的..."</p>
+<p><strong>销售钩子</strong>:</p>
+<ul>
+<li>企查查软著显示贵司有 10 个内部系统/平台类软著（如 「酒水销售一体化管理系统」、「酒类生产自动化管控系统」、「酿酒设备运行全流程监控管理系统」），说明有持续研发投入与数字化基础。</li>
+<li>可开场确认：这些系统目前主要服务哪条业务线？</li>
+</ul>
 <p>样例 (前 15 个):</p>
 <ul>
 <li>酒水销售一体化管理系统</li>
@@ -402,6 +517,7 @@ nav.compact a:hover { text-decoration: underline; }
   <div><label><input type="checkbox" name="fb_pack_rate" value="产品匹配_有用"> 产品匹配 (有用)</label></div>
   <div><label><input type="checkbox" name="fb_pack_rate" value="discovery_有用"> discovery (有用)</label></div>
   <div><label><input type="checkbox" name="fb_pack_rate" value="异议_有用"> 异议库 (有用)</label></div>
+  <div><label><input type="checkbox" name="fb_pack_rate" value="KP触达_有用"> KP触达 (有用)</label></div>
 </div>
 
 <label>客户拒绝原因 (多选)</label>
@@ -418,66 +534,67 @@ nav.compact a:hover { text-decoration: underline; }
 <textarea id="fb_note" placeholder="销售自由发挥"></textarea>
 
 <div style="margin-top:1em">
-  <button onclick="saveFeedback('420')">💾 保存到浏览器</button>
-  <button class="secondary" onclick="exportFeedback('420')">📥 导出 JSON</button>
-  <button class="secondary" onclick="loadFeedback('420')">↻ 从浏览器加载</button>
+  <button type="button" onclick="saveFeedback('420')">💾 保存到浏览器</button>
+  <button type="button" class="secondary" onclick="exportFeedback('420')">📥 导出 JSON</button>
+  <button type="button" class="secondary" onclick="loadFeedback('420')">↻ 从浏览器加载</button>
   <span class="saved-status" id="fb_status"></span>
 </div>
 </div>
 
 <script>
-const EID = '420';
-const COMPANY = "\u5317\u4eac\u8305\u9a7b\u4eac\u9152\u4e1a\u53d1\u5c55\u6709\u9650\u516c\u53f8";
+(function() {
+  const EID = '420';
+  const COMPANY = "北京茅驻京酒业发展有限公司";
 
-function collectFeedback() {
-  const $ = id => document.getElementById(id);
-  const checkbox = name => Array.from(document.querySelectorAll(`input[name="${name}"]:checked`)).map(x => x.value);
-  return {
-    entity_id: EID, company_name: COMPANY,
-    触达日期: $('fb_date').value, 触达渠道: checkbox('fb_channel'),
-    联系结果: $('fb_result').value, 客户实际业态: $('fb_real_seg').value,
-    客户主诉: $('fb_pains').value, 段判定: $('fb_seg_acc').value,
-    作战包评级: checkbox('fb_pack_rate'), 客户拒绝原因: checkbox('fb_reject'),
-    备注: $('fb_note').value,
-    saved_at: new Date().toISOString()
+  window.collectFeedback = function() {
+    const el = id => document.getElementById(id);
+    const checkbox = name => Array.from(document.querySelectorAll('input[name="' + name + '"]:checked')).map(x => x.value);
+    return {
+      entity_id: EID, company_name: COMPANY,
+      触达日期: el('fb_date').value, 触达渠道: checkbox('fb_channel'),
+      联系结果: el('fb_result').value, 客户实际业态: el('fb_real_seg').value,
+      客户主诉: el('fb_pains').value, 段判定: el('fb_seg_acc').value,
+      作战包评级: checkbox('fb_pack_rate'), 客户拒绝原因: checkbox('fb_reject'),
+      备注: el('fb_note').value,
+      saved_at: new Date().toISOString()
+    };
   };
-}
-function saveFeedback(eid) {
-  const data = collectFeedback();
-  localStorage.setItem('sales_fb_' + eid, JSON.stringify(data));
-  document.getElementById('fb_status').textContent = '✓ 已存浏览器 ' + new Date().toLocaleTimeString();
-}
-function exportFeedback(eid) {
-  const data = collectFeedback();
-  const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement('a');
-  a.href = url;
-  a.download = `feedback_${eid}_${new Date().toISOString().slice(0,10)}.json`;
-  a.click();
-  URL.revokeObjectURL(url);
-}
-function loadFeedback(eid) {
-  const raw = localStorage.getItem('sales_fb_' + eid);
-  if (!raw) { document.getElementById('fb_status').textContent = '(浏览器无历史)'; return; }
-  const d = JSON.parse(raw);
-  const $ = id => document.getElementById(id);
-  $('fb_date').value = d.触达日期 || '';
-  $('fb_result').value = d.联系结果 || '';
-  $('fb_real_seg').value = d.客户实际业态 || '';
-  $('fb_pains').value = d.客户主诉 || '';
-  $('fb_seg_acc').value = d.段判定 || '';
-  $('fb_note').value = d.备注 || '';
-  for (const set of ['fb_channel', 'fb_pack_rate', 'fb_reject']) {
-    document.querySelectorAll(`input[name="${set}"]`).forEach(el => {
-      const key = set === 'fb_channel' ? '触达渠道' :
-                  set === 'fb_pack_rate' ? '作战包评级' : '客户拒绝原因';
-      el.checked = (d[key] || []).includes(el.value);
-    });
-  }
-  document.getElementById('fb_status').textContent = '✓ 已从浏览器加载';
-}
-document.addEventListener('DOMContentLoaded', () => loadFeedback(EID));
+  window.saveFeedback = function(eid) {
+    const data = window.collectFeedback();
+    localStorage.setItem('sales_fb_' + eid, JSON.stringify(data));
+    document.getElementById('fb_status').textContent = '✓ 已存浏览器 ' + new Date().toLocaleTimeString();
+  };
+  window.exportFeedback = function(eid) {
+    const data = window.collectFeedback();
+    const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'feedback_' + eid + '_' + new Date().toISOString().slice(0,10) + '.json';
+    a.click();
+    URL.revokeObjectURL(url);
+  };
+  window.loadFeedback = function(eid) {
+    const raw = localStorage.getItem('sales_fb_' + eid);
+    if (!raw) { document.getElementById('fb_status').textContent = '(浏览器无历史)'; return; }
+    const d = JSON.parse(raw);
+    const el = id => document.getElementById(id);
+    el('fb_date').value = d.触达日期 || '';
+    el('fb_result').value = d.联系结果 || '';
+    el('fb_real_seg').value = d.客户实际业态 || '';
+    el('fb_pains').value = d.客户主诉 || '';
+    el('fb_seg_acc').value = d.段判定 || '';
+    el('fb_note').value = d.备注 || '';
+    for (const pair of [['fb_channel','触达渠道'],['fb_pack_rate','作战包评级'],['fb_reject','客户拒绝原因']]) {
+      const set = pair[0], key = pair[1];
+      document.querySelectorAll('input[name="' + set + '"]').forEach(function(el) {
+        el.checked = (d[key] || []).indexOf(el.value) >= 0;
+      });
+    }
+    document.getElementById('fb_status').textContent = '✓ 已从浏览器加载';
+  };
+  document.addEventListener('DOMContentLoaded', function() { window.loadFeedback(EID); });
+})();
 </script>
 
 </div>

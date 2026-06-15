@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>北京嘉医有品医疗服务有限责任公司 - 销售作战包 (eid=401)</title>
 <style>
 :root { --bg:#f9f9f9; --panel:#fff; --border:#dcdcdc; --txt:#222; --muted:#666; --accent:#0a66c2; }
@@ -8,7 +9,7 @@ body { font-family: -apple-system, "Helvetica Neue", "PingFang SC", "Microsoft Y
        margin: 0; background: var(--bg); color: var(--txt); line-height: 1.6; font-size: 14px; }
 .wrap { max-width: 1180px; margin: 0 auto; padding: 1em 2em 4em; }
 .top { display: flex; justify-content: space-between; align-items: baseline; padding: 1em 0;
-       border-bottom: 2px solid var(--txt); margin-bottom: 1em; }
+       border-bottom: 2px solid var(--txt); margin-bottom: 1em; flex-wrap: wrap; gap: .5em; }
 .top h1 { margin: 0; font-size: 1.6em; }
 .top a { color: var(--accent); text-decoration: none; font-size: .95em; }
 .top a:hover { text-decoration: underline; }
@@ -19,11 +20,15 @@ body { font-family: -apple-system, "Helvetica Neue", "PingFang SC", "Microsoft Y
 .card a { color: var(--accent); text-decoration: none; font-weight: 600; }
 .card a:hover { text-decoration: underline; }
 .tag { display: inline-block; font-size: .8em; padding: 1px 8px; border-radius: 10px;
-       margin-left: .4em; vertical-align: middle; }
+       margin-left: .25em; vertical-align: middle; }
 .tag-livestream { background: #e1f0ff; color: #0a66c2; }
 .tag-health { background: #e1ffe6; color: #1f7a3f; }
 .tag-grey { background: #fff4d6; color: #8a6a00; }
 .tag-trust { background: #ffe4ef; color: #b3306a; }
+.tag-bidding { background: #e8e4ff; color: #4a3d9e; }
+.tag-franchise { background: #ffe8d6; color: #a65a00; }
+.tag-impulse { background: #eee; color: #555; }
+.tag-credit { background: #d6f5ff; color: #006680; }
 .meta { color: var(--muted); font-size: .85em; margin-top: .3em; }
 .preview { color: #444; margin-top: .5em; font-size: .9em;
            display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3;
@@ -43,6 +48,11 @@ body { font-family: -apple-system, "Helvetica Neue", "PingFang SC", "Microsoft Y
 .panel li { margin: .2em 0; }
 .section-label { background: #e8eef7; color: #0a66c2; font-weight: 600;
                  padding: .3em .8em; border-radius: 4px; display: inline-block; margin-bottom: .8em; }
+.post28-banner { background: #f0f7ff; border: 1px solid #b8d4f0; border-radius: 6px;
+                 padding: .6em 1em; margin-bottom: 1em; font-size: .92em; }
+.post28-banner a { color: var(--accent); font-weight: 600; text-decoration: none; }
+.post28-banner a:hover { text-decoration: underline; }
+.contact-link { margin-left: 1em; padding-left: 1em; border-left: 1px solid #b8d4f0; }
 .feedback { background: #fffce8; border: 1px solid #e7d36b; border-radius: 8px;
             padding: 1.2em 1.6em; margin-top: 2em; }
 .feedback h2 { margin-top: 0; }
@@ -51,8 +61,8 @@ body { font-family: -apple-system, "Helvetica Neue", "PingFang SC", "Microsoft Y
     width: 100%; padding: .5em .7em; border: 1px solid #ccc; border-radius: 4px;
     font-size: .95em; font-family: inherit; }
 .feedback textarea { min-height: 100px; resize: vertical; }
-.feedback .row { display: flex; gap: 1em; margin: .5em 0; }
-.feedback .row > div { flex: 1; }
+.feedback .row { display: flex; gap: 1em; margin: .5em 0; flex-wrap: wrap; }
+.feedback .row > div { flex: 1; min-width: 120px; }
 .feedback button { background: #0a66c2; color: #fff; border: 0; padding: .7em 1.5em;
                    border-radius: 4px; font-size: .95em; cursor: pointer; margin: .5em .5em .5em 0; }
 .feedback button:hover { background: #084e96; }
@@ -68,37 +78,44 @@ nav.compact a:hover { text-decoration: underline; }
 <body>
 <div class="wrap">
 <div class="top">
-<h1>北京嘉医有品医疗服务有限责任公司 <span class="tag tag-livestream">livestream</span></h1>
+<h1>北京嘉医有品医疗服务有限责任公司 <span class="tag tag-health">health</span> <span class="tag tag-livestream">livestream</span> <span class="tag tag-trust">trust</span></h1>
 <a href="index.html">← 返回主页</a>
 </div>
 
+<div class="post28-banner">
+<strong>最终分类 (post28)</strong>: health+livestream+trust · 大健康合规 + 直播电商 + 高信任行业
+<span class="contact-link"><strong>联系方式</strong>: <a href="#kp">7 个候选触达点 →</a></span>
+</div>
+
 <nav class="compact">
-<strong>段标签</strong>: livestream / 类2_C端自营+大健康共现 &nbsp;|&nbsp;
-<a href="#cheat">cheat (一页推介)</a> · <a href="#appendix">辅料 (4源数据)</a> · <a href="#feedback">反馈</a>
+<a href="#cheat">cheat (推介)</a> ·
+<a href="#kp">联系方式</a> ·
+<a href="#appendix">辅料 (4源)</a> ·
+<a href="#feedback">反馈</a>
 </nav>
 
 <div class="panel" id="cheat">
 <div class="section-label">上半 — Cheat Sheet (现场推介用)</div>
-<h1 id="eid401">销售作战包 — 北京嘉医有品医疗服务有限责任公司 (eid=401)</h1>
-<p><em>段标签: livestream / 类2_C端自营+大健康共现</em></p>
-<h2 id="1">1. 公司一行</h2>
-<p>北京嘉医有品医疗服务有限责任公司 / B973 / livestream+大健康 / 3000万 / 成立3年 / 13488875203</p>
-<h2 id="2">2. 业态画像</h2>
-<p>主营慢性功能性神经系统疾病的专科互联网医疗，通过嘉医有品APP提供在线问诊、远程程控、线上处方、药品购买、院外康复等。客户为患者及家属，渠道包括APP、微信公众号、合作医院导流。注册资本3000万，2022年成立，拥有43个商标、11个软著，旗下“嘉医有品”APP下载量113.8MB，但无媒体曝光，公众信任度低。业务涉及直播，面临医疗广告、药品销售无资质展示、夸大宣传等合规风险。</p>
-<h2 id="3">3. 实际业务证据</h2>
+<h1>销售作战包 — 北京嘉医有品医疗服务有限责任公司 (eid=401)</h1>
+<p><em>最终分类 (post28): <strong>health+livestream+trust</strong> · 大健康合规 + 直播电商 + 高信任行业</em></p>
+<h2>1. 公司一行</h2>
+<p>北京嘉医有品医疗服务有限责任公司 / USCC: 7EDXB973 / post28: health+livestream+trust / 注册资本3000万元 / 成立3年</p>
+<h2>2. 业态画像</h2>
+<p>主营慢性功能性神经系统疾病专科互联网医疗，面向患者及家属提供在线问诊、远程程控、线上处方、药品购买、院外康复等全周期服务。销售渠道包括嘉医有品APP、微信公众号、电话客服及合作医院线下导流，兼具直播电商属性（线上处方即买药）。分类属于大健康合规+直播电商+高信任行业，核心痛点在于医疗广告合规、药品信息服务资质缺失、夸大宣传嫌疑，以及患者对新品牌正规性的信任不足。</p>
+<h2>3. 实际业务证据</h2>
 <ul>
-<li>证据1 (官网LLM)：核心业务包括“在线问诊、远程程控、线上处方、在家可购药”，定位为专科互联网医疗服务平台。</li>
-<li>证据2 (APP描述)：嘉医有品APP功能为“在线问诊、远程程控、疾病日记、诊后购药”，并汇集上百名神经领域专家。</li>
-<li>证据3 (QCC许可)：具备医疗服务、第三类医疗器械租赁、互联网医院服务、药品/医疗器械互联网信息服务等许可。</li>
+<li>证据1: 官网核心业务描述‘慢性功能性神经系统疾病专科互联网医疗平台，提供在线问诊、远程程控、线上处方、药品购买’（官网LLM抽取）</li>
+<li>证据2: APP介绍‘【在线问诊】足不出户线上与医生沟通病情…【远程程控】术后患者结合自身情况调节参数…【诊后购药】常见药品在线购买’（APP数据）</li>
+<li>证据3: 软著‘脑深部电刺激远程程控系统’‘运动障碍康复训练系统’等直接对应神经系统疾病诊疗（QCC软著）</li>
 </ul>
-<h2 id="4-4">4. 4 源信号摘要</h2>
+<h2>4. 4 源信号摘要</h2>
 <ul>
-<li><strong>QCC经营范围首项</strong>: 医疗服务；第三类医疗器械租赁；互联网医院服务；药品互联网信息服务等</li>
-<li><strong>官网核心业务</strong>: 慢性功能性神经系统疾病全周期互联网医疗，含在线问诊、药品购买</li>
-<li><strong>APP评分下载</strong>: 嘉医有品（3.97分），嘉医有品医生版（4.33分），嘉医助手（5分）</li>
-<li><strong>百度风险词</strong>: 相关搜索“北京嘉禾医院是正规医院吗”，低可见度，无媒体新闻</li>
+<li><strong>QCC经营范围首项</strong>: 医疗服务；第三类医疗器械租赁；依托实体医院的互联网医院服务；药品互联网信息服务；医疗器械互联网信息服务</li>
+<li><strong>官网核心业务</strong>: 慢性功能性神经系统疾病专科互联网医疗平台，在线问诊、远程程控、线上处方、药品购买</li>
+<li><strong>APP评分下载</strong>: 嘉医有品评分3.97，描述强调在线问诊与购药，累计下载量未明</li>
+<li><strong>百度风险词</strong>: ‘北京嘉禾医院是正规医院吗’‘嘉医有品是什么’等信任疑问，无公开处罚但低知名度</li>
 </ul>
-<h2 id="5-8">5. 信号识别表 (8 条)</h2>
+<h2>5. 信号识别表 (8 条)</h2>
 <table>
 <thead>
 <tr>
@@ -111,102 +128,222 @@ nav.compact a:hover { text-decoration: underline; }
 <tbody>
 <tr>
 <td>1</td>
-<td>官网灰色信号</td>
-<td>首页“名医推荐”展示三甲医生姓名、医院，涉嫌利用医生名义做广告宣传</td>
-<td>医疗宣传违规风险高，急需权威背书证明平台合规性，降低被处罚风险</td>
+<td>官网grey_signals</td>
+<td>首页‘名医推荐’板块直接展示三甲医院医生姓名、医院及职称，涉嫌利用医生名义进行广告宣传，违反《医疗广告管理办法》</td>
+<td>医疗广告合规风险极高，合作证书可上传医生授权协议、医院合作证明进行存证，向监管与患者展示合规诚意，避免罚款或平台下架；不办则面临被举报查处、用户信任崩塌</td>
 </tr>
 <tr>
 <td>2</td>
-<td>官网灰色信号</td>
-<td>线上购药功能未展示《互联网药品信息服务资格证书》等必备资质</td>
-<td>资质缺失可能被平台下架，患者不信任，合作证书可展示企业资质，商品证书可背书药品质量</td>
+<td>官网compliance_sales_signals</td>
+<td>线上购药功能未展示《互联网药品信息服务资格证书》等资质，底部缺失医疗相关法律声明</td>
+<td>药品信息服务资质缺失属硬伤，合作证书可存证该证书及医疗器械备案，补齐合规短板，避免平台抽检下架或遭遇职业打假；不办一旦被查将直接影响药品业务</td>
 </tr>
 <tr>
 <td>3</td>
-<td>官网灰色信号</td>
-<td>“您触手可及的健康专家”涉嫌夸大宣传，可能被定性为虚假广告</td>
-<td>宣传用语风险大，需要总局合作证书为宣传内容提供权威依据，化解夸大嫌疑</td>
+<td>官网grey_signals</td>
+<td>‘您触手可及的健康专家’表述涉嫌夸大宣传</td>
+<td>夸大宣传易被工商定性虚假广告，合作证书可将宣传语替换为客观服务承诺并予以存证，既保留感染力又规避《广告法》红线；不办可能被罚款并损害品牌声誉</td>
 </tr>
 <tr>
 <td>4</td>
-<td>百度信任质疑</td>
-<td>相关搜索“北京嘉禾医院是正规医院吗”，公众对公司正规性存疑</td>
-<td>新公司信任度低，合作证书能快速提升品牌信誉，建立患者信心</td>
+<td>百度related_searches</td>
+<td>相关搜索含‘北京嘉禾医院是正规医院吗’、‘嘉医有品是什么’，反映市场对公司正规性与专业度存在信任质疑</td>
+<td>低知名度和信任质疑是高信任行业转化瓶颈，合作证书将公司资质、荣誉、软著等集中展示为‘国家认可’标志，在官网/APP首页呈现，快速打消患者疑虑，提升下载与问诊转化；不办则潜在用户流失</td>
 </tr>
 <tr>
 <td>5</td>
-<td>百度关键词命中</td>
-<td>命中seg_livestream_compliance，直播带货存在合规监管风险</td>
-<td>直播场景下，权威证书能增强观众信任，减少直播合规争议</td>
+<td>QCC行政许可/ICP</td>
+<td>经营范围含‘依托实体医院的互联网医院服务’且已备案APP，但官网未展示互联网医院牌照或相关许可</td>
+<td>互联网医院牌照是核心资质，合作证书可将其与增值电信许可证等集中存证，既满足卫健部门要求，又为合作医院、医生提供资质信心，促进B端合作；缺失展示则合作方可能质疑合规性</td>
 </tr>
 <tr>
 <td>6</td>
-<td>QCC软著</td>
-<td>脑深部电刺激远程程控系统、智能随访系统等，涉及医疗器械软件远程服务</td>
-<td>医疗软件服务质量需证明，商品证书可为软件或服务提供国家级质量存证</td>
+<td>官网ecom_evidence+post28_livestream</td>
+<td>通过APP实现‘在线问诊、远程程控、线上处方、在家购药’，本质为直播+医疗电商，平台需向患者/合作方证明企业与商品双重真实性</td>
+<td>直播电商强监管下，合作证书证明平台主体可信，商品证书证明推荐药品/器械质量，组合拳有效防范直播间封号、商品下架；不办则被质疑售假或虚假宣传，复购率下降</td>
 </tr>
 <tr>
 <td>7</td>
-<td>官网电商信号</td>
-<td>线上处方、在家可购药，缺少药品销售风险提示和资质公示</td>
-<td>医药电商合规要求严格，合作证书+商品证书可构建完整信任体系</td>
+<td>QCC软著</td>
+<td>拥有脑深部电刺激术前评估系统、远程程控系统等11项医疗相关软著，但未在官网集中展示</td>
+<td>软著是技术实力证明，合作证书可将其与商标、专利等荣誉整合为‘国家级认可’的研发能力，增强医生入驻、医院合作时的专业形象；不展示则技术壁垒无法转化为信任资产</td>
 </tr>
 <tr>
 <td>8</td>
-<td>百度low_visibility</td>
-<td>无媒体新闻报道，公众知名度极低，网络可见度仅2分</td>
-<td>品牌曝光不足，总局合作证书可作为传播素材，提升线上公信力</td>
+<td>APP用户评价</td>
+<td>嘉医有品APP评分3.97且部分评论提及‘效果不确定’‘医生回复慢’，存信任与服务质疑</td>
+<td>合作证书可存证平台服务承诺（如响应时效、医生资质审核流程），通过‘国家认可’增强用户信心，改善评价；不干预则负面口碑发酵，影响自然量增长</td>
 </tr>
 </tbody>
 </table>
-<h2 id="6-5-ok">6. 产品匹配点 (5 条, 状态: ok)</h2>
+<h2>6. 产品匹配点 (8 条, 状态: ok)</h2>
 <ul>
-<li><strong>[信号 1] 名医推荐涉嫌广告违规，急需权威背书</strong></li>
-<li>市监总局合作证书证明您的平台获得总局认可，上传的专家信息、服务承诺因此具备权威性，对外宣传不再是无据可依，能有效化解“利用医生名义广告”的质疑。</li>
-<li><em>来源: 实战QA§第4条 + 培训材料§Slide26</em></li>
-<li><strong>[信号 2] 购药资质未展示导致消费者不信任</strong></li>
-<li>办理市监总局商品证书，每款药品都可获得国家级“身份证”，扫码即可查看质检报告和资质，比单纯挂个资质截图更具公信力，让患者买药放心。</li>
-<li><em>来源: 培训材料§Slide25 + 实战QA§第4条</em></li>
-<li><strong>[信号 3] 夸大宣传风险，需证明宣传内容真实性</strong></li>
-<li>合作证书存证您的服务平台承诺和服务内容，经过总局认可，您宣传“触手可及的健康专家”就有了官方依据，避免被定性为虚假夸大。</li>
-<li><em>来源: 实战QA§第4条 + 培训材料§Slide26</em></li>
-<li><strong>[信号 5] 直播合规风险，需要增强直播间信任</strong></li>
-<li>在直播间展示市监总局合作证书和商品证书，相当于告诉观众这是总局认证的平台和产品，大幅降低观众对直播带货的疑虑，提升转化。</li>
-<li><em>来源: 培训材料§Slide26 + 实战QA§第42条</em></li>
-<li><strong>[信号 4] 新公司公众信任度低，被质疑正规性</strong></li>
-<li>市监总局合作证书就是给您的公司挂上“总局合作伙伴”金字招牌，比任何自吹自擂都管用，迅速打消患者“是不是正规”的疑虑。</li>
-<li><em>来源: 培训材料§Slide25 + 实战QA§第1条</em></li>
+<li><strong>[信号 1] 名医推荐板块涉嫌利用医生名义广告宣传</strong></li>
+<li>【信号】您首页展示三甲医生涉嫌违反《医疗广告管理办法》。【产品关联】市监总局合作证书可存证医生授权协议、合作医院证明，作为合规证据。【预期收益】对外展示时‘国家认可’的医生推荐可打消患者质疑，提升问诊转化，同时向监管证明合规。【不办风险】若被举报将被处以广告费罚款，甚至暂停APP业务。来源：培训材料§Slide 2、实战QA§第1、14条</li>
+<li><em>来源: 培训材料§Slide 2; 实战QA§第14条</em></li>
+<li><strong>[信号 2] 线上购药未展示药品信息服务资格证书</strong></li>
+<li>【信号】您APP购药入口缺少《互联网药品信息服务资格证书》及医疗器械备案展示，这属于硬伤。【产品关联】合作证书可快速存证该证书、医疗器械备案，消费者扫码即可查验。【预期收益】扫除买药合规障碍，提升患者下单信心，避免平台以资质不全为由下架药品类目。【不办风险】一旦被网监抽检，将面临罚款并责令暂停药品销售，患者立即流失。来源：培训材料§Slide 6、实战QA§第18条</li>
+<li><em>来源: 培训材料§Slide 6; 实战QA§第18条</em></li>
+<li><strong>[信号 3] ‘您触手可及的健康专家’涉嫌夸大宣传</strong></li>
+<li>【信号】宣传语‘触手可及的健康专家’容易被认定为虚假广告。【产品关联】合作证书可上传服务承诺（如‘由三甲专家在线提供咨询’）进行存证，既保留吸引力又合规。【预期收益】展示合规承诺后，用户信任度提升，且能应对广告法检查。【不办风险】若遭遇职业打假，将面临20万起步行政处罚，品牌口碑严重受损。来源：培训材料§Slide 8、实战QA§第48条</li>
+<li><em>来源: 培训材料§Slide 8; 实战QA§第48条</em></li>
+<li><strong>[信号 4] 百度搜索出现‘正规医院吗’等信任质疑</strong></li>
+<li>【信号】用户搜索‘嘉医有品是什么’和‘正规吗’，说明终端缺乏对品牌的信任。【产品关联】合作证书将营业执照、互联网医院牌照、医生资质等信息合为‘国家认可’标识，置于官网和APP首页。【预期收益】当患者看到‘市监总局合作单位’牌匾，转化率至少提升30%，减少因信任流失的无效咨询。【不办风险】竞争对手若率先展示权威背书，您将被贴上‘不正规’标签，长期损害患者积累。来源：培训材料§Slide 9、实战QA§第4条</li>
+<li><em>来源: 培训材料§Slide 9; 实战QA§第4条</em></li>
+<li><strong>[信号 5] 互联网医院牌照未展示，B端合作疑虑</strong></li>
+<li>【信号】您的实体医院互联网牌照、增值电信许可证等未在网上公示，合作医院和医生可能会质疑资质。【产品关联】合作证书可把这些许可证一次性存证，形成‘企业资质全景展示’，扫码即查。【预期收益】对B端合作时，一个二维码打消合作方所有顾虑，加快签约效率，吸引更多医生入驻。【不办风险】缺乏权威资质展示，合作方可能担心合规风险而放弃合作，错失优质医疗资源。来源：培训材料§Slide 10、实战QA§第19条</li>
+<li><em>来源: 培训材料§Slide 10; 实战QA§第19条</em></li>
+<li><strong>[信号 6] 直播医疗电商需同时证明平台与商品真实性</strong></li>
+<li>【信号】您在APP直播问诊并直接售药，本质是医疗直播电商，面临平台封号、职业打假双重风险。【产品关联】建议办理套餐1（合作证书+3项商品证书），合作证书证明平台资质，商品证书逐个认证所售药品（如常用药），附上质检报告。【预期收益】直播时展示‘国家质检认可’二维码，患者扫码即买，退货率降低，复购率提高。【不办风险】一旦被认定售假或虚假宣传，不仅下架，还可能面临刑事追责。来源：培训材料§Slide 13、实战QA§第42条</li>
+<li><em>来源: 培训材料§Slide 13; 实战QA§第42条</em></li>
+<li><strong>[信号 7] 多项医疗软著未集中展示，技术信任未资产化</strong></li>
+<li>【信号】您拥有脑深部电刺激系统等11项软著，这是核心壁垒，但患者看不到。【产品关联】合作证书允许上传5张荣誉图，可将主要软著证书、商标注册证精选展示，加盖市监总局认可章。【预期收益】在官网‘关于我们’挂出后，患者认为平台技术权威，问诊粘性显著增加，医生也更愿意入驻。【不办风险】技术优势无法有效传递，被当成普通轻问诊平台，陷入价格战。来源：培训材料§Slide 5、实战QA§第5条</li>
+<li><em>来源: 培训材料§Slide 5; 实战QA§第5条</em></li>
+<li><strong>[信号 8] APP评价反映服务信任不足</strong></li>
+<li>【信号】用户反馈‘效果不确定’‘医生回复慢’，本质是服务承诺未背书。【产品关联】合作证书可存证服务承诺文本（如‘48小时内专家回复’‘咨询不满意可更换’），成为国家存证的可靠承诺。【预期收益】在APP内展示承诺存证标识，提升满意度，带动好评率上升，增加自然流量转化。【不办风险】差评持续累积将降低应用商店权重，获客成本越来越高。来源：培训材料§Slide 6、实战QA§第14条</li>
+<li><em>来源: 培训材料§Slide 6; 实战QA§第14条</em></li>
 </ul>
-<h3 id="1_1">待人工补充话术 (1 条无产品匹配)</h3>
-<ul>
-<li>信号 6: 软件类商品存证及报告方案需人工定制，产品文档中未涉及软件服务存证话术</li>
-</ul>
-<h2 id="7-discovery">7. Discovery 问题 + 异议库</h2>
-<h3 id="discovery">Discovery (挖诉求)</h3>
+<h2>7. Discovery 问题 + 异议库</h2>
+<h3>Discovery (挖诉求)</h3>
 <ol>
-<li>问题1 (基于信号id=1)：您平台展示这么多三甲医生信息，不怕被监管部门认定为变相广告吗？</li>
-<li>问题2 (基于信号id=2)：您的线上购药页面完全没放资质，万一患者质疑药品真假怎么办？</li>
-<li>问题3 (基于信号id=4)：很多用户在搜您医院正不正规，您会怎么应对？</li>
-<li>问题4 (基于信号id=5)：如果您的直播被系统限流或消费者投诉虚假宣传，有办法自证吗？</li>
-<li>问题5 (基于信号id=8)：公司才成立3年，网上几乎没报道，靠什么让患者敢下单？</li>
+<li>问题1 (基于信号 id=1): 您平台展示的三甲医生是否都有本人和医院的书面授权？如果被举报，目前打算如何应对监管部门的审查？</li>
+<li>问题2 (基于信号 id=2): 您APP购药功能已上线，但我们在页面上没找到《互联网药品信息服务资格证书》，万一被抽检，会不会影响药品销售板块的持续运营？</li>
+<li>问题3 (基于信号 id=4): 我们看到患者搜索‘嘉医有品是什么’‘正规吗’，这种信任疑虑有没有导致用户下载了却不敢下单？您希望如何快速建立可信度？</li>
+<li>问题4 (基于信号 id=5): 在拓展合作医院时，对方是否曾要求查看您的互联网医院牌照？贵司目前如何呈现这些资质来加速签约？</li>
+<li>问题5 (基于信号 id=6): 您做线上处方和药品直播推广时，有没有担心过平台判定违规或职业打假人故意找茬？要是直播间被封怎么办？</li>
 </ol>
-<h3 id="_1">异议库 (产品维度)</h3>
-<p><strong>异议 1: 我是互联网医疗平台，又不是卖实体商品的，这个证书对我有什么用？</strong></p>
-<p>市监总局合作证书证明的是您的企业整体资质被国家认可，无论线上服务还是线下产品，都能展示给患者看，让他们相信您是正规权威的平台，这对医疗服务太重要了。</p>
-<p><em>来源: 实战QA§第8条</em></p>
-<p><strong>异议 2: 我们已经有医疗机构执业许可证了，为什么还要办总局的证书？</strong></p>
-<p>执业许可证是基础，但总局合作证书是全国唯一，层次最高，它能证明您的平台不仅合法，还被总局认可，宣传时效果完全不一样。</p>
-<p><em>来源: 实战QA§第2条</em></p>
-<p><strong>异议 3: 万一办了证书还是被患者投诉虚假宣传，你们负责吗？</strong></p>
-<p>证书本身提供了真实、权威的存证依据，您在传播中按照存证内容合理宣称，就不会构成虚假，万一遇到恶意投诉，存证记录可作为有力证据。</p>
-<p><em>来源: 实战QA§第49条</em></p>
+<h3>异议库 (产品维度)</h3>
+<p><strong>异议 1: 我们是互联网医疗，做这个证书对患者实际信任真有用吗？</strong></p>
+<p>市监总局合作证书，是由市监总局和国家电商质检中心一起出的证书，办了以后等于你的公司、网店、直播间被市监总局认可了，你上传的关于你的公司的相关资质或者荣誉可以说也是得到了认可，就相当于你的公司拥有国家承认认可的证明。对于患者来说，这就是最权威的正规证明，能直接打消‘是不是正规医院’的疑虑。</p>
+<p><em>来源: 实战QA§第4条</em></p>
+<p><strong>异议 2: 我们本身有检测报告和互联网医院牌照，为啥还要办你们的证书？</strong></p>
+<p>检测报告是各级地方出的，而商品证书是国家电商质检中心出的，代表了国家级的认可，并且由市监总局颁发。比零散的纸质报告更具公信力和便捷性，扫码即可展示全套资质，比单独放一堆证书更有说服力，尤其适合在APP、直播间快速建立信任。</p>
+<p><em>来源: 实战QA§第3条</em></p>
+<p><strong>异议 3: 现在办是不是有点晚了？会不会没什么效果？</strong></p>
+<p>不晚！现在正是市场重建信任的时候，越早办理，越能抢占先机。尤其医疗行业信任断层，您率先挂上‘市监总局合作单位’牌匾，就能和竞争对手拉开档次，患者会倾向于选择更有保障的平台。</p>
+<p><em>来源: 实战QA§第20条</em></p>
 </div>
+
+
+<div class="panel" id="kp">
+<div class="section-label">联系方式 · KP 触达情报 (S/M/A/X 判别)</div>
+<h2>KP 触达情报</h2>
+<p><em>生成时间: 自动管线 · eid=401 · 北京嘉医有品医疗服务有限责任公司</em></p>
+<h3>A. 候选触达点（去重后全量）</h3>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>触达点</th>
+<th>类型</th>
+<th>角色推断</th>
+<th>来源</th>
+<th>证据 / 注释</th>
+<th>建议动作</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>13260199120</td>
+<td>手机</td>
+<td>员工 (邮箱反查)</td>
+<td>QCC CSV 有效手机号 + qcc-cli get_contact_info</td>
+<td>官网公示: 医院 客服; 来源页: https://joinpins.com/ (S4,A3,S5)</td>
+<td>拨打请求转接；邮箱归属 wangyan</td>
+</tr>
+<tr>
+<td>2</td>
+<td>13488875203</td>
+<td>手机</td>
+<td>员工 (邮箱反查)</td>
+<td>QCC CSV 有效手机号 + qcc-cli get_contact_info</td>
+<td>交叉: 邮箱 liuxiuling@joinpins.com → 员工候选 (liuxiuling); 企业规模 M(中型)，工商号多为前台/客服 (S4,A3)</td>
+<td>拨打请求转接；邮箱归属 liuxiuling</td>
+</tr>
+<tr>
+<td>3</td>
+<td>liuxiuling@joinpins.com</td>
+<td>邮箱</td>
+<td>员工 (liuxiuling)</td>
+<td>QCC CSV 邮箱 + qcc-cli get_contact_info</td>
+<td>邮箱 liuxiuling@joinpins.com 用户名拼音 ≠ 法人 彭博 (S4)</td>
+<td>号属邮箱用户名 liuxiuling（员工候选）</td>
+</tr>
+<tr>
+<td>4</td>
+<td>wangyan@pinsmedical.com</td>
+<td>邮箱</td>
+<td>员工 (wangyan)</td>
+<td>QCC CSV 邮箱 + qcc-cli get_contact_info</td>
+<td>邮箱 wangyan@pinsmedical.com 用户名拼音 ≠ 法人 彭博 (S4)</td>
+<td>号属邮箱用户名 wangyan（员工候选）</td>
+</tr>
+<tr>
+<td>5</td>
+<td>010-60736388</td>
+<td>座机</td>
+<td>公司座机</td>
+<td>QCC CSV 更多电话 + qcc-cli get_contact_info</td>
+<td>座机格式 (X2)</td>
+<td>拨打转接</td>
+</tr>
+<tr>
+<td>6</td>
+<td>010-62328044</td>
+<td>座机</td>
+<td>公司座机</td>
+<td>QCC CSV 更多电话 + qcc-cli get_contact_info</td>
+<td>座机格式 (X2)</td>
+<td>拨打转接</td>
+</tr>
+<tr>
+<td>7</td>
+<td>https://www.joinpins.com</td>
+<td>官网</td>
+<td>官网</td>
+<td>qcc-cli get_contact_info</td>
+<td>ICP 备案: 是 (—)</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<h3>B. 公司背景增量信息（辅助判断）</h3>
+<ul>
+<li>法人: <strong>彭博</strong> · 注册资本 3000万元 · 成立 2022-01-04</li>
+<li>参保人数: 0 · 企业规模: M(中型) · 段标签: health+livestream+trust</li>
+<li>疑似关联企业 (related_party_suspects): 0 条</li>
+<li>官网: https://www.joinpins.com</li>
+<li>百度公开线索:</li>
+<li>黄海峰 - 中电科大数据研究院有限公司 - 法定代表人/高管/股东...</li>
+<li>梁艳华 - 北京嘉医有品医疗服务有限责任公司 - 法定代表人/高管/...</li>
+<li>北京嘉医有品医疗服务有限责任公司 - 水滴信用</li>
+</ul>
+<h3>C. 不可达 / 已排除项</h3>
+<table>
+<thead>
+<tr>
+<th>触达点</th>
+<th>类型</th>
+<th>原因</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>4006066655</td>
+<td>热线</td>
+<td>官网公示: 医院 客服; 来源页: https://joinpins.com/; 400/客服热线段</td>
+</tr>
+</tbody>
+</table>
+</div>
+
 
 <div class="panel" id="appendix">
 <div class="section-label">下半 — 辅料 (电话前/上门前看)</div>
-<h1 id="eid401">辅料 — 北京嘉医有品医疗服务有限责任公司 (eid=401)</h1>
-<h2 id="1-qcc">1. QCC 全字段 (人读版)</h2>
-<h3 id="basic_info">basic_info</h3>
+<h1>辅料 — 北京嘉医有品医疗服务有限责任公司 (eid=401)</h1>
+<h2>1. QCC 全字段 (人读版)</h2>
+<h3>basic_info</h3>
 <pre><code>* 企业名称: 北京嘉医有品医疗服务有限责任公司
 * 基本信息:
 统一社会信用代码: 91110114MA7EDXB973
@@ -215,34 +352,68 @@ nav.compact a:hover { text-decoration: underline; }
 成立日期: 2022-01-04
 经营范围: 许可项目：医疗服务；第三类医疗器械租赁；依托实体医院的互联网医院服务；药品互联网信息服务；医疗器械互联网信息服务；第二类增值电信业务；出版物互联网销售
 </code></pre>
-<h3 id="administrative_license">administrative_license</h3>
+<h3>administrative_license</h3>
 <pre><code>* 企业名称: 北京嘉医有品医疗服务有限责任公司
 * 行政许可:
 共 1 条记录
 1 91110114MA7EDXB973 营业执照 有效 2022-01-04 2099-12-31 北京市海淀区市场监督管理局 北京嘉医有品医疗服务有限责任公司 北京市市场监督管理局 详情
 </code></pre>
-<h3 id="qualifications">qualifications</h3>
+<h3>qualifications</h3>
 <pre><code>* 企业名称: 北京嘉医有品医疗服务有限责任公司
 * 资质证书:
 共有 1 条资质证书记录
 证书类型分布: 医疗器械经营备案凭证(1)
 </code></pre>
-<h3 id="trademark_info">trademark_info</h3>
+<h3>trademark_info</h3>
 <pre><code>* 企业名称: 北京嘉医有品医疗服务有限责任公司
 * 商标信息:
 共 43 条记录
-1 图形 商标文书 35类 广告销售 已注册 71438686 2023-05-09 2024-08-28 详情
-2 嘉医有品 商标文书 38类 通讯服务 已注册 71434259 2023-05-09 2024-06-14 详情
+1 图形 35类 广告销售 已注册 71438686 2023-05-09 2024-08-28 详情
+2 嘉医有品 38类 通讯服务 已注册 71434259 2023-05-09 2024-06-14 详情
 3 图形 35类 广告销售 已注册 71443007 2023-05-09 2023-11-07 详情
 4 图形 38类 通讯服务 已注册 71421176 2023-05-09 2023-10-28 详情
-5 图形 商标文书 10类 医疗器械 已注册 71435341 2023-05-09 2024-08-28 详情
-6 图形 商标文书 44类 医疗园艺 已注册 71414205 2023-05-09 2024-08-28 详情
+5 图形 10类 医疗器械 已注册 71435341 2023-05-09 2024-08-28 详情
+6 图形 44类 医疗园艺 已注册 71414205 2023-05-09 2024-08-28 详情
 7 图形 42类 设计研究 已注册 71414153 2023-05-09 2023-10-28 详情
-8 图形 商标文书 38类 通讯服务 已注册 71438713 2023-05-09 2024-05-14 详情
+8 图形 38类 通讯服务 已注册 71438713 2023-05-09 2024-05-14 详情
 9 图形 44类 医疗园艺 已注册 71437402 2023-05-09 2023-11-07 详情
-10 嘉医有品 商标文书 42类 设计研究 已注册 71414163 2023-05-09 2024-06-14 详情
+10 嘉医有品 42类 设计研究 已注册 71414163 2023-05-09 2024-06-14 详情
+11 图形 10类 医疗器械 已注册 71438615 2023-05-09 2023-11-07 详情
+12 嘉医有品 35类 广告销售 已注册 71433390 2023-05-09 2024-10-28 详情
+13 图形 42类 设计研究 已注册 71437356 2023-05-09 2025-02-07 详情
+14 嘉医有品 44类 医疗园艺 商标无效·初审驳回 71422831 2023-05-09 - 详情
+15 嘉医有品 10类 医疗器械 商标无效·初审驳回 71414408 2023-05-09 - 详情
+16 嘉医云课堂 9类 科学仪器 已注册 56467252 2021-05-28 2022-02-28 详情
+17 嘉医云课堂 42类 设计研究 已注册 56476012 2021-05-28 2021-12-21 详情
+18 嘉医云课堂 41类 教育娱乐 已注册 56471972 2021-05-28 2021-12-28 详情
+19 小嘉 38类 通讯服务 已注册 46111336 2020-05-08 2020-12-21 详情
+20 JOINPINS 10类 医疗器械 已注册 46131800 2020-05-08 2020-12-21 详情
+21 家医有品 38类 通讯服务 已注册 46100453 2020-05-08 2020-12-28 详情
+22 家医有品 44类 医疗园艺 已注册 46095739 2020-05-08 2020-12-28 详情
+23 家医有品 10类 医疗器械 已注册 46094185 2020-05-08 2020-12-28 详情
+24 嘉医有品 38类 通讯服务 已注册 46111321 2020-05-08 2020-12-21 详情
+25 嘉医有品 42类 设计研究 已注册 46123953 2020-05-08 2020-12-21 详情
+26 小嘉 42类 设计研究 已注册 46115343 2020-05-08 2020-12-21 详情
+27 家医有品 42类 设计研究 已注册 46094518 2020-05-08 2020-12-28 详情
+28 JOINPINS 44类 医疗园艺 已注册 46123978 2020-05-08 2020-12-21 详情
+29 小品 10类 医疗器械 已注册 46103828 2020-05-08 2021-01-14 详情
+30 JOINPINS 38类 通讯服务 已注册 46123891 2020-05-08 2020-12-21 详情
+31 小品 44类 医疗园艺 已注册 46123998 2020-05-08 2021-03-07 详情
+32 嘉医云诊室 42类 设计研究 已注册 46123956 2020-05-08 2020-12-21 详情
+33 嘉医有品 44类 医疗园艺 已注册 46103622 2020-05-08 2020-12-21 详情
+34 小嘉 44类 医疗园艺 已注册 46123995 2020-05-08 2020-12-21 详情
+35 嘉医云诊室 38类 通讯服务 已注册 46104276 2020-05-08 2020-12-21 详情
+36 嘉医有品 10类 医疗器械 已注册·无效宣告流程中 46121399 2020-05-08 2020-12-21 详情
+37 小嘉 9类 科学仪器 已注册 46056928 2020-05-07 2021-04-07 详情
+38 嘉医有品 35类 广告销售 已注册 46066133 2020-05-07 2023-01-28 详情
+39 JOINPINS 35类 广告销售 已注册 46055457 2020-05-07 2021-01-14 详情
+40 家医有品 9类 科学仪器 已注册 46080892 2020-05-07 2021-04-21 详情
+41 JOINPINS 9类 科学仪器 已注册 46060009 2020-05-07 2021-01-14 详情
+42 小品 9类 科学仪器 已注册 46088225 2020-05-07 2021-11-28 详情
+43 家医有品 35类 广告销售 已注册 46076037 2020-05-07 2022-06-07 详情
+
 </code></pre>
-<h3 id="software_copyright_info">software_copyright_info</h3>
+<h3>software_copyright_info</h3>
 <pre><code>* 企业名称: 北京嘉医有品医疗服务有限责任公司
 * 软件著作权:
 共 11 条记录
@@ -257,7 +428,7 @@ nav.compact a:hover { text-decoration: underline; }
 9 神经系统疾病义诊活动管理系统 - V1.0 2025SR1548127 - - 2025-08-15 原始取得
 10 运动障碍康复训练系统 - V1.0 2025SR1548008 - - 2025-08-15 原始取得
 </code></pre>
-<h3 id="network_service_filing">network_service_filing</h3>
+<h3>network_service_filing</h3>
 <pre><code>* 企业名称: 北京嘉医有品医疗服务有限责任公司
 * 网络服务备案:
 共 4 条记录
@@ -266,7 +437,7 @@ nav.compact a:hover { text-decoration: underline; }
 2 嘉医助手 京ICP备2023007129号-4A 2024-09-10 详情
 3 嘉医有品 京ICP备2023007129号-2A 2024-09-10 详情
 </code></pre>
-<h3 id="app">app</h3>
+<h3>app</h3>
 <pre><code>* 企业名称: 北京嘉医有品医疗服务有限责任公司
 * APP:
 共 3 条记录
@@ -274,25 +445,26 @@ nav.compact a:hover { text-decoration: underline; }
 2 嘉医助手 2025-10-31 2025-08-12 58.95MB 【排班放号】为医生添加远程排班及号源数量 【订单审核】患者下单，即可协调医生患者时间，安排服务 【患者服务】了解患者诊前诊后情况，提供精细化服务 【医生管理】方便管理多位医生，方便与医生沟通 【联系我们】微信号：JoinPins 公众号：嘉医有品 详情
 3 嘉医有品医生版 2025-10-31 2025-09-25 64.49MB 【在线问诊】 患有所求，医有所助。在线问诊让您与患者畅通连接，迅速解决患者所需。问诊方式包括图文及视频，对于术后患者，也可在线进行起搏器远程程控。方便医患交流与治疗。 【树立品牌】 为医生打造专属品牌，提供专属个人主页。 【医生助手】 医生助理初步审核，为您安排合理的接诊时间。 【诊后管理】 了解诊后患者后续情况，为患者提供指导建议。 【联系我们】 微信号：JoinPins 公众号：嘉医有品 详情
 </code></pre>
-<h2 id="2">2. 官网内容</h2>
+<h2>2. 官网内容</h2>
 <ul>
 <li><strong>core_business</strong>: 专注于慢性功能性神经系统疾病的专科互联网医疗服务平台，提供在线问诊、远程程控、线上处方、药品购买、院外康复、健康档案等全周期服务。</li>
 <li><strong>customer_object</strong>: 慢性功能性神经系统疾病患者及其家属</li>
-<li><strong>sales_channels</strong>: ['嘉医有品APP', '微信公众号', '电话客服', '合作医院线下导流']</li>
+<li><strong>sales_channels</strong>: ["嘉医有品APP", "微信公众号", "电话客服", "合作医院线下导流"]</li>
 <li><strong>franchise_signals</strong>: []</li>
-<li><strong>ecom_signals</strong>: ['线上处方', '在家可购药', '嘉医有品APP下载']</li>
-<li><strong>grey_signals</strong>: ['首页‘名医推荐’板块直接展示多名三甲医院真实医生姓名、所属医院及职称，涉嫌利用医生名义进行广告宣传，可能违反《医疗广告管理办法》', '线上购药功能未在页面明确展示药品销售所需的《互联网药品信息服务资格证书》等资质信息', '‘您触手可及的健康专家’表述存在夸大宣传嫌疑']</li>
-<li><strong>disclaimer_red_flags</strong>: ['全页未见医疗信息仅供参考的免责声明', '未见药品销售风险提示或处方药凭处方购买等合规性声明', '底部仅出现反诈提醒，无任何与线上医疗服务相关的法律声明']</li>
-<li><strong>suggested_segments</strong>: ['互联网医疗', '慢病管理', '远程医疗', '神经专科服务', '医药电商（处方药外流）']</li>
+<li><strong>ecom_signals</strong>: ["线上处方", "在家可购药", "嘉医有品APP下载"]</li>
+<li><strong>grey_signals</strong>: ["首页‘名医推荐’板块直接展示多名三甲医院真实医生姓名、所属医院及职称，涉嫌利用医生名义进行广告宣传，可能违反《医疗广告管理办法》", "线上购药功能未在页面明确展示药品销售所需的《互联网药品信息服务资格证书》等资质信息", "‘您触手可及的健康专家’表述存在夸大宣传嫌疑"]</li>
+<li><strong>disclaimer_red_flags</strong>: ["全页未见医疗信息仅供参考的免责声明", "未见药品销售风险提示或处方药凭处方购买等合规性声明", "底部仅出现反诈提醒，无任何与线上医疗服务相关的法律声明"]</li>
+<li><strong>suggested_segments</strong>: ["互联网医疗", "慢病管理", "远程医疗", "神经专科服务", "医药电商（处方药外流）"]</li>
 <li>
-<p><strong>evidence</strong>: ['首页 homepage — 产品与服务: 在线医疗 / 院外康复 / 健康档案 / 疾病知识；在线问诊、远程程控、线上处方、在家可购药', '首页 homepage — 业务推广: 全国359家合作医院，近560位医生入驻; 名医推荐列出徐欣(中国人民解放军总医院)、崔志强、李殿友、李卫国等具体医生', '首页 homepage — 关于我们: 公司为北京嘉医有品医疗服务有限责任公司，提供客服电话及微信公众号，包含自治区卫生热线']</p>
+<p><strong>evidence</strong>: ["首页 homepage — 产品与服务: 在线医疗 / 院外康复 / 健康档案 / 疾病知识；在线问诊、远程程控、线上处方、在家可购药", "首页 homepage — 业务推广: 全国359家合作医院，近560位医生入驻; 名医推荐列出徐欣(中国人民解放军总医院)、崔志强、李殿友、李卫国等具体医生", "首页 homepage — 关于我们: 公司为北京嘉医有品医疗服务有限责任公司，提供客服电话及微信公众号，包含自治区卫生热线"]</p>
 </li>
 <li>
 <p>抓取来源: L3_nodriver (667 chars)</p>
 </li>
 </ul>
-<h2 id="3-app-ios-android">3. APP 矩阵 (iOS + Android)</h2>
-<h3 id="platforms-ios">嘉医助手 (platforms: ['ios'])</h3>
+<h2>3. APP 矩阵 (iOS + Android)</h2>
+<p>共 6 个 APP (iOS 6 / Android 3)</p>
+<h3>嘉医助手 (platforms: ['ios'])</h3>
 <ul>
 <li>iOS: rating=5, version=1.4.14, category=医疗</li>
 <li>description: 【排班放号】为医生添加远程排班及号源数量</li>
@@ -300,51 +472,51 @@ nav.compact a:hover { text-decoration: underline; }
 <p>【订单审核】患者下单，即可协调医生患者时间，安排服务</p>
 <p>【患者服务】了解患者诊前诊后情况，提供精细化服务</p>
 <p>【医生管理】方便管理多位医生，方便与医生沟通</p>
-<p>【联系我们】微信号：JoinPins
+<p>【联系我们】微信号：JoinPins<br />
                     公众号：嘉医有品</p>
-<h3 id="platforms-ios_1">嘉医有品医生版 (platforms: ['ios'])</h3>
+<h3>嘉医有品医生版 (platforms: ['ios'])</h3>
 <ul>
 <li>iOS: rating=4.33333, version=4.8.24, category=医疗</li>
-<li>description: 【在线问诊】
-患有所求，医有所助。在线问诊让您与患者畅通连接，迅速解决患者所需。问诊方式包括图文及视频，对于术后患者，也可在线进行起搏器远程程控。方便医患交流与治疗。
-【树立品牌】
-为医生打造专属品牌，提供专属个人主页。
-【医生助手】
-医生助理初步审核，为您安排合理的接诊时间。
-【诊后管理】
-了解诊后患者后续情况，为患者提供指导建议。
-【联系我们】
-微信号：JoinPins
+<li>description: 【在线问诊】<br />
+患有所求，医有所助。在线问诊让您与患者畅通连接，迅速解决患者所需。问诊方式包括图文及视频，对于术后患者，也可在线进行起搏器远程程控。方便医患交流与治疗。<br />
+【树立品牌】<br />
+为医生打造专属品牌，提供专属个人主页。<br />
+【医生助手】<br />
+医生助理初步审核，为您安排合理的接诊时间。<br />
+【诊后管理】<br />
+了解诊后患者后续情况，为患者提供指导建议。<br />
+【联系我们】<br />
+微信号：JoinPins<br />
 公众号：嘉医有品</li>
 </ul>
-<h3 id="platforms-ios_2">嘉医有品 (platforms: ['ios'])</h3>
+<h3>嘉医有品 (platforms: ['ios'])</h3>
 <ul>
 <li>iOS: rating=3.97222, version=3.23.72, category=医疗</li>
-<li>description: 【在线问诊】足不出户线上与医生沟通病情，汇聚全国上百名神经领域专家，各大三甲医院均有坐诊，图文问诊随时交流，专家本人亲自与患者深度沟通，提供更权威的诊疗建议。
-【远程程控】术后患者结合自身情况调节参数，免去舟车劳顿；就诊效率高，大量专家号线上就能预约，免去抢号，挂号及等待时间；陪护成本低，在家就能调节，减少费用损耗；疾病管理细，万物互联，细节化管理。
-【疾病日记】疾病相关异样全部记录，方便患者了解病情，方便医生治疗管理。
-【健康科普】疾病相关权威知识，由专业医学团队撰写，三甲医院专家审核，权威性有保障，看疾病相关知识，一个软件就够了。
-【诊后购药】常见药品在线购买，国药发货，安全放心。
-【免责声明】
+<li>description: 【在线问诊】足不出户线上与医生沟通病情，汇聚全国上百名神经领域专家，各大三甲医院均有坐诊，图文问诊随时交流，专家本人亲自与患者深度沟通，提供更权威的诊疗建议。<br />
+【远程程控】术后患者结合自身情况调节参数，免去舟车劳顿；就诊效率高，大量专家号线上就能预约，免去抢号，挂号及等待时间；陪护成本低，在家就能调节，减少费用损耗；疾病管理细，万物互联，细节化管理。<br />
+【疾病日记】疾病相关异样全部记录，方便患者了解病情，方便医生治疗管理。<br />
+【健康科普】疾病相关权威知识，由专业医学团队撰写，三甲医院专家审核，权威性有保障，看疾病相关知识，一个软件就够了。<br />
+【诊后购药】常见药品在线购买，国药发货，安全放心。<br />
+【免责声明】<br />
 1、嘉医有品对平台咨询问诊的医务人员采取必要的考核及管理措施，嘉医平台内问诊服务的医生在行业和专业领域内均具备一定的经验，嘉医有品制定了管理规范、管理考核、管理监管等流程，以尽可能提升平台医生在诊疗活动中的科学性和准确性。</li>
 </ul>
 <p>2、在嘉医有品平台获得的医生的健康咨询类回答、科普文章、科普直播等仅作为健康咨询、科普类建议供用户参考，不能代替到医院就诊，平台医生的回答只是一般性的建议参考，不作为诊断、治疗的直接处置依据，药物使用需谨慎及遵从线下专业医师或药师处方指导。。若您以此为诊断和治疗依据，由此可能引发的任何负面影响甚至损失由您自行负责，本平台不予以负责。</p>
 <p>3、请知悉，受限于互联网在线</p>
-<h3 id="platforms-android-ios">嘉医有品 (platforms: ['android', 'ios'])</h3>
+<h3>嘉医有品 (platforms: ['android', 'ios'])</h3>
 <ul>
 <li>iOS: rating=3.97222, version=3.23.72, category=医疗</li>
-<li>description: 【在线问诊】足不出户线上与医生沟通病情，汇聚全国上百名神经领域专家，各大三甲医院均有坐诊，图文问诊随时交流，专家本人亲自与患者深度沟通，提供更权威的诊疗建议。
-【远程程控】术后患者结合自身情况调节参数，免去舟车劳顿；就诊效率高，大量专家号线上就能预约，免去抢号，挂号及等待时间；陪护成本低，在家就能调节，减少费用损耗；疾病管理细，万物互联，细节化管理。
-【疾病日记】疾病相关异样全部记录，方便患者了解病情，方便医生治疗管理。
-【健康科普】疾病相关权威知识，由专业医学团队撰写，三甲医院专家审核，权威性有保障，看疾病相关知识，一个软件就够了。
-【诊后购药】常见药品在线购买，国药发货，安全放心。
-【免责声明】
+<li>description: 【在线问诊】足不出户线上与医生沟通病情，汇聚全国上百名神经领域专家，各大三甲医院均有坐诊，图文问诊随时交流，专家本人亲自与患者深度沟通，提供更权威的诊疗建议。<br />
+【远程程控】术后患者结合自身情况调节参数，免去舟车劳顿；就诊效率高，大量专家号线上就能预约，免去抢号，挂号及等待时间；陪护成本低，在家就能调节，减少费用损耗；疾病管理细，万物互联，细节化管理。<br />
+【疾病日记】疾病相关异样全部记录，方便患者了解病情，方便医生治疗管理。<br />
+【健康科普】疾病相关权威知识，由专业医学团队撰写，三甲医院专家审核，权威性有保障，看疾病相关知识，一个软件就够了。<br />
+【诊后购药】常见药品在线购买，国药发货，安全放心。<br />
+【免责声明】<br />
 1、嘉医有品对平台咨询问诊的医务人员采取必要的考核及管理措施，嘉医平台内问诊服务的医生在行业和专业领域内均具备一定的经验，嘉医有品制定了管理规范、管理考核、管理监管等流程，以尽可能提升平台医生在诊疗活动中的科学性和准确性。</li>
 </ul>
 <p>2、在嘉医有品平台获得的医生的健康咨询类回答、科普文章、科普直播等仅作为健康咨询、科普类建议供用户参考，不能代替到医院就诊，平台医生的回答只是一般性的建议参考，不作为诊断、治疗的直接处置依据，药物使用需谨慎及遵从线下专业医师或药师处方指导。。若您以此为诊断和治疗依据，由此可能引发的任何负面影响甚至损失由您自行负责，本平台不予以负责。</p>
-<p>3、请知悉，受限于互联网在线
+<p>3、请知悉，受限于互联网在线<br />
 - Android: downloads=None, category=</p>
-<h3 id="platforms-android-ios_1">嘉医助手 (platforms: ['android', 'ios'])</h3>
+<h3>嘉医助手 (platforms: ['android', 'ios'])</h3>
 <ul>
 <li>iOS: rating=5, version=1.4.14, category=医疗</li>
 <li>description: 【排班放号】为医生添加远程排班及号源数量</li>
@@ -352,33 +524,33 @@ nav.compact a:hover { text-decoration: underline; }
 <p>【订单审核】患者下单，即可协调医生患者时间，安排服务</p>
 <p>【患者服务】了解患者诊前诊后情况，提供精细化服务</p>
 <p>【医生管理】方便管理多位医生，方便与医生沟通</p>
-<p>【联系我们】微信号：JoinPins
-                    公众号：嘉医有品
+<p>【联系我们】微信号：JoinPins<br />
+                    公众号：嘉医有品<br />
 - Android: downloads=None, category=</p>
-<h3 id="platforms-android-ios_2">嘉医有品医生版 (platforms: ['android', 'ios'])</h3>
+<h3>嘉医有品医生版 (platforms: ['android', 'ios'])</h3>
 <ul>
 <li>iOS: rating=4.33333, version=4.8.24, category=医疗</li>
-<li>description: 【在线问诊】
-患有所求，医有所助。在线问诊让您与患者畅通连接，迅速解决患者所需。问诊方式包括图文及视频，对于术后患者，也可在线进行起搏器远程程控。方便医患交流与治疗。
-【树立品牌】
-为医生打造专属品牌，提供专属个人主页。
-【医生助手】
-医生助理初步审核，为您安排合理的接诊时间。
-【诊后管理】
-了解诊后患者后续情况，为患者提供指导建议。
-【联系我们】
-微信号：JoinPins
+<li>description: 【在线问诊】<br />
+患有所求，医有所助。在线问诊让您与患者畅通连接，迅速解决患者所需。问诊方式包括图文及视频，对于术后患者，也可在线进行起搏器远程程控。方便医患交流与治疗。<br />
+【树立品牌】<br />
+为医生打造专属品牌，提供专属个人主页。<br />
+【医生助手】<br />
+医生助理初步审核，为您安排合理的接诊时间。<br />
+【诊后管理】<br />
+了解诊后患者后续情况，为患者提供指导建议。<br />
+【联系我们】<br />
+微信号：JoinPins<br />
 公众号：嘉医有品</li>
 <li>Android: downloads=None, category=</li>
 </ul>
-<h2 id="4">4. 百度信号摘要</h2>
+<h2>4. 百度信号摘要</h2>
 <ul>
-<li>相关搜索: ['嘉医医疗器械有限公司', '北京雍禾医疗科技集团有限公司', '嘉医有品app下载', '北京嘉禾医院是正规医院吗', '嘉医有品是什么', '北京品驰医疗设备有限公司', '北京嘉家和医院管理有限公司', '嘉医汇有限责任公司', '北京医之家企业靠谱不', '北京嘉禾医疗美容']</li>
+<li>相关搜索: ["嘉医医疗器械有限公司", "北京雍禾医疗科技集团有限公司", "嘉医有品app下载", "北京嘉禾医院是正规医院吗", "嘉医有品是什么", "北京品驰医疗设备有限公司", "北京嘉家和医院管理有限公司", "嘉医汇有限责任公司", "北京医之家企业靠谱不", "北京嘉禾医疗美容"]</li>
 <li>信任质疑 (来自 related): []</li>
 <li>信任质疑 (来自 QA): []</li>
-<li>关键词命中段: ['seg_brand_honor', 'seg_new_company_trust', 'seg_franchise_recruitment', 'seg_livestream_compliance', 'seg_bidding_b2b_display', 'seg_regulatory_compliance', 'seg_credit_repair', 'seg_defensive_ip', 'seg_impulse_unknown', 'seg_grey_sales_facade', 'is_marketing_std_enterprise', 'is_high_capital_new_company', 'is_nff_board', 'is_3a_certified', 'is_shell_suspect']</li>
+<li>关键词命中段: ["seg_brand_honor", "seg_new_company_trust", "seg_franchise_recruitment", "seg_livestream_compliance", "seg_bidding_b2b_display", "seg_regulatory_compliance", "seg_credit_repair", "seg_defensive_ip", "seg_impulse_unknown", "seg_grey_sales_facade", "is_marketing_std_enterprise", "is_high_capital_new_company", "is_nff_board", "is_3a_certified", "is_shell_suspect"]</li>
 <li>
-<p>灰色信号: {'scam_accusation': [], 'regulatory_punishment': [], 'illegal_finance': [], 'grey_business_model': [], 'trust_doubt_general': [], 'low_visibility': {'score': 2, 'checks': {'no_official_site': False, 'no_ecommerce': True, 'no_media_news': True, 'only_business_query': False, 'sug_all_enterprise_suffix': False}}, 'summary': {'core_categories_hit': 0, 'core_total_count': 0, 'is_grey_candidate': False}}</p>
+<p>灰色信号: {"scam_accusation": [], "regulatory_punishment": [], "illegal_finance": [], "grey_business_model": [], "trust_doubt_general": [], "low_visibility": {"score": 2, "checks": {"no_official_site": false, "no_ecommerce": true, "no_media_news": true, "only_business_query": false, "sug_all_enterprise_suffix": false}}, "summary": {"core_categories_hit": 0, "core_total_count": 0, "is_grey_candidate": false}}</p>
 </li>
 <li>
 <p>各域 top 标题:</p>
@@ -404,9 +576,13 @@ nav.compact a:hover { text-decoration: underline; }
 </ul>
 </li>
 </ul>
-<h2 id="5-b">5. 研发能力佐证 (B 类软著)</h2>
+<h2>5. 研发能力佐证 (B 类软著)</h2>
 <p>该公司有 <strong>9 个内部系统软著</strong>, 显示研发能力 + 数字化基础。</p>
-<p><strong>销售用法</strong>: 开场可说 "看你们有这么多内部系统, 数字化基础不错, 我们的存证服务也是配合这种数字化做的..."</p>
+<p><strong>销售钩子</strong>:</p>
+<ul>
+<li>企查查软著显示贵司有 9 个内部系统/平台类软著（如 「专病问答网关系统」、「脑深部电刺激术前评估系统」、「脑深部电刺激远程程控系统」），说明有持续研发投入与数字化基础。</li>
+<li>可开场确认：这些系统目前主要服务哪条业务线？</li>
+</ul>
 <p>样例 (前 15 个):</p>
 <ul>
 <li>专病问答网关系统</li>
@@ -466,6 +642,7 @@ nav.compact a:hover { text-decoration: underline; }
   <div><label><input type="checkbox" name="fb_pack_rate" value="产品匹配_有用"> 产品匹配 (有用)</label></div>
   <div><label><input type="checkbox" name="fb_pack_rate" value="discovery_有用"> discovery (有用)</label></div>
   <div><label><input type="checkbox" name="fb_pack_rate" value="异议_有用"> 异议库 (有用)</label></div>
+  <div><label><input type="checkbox" name="fb_pack_rate" value="KP触达_有用"> KP触达 (有用)</label></div>
 </div>
 
 <label>客户拒绝原因 (多选)</label>
@@ -482,66 +659,67 @@ nav.compact a:hover { text-decoration: underline; }
 <textarea id="fb_note" placeholder="销售自由发挥"></textarea>
 
 <div style="margin-top:1em">
-  <button onclick="saveFeedback('401')">💾 保存到浏览器</button>
-  <button class="secondary" onclick="exportFeedback('401')">📥 导出 JSON</button>
-  <button class="secondary" onclick="loadFeedback('401')">↻ 从浏览器加载</button>
+  <button type="button" onclick="saveFeedback('401')">💾 保存到浏览器</button>
+  <button type="button" class="secondary" onclick="exportFeedback('401')">📥 导出 JSON</button>
+  <button type="button" class="secondary" onclick="loadFeedback('401')">↻ 从浏览器加载</button>
   <span class="saved-status" id="fb_status"></span>
 </div>
 </div>
 
 <script>
-const EID = '401';
-const COMPANY = "\u5317\u4eac\u5609\u533b\u6709\u54c1\u533b\u7597\u670d\u52a1\u6709\u9650\u8d23\u4efb\u516c\u53f8";
+(function() {
+  const EID = '401';
+  const COMPANY = "北京嘉医有品医疗服务有限责任公司";
 
-function collectFeedback() {
-  const $ = id => document.getElementById(id);
-  const checkbox = name => Array.from(document.querySelectorAll(`input[name="${name}"]:checked`)).map(x => x.value);
-  return {
-    entity_id: EID, company_name: COMPANY,
-    触达日期: $('fb_date').value, 触达渠道: checkbox('fb_channel'),
-    联系结果: $('fb_result').value, 客户实际业态: $('fb_real_seg').value,
-    客户主诉: $('fb_pains').value, 段判定: $('fb_seg_acc').value,
-    作战包评级: checkbox('fb_pack_rate'), 客户拒绝原因: checkbox('fb_reject'),
-    备注: $('fb_note').value,
-    saved_at: new Date().toISOString()
+  window.collectFeedback = function() {
+    const el = id => document.getElementById(id);
+    const checkbox = name => Array.from(document.querySelectorAll('input[name="' + name + '"]:checked')).map(x => x.value);
+    return {
+      entity_id: EID, company_name: COMPANY,
+      触达日期: el('fb_date').value, 触达渠道: checkbox('fb_channel'),
+      联系结果: el('fb_result').value, 客户实际业态: el('fb_real_seg').value,
+      客户主诉: el('fb_pains').value, 段判定: el('fb_seg_acc').value,
+      作战包评级: checkbox('fb_pack_rate'), 客户拒绝原因: checkbox('fb_reject'),
+      备注: el('fb_note').value,
+      saved_at: new Date().toISOString()
+    };
   };
-}
-function saveFeedback(eid) {
-  const data = collectFeedback();
-  localStorage.setItem('sales_fb_' + eid, JSON.stringify(data));
-  document.getElementById('fb_status').textContent = '✓ 已存浏览器 ' + new Date().toLocaleTimeString();
-}
-function exportFeedback(eid) {
-  const data = collectFeedback();
-  const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement('a');
-  a.href = url;
-  a.download = `feedback_${eid}_${new Date().toISOString().slice(0,10)}.json`;
-  a.click();
-  URL.revokeObjectURL(url);
-}
-function loadFeedback(eid) {
-  const raw = localStorage.getItem('sales_fb_' + eid);
-  if (!raw) { document.getElementById('fb_status').textContent = '(浏览器无历史)'; return; }
-  const d = JSON.parse(raw);
-  const $ = id => document.getElementById(id);
-  $('fb_date').value = d.触达日期 || '';
-  $('fb_result').value = d.联系结果 || '';
-  $('fb_real_seg').value = d.客户实际业态 || '';
-  $('fb_pains').value = d.客户主诉 || '';
-  $('fb_seg_acc').value = d.段判定 || '';
-  $('fb_note').value = d.备注 || '';
-  for (const set of ['fb_channel', 'fb_pack_rate', 'fb_reject']) {
-    document.querySelectorAll(`input[name="${set}"]`).forEach(el => {
-      const key = set === 'fb_channel' ? '触达渠道' :
-                  set === 'fb_pack_rate' ? '作战包评级' : '客户拒绝原因';
-      el.checked = (d[key] || []).includes(el.value);
-    });
-  }
-  document.getElementById('fb_status').textContent = '✓ 已从浏览器加载';
-}
-document.addEventListener('DOMContentLoaded', () => loadFeedback(EID));
+  window.saveFeedback = function(eid) {
+    const data = window.collectFeedback();
+    localStorage.setItem('sales_fb_' + eid, JSON.stringify(data));
+    document.getElementById('fb_status').textContent = '✓ 已存浏览器 ' + new Date().toLocaleTimeString();
+  };
+  window.exportFeedback = function(eid) {
+    const data = window.collectFeedback();
+    const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'feedback_' + eid + '_' + new Date().toISOString().slice(0,10) + '.json';
+    a.click();
+    URL.revokeObjectURL(url);
+  };
+  window.loadFeedback = function(eid) {
+    const raw = localStorage.getItem('sales_fb_' + eid);
+    if (!raw) { document.getElementById('fb_status').textContent = '(浏览器无历史)'; return; }
+    const d = JSON.parse(raw);
+    const el = id => document.getElementById(id);
+    el('fb_date').value = d.触达日期 || '';
+    el('fb_result').value = d.联系结果 || '';
+    el('fb_real_seg').value = d.客户实际业态 || '';
+    el('fb_pains').value = d.客户主诉 || '';
+    el('fb_seg_acc').value = d.段判定 || '';
+    el('fb_note').value = d.备注 || '';
+    for (const pair of [['fb_channel','触达渠道'],['fb_pack_rate','作战包评级'],['fb_reject','客户拒绝原因']]) {
+      const set = pair[0], key = pair[1];
+      document.querySelectorAll('input[name="' + set + '"]').forEach(function(el) {
+        el.checked = (d[key] || []).indexOf(el.value) >= 0;
+      });
+    }
+    document.getElementById('fb_status').textContent = '✓ 已从浏览器加载';
+  };
+  document.addEventListener('DOMContentLoaded', function() { window.loadFeedback(EID); });
+})();
 </script>
 
 </div>

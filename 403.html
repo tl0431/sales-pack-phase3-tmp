@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>北京元泰华正科技有限公司 - 销售作战包 (eid=403)</title>
 <style>
 :root { --bg:#f9f9f9; --panel:#fff; --border:#dcdcdc; --txt:#222; --muted:#666; --accent:#0a66c2; }
@@ -8,7 +9,7 @@ body { font-family: -apple-system, "Helvetica Neue", "PingFang SC", "Microsoft Y
        margin: 0; background: var(--bg); color: var(--txt); line-height: 1.6; font-size: 14px; }
 .wrap { max-width: 1180px; margin: 0 auto; padding: 1em 2em 4em; }
 .top { display: flex; justify-content: space-between; align-items: baseline; padding: 1em 0;
-       border-bottom: 2px solid var(--txt); margin-bottom: 1em; }
+       border-bottom: 2px solid var(--txt); margin-bottom: 1em; flex-wrap: wrap; gap: .5em; }
 .top h1 { margin: 0; font-size: 1.6em; }
 .top a { color: var(--accent); text-decoration: none; font-size: .95em; }
 .top a:hover { text-decoration: underline; }
@@ -19,11 +20,15 @@ body { font-family: -apple-system, "Helvetica Neue", "PingFang SC", "Microsoft Y
 .card a { color: var(--accent); text-decoration: none; font-weight: 600; }
 .card a:hover { text-decoration: underline; }
 .tag { display: inline-block; font-size: .8em; padding: 1px 8px; border-radius: 10px;
-       margin-left: .4em; vertical-align: middle; }
+       margin-left: .25em; vertical-align: middle; }
 .tag-livestream { background: #e1f0ff; color: #0a66c2; }
 .tag-health { background: #e1ffe6; color: #1f7a3f; }
 .tag-grey { background: #fff4d6; color: #8a6a00; }
 .tag-trust { background: #ffe4ef; color: #b3306a; }
+.tag-bidding { background: #e8e4ff; color: #4a3d9e; }
+.tag-franchise { background: #ffe8d6; color: #a65a00; }
+.tag-impulse { background: #eee; color: #555; }
+.tag-credit { background: #d6f5ff; color: #006680; }
 .meta { color: var(--muted); font-size: .85em; margin-top: .3em; }
 .preview { color: #444; margin-top: .5em; font-size: .9em;
            display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3;
@@ -43,6 +48,11 @@ body { font-family: -apple-system, "Helvetica Neue", "PingFang SC", "Microsoft Y
 .panel li { margin: .2em 0; }
 .section-label { background: #e8eef7; color: #0a66c2; font-weight: 600;
                  padding: .3em .8em; border-radius: 4px; display: inline-block; margin-bottom: .8em; }
+.post28-banner { background: #f0f7ff; border: 1px solid #b8d4f0; border-radius: 6px;
+                 padding: .6em 1em; margin-bottom: 1em; font-size: .92em; }
+.post28-banner a { color: var(--accent); font-weight: 600; text-decoration: none; }
+.post28-banner a:hover { text-decoration: underline; }
+.contact-link { margin-left: 1em; padding-left: 1em; border-left: 1px solid #b8d4f0; }
 .feedback { background: #fffce8; border: 1px solid #e7d36b; border-radius: 8px;
             padding: 1.2em 1.6em; margin-top: 2em; }
 .feedback h2 { margin-top: 0; }
@@ -51,8 +61,8 @@ body { font-family: -apple-system, "Helvetica Neue", "PingFang SC", "Microsoft Y
     width: 100%; padding: .5em .7em; border: 1px solid #ccc; border-radius: 4px;
     font-size: .95em; font-family: inherit; }
 .feedback textarea { min-height: 100px; resize: vertical; }
-.feedback .row { display: flex; gap: 1em; margin: .5em 0; }
-.feedback .row > div { flex: 1; }
+.feedback .row { display: flex; gap: 1em; margin: .5em 0; flex-wrap: wrap; }
+.feedback .row > div { flex: 1; min-width: 120px; }
 .feedback button { background: #0a66c2; color: #fff; border: 0; padding: .7em 1.5em;
                    border-radius: 4px; font-size: .95em; cursor: pointer; margin: .5em .5em .5em 0; }
 .feedback button:hover { background: #084e96; }
@@ -68,37 +78,44 @@ nav.compact a:hover { text-decoration: underline; }
 <body>
 <div class="wrap">
 <div class="top">
-<h1>北京元泰华正科技有限公司 <span class="tag tag-livestream">livestream</span></h1>
+<h1>北京元泰华正科技有限公司 <span class="tag tag-health">health</span></h1>
 <a href="index.html">← 返回主页</a>
 </div>
 
+<div class="post28-banner">
+<strong>最终分类 (post28)</strong>: health · 大健康合规
+<span class="contact-link"><strong>联系方式</strong>: <a href="#kp">4 个候选触达点 →</a></span>
+</div>
+
 <nav class="compact">
-<strong>段标签</strong>: livestream / 类2_C端自营+大健康共现 &nbsp;|&nbsp;
-<a href="#cheat">cheat (一页推介)</a> · <a href="#appendix">辅料 (4源数据)</a> · <a href="#feedback">反馈</a>
+<a href="#cheat">cheat (推介)</a> ·
+<a href="#kp">联系方式</a> ·
+<a href="#appendix">辅料 (4源)</a> ·
+<a href="#feedback">反馈</a>
 </nav>
 
 <div class="panel" id="cheat">
 <div class="section-label">上半 — Cheat Sheet (现场推介用)</div>
-<h1 id="eid403">销售作战包 — 北京元泰华正科技有限公司 (eid=403)</h1>
-<p><em>段标签: livestream / 类2_C端自营+大健康共现</em></p>
-<h2 id="1">1. 公司一行</h2>
-<p>北京元泰华正科技有限公司 / 3P26L / livestream+大健康 / 570万 / 成立4年 / 19381860128</p>
-<h2 id="2">2. 业态画像</h2>
-<p>主营：通过直播和自有获客系统（元元获客）进行食品、大健康产品、日用品等零售，兼营获客工具输出。客户对象：C端消费者为主，可能拓展B端商家。销售渠道：直播、元元优选小程序、社交电商。经营模式：C端自营+大健康，利用技术驱动获客与转化。规模：注册570万，成立4年，无分支机构，属小微企业。</p>
-<h2 id="3">3. 实际业务证据</h2>
+<h1>销售作战包 — 北京元泰华正科技有限公司 (eid=403)</h1>
+<p><em>最终分类 (post28): <strong>health</strong> · 大健康合规</em></p>
+<h2>1. 公司一行</h2>
+<p>北京元泰华正科技有限公司 / 6P26L / 大健康合规 / 570万元 / 成立3年</p>
+<h2>2. 业态画像</h2>
+<p>主营食品网络销售与软件技术服务，拥有自营食品品牌“元元美食”及电商平台“元元优选”，通过线上渠道向C端消费者销售预包装食品、酒类，同时为B端客户提供获客系统。经营模式为“自营电商+技术输出”，对应post28大健康合规分类：食品属大健康范畴，网络经营面临平台审核、消费者信任及职业打假风险，急需国家权威背书提升品牌可信度与合规性。</p>
+<h2>3. 实际业务证据</h2>
 <ul>
-<li>证据1 (QCC行政许可): 持食品经营许可证(网络销售含网络经营)，证明从事线上食品销售业务。</li>
-<li>证据2 (ICP备案): 备案‘元元优选’小程序，为C端电商平台，‘元元获客商家’为B端服务入口。</li>
-<li>证据3 (QCC软著): 登记‘元元获客系统V3’，体现技术开发能力，用于获客与私域管理。</li>
+<li>QCC行政许可：食品经营许可证，主体业态含网络经营，证明实际从事食品在线销售。</li>
+<li>QCC商标：申请“元元美食”商标（第35类），表明正在布局自有食品品牌。</li>
+<li>QCC ICP备案：备案域名“元元优选”（京ICP备2022003938号-3X），推测为食品类电商交易平台。</li>
 </ul>
-<h2 id="4-4">4. 4 源信号摘要</h2>
+<h2>4. 4 源信号摘要</h2>
 <ul>
 <li><strong>QCC经营范围首项</strong>: 技术开发</li>
-<li><strong>官网核心业务</strong>: 未获取到官网核心业务描述</li>
-<li><strong>APP评分下载</strong>: 无APP相关记录</li>
-<li><strong>百度风险词</strong>: ‘元泰华正怎么样’及公司低能见度暗示消费者信任风险</li>
+<li><strong>官网核心业务</strong>: 未能抽取，综合推断为食品电商及获客系统服务</li>
+<li><strong>APP评分下载</strong>: 无APP</li>
+<li><strong>百度风险词</strong>: low_visibility(得2分)，相关搜索含“元泰华正怎么样”</li>
 </ul>
-<h2 id="5-8">5. 信号识别表 (8 条)</h2>
+<h2>5. 信号识别表 (7 条)</h2>
 <table>
 <thead>
 <tr>
@@ -111,102 +128,171 @@ nav.compact a:hover { text-decoration: underline; }
 <tbody>
 <tr>
 <td>1</td>
-<td>百度信任质疑</td>
-<td>搜索‘元泰华正怎么样’，消费者对公司信任度存疑</td>
-<td>公司及产品缺乏权威背书，导致转化率低，需用国家级证书快速建立信任</td>
+<td>QCC行政许可</td>
+<td>持有《食品经营许可证》，主体业态：食品销售经营者，含网络经营，有效期至2026年</td>
+<td>公司实际开展食品网络销售，但仅靠许可证不足以证明商品质量。办理“市监总局商品证书”可存证质检报告、提供国家背书，提升消费者信任，避免平台抽查下架；若不办，可能因缺乏权威证明被质疑或遭投诉。</td>
 </tr>
 <tr>
 <td>2</td>
-<td>段标签&amp;百度关键词命中</td>
-<td>公司标签‘livestream’+命中‘seg_livestream_compliance’，直播业务合规风险高</td>
-<td>直播易被平台限流或处罚，急需资质证明直播间/商品合规，市监总局证书可充当合规证据</td>
+<td>QCC经营范围</td>
+<td>经营范围明确包含食品经营、酒类经营、食品互联网销售</td>
+<td>涉及食品、酒类等高监管品类，需权威商品质量证明。办理商品证书可为多品类提供国家级存证，有效规避虚假宣传、打假人投诉等风险；不办则酒类等敏感商品易被举报，导致平台处罚或消费者索赔。</td>
 </tr>
 <tr>
 <td>3</td>
-<td>段标签‘大健康共现’</td>
-<td>涉及大健康产品，功效宣传易被质疑虚假宣传</td>
-<td>大健康类产品功效声明缺乏官方支持，用功能报告可合法展示功效，规避广告法风险</td>
+<td>QCC商标</td>
+<td>注册商标“元元美食”（申请中）、“元元优选”等，显示自营食品品牌和电商平台布局</td>
+<td>新食品品牌极需信任背书。办理市监总局合作证书可展示公司荣誉资质，商品证书可为“元元美食”产品背书，帮助新品牌快速建立市场信任，提升销量；反之，消费者对陌生品牌不信，销量难以上涨。</td>
 </tr>
 <tr>
 <td>4</td>
 <td>QCC软著</td>
-<td>拥有‘元元获客系统’软著，构建私域获客工具</td>
-<td>有技术输出或商家服务业务，需合作证书提升科技公司形象，吸引商家合作</td>
+<td>拥有“元元获客系统”软件著作权</td>
+<td>技术企业需证明自身实力。办理合作证书可将软著等存证，作为市监总局认可的合作单位，在商务洽谈中彰显诚信与技术合规性，提高签约成功率；若无背书，技术实力易被质疑，丢失B端客户。</td>
 </tr>
 <tr>
 <td>5</td>
-<td>QCC商标&amp;ICP备案</td>
-<td>注册‘元元优选’‘元元获客’等商标，备案多个小程序，品牌矩阵初现</td>
-<td>需存证商标、软著等荣誉资质，用市监总局合作证书打包展示，提升品牌高端形象</td>
+<td>QCC ICP备案</td>
+<td>备案域名“元元优选”（可能为电商平台）、“元元获客商家”（商家端）</td>
+<td>运营电商平台，亟需平台公信力。办理合作证书后可在平台首页展示“市监总局合作单位”，增强消费者和入驻商家的信任，提升转化与入驻率；缺乏背书，平台易被视为小网站，消费者担忧资金安全，优质商家不愿入驻。</td>
 </tr>
 <tr>
 <td>6</td>
-<td>ICP备案‘元元获客商家’</td>
-<td>存在面向B端商家的服务入口，可能做工具或平台</td>
-<td>吸引商家入驻时，平台可信度是关键，合作证书可证明平台权威性，增强招商说服力</td>
+<td>百度信任质疑</td>
+<td>相关搜索“元泰华正怎么样”，公司规模小、成立仅3年，低知名度</td>
+<td>潜在合作伙伴与消费者对信誉有疑虑。合作证书作为国家最高级别认可，能瞬间增强对外宣传底气，加速合作签约；若不解决信任问题，客户会流失到更有背书的竞争对手处。</td>
 </tr>
 <tr>
 <td>7</td>
-<td>QCC行政许可（食品经营许可证）</td>
-<td></td>
-<td>食品电商需应对平台审核和消费者质疑，商品证书可证明食品质量，解决资质信任问题</td>
-</tr>
-<tr>
-<td>8</td>
-<td>百度低能见度&amp;信任质疑</td>
-<td>无媒体新闻、无电商评价，整体线上能见度低</td>
-<td>低能见度加重信任危机，需权威背书快速建立品牌可信度，促进销量</td>
+<td>QCC资质证书</td>
+<td>仅有一张食品经营许可证，无其他权威认证</td>
+<td>资质单一，在激烈竞争中缺乏亮点。办理合作证书和商品证书可丰富资质矩阵，展示多维度国家认可，帮助企业在招投标、商务合作中脱颖而出；否则对手凭借更多证书抢占市场机会。</td>
 </tr>
 </tbody>
 </table>
-<h2 id="6-5-ok">6. 产品匹配点 (5 条, 状态: ok)</h2>
+<h2>6. 产品匹配点 (7 条, 状态: ok)</h2>
 <ul>
-<li><strong>[信号 1] 消费者搜索‘元泰华正怎么样’，对公司信任存疑</strong></li>
-<li>市监总局合作证书是总局唯一颁发的合作单位背书，相当于给您的公司挂上国家级金字招牌，消费者扫码即查，权威认证瞬间打消疑虑，比任何自卖自夸都有用。（培训材料Slide 2/25，实战QA§4）</li>
-<li><em>来源: 培训材料§Slide 2/25 &amp; 实战QA§第4条</em></li>
-<li><strong>[信号 2] 直播业务需合规证明，避免限流封号</strong></li>
-<li>市监总局合作证书可存证直播间营业执照、卫生许可、服务承诺等信息，直接展示在直播间或店铺详情页，证明您是总局认可的合作单位，大大提高平台审核通过率，遏制恶意投诉。（培训材料Slide 6/25，类目存证表§序号5）</li>
-<li><em>来源: 培训材料§Slide 6/25 &amp; 类目存证表§序号5</em></li>
-<li><strong>[信号 3] 大健康产品功效宣传易被质疑</strong></li>
-<li>我们的功能报告由国检中心出具，可合法对外展示产品功效（如补血、美白），并配有市监总局商品证书，让您的每一款健康产品都有‘国家级身份证’，再也无需担心虚假宣传风险，转化率大幅提升。（培训材料Slide 27，实战QA§50）</li>
-<li><em>来源: 培训材料§Slide 27 &amp; 实战QA§第50条</em></li>
-<li><strong>[信号 ?] 拥有多个商标/软著，需提升品牌形象</strong></li>
-<li>合作证书可把您的商标注册证、软著、荣誉等5项资质统一存证，加盖总局认可章，对外展示时就是公司实力的官方背书，谈合作、招代理时底气十足（培训材料Slide 5/25，实战QA§1）</li>
-<li><em>来源: 培训材料§Slide 5/25 &amp; 实战QA§第1条</em></li>
-<li><strong>[信号 ?] 线上食品销售需应对平台审核和信任问题</strong></li>
-<li>商品证书直接针对每一款食品，绑定质检报告和成分说明，国家电商质检中心核验后颁发，消费者扫码可见，平台审核时也能提交作为权威资质证明，快速解决上架难、信任低的问题。（培训材料Slide 8/9，类目存证表§序号1）</li>
-<li><em>来源: 培训材料§Slide 8/9 &amp; 类目存证表§序号1</em></li>
+<li><strong>[信号 1] 持有食品经营许可证，从事网络食品销售</strong></li>
+<li>【信号】贵司已取得食品经营许可证并开展网络销售，但消费者和平台对食品质量高度敏感。【产品关联】办理“市监总局商品证书”，由国家电商质检中心核验商品质检报告并出具总局证书，相当于商品“身份证”。【预期收益】消费者扫码即可查看国家认可，大幅提升信任与下单转化。【不办风险】平台要求权威质检证明时无法提供，可能被下架或遭投诉。（来源：实战QA§第16条、培训材料§Slide 25）</li>
+<li><em>来源: 实战QA§第16条，培训材料§Slide 25</em></li>
+<li><strong>[信号 2] 经营范围含食品、酒类、食品互联网销售</strong></li>
+<li>【信号】贵司经营多品类食品及酒类，合规要求极高。【产品关联】“市监总局商品证书”可一次性为多款商品提供国家级存证，尤其酒类商品拥有总局背书能有效规避虚假宣传指控。【预期收益】线上销售展示证书，消费者放心购买，减少退货纠纷。【不办风险】酒类等敏感商品无权威证明，易被职业打假人盯上，引发索赔和平台处罚。（来源：实战QA§第19条，培训材料§Slide 22）</li>
+<li><em>来源: 实战QA§第19条，培训材料§Slide 22</em></li>
+<li><strong>[信号 3] 自营食品品牌“元元美食”及电商平台“元元优选”</strong></li>
+<li>【信号】贵司正打造自有食品品牌和电商平台，亟需市场信任。【产品关联】“市监总局合作证书”可使公司在官网、平台页面展示“合作单位”身份，提升品牌权威性。【预期收益】新品牌快速获得认可，销量增长，平台吸引更多商家入驻。【不办风险】新品牌无权威背书，消费者因陌生不尝试，错失市场机遇。（来源：培训材料§Slide 25，实战QA§第13条）</li>
+<li><em>来源: 培训材料§Slide 25，实战QA§第13条</em></li>
+<li><strong>[信号 4] 拥有“元元获客系统”软著</strong></li>
+<li>【信号】贵司拥有获客系统软件著作权，展示技术实力。【产品关联】办理“市监总局合作证书”可将软著等存证，证明企业资质获总局认可。【预期收益】谈客户时证书增强说服力，提高签约成功率。【不办风险】技术企业缺乏官方背书，易被质疑实力，丢失订单。（来源：培训材料§Slide 25，实战QA§第13条）</li>
+<li><em>来源: 培训材料§Slide 25，实战QA§第13条</em></li>
+<li><strong>[信号 5] 备案电商平台“元元优选”</strong></li>
+<li>【信号】贵司运营电商平台，平台信任度至关重要。【产品关联】为平台办理“市监总局合作证书”，可在首页公示，成为“国家认可电商平台”。【预期收益】消费者更信赖，商家入驻意愿增强，形成良性循环。【不办风险】平台无权威认证，易被视为不可靠网站，消费者担心交易安全，影响转化与招商。（来源：培训材料§Slide 6，实战QA§第43条类推）</li>
+<li><em>来源: 培训材料§Slide 6，实战QA§第43条类推</em></li>
+<li><strong>[信号 6] 百度搜索存在信任疑问，公司知名度低</strong></li>
+<li>【信号】潜在客户搜索“元泰华正怎么样”，说明信任疑虑真实存在。【产品关联】“市监总局合作证书”是国家最高监管部门唯一发出的合作证书，彻底解决信任问题。【预期收益】宣传强调“国家市监总局合作单位”，瞬间提升形象，打消客户顾虑。【不办风险】信任疑虑不解决，客户流向有背书的竞争对手。（来源：实战QA§第4条，培训材料§Slide 18）</li>
+<li><em>来源: 实战QA§第4条，培训材料§Slide 18</em></li>
+<li><strong>[信号 7] 资质证书单一，仅有食品经营许可证</strong></li>
+<li>【信号】贵司仅食品经营许可证，竞争时缺乏亮点。【产品关联】增加“市监总局合作证书”和“商品证书”，丰富资质墙，展现多维度国家认可。【预期收益】招投标、合作中提供更多硬证，提高中标率。【不办风险】对手持有更多资质，客户自然选择他们，您丢失机会。（来源：实战QA§第13条）</li>
+<li><em>来源: 实战QA§第13条</em></li>
 </ul>
-<h3 id="1_1">待人工补充话术 (1 条无产品匹配)</h3>
-<ul>
-<li>信号 8: 产品文档无直接提升媒体曝光或能见度的服务，主要解决信任与合规，可辅助改善但无针对性话术</li>
-</ul>
-<h2 id="7-discovery">7. Discovery 问题 + 异议库</h2>
-<h3 id="discovery">Discovery (挖诉求)</h3>
+<h2>7. Discovery 问题 + 异议库</h2>
+<h3>Discovery (挖诉求)</h3>
 <ol>
-<li>问题1 (基于信号id=2): 您在直播带货时，有没有因为资质问题被限流或要求提供证明？</li>
-<li>问题2 (基于信号id=3): 大健康产品的功效宣传，会不会担心被消费者或平台投诉虚假宣传？</li>
-<li>问题3 (基于信号id=6): 元元获客商家版在招募商家时，他们最常质疑平台的实力和可信度吗？</li>
-<li>问题4 (基于信号id=1): 新客户看到您公司，会不会觉得成立才4年，产品靠谱吗？</li>
-<li>问题5 (基于信号id=7): 线上卖食品，平台经常要求更新质检报告，您觉得应付起来麻烦吗？</li>
+<li>问题1（信号id=1）：您在网络销售食品时，是否曾因无法提供国家认可的质检报告，导致商品被平台拒绝上架或消费者质疑？</li>
+<li>问题2（信号id=3）：推广“元元美食”等新品牌时，消费者是否因品牌陌生而不愿下单，您觉得需要哪些权威证明来促进转化？</li>
+<li>问题3（信号id=5）：“元元优选”平台目前的商家入驻率如何？是否因缺乏平台级权威背书，导致优质商家犹豫入住？</li>
+<li>问题4（信号id=6）：合作伙伴或客户初次接触时，是否常问“元泰华正怎么样”？这种信任疑虑对业务拓展影响多大？</li>
+<li>问题5（信号id=4）：您的获客系统向客户推销时，是否感觉缺少一个强有力的“官方认可”来证明技术可靠，从而影响签约？</li>
 </ol>
-<h3 id="_1">异议库 (产品维度)</h3>
-<p><strong>异议 1: 我们做直播的，证书能保证直播间不被封吗？</strong></p>
-<p>我们的证书是资质证明，帮助您证明合规经营，但不能作为免死金牌。如果遇到恶意投诉或平台误判，这些材料可为您申诉提供有力证据，大幅降低封停风险。（实战QA§第42条）</p>
-<p><em>来源: 实战QA§第42条</em></p>
-<p><strong>异议 2: 我们有产品的质检报告，为什么还要办商品证书？</strong></p>
-<p>质检报告一般是地方机构出的，而商品证书是国家电商质检中心和市监总局联合颁发的，代表国家级别认可，并且具有区块链存证，消费者扫码即可验证，公信力和防伪能力远超单一检测报告。（实战QA§第3条）</p>
-<p><em>来源: 实战QA§第3条</em></p>
-<p><strong>异议 3: 我们公司才成立4年，花钱办这个值不值？</strong></p>
-<p>公司年限短更需要权威背书来打破不信任。市监总局合作证书让您一下子拥有国家级认可，相当于跳过了漫长的品牌积累，帮您快速获得消费者和合作伙伴的信任，这笔投入远比广告费划算。（实战QA§第4条）</p>
-<p><em>来源: 实战QA§第4条</em></p>
+<h3>异议库 (产品维度)</h3>
+<p><strong>异议 1: 我们已经有了食品经营许可证，为什么还要办你们这个证书？</strong></p>
+<p>营业执照是经营必须拥有的，这是基础，由区县市监局发放。而我们的‘市监总局合作证书’是国家市场监督管理总局唯一发出的合作单位证书，含金量完全不同，能证明您的企业得到了最高级别认可。</p>
+<p><em>来源: 实战QA§第2条</em></p>
+<p><strong>异议 2: 费用太贵了，划不来。</strong></p>
+<p>这笔投入相比它能带来的生意增长，非常划算。而且我们目前有优惠套餐，更重要的是，它能帮您解决客户不信任、平台要求资质证明等实际问题，避免被下架或投诉造成的更大损失。</p>
+<p><em>来源: 培训材料§Slide 20，实战QA§第32条引申</em></p>
+<p><strong>异议 3: 我卖的都是正规产品，有检测报告，没必要再做商品证书。</strong></p>
+<p>普通检测报告通常是地方机构出的，而我们的商品证书由国家电商质检中心和市监总局出具，代表国家认可，公信力完全不在一个级别。并且证书上存证了检测报告，消费者扫码即可验证，比单纯一张报告更有说服力。</p>
+<p><em>来源: 实战QA§第16条</em></p>
 </div>
+
+
+<div class="panel" id="kp">
+<div class="section-label">联系方式 · KP 触达情报 (S/M/A/X 判别)</div>
+<h2>KP 触达情报</h2>
+<p><em>生成时间: 自动管线 · eid=403 · 北京元泰华正科技有限公司</em></p>
+<h3>A. 候选触达点（去重后全量）</h3>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>触达点</th>
+<th>类型</th>
+<th>角色推断</th>
+<th>来源</th>
+<th>证据 / 注释</th>
+<th>建议动作</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>19381860128</td>
+<td>手机</td>
+<td>工商登记号 (候选)</td>
+<td>QCC CSV 有效手机号 + qcc-cli get_contact_info</td>
+<td>工商登记号，无其他强信号; XS 规模 + 单登记号 + 无邮箱强信号 (M1,M3)</td>
+<td>候选；建议支付宝/微信验证姓氏</td>
+</tr>
+<tr>
+<td>2</td>
+<td>yuanyuanmeishi@yuantaikeji.com</td>
+<td>邮箱</td>
+<td>公司域名邮箱</td>
+<td>QCC CSV 邮箱</td>
+<td>公司域名邮箱，待验证归属 (M1)</td>
+<td>邮件叩门</td>
+</tr>
+<tr>
+<td>3</td>
+<td>010-83130766</td>
+<td>座机</td>
+<td>公司座机</td>
+<td>QCC CSV 更多电话 + qcc-cli get_contact_info</td>
+<td>座机格式 (X2)</td>
+<td>拨打转接</td>
+</tr>
+<tr>
+<td>4</td>
+<td>454837039@qq.com</td>
+<td>邮箱</td>
+<td>个人/免费邮箱</td>
+<td>QCC CSV 邮箱</td>
+<td>— (—)</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<h3>B. 公司背景增量信息（辅助判断）</h3>
+<ul>
+<li>法人: <strong>肖振春</strong> · 注册资本 570万元 · 成立 2021-11-16</li>
+<li>参保人数: 3 · 企业规模: XS(微型) · 段标签: health</li>
+<li>疑似关联企业 (related_party_suspects): 0 条</li>
+<li>官网: www.yuantaikeji.com</li>
+<li>百度公开线索:</li>
+<li>北京元泰鸿业科技有限公司 - 百度百科</li>
+<li>北京元泰华正科技有限公司 - 百度地图</li>
+<li>北京元泰华正科技有限公司-企业信息</li>
+</ul>
+<h3>C. 不可达 / 已排除项</h3>
+<p>（无）</p>
+</div>
+
 
 <div class="panel" id="appendix">
 <div class="section-label">下半 — 辅料 (电话前/上门前看)</div>
-<h1 id="eid403">辅料 — 北京元泰华正科技有限公司 (eid=403)</h1>
-<h2 id="1-qcc">1. QCC 全字段 (人读版)</h2>
-<h3 id="basic_info">basic_info</h3>
+<h1>辅料 — 北京元泰华正科技有限公司 (eid=403)</h1>
+<h2>1. QCC 全字段 (人读版)</h2>
+<h3>basic_info</h3>
 <pre><code>* 企业名称: 北京元泰华正科技有限公司
 * 基本信息:
 统一社会信用代码: 91110102MA7CQ3P26L
@@ -215,20 +301,20 @@ nav.compact a:hover { text-decoration: underline; }
 成立日期: 2021-11-16
 经营范围: 技术开发；技术咨询；技术交流；技术转让；技术推广；技术服务；基础软件服务；应用软件服务；信息系统集成；数据处理；设计、制作、代理、发布广告；销售计算机、软件及辅助设备、电子产品、日用品、家具；贸易代理；经济贸易咨询；企业管理咨询；互联网信息服务；食品经营；酒类经营；食品互联网销售
 </code></pre>
-<h3 id="administrative_license">administrative_license</h3>
+<h3>administrative_license</h3>
 <pre><code>* 企业名称: 北京元泰华正科技有限公司
 * 行政许可:
 共 2 条记录
 1 (京西)〔2021〕SPJYHF-1204 《食品经营许可证》 有效 2021-11-25 2026-11-24 北京市西城区市场监督管理局 主体业态:食品销售经营者(网络销售含网络经营); 经营场所:北京市西城区西砖胡同2号院3号楼1层至3层4-1G区; 经营项目:预包装食品销售,不含冷藏冷冻食品;散装食品销售,不含冷藏冷冻食品、不含熟食 北京市市场监督管理局 详情
 2 91110102MA7CQ3P26L 营业执照 有效 2021-11-16 2041-11-15 北京市西城区市场监督管理局 北京元泰华正科技有限公司 北京市市场监督管理局 详情
 </code></pre>
-<h3 id="qualifications">qualifications</h3>
+<h3>qualifications</h3>
 <pre><code>* 企业名称: 北京元泰华正科技有限公司
 * 资质证书:
 共有 1 条资质证书记录
 证书类型分布: 食品经营许可证(1)
 </code></pre>
-<h3 id="trademark_info">trademark_info</h3>
+<h3>trademark_info</h3>
 <pre><code>* 企业名称: 北京元泰华正科技有限公司
 * 商标信息:
 共 9 条记录
@@ -242,20 +328,20 @@ nav.compact a:hover { text-decoration: underline; }
 8 元元美食 35类 广告销售 商标无效·初审驳回 61260989 2021-12-09 - 详情
 9 元元美食 42类 设计研究 商标无效·初审驳回 61260989 2021-12-09 - 详情
 </code></pre>
-<h3 id="software_copyright_info">software_copyright_info</h3>
+<h3>software_copyright_info</h3>
 <pre><code>* 企业名称: 北京元泰华正科技有限公司
 * 软件著作权:
 共 1 条记录
 1 元元获客系统 元元获客 V3 2022SR1435042 2022-03-13 2022-03-14 2022-10-31 原始取得
 </code></pre>
-<h3 id="works_copyright_info">works_copyright_info</h3>
+<h3>works_copyright_info</h3>
 <pre><code>* 企业名称: 北京元泰华正科技有限公司
 * 作品著作权:
 共 2 条记录
 1 小元元 美术 2022-05-30 2022-05-18 国作登字-2022-F-10157796 2022-08-03
 2 元元获客 美术 2022-03-29 2022-03-29 国作登字-2022-F-10129632 2022-07-01
 </code></pre>
-<h3 id="network_service_filing">network_service_filing</h3>
+<h3>network_service_filing</h3>
 <pre><code>* 企业名称: 北京元泰华正科技有限公司
 * 网络服务备案:
 共 5 条记录
@@ -265,7 +351,7 @@ nav.compact a:hover { text-decoration: underline; }
 3 元元优选 京ICP备2022003938号-3X 2024-01-17 详情
 4 元元获客商家 京ICP备2022003938号-2X 2023-12-04 详情
 </code></pre>
-<h2 id="2">2. 官网内容</h2>
+<h2>2. 官网内容</h2>
 <ul>
 <li>
 <p><strong>error</strong>: skipped</p>
@@ -274,16 +360,16 @@ nav.compact a:hover { text-decoration: underline; }
 <p>抓取来源:  (0 chars)</p>
 </li>
 </ul>
-<h2 id="3-app-ios-android">3. APP 矩阵 (iOS + Android)</h2>
+<h2>3. APP 矩阵 (iOS + Android)</h2>
 <p>(无)</p>
-<h2 id="4">4. 百度信号摘要</h2>
+<h2>4. 百度信号摘要</h2>
 <ul>
-<li>相关搜索: ['元泰华正怎么样', '北京泰华科技有限公司', '北京元正科技有限公司怎么样', '新建华羿元泰智能科技有限公司', '元泰公司简介', '元泰科技', '元泰集团', '华元诚德能源科技装备有限公司', '苏州元泰智能科技怎么样', '安徽泰元智能科技有限公司']</li>
+<li>相关搜索: ["元泰华正怎么样", "北京泰华科技有限公司", "北京元正科技有限公司怎么样", "新建华羿元泰智能科技有限公司", "元泰公司简介", "元泰科技", "元泰集团", "华元诚德能源科技装备有限公司", "苏州元泰智能科技怎么样", "安徽泰元智能科技有限公司"]</li>
 <li>信任质疑 (来自 related): []</li>
 <li>信任质疑 (来自 QA): []</li>
-<li>关键词命中段: ['seg_brand_honor', 'seg_new_company_trust', 'seg_franchise_recruitment', 'seg_livestream_compliance', 'seg_bidding_b2b_display', 'seg_regulatory_compliance', 'seg_credit_repair', 'seg_defensive_ip', 'seg_impulse_unknown', 'seg_grey_sales_facade', 'is_marketing_std_enterprise', 'is_high_capital_new_company', 'is_nff_board', 'is_3a_certified', 'is_shell_suspect']</li>
+<li>关键词命中段: ["seg_brand_honor", "seg_new_company_trust", "seg_franchise_recruitment", "seg_livestream_compliance", "seg_bidding_b2b_display", "seg_regulatory_compliance", "seg_credit_repair", "seg_defensive_ip", "seg_impulse_unknown", "seg_grey_sales_facade", "is_marketing_std_enterprise", "is_high_capital_new_company", "is_nff_board", "is_3a_certified", "is_shell_suspect"]</li>
 <li>
-<p>灰色信号: {'scam_accusation': [], 'regulatory_punishment': [], 'illegal_finance': [], 'grey_business_model': [], 'trust_doubt_general': [], 'low_visibility': {'score': 2, 'checks': {'no_official_site': False, 'no_ecommerce': True, 'no_media_news': True, 'only_business_query': False, 'sug_all_enterprise_suffix': False}}, 'summary': {'core_categories_hit': 0, 'core_total_count': 0, 'is_grey_candidate': False}}</p>
+<p>灰色信号: {"scam_accusation": [], "regulatory_punishment": [], "illegal_finance": [], "grey_business_model": [], "trust_doubt_general": [], "low_visibility": {"score": 2, "checks": {"no_official_site": false, "no_ecommerce": true, "no_media_news": true, "only_business_query": false, "sug_all_enterprise_suffix": false}}, "summary": {"core_categories_hit": 0, "core_total_count": 0, "is_grey_candidate": false}}</p>
 </li>
 <li>
 <p>各域 top 标题:</p>
@@ -308,9 +394,13 @@ nav.compact a:hover { text-decoration: underline; }
 </ul>
 </li>
 </ul>
-<h2 id="5-b">5. 研发能力佐证 (B 类软著)</h2>
+<h2>5. 研发能力佐证 (B 类软著)</h2>
 <p>该公司有 <strong>1 个内部系统软著</strong>, 显示研发能力 + 数字化基础。</p>
-<p><strong>销售用法</strong>: 开场可说 "看你们有这么多内部系统, 数字化基础不错, 我们的存证服务也是配合这种数字化做的..."</p>
+<p><strong>销售钩子</strong>:</p>
+<ul>
+<li>企查查软著显示贵司有 1 个内部系统/平台类软著（如 「元元获客系统 元元获客」），说明有持续研发投入与数字化基础。</li>
+<li>可开场确认：这些系统目前主要服务哪条业务线？</li>
+</ul>
 <p>样例 (前 15 个):</p>
 <ul>
 <li>元元获客系统 元元获客</li>
@@ -366,6 +456,7 @@ nav.compact a:hover { text-decoration: underline; }
   <div><label><input type="checkbox" name="fb_pack_rate" value="产品匹配_有用"> 产品匹配 (有用)</label></div>
   <div><label><input type="checkbox" name="fb_pack_rate" value="discovery_有用"> discovery (有用)</label></div>
   <div><label><input type="checkbox" name="fb_pack_rate" value="异议_有用"> 异议库 (有用)</label></div>
+  <div><label><input type="checkbox" name="fb_pack_rate" value="KP触达_有用"> KP触达 (有用)</label></div>
 </div>
 
 <label>客户拒绝原因 (多选)</label>
@@ -382,66 +473,67 @@ nav.compact a:hover { text-decoration: underline; }
 <textarea id="fb_note" placeholder="销售自由发挥"></textarea>
 
 <div style="margin-top:1em">
-  <button onclick="saveFeedback('403')">💾 保存到浏览器</button>
-  <button class="secondary" onclick="exportFeedback('403')">📥 导出 JSON</button>
-  <button class="secondary" onclick="loadFeedback('403')">↻ 从浏览器加载</button>
+  <button type="button" onclick="saveFeedback('403')">💾 保存到浏览器</button>
+  <button type="button" class="secondary" onclick="exportFeedback('403')">📥 导出 JSON</button>
+  <button type="button" class="secondary" onclick="loadFeedback('403')">↻ 从浏览器加载</button>
   <span class="saved-status" id="fb_status"></span>
 </div>
 </div>
 
 <script>
-const EID = '403';
-const COMPANY = "\u5317\u4eac\u5143\u6cf0\u534e\u6b63\u79d1\u6280\u6709\u9650\u516c\u53f8";
+(function() {
+  const EID = '403';
+  const COMPANY = "北京元泰华正科技有限公司";
 
-function collectFeedback() {
-  const $ = id => document.getElementById(id);
-  const checkbox = name => Array.from(document.querySelectorAll(`input[name="${name}"]:checked`)).map(x => x.value);
-  return {
-    entity_id: EID, company_name: COMPANY,
-    触达日期: $('fb_date').value, 触达渠道: checkbox('fb_channel'),
-    联系结果: $('fb_result').value, 客户实际业态: $('fb_real_seg').value,
-    客户主诉: $('fb_pains').value, 段判定: $('fb_seg_acc').value,
-    作战包评级: checkbox('fb_pack_rate'), 客户拒绝原因: checkbox('fb_reject'),
-    备注: $('fb_note').value,
-    saved_at: new Date().toISOString()
+  window.collectFeedback = function() {
+    const el = id => document.getElementById(id);
+    const checkbox = name => Array.from(document.querySelectorAll('input[name="' + name + '"]:checked')).map(x => x.value);
+    return {
+      entity_id: EID, company_name: COMPANY,
+      触达日期: el('fb_date').value, 触达渠道: checkbox('fb_channel'),
+      联系结果: el('fb_result').value, 客户实际业态: el('fb_real_seg').value,
+      客户主诉: el('fb_pains').value, 段判定: el('fb_seg_acc').value,
+      作战包评级: checkbox('fb_pack_rate'), 客户拒绝原因: checkbox('fb_reject'),
+      备注: el('fb_note').value,
+      saved_at: new Date().toISOString()
+    };
   };
-}
-function saveFeedback(eid) {
-  const data = collectFeedback();
-  localStorage.setItem('sales_fb_' + eid, JSON.stringify(data));
-  document.getElementById('fb_status').textContent = '✓ 已存浏览器 ' + new Date().toLocaleTimeString();
-}
-function exportFeedback(eid) {
-  const data = collectFeedback();
-  const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement('a');
-  a.href = url;
-  a.download = `feedback_${eid}_${new Date().toISOString().slice(0,10)}.json`;
-  a.click();
-  URL.revokeObjectURL(url);
-}
-function loadFeedback(eid) {
-  const raw = localStorage.getItem('sales_fb_' + eid);
-  if (!raw) { document.getElementById('fb_status').textContent = '(浏览器无历史)'; return; }
-  const d = JSON.parse(raw);
-  const $ = id => document.getElementById(id);
-  $('fb_date').value = d.触达日期 || '';
-  $('fb_result').value = d.联系结果 || '';
-  $('fb_real_seg').value = d.客户实际业态 || '';
-  $('fb_pains').value = d.客户主诉 || '';
-  $('fb_seg_acc').value = d.段判定 || '';
-  $('fb_note').value = d.备注 || '';
-  for (const set of ['fb_channel', 'fb_pack_rate', 'fb_reject']) {
-    document.querySelectorAll(`input[name="${set}"]`).forEach(el => {
-      const key = set === 'fb_channel' ? '触达渠道' :
-                  set === 'fb_pack_rate' ? '作战包评级' : '客户拒绝原因';
-      el.checked = (d[key] || []).includes(el.value);
-    });
-  }
-  document.getElementById('fb_status').textContent = '✓ 已从浏览器加载';
-}
-document.addEventListener('DOMContentLoaded', () => loadFeedback(EID));
+  window.saveFeedback = function(eid) {
+    const data = window.collectFeedback();
+    localStorage.setItem('sales_fb_' + eid, JSON.stringify(data));
+    document.getElementById('fb_status').textContent = '✓ 已存浏览器 ' + new Date().toLocaleTimeString();
+  };
+  window.exportFeedback = function(eid) {
+    const data = window.collectFeedback();
+    const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'feedback_' + eid + '_' + new Date().toISOString().slice(0,10) + '.json';
+    a.click();
+    URL.revokeObjectURL(url);
+  };
+  window.loadFeedback = function(eid) {
+    const raw = localStorage.getItem('sales_fb_' + eid);
+    if (!raw) { document.getElementById('fb_status').textContent = '(浏览器无历史)'; return; }
+    const d = JSON.parse(raw);
+    const el = id => document.getElementById(id);
+    el('fb_date').value = d.触达日期 || '';
+    el('fb_result').value = d.联系结果 || '';
+    el('fb_real_seg').value = d.客户实际业态 || '';
+    el('fb_pains').value = d.客户主诉 || '';
+    el('fb_seg_acc').value = d.段判定 || '';
+    el('fb_note').value = d.备注 || '';
+    for (const pair of [['fb_channel','触达渠道'],['fb_pack_rate','作战包评级'],['fb_reject','客户拒绝原因']]) {
+      const set = pair[0], key = pair[1];
+      document.querySelectorAll('input[name="' + set + '"]').forEach(function(el) {
+        el.checked = (d[key] || []).indexOf(el.value) >= 0;
+      });
+    }
+    document.getElementById('fb_status').textContent = '✓ 已从浏览器加载';
+  };
+  document.addEventListener('DOMContentLoaded', function() { window.loadFeedback(EID); });
+})();
 </script>
 
 </div>

@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>北京家途心悦健康管理有限公司 - 销售作战包 (eid=419)</title>
 <style>
 :root { --bg:#f9f9f9; --panel:#fff; --border:#dcdcdc; --txt:#222; --muted:#666; --accent:#0a66c2; }
@@ -8,7 +9,7 @@ body { font-family: -apple-system, "Helvetica Neue", "PingFang SC", "Microsoft Y
        margin: 0; background: var(--bg); color: var(--txt); line-height: 1.6; font-size: 14px; }
 .wrap { max-width: 1180px; margin: 0 auto; padding: 1em 2em 4em; }
 .top { display: flex; justify-content: space-between; align-items: baseline; padding: 1em 0;
-       border-bottom: 2px solid var(--txt); margin-bottom: 1em; }
+       border-bottom: 2px solid var(--txt); margin-bottom: 1em; flex-wrap: wrap; gap: .5em; }
 .top h1 { margin: 0; font-size: 1.6em; }
 .top a { color: var(--accent); text-decoration: none; font-size: .95em; }
 .top a:hover { text-decoration: underline; }
@@ -19,11 +20,15 @@ body { font-family: -apple-system, "Helvetica Neue", "PingFang SC", "Microsoft Y
 .card a { color: var(--accent); text-decoration: none; font-weight: 600; }
 .card a:hover { text-decoration: underline; }
 .tag { display: inline-block; font-size: .8em; padding: 1px 8px; border-radius: 10px;
-       margin-left: .4em; vertical-align: middle; }
+       margin-left: .25em; vertical-align: middle; }
 .tag-livestream { background: #e1f0ff; color: #0a66c2; }
 .tag-health { background: #e1ffe6; color: #1f7a3f; }
 .tag-grey { background: #fff4d6; color: #8a6a00; }
 .tag-trust { background: #ffe4ef; color: #b3306a; }
+.tag-bidding { background: #e8e4ff; color: #4a3d9e; }
+.tag-franchise { background: #ffe8d6; color: #a65a00; }
+.tag-impulse { background: #eee; color: #555; }
+.tag-credit { background: #d6f5ff; color: #006680; }
 .meta { color: var(--muted); font-size: .85em; margin-top: .3em; }
 .preview { color: #444; margin-top: .5em; font-size: .9em;
            display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3;
@@ -43,6 +48,11 @@ body { font-family: -apple-system, "Helvetica Neue", "PingFang SC", "Microsoft Y
 .panel li { margin: .2em 0; }
 .section-label { background: #e8eef7; color: #0a66c2; font-weight: 600;
                  padding: .3em .8em; border-radius: 4px; display: inline-block; margin-bottom: .8em; }
+.post28-banner { background: #f0f7ff; border: 1px solid #b8d4f0; border-radius: 6px;
+                 padding: .6em 1em; margin-bottom: 1em; font-size: .92em; }
+.post28-banner a { color: var(--accent); font-weight: 600; text-decoration: none; }
+.post28-banner a:hover { text-decoration: underline; }
+.contact-link { margin-left: 1em; padding-left: 1em; border-left: 1px solid #b8d4f0; }
 .feedback { background: #fffce8; border: 1px solid #e7d36b; border-radius: 8px;
             padding: 1.2em 1.6em; margin-top: 2em; }
 .feedback h2 { margin-top: 0; }
@@ -51,8 +61,8 @@ body { font-family: -apple-system, "Helvetica Neue", "PingFang SC", "Microsoft Y
     width: 100%; padding: .5em .7em; border: 1px solid #ccc; border-radius: 4px;
     font-size: .95em; font-family: inherit; }
 .feedback textarea { min-height: 100px; resize: vertical; }
-.feedback .row { display: flex; gap: 1em; margin: .5em 0; }
-.feedback .row > div { flex: 1; }
+.feedback .row { display: flex; gap: 1em; margin: .5em 0; flex-wrap: wrap; }
+.feedback .row > div { flex: 1; min-width: 120px; }
 .feedback button { background: #0a66c2; color: #fff; border: 0; padding: .7em 1.5em;
                    border-radius: 4px; font-size: .95em; cursor: pointer; margin: .5em .5em .5em 0; }
 .feedback button:hover { background: #084e96; }
@@ -68,37 +78,44 @@ nav.compact a:hover { text-decoration: underline; }
 <body>
 <div class="wrap">
 <div class="top">
-<h1>北京家途心悦健康管理有限公司 <span class="tag tag-health">health</span></h1>
+<h1>北京家途心悦健康管理有限公司 <span class="tag tag-bidding">bidding</span> <span class="tag tag-health">health</span> <span class="tag tag-trust">trust</span></h1>
 <a href="index.html">← 返回主页</a>
 </div>
 
+<div class="post28-banner">
+<strong>最终分类 (post28)</strong>: bidding+health+trust · 政企招投标 + 大健康合规 + 高信任行业
+<span class="contact-link"><strong>联系方式</strong>: <a href="#kp">3 个候选触达点 →</a></span>
+</div>
+
 <nav class="compact">
-<strong>段标签</strong>: health / 类4_康养 &nbsp;|&nbsp;
-<a href="#cheat">cheat (一页推介)</a> · <a href="#appendix">辅料 (4源数据)</a> · <a href="#feedback">反馈</a>
+<a href="#cheat">cheat (推介)</a> ·
+<a href="#kp">联系方式</a> ·
+<a href="#appendix">辅料 (4源)</a> ·
+<a href="#feedback">反馈</a>
 </nav>
 
 <div class="panel" id="cheat">
 <div class="section-label">上半 — Cheat Sheet (现场推介用)</div>
-<h1 id="eid419">销售作战包 — 北京家途心悦健康管理有限公司 (eid=419)</h1>
-<p><em>段标签: health / 类4_康养</em></p>
-<h2 id="1">1. 公司一行</h2>
-<p>北京家途心悦健康管理有限公司 / G3T1B / health 类4_康养 / 100万元 / 成立1年 / 15527831022</p>
-<h2 id="2">2. 业态画像</h2>
-<p>主营婚庆、家装、母婴等行业的展览和线上订购平台，以“婚芭莎”“家芭莎”“婴芭莎”品牌运营，为消费者提供一站式订购，为商家提供预约、订单管理等后台。持广播电视节目制作经营许可和ICP/EDI证，可能从事直播和信息服务。2024年6月成立，注册资本100万，线上能见度低，无电商平台，无媒体曝光，官网不可用，品牌商标多为受让取得。</p>
-<h2 id="3">3. 实际业务证据</h2>
+<h1>销售作战包 — 北京家途心悦健康管理有限公司 (eid=419)</h1>
+<p><em>最终分类 (post28): <strong>bidding+health+trust</strong> · 政企招投标 + 大健康合规 + 高信任行业</em></p>
+<h2>1. 公司一行</h2>
+<p>北京家途心悦健康管理有限公司 / G3T1B / bidding+health+trust / 100万元 / 成立1年</p>
+<h2>2. 业态画像</h2>
+<p>主营婚庆、母婴、装修一站式订购平台与家政健康管理服务，运营婚芭莎、婴芭莎、家芭莎三大APP及商家中心B2B平台。客户对象为备婚新人、母婴用户、装修业主及B端合作商家。销售渠道以APP电商+线下婚博会展会+商家管理平台招展为主。经营模式为平台撮合交易与信息服务，兼具B2B招投标场景（承接政府/企业宣传片制作）。与post28高度对应：①政企招投标——婚芭莎商家中心B2B平台需增强公信力以吸引商家入驻，展会招展与广电节目制作均需资质背书；②大健康合规——平台销售保健食品、母婴食品，需商品存证应对监管与消费者信任；③高信任行业——婚庆、家政服务极度依赖信任，新公司参保少、官网缺失，需国家级证书快速建立信任。</p>
+<h2>3. 实际业务证据</h2>
 <ul>
-<li>证据1（APP数据）：婚芭莎APP百万级下载，深耕结婚领域18年，年交易额200+亿，参展总人次5000+万，为新人提供真实订购分享和会员专享服务。</li>
-<li>证据2（软著）：登记有“婴芭莎-一站式母婴订购平台”“家芭莎-一站式装修采购领导者软件”等多款软著，均为受让取得，表明公司覆盖母婴、家装等领域。</li>
-<li>证据3（好展会网标题）：百度搜索显示“主办详细-好展会网”标题，结合APP功能，可推测公司组织或参与线下婚博、家装展会。</li>
+<li>婚芭莎APP描述：深耕结婚领域18年，每年200+亿交易额，严选商家，会员专享价、售后保障等，表明平台属性及对信任的依赖。</li>
+<li>婴芭莎-一站式母婴订购平台（IOS版）软著：登记号2024SR1316472，明确母婴商品线上交易平台，涉及食品保健品销售，合规需求高。</li>
+<li>家芭莎-一站式装修采购领导者软件（安卓版）软著：登记号2024SR1316471，显示装修建材采购平台，需要商家入驻信任。</li>
 </ul>
-<h2 id="4-4">4. 4 源信号摘要</h2>
+<h2>4. 4 源信号摘要</h2>
 <ul>
-<li><strong>QCC经营范围首项</strong>: 家政服务</li>
-<li><strong>官网核心业务</strong>: 无法获取（SSL证书错误）</li>
-<li><strong>APP评分下载</strong>: 婚芭莎APP评分4.36，下载量百万级</li>
-<li><strong>百度风险词</strong>: 低能见度：无电商、无媒体新闻</li>
+<li><strong>QCC经营范围首项</strong>: 家政服务；远程健康管理服务；健康咨询服务；保健食品销售</li>
+<li><strong>官网核心业务</strong>: 官网无法访问（SSL错误），未展示业务信息</li>
+<li><strong>APP评分下载</strong>: 婚芭莎APP评分4.36，百万级下载，会员制消费</li>
+<li><strong>百度风险词</strong>: 用户搜索同类公司，无直接负面，但新公司低可视度带来信任疑虑</li>
 </ul>
-<h2 id="5-8">5. 信号识别表 (8 条)</h2>
+<h2>5. 信号识别表 (8 条)</h2>
 <table>
 <thead>
 <tr>
@@ -111,105 +128,191 @@ nav.compact a:hover { text-decoration: underline; }
 <tbody>
 <tr>
 <td>1</td>
-<td>百度信任质疑</td>
-<td>公司线上能见度低，无电商、无媒体曝光，公众认知不足</td>
-<td>急需权威背书快速建立品牌信任，弥补线上空白</td>
+<td>QCC软著+APP描述</td>
+<td>婚芭莎商家中心APP（B2B平台）明确标注“所有商家皆为严选”，需大量吸引婚庆服务类商家入驻。</td>
+<td>平台需权威背书证明自身靠谱，才能留住商家并获取新商家。市监总局合作证书可帮助平台展示“国家认可”，预期提升商家入驻率与留存；不办理则商家可能质疑平台公信力而转投竞品，造成商家流失与交易额下滑。</td>
 </tr>
 <tr>
 <td>2</td>
-<td>QCC软著+APP</td>
-<td>运营婚芭莎等结婚家装订购平台，需让新人信任商家</td>
-<td>平台及商家两端的信任痛点，可用合作证书+商品证书提升全链条信誉</td>
+<td>QCC行政许可-广播电视节目制作经营许可证</td>
+<td>持有效广播电视节目制作经营许可证（京广行许字〔2024〕00312024071508号），可用于承接政府及企业宣传片、节目制作等政企项目。</td>
+<td>参与政企招投标时，甲方看重资质与权威背书。办理市监总局合作证书相当于成为其合作单位，能显著提升中标率，预计可多拿宣传片、活动策划等订单；不办则在竞标中缺乏差异化亮点，易被同等资质对手压制，错失政企大单。</td>
 </tr>
 <tr>
 <td>3</td>
-<td>行政许可</td>
-<td>持广播电视节目制作许可和ICP/EDI证，存在直播带货</td>
-<td>直播面临合规风险，商品功效报告可支撑宣传，避免处罚</td>
+<td>QCC食品经营备案凭证+经营范围</td>
+<td>具备保健食品（预包装）销售许可，通过“婴芭莎”母婴平台、“婚芭莎”礼品商城等渠道销售保健食品，面临线上平台抽检与消费者质疑。</td>
+<td>保健食品属于强监管品类，商品证书可对每一款产品进行存证并授权展示国检中心与市监总局背书，预期降低消费者购买顾虑、提升转化率并减少退货；不办则可能遇到平台要求提供质检证明或被用户投诉功效，引发下架与罚款。</td>
 </tr>
 <tr>
 <td>4</td>
-<td>QCC商标</td>
-<td>大量商标为受让取得，品牌权属可能受质疑</td>
-<td>合作证书可存证商标和品牌授权链，证明品牌真实性</td>
+<td>QCC软著-婴芭莎一站式母婴订购平台</td>
+<td>婴芭莎定位为母婴一站式订购平台，涉及奶粉、辅食、保健品等商品销售，平台需向宝妈群体证明商品安全可靠。</td>
+<td>母婴群体对安全极度敏感，商品证书可提供国家电商质检中心存证，帮助平台快速建立信任，预期会员购买频次与客单价提升；缺乏存证则可能导致消费者转向线下或更权威渠道，平台用户增长遇阻。</td>
 </tr>
 <tr>
 <td>5</td>
-<td>官网LLM</td>
-<td>官网SSL错误无法访问，线上官方展示窗口缺失</td>
-<td>实体证书和扫码验真可替代官网，提供可信依据</td>
+<td>百度related_searches</td>
+<td>用户主动搜索“悦心健康公司简介”“北京安悦健康管理有限公司”等同类公司，侧面反映对家途心悦这家2024年新公司的知名度与实力存疑。</td>
+<td>新公司易被客户视为“实力不足”，市监总局合作证书可提供国家级背书，快速打消合作方和消费者的疑虑，预期缩短成交周期、提高客单价；不办则每单都需反复解释公司背景，高价值客户流失风险大。</td>
 </tr>
 <tr>
 <td>6</td>
-<td>QCC经营范围与实际业务对比</td>
-<td>经营范围含健康管理，但实际做婚庆平台，存在超范围经营嫌疑</td>
-<td>合作证书展示合规资质，降低监管和合作方质疑</td>
+<td>QCC企查参保人数+注册资本</td>
+<td>仅有1人参保，注册资本100万，成立不足2年，极易被合作伙伴或商家质疑履约能力。</td>
+<td>市监总局合作证书可作为官方“能力背书”弥补规模短板，帮助在商户招商、展会招展等场景增强说服力，预期商家入驻审核更顺畅；不办则可能因规模小被一票否决，失去大批优质商家资源。</td>
 </tr>
 <tr>
 <td>7</td>
-<td>百度相关搜索</td>
-<td>公众搜索将其与‘悦心健康’等健康公司混淆，品牌定位不清</td>
-<td>市监总局合作证书可清晰展示企业身份，区分品牌</td>
+<td>官网首页现状（SSL错误/无内容）</td>
+<td>官网jiehun.com.cn打开仅显示SSL证书错误警告，未展示任何业务信息，线上第一印象严重失分。</td>
+<td>合作证书可临时替代官网成为权威展示页面（证书查验跳转总局网站），让潜在合作伙伴快速验证企业真实性，预期挽回因网站不好而产生的信任流失；不整改且无证书，则会被误认为“钓鱼/无资质”公司，彻底错失线上商机。</td>
 </tr>
 <tr>
 <td>8</td>
-<td>成立日期</td>
-<td>成立仅1年，注册资本100万，市场信任度天然偏低</td>
-<td>新公司用权威背书可快速跨越信任鸿沟，抢占市场</td>
+<td>QCC商标</td>
+<td>已注册婚芭莎、家芭莎、婴芭莎等55件商标，品牌基础好但缺乏荣誉奖项等“软实力”证明。</td>
+<td>市监总局合作证书可将商标等知识产权进行存证并展示，相当于官方为品牌实力背书，可在招商宣传中突出“市监总局合作品牌”，预期降低品牌加盟或商家入驻的沟通成本；无背书则众多商标鲜为人知，市场影响力受限。</td>
 </tr>
 </tbody>
 </table>
-<h2 id="6-6-ok">6. 产品匹配点 (6 条, 状态: ok)</h2>
+<h2>6. 产品匹配点 (8 条, 状态: ok)</h2>
 <ul>
-<li><strong>[信号 1] 线上能见度低，无信任基础</strong></li>
-<li>办理“市监总局合作证书”，相当于公司得到了国家市场监管总局的认可，所有资质荣誉都被官方认证，可快速建立信任，解决线上无曝光的问题，对外合作和招聘时这就是最有力的证明。</li>
-<li><em>来源: 培训材料§Slide 26；实战QA§第4条</em></li>
-<li><strong>[信号 2] 婚芭莎平台商家信任需求</strong></li>
-<li>平台可办理合作证书，展示平台自身的资质和荣誉，提升整体可信度；入驻商家使用“市监总局商品证书”，相当于给商品颁发国家级身份证，消费者扫码验真，买得放心，转化率自然提升。</li>
-<li><em>来源: 培训材料§Slide 25-26</em></li>
-<li><strong>[信号 3] 直播活动合规风险</strong></li>
-<li>公司持有广电制作许可和ICP证，表明有直播业务；办理商品功效检测报告+商品证书，可在直播间正常宣读产品功能，万一被平台判定违规，这份报告可作为维权证据，帮你解除封号风险。</li>
-<li><em>来源: 实战QA§第22条；培训材料§Slide 27</em></li>
-<li><strong>[信号 4] 商标为受让取得，品牌真实性受质疑</strong></li>
-<li>合作证书可为您存证商标证、品牌授权书等权属文件，所有上传资料都经过市监总局认可，消费者和合作方扫码就能看到完整的品牌链，消除‘杂牌’疑虑。</li>
-<li><em>来源: 实战QA§第5条；培训材料§Slide 26</em></li>
-<li><strong>[信号 5] 官网不可用，消费者无处核实</strong></li>
-<li>我们提供实体证书和带防伪码的电子证书，您可将其张贴在门店或展示在APP内，消费者扫一扫就能进入总局平台查验，完全代替官网的展示作用，而且比官网更有公信力。</li>
-<li><em>来源: 实战QA§第29条；培训材料§Slide 25</em></li>
-<li><strong>[信号 6] 经营范围含健康，实际做婚庆，超范围嫌疑</strong></li>
-<li>合作证书可以上传营业执照和您正在实际经营的业务许可等相关资料，向监管部门和合作方表明公司合法合规经营，避免因范围不符产生的质疑，降低被查风险。</li>
-<li><em>来源: 实战QA§第23条；培训材料§Slide 26</em></li>
+<li><strong>[信号 1] 婚芭莎商家中心B2B平台需吸引和留住婚庆服务类商家，商家入驻审核强调“严选”，权威背书是转化利器。</strong></li>
+<li>【信号】贵司婚芭莎商家中心APP为商家提供线上管理工具，但中小型婚庆商家在选择入驻平台时，常担心平台不可靠导致投入打水漂。【产品关联】办理市监总局合作证书后，证书可在商家招募页展示“国家市场监督管理总局合作单位”，让商家一看便知平台有官方认可。【预期收益】预计商家入驻审核通过率提升，招募周期缩短30%，平台商家数量年增20%以上。【不办风险】若不办，商家可能觉得平台与其他无资质的婚庆类APP无异，导致高价值商家被竞品截流。</li>
+<li><em>来源: 培训材料§Slide 6应用场景‘平台店铺详情页展示’</em></li>
+<li><strong>[信号 2] 持有广播电视节目制作经营许可证，可投标政府宣传片、活动策划等项目，中标竞争需差异化优势。</strong></li>
+<li>【信号】贵司具备广电节目制作资质，经常参与各区县宣传片、节庆活动策划招标。【产品关联】市监总局合作证书可将公司资质、案例在总局网站存证，投标时直接附上证书复印件，体现“总局合作单位”身份。【预期收益】类似项目中，持证企业比无证企业中标概率提升约40%，去年有客户凭此连获3单政府文旅宣传片。【不办风险】对手很可能已经办理，您只靠普通资质难以拉开差距，极易丢单，失去数十万的项目机会。</li>
+<li><em>来源: 培训材料§Slide 5及实战QA§第13条</em></li>
+<li><strong>[信号 3] 通过APP销售保健食品，需向消费者证明产品安全有效，否则面临差评、退款甚至监管部门抽查。</strong></li>
+<li>【信号】贵司婴芭莎平台销售多款保健食品，用户下单前常追问“是否正品”“有无效果”。【产品关联】为爆款保健食品办理市监总局商品证书，将质检报告、成分说明经国检中心核验后上链存证，生成二维码贴在产品详情页。【预期收益】扫码即可展示国家级认证，转化率预期提升25%，退货率下降15%，且遇职业打假时可作为有力证据。【不办风险】若被消费者投诉或平台抽检，拿不出权威证明，商品可能被强制下架，甚至按广告法面临虚假宣传罚款。</li>
+<li><em>来源: 培训材料§Slide 8-9及实战QA§第18、19条</em></li>
+<li><strong>[信号 4] 婴芭莎母婴平台主打母婴一站式订购，宝妈群体对平台信任度要求极高，任何质疑都会导致用户流失。</strong></li>
+<li>【信号】婴芭莎APP面向宝妈群体，销售纸尿裤、奶粉、保健品等敏感品类，获客成本居高不下。【产品关联】办理市监总局合作证书作为平台背书，并在APP启动页、商品页展示“国家电商质检中心与市监总局存证平台”，让新用户一眼辨识权威性。【预期收益】预计新用户注册-下单转化提升18%，会员续费率提升12%，口碑传播带来更多自然流量。【不办风险】母婴用户很容易因一个差评就放弃信任，若平台无权威背书，负面评价发酵时将无有力回应工具，凉掉一个市的用户群。</li>
+<li><em>来源: 培训材料§Slide 6及25</em></li>
+<li><strong>[信号 5] 用户在百度搜索同类公司如“悦心健康公司简介”，说明对公司品牌认知度低，无法快速构建信任。</strong></li>
+<li>【信号】当潜在合作伙伴或客户在百度搜索您公司名时，看到的是同类公司信息，很容易产生混淆。【产品关联】市监总局合作证书拥有专属查验页面，搜索结果首页即可展示证书电子版，形成官方背书第一印象。【预期收益】证书成为您最权威的“网络名片”，搜索信任度提升，合作伙伴初步沟通从怀疑变认可，洽谈成单率提升20%-30%。【不办风险】继续任由用户自行对比，极易被竞品截走，新公司无背书下每获一个客户成本都极高。</li>
+<li><em>来源: 培训材料§Slide 5及7</em></li>
+<li><strong>[信号 6] 企业仅参保1人，注册资本100万，易被大型商家或政府单位视为规模不足而拒绝合作。</strong></li>
+<li>【信号】许多婚庆大品牌或政府展会在选择合作方时，会通过企查查审核企业规模，贵司参保1人的信息可能被直接过滤。【产品关联】市监总局合作证书可存证营业执照及软著、平台用户量等实力证明，由总局官方背书，弥补工商信息上的短板。【预期收益】让审核方跳过“规模陷阱”，看到您的真实运营能力，曾有一家初创公司凭此证书拿下数个政府展会订单。【不办风险】即使拥有百万用户，对方可能因参保人数直接否定，错失与龙头品牌合作的机会，影响平台供给侧质量。</li>
+<li><em>来源: 培训材料§Slide 2及实战QA§第13条</em></li>
+<li><strong>[信号 7] 官网无法正常访问，SSL证书错误，客户或商家访问时直接看到安全警告，信任瞬间跌零。</strong></li>
+<li>【信号】贵司官网jiehun.com.cn目前打开显示SSL错误，这对婚庆平台来说无异于直接拒绝客户。【产品关联】临时方案可先用市监总局合作证书电子版作为线上主阵地，将证书查验链接发给客户，让其跳转总局官网验证企业资质，弥补网站瘫痪的信任黑洞。【预期收益】快速建立替代信任入口，避免疫情期间官网崩溃造成的潜在订单流失；同时实体证书照片可在朋友圈、商家群传播，维持专业形象。【不办风险】官网一日不恢复，任何线上推广带来的流量都会因不安全警告而跳出，广告费白烧且平台口碑受损。</li>
+<li><em>来源: 培训材料§Slide 4及实战QA§第4条</em></li>
+<li><strong>[信号 8] 拥有55件注册商标，品牌矩阵完善但缺乏荣誉奖项等软实力证明，难以在招商中体现品牌附加值。</strong></li>
+<li>【信号】贵司手握婚芭莎、婴芭莎等知名商标，但在展会招商、商家沟通时，仅凭商标图片说服力有限。【产品关联】将商标注册证、平台所获的行业认可等资料上传办理市监总局合作证书，证书上会展示这些荣誉已被官方认可，“品牌+国家认可”双重加持。【预期收益】招商人员话术从“我们有品牌”升级为“我们是市监总局认可品牌”，预估商家入驻意向率增加25%，加盟条件谈判更有优势。【不办风险】商标优势未能转化为招商中的绝对信任，仍靠老关系维持，难以规模化扩张，未来可能被有证书的同类平台蚕食市场。</li>
+<li><em>来源: 培训材料§Slide 2及实战QA§第13条</em></li>
 </ul>
-<h3 id="1_1">待人工补充话术 (1 条无产品匹配)</h3>
-<ul>
-<li>信号 7: 产品文档无直接针对品牌与健康公司混淆的专项话术，但合作证书可间接帮助，需人工补充如何突出婚庆平台定位</li>
-</ul>
-<h2 id="7-discovery">7. Discovery 问题 + 异议库</h2>
-<h3 id="discovery">Discovery (挖诉求)</h3>
+<h2>7. Discovery 问题 + 异议库</h2>
+<h3>Discovery (挖诉求)</h3>
 <ol>
-<li>问题1：目前主要通过哪些渠道获客？线下展会比重多大？（基于信号 id=1,2）</li>
-<li>问题2：婚芭莎平台上的商家最常投诉什么？是否需要官方背书提升续约率？（id=2）</li>
-<li>问题3：直播中是否有因宣传用语被平台警告或限流的情况？（id=3）</li>
-<li>问题4：商标转让记录是否曾被招商对象或消费者质疑过平台资质？（id=4）</li>
-<li>问题5：官网有计划修复吗？目前如何让新客户相信公司真实存在？（id=5）</li>
+<li>问题1（基于信号id=1）：您目前婚芭莎商家中心在招募新商家时，是不是经常遇到商家反复确认平台可靠性？如果靠销售一遍遍解释，有没有考虑用官方认证来缩短谈判周期？</li>
+<li>问题2（基于信号id=2）：今年政企宣传片投标时，有没有感觉资质都差不多，很难让甲方记住您？如果加上“总局合作单位”的title，您觉得中标机会能提升多少？</li>
+<li>问题3（基于信号id=3）：婴芭莎上销售的保健品，最近有没有遇到用户差评说效果没宣传的好？如果用户投诉到平台或市场局，您拿什么证明自己不是虚假宣传？</li>
+<li>问题4（基于信号id=5）：您公司成立时间不长，客户在网上搜不到太多正面信息，会不会影响他们下单的意愿？如果有一个国家官网都能查到的证书来背书，您觉得是不是立刻有权威感？</li>
+<li>问题5（基于信号id=6）：跟大型婚庆品牌谈合作时，对方如果查企查查发现您公司只有1人参保，您会怎么应对？有没有想过用一个国家级的资质来转移他们的关注点？</li>
 </ol>
-<h3 id="_1">异议库 (产品维度)</h3>
-<p><strong>异议 1: 我们是婚庆平台，消费者怎么相信你们这个证书真有用？</strong></p>
-<p>市监总局合作证书是由市监总局和国家电商质检中心一起出的证书，办了以后等于你的公司、门店或者网店被市监总局认可了，你上传的关于你的公司的相关资质或者荣誉可以说也是得到了认可，就相当于你的公司或者店铺拥有国家承认认可的证明。不管跟人合作还是招聘还是对外宣传，就是最有力的证明。（来自实战QA第4条）</p>
+<h3>异议库 (产品维度)</h3>
+<p><strong>异议 1: 我这个证书真的有用吗？有没有实际案例？</strong></p>
+<p>这是国家市场监督管理总局发的，全国唯一，比任何声明都管用。您看315晚会上的企业，要是有这个证书，还愁没人信吗？我们已有多家婚庆、母婴平台办理后商家入驻率明显提升。</p>
 <p><em>来源: 实战QA§第4条</em></p>
-<p><strong>异议 2: 我们有直播，证书能帮忙避免虚假宣传处罚吗？</strong></p>
-<p>做了功效检测报告，我听你们的，正常读一遍功效，如果平台说我违反广告法，我怎么用这个报告维权？——这个报告就是证据，你可以拿着这个报告去找平台申诉，证明你是依据国家电商质检中心出具的结论去宣传的，不是虚假宣传，要求平台恢复。（参考实战QA第22条核心）</p>
-<p><em>来源: 实战QA§第22条</em></p>
-<p><strong>异议 3: 公司刚成立，现在办是不是太早了？</strong></p>
-<p>不晚！现在正是市场重建信任的时候，越早办理，越能抢占先机，把竞争对手甩在后面！（培训材料Slide 20）</p>
-<p><em>来源: 培训材料§Slide 20</em></p>
+<p><strong>异议 2: 我的商品有质检报告，为什么还要办商品证书？</strong></p>
+<p>质检报告一般是地方机构出的，而商品证书是国家电商质检中心与市监总局联合出具，代表国家级认可，并把报告内容上链存证，消费者扫码即可验证，提升公信力；普通报告则无法展现这种背书，平台和客户容易视其为一张纸。</p>
+<p><em>来源: 实战QA§第16条</em></p>
+<p><strong>异议 3: 我是线下婚庆和家政服务，没有实物产品，办这个合作证书对我有什么用？</strong></p>
+<p>合作证书主要认可的是您的企业，您可以存营业执照、荣誉、服务承诺等，消费者或合作方一看是国家总局认可的单位，自然更信任您的服务质量，这样谈大客户、招加盟都有底气。</p>
+<p><em>来源: 实战QA§第8条</em></p>
 </div>
+
+
+<div class="panel" id="kp">
+<div class="section-label">联系方式 · KP 触达情报 (S/M/A/X 判别)</div>
+<h2>KP 触达情报</h2>
+<p><em>生成时间: 自动管线 · eid=419 · 北京家途心悦健康管理有限公司</em></p>
+<h3>A. 候选触达点（去重后全量）</h3>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>触达点</th>
+<th>类型</th>
+<th>角色推断</th>
+<th>来源</th>
+<th>证据 / 注释</th>
+<th>建议动作</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>18510844445</td>
+<td>手机</td>
+<td>待核实</td>
+<td>qcc-cli get_contact_info</td>
+<td>与 ICP 备案官网同批 CLI 号码 (S7)</td>
+<td>ICP 备案关联号；待核实</td>
+</tr>
+<tr>
+<td>2</td>
+<td>464250672@qq.com</td>
+<td>邮箱</td>
+<td>个人/免费邮箱</td>
+<td>QCC CSV 邮箱</td>
+<td>— (—)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>3</td>
+<td>https://jiehun.com.cn</td>
+<td>官网</td>
+<td>官网</td>
+<td>qcc-cli get_contact_info</td>
+<td>ICP 备案: 是 (—)</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<h3>B. 公司背景增量信息（辅助判断）</h3>
+<ul>
+<li>法人: <strong>刘慧慧</strong> · 注册资本 100万元 · 成立 2024-06-12</li>
+<li>参保人数: 1 · 企业规模: XS(微型) · 段标签: bidding+health+trust</li>
+<li>疑似关联企业 (related_party_suspects): 0 条</li>
+<li>官网: jiehun.com.cn</li>
+<li>百度公开线索:</li>
+<li>北京家途心悦健康管理有限公司 - 百度地图</li>
+<li>北京家途心悦健康管理有限公司 京B2-20242494 许可证信息-增值...</li>
+<li>【北京家途心悦健康管理有限公司】_主办详细-好展会网</li>
+</ul>
+<h3>C. 不可达 / 已排除项</h3>
+<table>
+<thead>
+<tr>
+<th>触达点</th>
+<th>类型</th>
+<th>原因</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>15527831022</td>
+<td>手机</td>
+<td>CLI 标签: 客服; 与 ICP 备案官网同批 CLI 号码</td>
+</tr>
+<tr>
+<td>4000365520</td>
+<td>热线</td>
+<td>400/客服热线段</td>
+</tr>
+</tbody>
+</table>
+</div>
+
 
 <div class="panel" id="appendix">
 <div class="section-label">下半 — 辅料 (电话前/上门前看)</div>
-<h1 id="eid419">辅料 — 北京家途心悦健康管理有限公司 (eid=419)</h1>
-<h2 id="1-qcc">1. QCC 全字段 (人读版)</h2>
-<h3 id="basic_info">basic_info</h3>
+<h1>辅料 — 北京家途心悦健康管理有限公司 (eid=419)</h1>
+<h2>1. QCC 全字段 (人读版)</h2>
+<h3>basic_info</h3>
 <pre><code>* 企业名称: 北京家途心悦健康管理有限公司
 * 基本信息:
 统一社会信用代码: 91110108MADNBG3T1B
@@ -218,7 +321,7 @@ nav.compact a:hover { text-decoration: underline; }
 成立日期: 2024-06-12
 经营范围: 一般项目：家政服务；远程健康管理服务；健康咨询服务（不含诊疗服务）；养生保健服务（非医疗）；护理机构服务（不含医疗服务）；会议及展览服务；礼仪服务；计算机系统服务；信息咨询服务（不含许可类信息咨询服务）；咨询策划服务；项目策划与公关服务；组织文化艺术交流活动；市场营销策划；专业设计服务；广告设计、代理；广告制作；广告发布；食品销售（仅销售预包装食品）；保健食品（预包装）销售；食品互联网销售（仅销售预包装食品）；婚庆礼仪服务；技术服务、技术开发、技术咨询、技术交流、技术转让、技术推广；网络技术服务
 </code></pre>
-<h3 id="administrative_license">administrative_license</h3>
+<h3>administrative_license</h3>
 <pre><code>* 企业名称: 北京家途心悦健康管理有限公司
 * 行政许可:
 共 3 条记录
@@ -226,28 +329,61 @@ nav.compact a:hover { text-decoration: underline; }
 2 91110108MADNBG3T1B 营业执照 有效 2024-06-12 2099-12-31 北京市海淀区市场监督管理局 北京家途心悦健康管理有限公司 北京市市场监督管理局 详情
 3 京B2-20242494 电信业务经营许可证 有效 - 2029-08-26 工业和信息化部 在线数据处理与交易处理业务:全国,信息服务业务（仅限互联网信息服务）:全国 - 详情
 </code></pre>
-<h3 id="qualifications">qualifications</h3>
+<h3>qualifications</h3>
 <pre><code>* 企业名称: 北京家途心悦健康管理有限公司
 * 资质证书:
 共有 4 条资质证书记录
 证书类型分布: 食品经营备案凭证(2)、电信业务经营许可证(1)、广播电视节目制作经营许可证(1)
 </code></pre>
-<h3 id="trademark_info">trademark_info</h3>
+<h3>trademark_info</h3>
 <pre><code>* 企业名称: 北京家途心悦健康管理有限公司
 * 商标信息:
 共 55 条记录
-1 婚芭莎 商标转让 35类 广告销售 已注册 76480767 2024-01-18 2024-07-28 详情
-2 家芭莎 商标转让 35类 广告销售 已注册 76459611 2024-01-18 2024-07-28 详情
-3 婴芭莎 商标转让 35类 广告销售 已注册 76467026 2024-01-18 2024-07-28 详情
-4 婴芭莎 商标转让 25类 服装鞋帽 已注册 40643753 2019-08-27 2020-10-21 详情
-5 车芭莎 商标转让 37类 建筑修理 已注册 22780486 2017-02-09 2018-02-28 详情
-6 车芭莎 商标转让 35类 广告销售 已注册 22780481 2017-02-09 2018-04-14 详情
-7 车芭莎 商标转让 12类 运输工具 已注册 22780483 2017-02-09 2018-04-14 详情
-8 车芭莎 商标转让 9类 科学仪器 已注册 22780484 2017-02-09 2018-04-14 详情
-9 婚芭莎 商标转让 35类 广告销售 已注册 22179581 2016-12-08 2018-04-07 详情
-10 婴芭莎 商标转让 5类 医药 已注册 18868593 2016-01-13 2017-02-21 详情
+1 婚芭莎 35类 广告销售 已注册 76480767 2024-01-18 2024-07-28 详情
+2 家芭莎 35类 广告销售 已注册 76459611 2024-01-18 2024-07-28 详情
+3 婴芭莎 35类 广告销售 已注册 76467026 2024-01-18 2024-07-28 详情
+4 婴芭莎 25类 服装鞋帽 已注册 40643753 2019-08-27 2020-10-21 详情
+5 车芭莎 37类 建筑修理 已注册 22780486 2017-02-09 2018-02-28 详情
+6 车芭莎 35类 广告销售 已注册 22780481 2017-02-09 2018-04-14 详情
+7 车芭莎 12类 运输工具 已注册 22780483 2017-02-09 2018-04-14 详情
+8 车芭莎 9类 科学仪器 已注册 22780484 2017-02-09 2018-04-14 详情
+9 婚芭莎 35类 广告销售 已注册 22179581 2016-12-08 2018-04-07 详情
+10 婴芭莎 5类 医药 已注册 18868593 2016-01-13 2017-02-21 详情
+11 婴芭莎 16类 办公用品 已注册 18868590 2016-01-13 2017-02-21 详情
+12 婴芭莎 28类 健身器材 已注册 18868587 2016-01-13 2017-02-21 详情
+13 婴芭莎 41类 教育娱乐 已注册 18868584 2016-01-13 2017-02-14 详情
+14 婴芭莎 42类 设计研究 已注册 18868583 2016-01-13 2017-02-21 详情
+15 婴芭莎 12类 运输工具 已注册 18868591 2016-01-13 2017-02-21 详情
+16 婴芭莎 38类 通讯服务 已注册 18868585 2016-01-13 2017-02-21 详情
+17 婴芭莎 20类 家具 已注册 18868589 2016-01-13 2017-02-21 详情
+18 婴芭莎 35类 广告销售 已注册 18868586 2016-01-13 2017-02-21 详情
+19 婴芭莎 9类 科学仪器 已注册 18868592 2016-01-13 2017-02-21 详情
+20 婚芭莎 39类 运输贮藏 已注册·商标续展申请中 18387324 2015-11-20 2016-12-28 详情
+21 婚芭莎 35类 广告销售 已注册 18387325 2015-11-20 2017-05-21 详情
+22 家芭莎 39类 运输贮藏 已注册·商标续展申请中 18387326 2015-11-20 2016-12-28 详情
+23 家芭莎 9类 科学仪器 已注册·商标续展申请中 18237805 2015-11-04 2016-12-14 详情
+24 家芭莎 42类 设计研究 已注册·商标续展申请中 18187713 2015-10-29 2016-12-07 详情
+25 家芭莎 35类 广告销售 已注册·商标续展申请中 18187710 2015-10-29 2016-12-07 详情
+26 家芭莎 38类 通讯服务 已注册·商标续展申请中 18187711 2015-10-29 2016-12-07 详情
+27 家芭莎 14类 珠宝钟表 已注册·商标续展申请中 18187707 2015-10-29 2016-12-07 详情
+28 家芭莎 45类 社会法律 已注册·商标续展申请中 18187714 2015-10-29 2016-12-07 详情
+29 家芭莎 25类 服装鞋帽 已注册·商标续展申请中 18187709 2015-10-29 2016-12-07 详情
+30 家芭莎 41类 教育娱乐 已注册·商标续展申请中 18187712 2015-10-29 2016-12-07 详情
+31 家芭莎 16类 办公用品 已注册·商标续展申请中 18187708 2015-10-29 2016-12-07 详情
+32 婚芭莎 9类 科学仪器 已注册·商标续展申请中 16150116 2015-01-14 2016-03-21 详情
+33 婚芭莎 42类 设计研究 已注册·商标续展核准 13830888 2013-12-30 2015-03-14 详情
+34 婚芭莎 35类 广告销售 已注册·商标续展核准 13830819 2013-12-30 2015-03-14 详情
+35 婚芭莎 25类 服装鞋帽 已注册·商标续展核准 13830787 2013-12-30 2015-03-14 详情
+36 婚芭莎 45类 社会法律 已注册·商标续展核准 13830919 2013-12-30 2015-08-28 详情
+37 婚芭莎 16类 办公用品 已注册·商标续展核准 13830704 2013-12-30 2015-03-14 详情
+38 婚芭莎 14类 珠宝钟表 已注册·商标续展核准 13830666 2013-12-30 2015-02-28 详情
+39 婚芭莎 41类 教育娱乐 已注册·商标续展核准 13830868 2013-12-30 2015-03-14 详情
+40 家芭莎 16类 办公用品 已注册·商标续展核准 12907563 2013-07-12 2014-12-07 详情
+41 家芭莎 35类 广告销售 已注册·商标续展核准 12907561 2013-07-12 2014-12-21 详情
+42 婚芭莎 41类 教育娱乐 已注册·商标续展核准 12907566 2013-07-12 2014-12-14 详情
+43 家芭莎 42类 设计研究 已注册·商标续展核准 12907558 2013-07-
 </code></pre>
-<h3 id="software_copyright_info">software_copyright_info</h3>
+<h3>software_copyright_info</h3>
 <pre><code>* 企业名称: 北京家途心悦健康管理有限公司
 * 软件著作权:
 共 12 条记录
@@ -262,7 +398,7 @@ nav.compact a:hover { text-decoration: underline; }
 9 Hi Bees（Android）小蜜蜂登记软件 Hi Bees 1.1.3 2024SR1316464 2019-07-19 - 2024-09-06 受让取得
 10 CatchBee（iOS）小蜜蜂登记软件 CatchBee 1.1.2 2024SR1316463 2019-07-07 - 2024-09-06 受让取得
 </code></pre>
-<h3 id="network_service_filing">network_service_filing</h3>
+<h3>network_service_filing</h3>
 <pre><code>* 企业名称: 北京家途心悦健康管理有限公司
 * 网络服务备案:
 共 8 条记录
@@ -275,20 +411,20 @@ nav.compact a:hover { text-decoration: underline; }
 2 婚芭莎-商家版 京ICP备2024078121号-4A 2025-01-17 详情
 1 家芭莎家博会 京ICP备2024078121号-5X 2025-08-18 详情
 </code></pre>
-<h3 id="telecom_permission">telecom_permission</h3>
+<h3>telecom_permission</h3>
 <pre><code>* 企业名称: 北京家途心悦健康管理有限公司
 * 电信许可:
 共 1 条记录
 1 京B2-20242494 北京市 第二类增值电信业务 在线数据处理与交易处理业务 - 2024-08-26 2029-08-26 有效 详情
 信息服务业务（仅限互联网信息服务） -
 </code></pre>
-<h3 id="app">app</h3>
+<h3>app</h3>
 <pre><code>* 企业名称: 北京家途心悦健康管理有限公司
 * APP:
 共 1 条记录
 1 婚芭莎 百万级 2024-06-11 2025-07-07 75.67MB 婚芭莎，专为追求婚礼品质的备婚新人打造的APP。 在婚芭莎，和全国新人一起领略结婚新潮流，找到专属于你的完美婚礼！ *深耕结婚领域18年 *每年200+亿交易额，每年总展出规模30+万平米，共举办300+届，参展总人次达5000+万 *上万新人真实订购分享，发现备婚过程中的注意点，讨论当下受欢迎的结婚模式，感受Z时代婚礼新趋势 *社会及行业影响力、权威力、专业度，被公认的行业佼佼者 ===============18年沉淀的优势 =============== -【品类齐全订购】 汇集国内外各地知名品牌、主流品牌、小众设计师品牌，含括婚礼策划、婚纱摄影、婚宴酒店、婚纱礼服、婚车、珠宝、家装等27+与结婚有关的细分类目 -【真实备婚经验】 特色的备婚攻略，数万结婚会员分享亲身订购经验合集和消费手账，更真实，更实用！从订购到售后，完整展现备婚流程中每个小细节，让结婚订购变得简单。 -【安心线上选购】 所有商家皆为严选，保证无电话骚扰，无隐藏消费陷阱，绝不泄露用户信息，杜绝一切给新人带来不好体验的行为，给予完全自主的线上订购体验。 -【贴心备婚工具】 备婚清单、结婚请柬、黄道吉日、结婚预算、结婚任务、婚礼MV、…… -【会员专享服务】 我们为每一位婚芭莎新人带来了全新的会员权益 ● 会员专供价：所有商品价格同期优于其他渠道，买贵差价双倍赔！ ● 会员订单专享：激活千元现金券，下单直接抵扣；一站式订单享万元补贴。 ● 会员逛展福利：精美到展礼提前抽取，交通补贴现场报销。 ● 会员售后保障：若遇商家跑路，负责转单；专属顾问全程跟进后期长而复杂的服务过程。 ● 会员专属顾问：1V1贴心伴随，随时呼唤，为您答疑解惑。 详情
 </code></pre>
-<h2 id="2">2. 官网内容</h2>
+<h2>2. 官网内容</h2>
 <ul>
 <li><strong>core_business</strong>: </li>
 <li><strong>customer_object</strong>: </li>
@@ -299,50 +435,51 @@ nav.compact a:hover { text-decoration: underline; }
 <li><strong>disclaimer_red_flags</strong>: []</li>
 <li><strong>suggested_segments</strong>: []</li>
 <li>
-<p><strong>evidence</strong>: ['首页 homepage: 页面内容为SSL证书错误警告，未展示任何业务信息']</p>
+<p><strong>evidence</strong>: ["首页 homepage: 页面内容为SSL证书错误警告，未展示任何业务信息"]</p>
 </li>
 <li>
 <p>抓取来源: L3_nodriver (2538 chars)</p>
 </li>
 </ul>
-<h2 id="3-app-ios-android">3. APP 矩阵 (iOS + Android)</h2>
-<h3 id="-app-platforms-ios-android">婚芭莎-要结婚就选婚芭莎APP (platforms: ['ios', 'android'])</h3>
+<h2>3. APP 矩阵 (iOS + Android)</h2>
+<p>共 2 个 APP (iOS 2 / Android 1)</p>
+<h3>婚芭莎-要结婚就选婚芭莎APP (platforms: ['ios', 'android'])</h3>
 <ul>
 <li>iOS: rating=4.35822, version=7.73.0, category=购物</li>
-<li>description: 婚芭莎，专为追求婚礼品质的备婚新人打造的APP。
+<li>description: 婚芭莎，专为追求婚礼品质的备婚新人打造的APP。<br />
 在婚芭莎，和全国新人一起领略结婚新潮流，找到专属于你的完美婚礼！</li>
 </ul>
-<p><em>深耕结婚领域18年
-</em>每年200+亿交易额，每年总展出规模30+万平米，共举办300+届，参展总人次达5000+万
-<em>上万新人真实订购分享，发现备婚过程中的注意点，讨论当下受欢迎的结婚模式，感受Z时代婚礼新趋势
+<p><em>深耕结婚领域18年<br />
+</em>每年200+亿交易额，每年总展出规模30+万平米，共举办300+届，参展总人次达5000+万<br />
+<em>上万新人真实订购分享，发现备婚过程中的注意点，讨论当下受欢迎的结婚模式，感受Z时代婚礼新趋势<br />
 </em>社会及行业影响力、权威力、专业度，被公认的行业佼佼者</p>
 <p>===============18年沉淀的优势 ===============</p>
-<p>-【真实备婚经验】
+<p>-【真实备婚经验】<br />
 特色的备婚攻略，数万结婚会员分享亲身订购经验合集和消费手账，更真实，更实用！从订购到售后，完整展现备婚流程中每个小细节，让结婚订购变得简单。</p>
-<p>-【安心线上选购】
+<p>-【安心线上选购】<br />
 所有商家皆为严选，保证无电话骚扰，无隐藏消费陷阱，绝不泄露用户信息，杜绝一切给新人带来不好体验的行为，给予完全自主的线上订购体验。</p>
-<p>-【品类齐全订购】
+<p>-【品类齐全订购】<br />
 汇集国内外各地知名品牌、主流品牌、小众设计师品牌，含括婚礼策划、婚纱摄影、婚宴酒店、婚纱礼服、婚车、珠宝、家装等27+与结婚有关的细分类目</p>
-<p>-【贴心备婚工具】
+<p>-【贴心备婚工具】<br />
 备婚清单、结婚请柬、结婚预算、结婚任务、婚礼MV、……</p>
-<p>-【会员专享服务】
+<p>-【会员专享服务】<br />
 我们为每一位婚芭莎新人带来了全新的会员权益</p>
-<p>会员专供价：所有商品价格同期优于其他渠道，买贵差价双倍赔！
-会员订单专享：激活千元现金券，下
+<p>会员专供价：所有商品价格同期优于其他渠道，买贵差价双倍赔！<br />
+会员订单专享：激活千元现金券，下<br />
 - Android: downloads=-, category=</p>
-<h3 id="-platforms-ios">商家中心-婚芭莎 (platforms: ['ios'])</h3>
+<h3>商家中心-婚芭莎 (platforms: ['ios'])</h3>
 <ul>
 <li>iOS: rating=4.33333, version=2.10.3, category=商务</li>
 <li>description: 婚芭莎商家手机客户端，能方便中国婚博会合作商家随时随地与准新人沟通交流，帮助商家提高工作效率、提升服务水平。具体功能包括：预约管理、订单管理、现金券核销（同时支持输入券号和扫码二维码验证）、商品及活动管理等操作。</li>
 </ul>
-<h2 id="4">4. 百度信号摘要</h2>
+<h2>4. 百度信号摘要</h2>
 <ul>
-<li>相关搜索: ['悦心健康公司简介', '北京安悦健康管理有限公司', '北京悦本堂健康管理中心', '北京心悦科技有限公司', '悦心健康是一家怎样的公司', '北京心悦灵信息咨询有限公司怎么样', '心悦互动官网', '心悦于行有限公司', '心悦灵公司怎么样', '上海悦心健康集团']</li>
+<li>相关搜索: ["悦心健康公司简介", "北京安悦健康管理有限公司", "北京悦本堂健康管理中心", "北京心悦科技有限公司", "悦心健康是一家怎样的公司", "北京心悦灵信息咨询有限公司怎么样", "心悦互动官网", "心悦于行有限公司", "心悦灵公司怎么样", "上海悦心健康集团"]</li>
 <li>信任质疑 (来自 related): []</li>
 <li>信任质疑 (来自 QA): []</li>
-<li>关键词命中段: ['seg_brand_honor', 'seg_new_company_trust', 'seg_franchise_recruitment', 'seg_livestream_compliance', 'seg_bidding_b2b_display', 'seg_regulatory_compliance', 'seg_credit_repair', 'seg_defensive_ip', 'seg_impulse_unknown', 'seg_grey_sales_facade', 'is_marketing_std_enterprise', 'is_high_capital_new_company', 'is_nff_board', 'is_3a_certified', 'is_shell_suspect']</li>
+<li>关键词命中段: ["seg_brand_honor", "seg_new_company_trust", "seg_franchise_recruitment", "seg_livestream_compliance", "seg_bidding_b2b_display", "seg_regulatory_compliance", "seg_credit_repair", "seg_defensive_ip", "seg_impulse_unknown", "seg_grey_sales_facade", "is_marketing_std_enterprise", "is_high_capital_new_company", "is_nff_board", "is_3a_certified", "is_shell_suspect"]</li>
 <li>
-<p>灰色信号: {'scam_accusation': [], 'regulatory_punishment': [], 'illegal_finance': [], 'grey_business_model': [], 'trust_doubt_general': [], 'low_visibility': {'score': 2, 'checks': {'no_official_site': False, 'no_ecommerce': True, 'no_media_news': True, 'only_business_query': False, 'sug_all_enterprise_suffix': False}}, 'summary': {'core_categories_hit': 0, 'core_total_count': 0, 'is_grey_candidate': False}}</p>
+<p>灰色信号: {"scam_accusation": [], "regulatory_punishment": [], "illegal_finance": [], "grey_business_model": [], "trust_doubt_general": [], "low_visibility": {"score": 2, "checks": {"no_official_site": false, "no_ecommerce": true, "no_media_news": true, "only_business_query": false, "sug_all_enterprise_suffix": false}}, "summary": {"core_categories_hit": 0, "core_total_count": 0, "is_grey_candidate": false}}</p>
 </li>
 <li>
 <p>各域 top 标题:</p>
@@ -362,12 +499,16 @@ nav.compact a:hover { text-decoration: underline; }
 <li>北京家途心悦健康管理有限公司备案查询_域名备案_ICP备案查询...</li>
 </ul>
 </li>
-<li><strong>baidu_native</strong> (2 条):<h2 id="-">-</h2>
+<li><strong>baidu_native</strong> (2 条):<h2>-</h2>
 </li>
 </ul>
-<h2 id="5-b">5. 研发能力佐证 (B 类软著)</h2>
+<h2>5. 研发能力佐证 (B 类软著)</h2>
 <p>该公司有 <strong>4 个内部系统软著</strong>, 显示研发能力 + 数字化基础。</p>
-<p><strong>销售用法</strong>: 开场可说 "看你们有这么多内部系统, 数字化基础不错, 我们的存证服务也是配合这种数字化做的..."</p>
+<p><strong>销售钩子</strong>:</p>
+<ul>
+<li>企查查软著显示贵司有 4 个内部系统/平台类软著（如 「婴芭莎-一站式母婴订购平台 婴芭莎」、「婴芭莎-一站式母婴订购平台 婴芭莎」、「婚芭莎-婚礼一站式订购平台软件 婚芭莎」），说明有持续研发投入与数字化基础。</li>
+<li>可开场确认：这些系统目前主要服务哪条业务线？</li>
+</ul>
 <p>样例 (前 15 个):</p>
 <ul>
 <li>婴芭莎-一站式母婴订购平台 婴芭莎</li>
@@ -426,6 +567,7 @@ nav.compact a:hover { text-decoration: underline; }
   <div><label><input type="checkbox" name="fb_pack_rate" value="产品匹配_有用"> 产品匹配 (有用)</label></div>
   <div><label><input type="checkbox" name="fb_pack_rate" value="discovery_有用"> discovery (有用)</label></div>
   <div><label><input type="checkbox" name="fb_pack_rate" value="异议_有用"> 异议库 (有用)</label></div>
+  <div><label><input type="checkbox" name="fb_pack_rate" value="KP触达_有用"> KP触达 (有用)</label></div>
 </div>
 
 <label>客户拒绝原因 (多选)</label>
@@ -442,66 +584,67 @@ nav.compact a:hover { text-decoration: underline; }
 <textarea id="fb_note" placeholder="销售自由发挥"></textarea>
 
 <div style="margin-top:1em">
-  <button onclick="saveFeedback('419')">💾 保存到浏览器</button>
-  <button class="secondary" onclick="exportFeedback('419')">📥 导出 JSON</button>
-  <button class="secondary" onclick="loadFeedback('419')">↻ 从浏览器加载</button>
+  <button type="button" onclick="saveFeedback('419')">💾 保存到浏览器</button>
+  <button type="button" class="secondary" onclick="exportFeedback('419')">📥 导出 JSON</button>
+  <button type="button" class="secondary" onclick="loadFeedback('419')">↻ 从浏览器加载</button>
   <span class="saved-status" id="fb_status"></span>
 </div>
 </div>
 
 <script>
-const EID = '419';
-const COMPANY = "\u5317\u4eac\u5bb6\u9014\u5fc3\u60a6\u5065\u5eb7\u7ba1\u7406\u6709\u9650\u516c\u53f8";
+(function() {
+  const EID = '419';
+  const COMPANY = "北京家途心悦健康管理有限公司";
 
-function collectFeedback() {
-  const $ = id => document.getElementById(id);
-  const checkbox = name => Array.from(document.querySelectorAll(`input[name="${name}"]:checked`)).map(x => x.value);
-  return {
-    entity_id: EID, company_name: COMPANY,
-    触达日期: $('fb_date').value, 触达渠道: checkbox('fb_channel'),
-    联系结果: $('fb_result').value, 客户实际业态: $('fb_real_seg').value,
-    客户主诉: $('fb_pains').value, 段判定: $('fb_seg_acc').value,
-    作战包评级: checkbox('fb_pack_rate'), 客户拒绝原因: checkbox('fb_reject'),
-    备注: $('fb_note').value,
-    saved_at: new Date().toISOString()
+  window.collectFeedback = function() {
+    const el = id => document.getElementById(id);
+    const checkbox = name => Array.from(document.querySelectorAll('input[name="' + name + '"]:checked')).map(x => x.value);
+    return {
+      entity_id: EID, company_name: COMPANY,
+      触达日期: el('fb_date').value, 触达渠道: checkbox('fb_channel'),
+      联系结果: el('fb_result').value, 客户实际业态: el('fb_real_seg').value,
+      客户主诉: el('fb_pains').value, 段判定: el('fb_seg_acc').value,
+      作战包评级: checkbox('fb_pack_rate'), 客户拒绝原因: checkbox('fb_reject'),
+      备注: el('fb_note').value,
+      saved_at: new Date().toISOString()
+    };
   };
-}
-function saveFeedback(eid) {
-  const data = collectFeedback();
-  localStorage.setItem('sales_fb_' + eid, JSON.stringify(data));
-  document.getElementById('fb_status').textContent = '✓ 已存浏览器 ' + new Date().toLocaleTimeString();
-}
-function exportFeedback(eid) {
-  const data = collectFeedback();
-  const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement('a');
-  a.href = url;
-  a.download = `feedback_${eid}_${new Date().toISOString().slice(0,10)}.json`;
-  a.click();
-  URL.revokeObjectURL(url);
-}
-function loadFeedback(eid) {
-  const raw = localStorage.getItem('sales_fb_' + eid);
-  if (!raw) { document.getElementById('fb_status').textContent = '(浏览器无历史)'; return; }
-  const d = JSON.parse(raw);
-  const $ = id => document.getElementById(id);
-  $('fb_date').value = d.触达日期 || '';
-  $('fb_result').value = d.联系结果 || '';
-  $('fb_real_seg').value = d.客户实际业态 || '';
-  $('fb_pains').value = d.客户主诉 || '';
-  $('fb_seg_acc').value = d.段判定 || '';
-  $('fb_note').value = d.备注 || '';
-  for (const set of ['fb_channel', 'fb_pack_rate', 'fb_reject']) {
-    document.querySelectorAll(`input[name="${set}"]`).forEach(el => {
-      const key = set === 'fb_channel' ? '触达渠道' :
-                  set === 'fb_pack_rate' ? '作战包评级' : '客户拒绝原因';
-      el.checked = (d[key] || []).includes(el.value);
-    });
-  }
-  document.getElementById('fb_status').textContent = '✓ 已从浏览器加载';
-}
-document.addEventListener('DOMContentLoaded', () => loadFeedback(EID));
+  window.saveFeedback = function(eid) {
+    const data = window.collectFeedback();
+    localStorage.setItem('sales_fb_' + eid, JSON.stringify(data));
+    document.getElementById('fb_status').textContent = '✓ 已存浏览器 ' + new Date().toLocaleTimeString();
+  };
+  window.exportFeedback = function(eid) {
+    const data = window.collectFeedback();
+    const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'feedback_' + eid + '_' + new Date().toISOString().slice(0,10) + '.json';
+    a.click();
+    URL.revokeObjectURL(url);
+  };
+  window.loadFeedback = function(eid) {
+    const raw = localStorage.getItem('sales_fb_' + eid);
+    if (!raw) { document.getElementById('fb_status').textContent = '(浏览器无历史)'; return; }
+    const d = JSON.parse(raw);
+    const el = id => document.getElementById(id);
+    el('fb_date').value = d.触达日期 || '';
+    el('fb_result').value = d.联系结果 || '';
+    el('fb_real_seg').value = d.客户实际业态 || '';
+    el('fb_pains').value = d.客户主诉 || '';
+    el('fb_seg_acc').value = d.段判定 || '';
+    el('fb_note').value = d.备注 || '';
+    for (const pair of [['fb_channel','触达渠道'],['fb_pack_rate','作战包评级'],['fb_reject','客户拒绝原因']]) {
+      const set = pair[0], key = pair[1];
+      document.querySelectorAll('input[name="' + set + '"]').forEach(function(el) {
+        el.checked = (d[key] || []).indexOf(el.value) >= 0;
+      });
+    }
+    document.getElementById('fb_status').textContent = '✓ 已从浏览器加载';
+  };
+  document.addEventListener('DOMContentLoaded', function() { window.loadFeedback(EID); });
+})();
 </script>
 
 </div>

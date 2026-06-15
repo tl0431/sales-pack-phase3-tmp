@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>北京一方五味餐饮服务有限责任公司 - 销售作战包 (eid=405)</title>
 <style>
 :root { --bg:#f9f9f9; --panel:#fff; --border:#dcdcdc; --txt:#222; --muted:#666; --accent:#0a66c2; }
@@ -8,7 +9,7 @@ body { font-family: -apple-system, "Helvetica Neue", "PingFang SC", "Microsoft Y
        margin: 0; background: var(--bg); color: var(--txt); line-height: 1.6; font-size: 14px; }
 .wrap { max-width: 1180px; margin: 0 auto; padding: 1em 2em 4em; }
 .top { display: flex; justify-content: space-between; align-items: baseline; padding: 1em 0;
-       border-bottom: 2px solid var(--txt); margin-bottom: 1em; }
+       border-bottom: 2px solid var(--txt); margin-bottom: 1em; flex-wrap: wrap; gap: .5em; }
 .top h1 { margin: 0; font-size: 1.6em; }
 .top a { color: var(--accent); text-decoration: none; font-size: .95em; }
 .top a:hover { text-decoration: underline; }
@@ -19,11 +20,15 @@ body { font-family: -apple-system, "Helvetica Neue", "PingFang SC", "Microsoft Y
 .card a { color: var(--accent); text-decoration: none; font-weight: 600; }
 .card a:hover { text-decoration: underline; }
 .tag { display: inline-block; font-size: .8em; padding: 1px 8px; border-radius: 10px;
-       margin-left: .4em; vertical-align: middle; }
+       margin-left: .25em; vertical-align: middle; }
 .tag-livestream { background: #e1f0ff; color: #0a66c2; }
 .tag-health { background: #e1ffe6; color: #1f7a3f; }
 .tag-grey { background: #fff4d6; color: #8a6a00; }
 .tag-trust { background: #ffe4ef; color: #b3306a; }
+.tag-bidding { background: #e8e4ff; color: #4a3d9e; }
+.tag-franchise { background: #ffe8d6; color: #a65a00; }
+.tag-impulse { background: #eee; color: #555; }
+.tag-credit { background: #d6f5ff; color: #006680; }
 .meta { color: var(--muted); font-size: .85em; margin-top: .3em; }
 .preview { color: #444; margin-top: .5em; font-size: .9em;
            display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3;
@@ -43,6 +48,11 @@ body { font-family: -apple-system, "Helvetica Neue", "PingFang SC", "Microsoft Y
 .panel li { margin: .2em 0; }
 .section-label { background: #e8eef7; color: #0a66c2; font-weight: 600;
                  padding: .3em .8em; border-radius: 4px; display: inline-block; margin-bottom: .8em; }
+.post28-banner { background: #f0f7ff; border: 1px solid #b8d4f0; border-radius: 6px;
+                 padding: .6em 1em; margin-bottom: 1em; font-size: .92em; }
+.post28-banner a { color: var(--accent); font-weight: 600; text-decoration: none; }
+.post28-banner a:hover { text-decoration: underline; }
+.contact-link { margin-left: 1em; padding-left: 1em; border-left: 1px solid #b8d4f0; }
 .feedback { background: #fffce8; border: 1px solid #e7d36b; border-radius: 8px;
             padding: 1.2em 1.6em; margin-top: 2em; }
 .feedback h2 { margin-top: 0; }
@@ -51,8 +61,8 @@ body { font-family: -apple-system, "Helvetica Neue", "PingFang SC", "Microsoft Y
     width: 100%; padding: .5em .7em; border: 1px solid #ccc; border-radius: 4px;
     font-size: .95em; font-family: inherit; }
 .feedback textarea { min-height: 100px; resize: vertical; }
-.feedback .row { display: flex; gap: 1em; margin: .5em 0; }
-.feedback .row > div { flex: 1; }
+.feedback .row { display: flex; gap: 1em; margin: .5em 0; flex-wrap: wrap; }
+.feedback .row > div { flex: 1; min-width: 120px; }
 .feedback button { background: #0a66c2; color: #fff; border: 0; padding: .7em 1.5em;
                    border-radius: 4px; font-size: .95em; cursor: pointer; margin: .5em .5em .5em 0; }
 .feedback button:hover { background: #084e96; }
@@ -72,33 +82,40 @@ nav.compact a:hover { text-decoration: underline; }
 <a href="index.html">← 返回主页</a>
 </div>
 
+<div class="post28-banner">
+<strong>最终分类 (post28)</strong>: livestream · 直播电商
+<span class="contact-link"><strong>联系方式</strong>: <a href="#kp">1 个候选触达点 →</a></span>
+</div>
+
 <nav class="compact">
-<strong>段标签</strong>: livestream / 类2_C端自营+大健康共现 &nbsp;|&nbsp;
-<a href="#cheat">cheat (一页推介)</a> · <a href="#appendix">辅料 (4源数据)</a> · <a href="#feedback">反馈</a>
+<a href="#cheat">cheat (推介)</a> ·
+<a href="#kp">联系方式</a> ·
+<a href="#appendix">辅料 (4源)</a> ·
+<a href="#feedback">反馈</a>
 </nav>
 
 <div class="panel" id="cheat">
 <div class="section-label">上半 — Cheat Sheet (现场推介用)</div>
-<h1 id="eid405">销售作战包 — 北京一方五味餐饮服务有限责任公司 (eid=405)</h1>
-<p><em>段标签: livestream / 类2_C端自营+大健康共现</em></p>
-<h2 id="1">1. 公司一行</h2>
-<p>北京一方五味餐饮服务有限责任公司/CMXG/livestream+类2_C端自营+大健康共现/500万/2023-04-25(成立近2年)/15311092803</p>
-<h2 id="2">2. 业态画像</h2>
-<p>主营餐饮服务、食品销售及食品互联网销售，持有增值电信业务许可证，自研“安心点app”及多个线上订餐域名(anxin.shop等)，开展直播带货。客户以C端消费者为主，通过线下门店、自营APP/小程序、直播平台等多渠道触达。可能涉及加盟或品牌连锁体系，注册资本500万元，成立不足2年，品牌知名度低。</p>
-<h2 id="3">3. 实际业务证据</h2>
+<h1>销售作战包 — 北京一方五味餐饮服务有限责任公司 (eid=405)</h1>
+<p><em>最终分类 (post28): <strong>livestream</strong> · 直播电商</em></p>
+<h2>1. 公司一行</h2>
+<p>北京一方五味餐饮服务有限责任公司 / BBCMXG / livestream / 500万 / 成立2年多</p>
+<h2>2. 业态画像</h2>
+<p>主营线下餐饮服务及线上食品零售，依托自有APP“安心点”及多个.shop域名从事食品互联网销售，推测同时开展直播带货。目标客户为C端消费者，销售渠道覆盖自营APP、电商平台及实体门店。经营模式为C端自营+直播电商，属于post28的“直播电商”分类，合规要求高、消费者信任敏感，当前品牌知名度低，急需权威背书提升转化。</p>
+<h2>3. 实际业务证据</h2>
 <ul>
-<li>软著“安心点app”证明自营线上点餐/管理系统，具备数字化服务能力（QCC软著）</li>
-<li>ICP备案5个域名（anxin.shop等）及APP备案，显示企业通过自建平台开展食品互联网销售（QCC ICP备案）</li>
-<li>经营范围含“食品互联网销售；第二类增值电信业务”，且已取得电信业务经营许可证，证实线上电商属性（QCC经营范围+资质证书）</li>
+<li>证据1 (QCC经营范围): 许可项目包括餐饮服务、食品销售、食品互联网销售、第二类增值电信业务，直接支撑线上食品交易与直播业态。</li>
+<li>证据2 (QCC软著): 安心点app V1.0，2025年登记，表明公司拥有自营移动端交易渠道。</li>
+<li>证据3 (ICP备案): 拥有anxin.shop、anxinbuy.shop等多个以电商为场景的域名，显示多店铺运营迹象。</li>
 </ul>
-<h2 id="4-4">4. 4 源信号摘要</h2>
+<h2>4. 4 源信号摘要</h2>
 <ul>
-<li><strong>QCC经营范围首项</strong>: 餐饮服务；食品销售；食品互联网销售；第二类增值电信业务</li>
-<li><strong>官网核心业务</strong>: 官网信息未抓取到具体内容</li>
-<li><strong>APP评分下载</strong>: 未发现APP上架记录（iOS/Android均为0）</li>
-<li><strong>百度风险词</strong>: 信任质疑信号为空，但相关搜索显示消费者直接搜价格、电话，品牌信任入口缺失</li>
+<li><strong>QCC经营范围首项</strong>: 餐饮服务</li>
+<li><strong>官网核心业务</strong>: (LLM抽取为空，实际可能为食品销售，证据尚不充分)</li>
+<li><strong>APP评分下载</strong>: 无 (iOS/Android均未发现上架)</li>
+<li><strong>百度风险词</strong>: 无直接负面，但品牌低可见度导致信任疑虑显著</li>
 </ul>
-<h2 id="5-6">5. 信号识别表 (6 条)</h2>
+<h2>5. 信号识别表 (8 条)</h2>
 <table>
 <thead>
 <tr>
@@ -111,89 +128,169 @@ nav.compact a:hover { text-decoration: underline; }
 <tbody>
 <tr>
 <td>1</td>
-<td>百度相关搜索</td>
-<td>用户搜“魏记五味价目表”“北京五味烤全羊电话”，品牌识别模糊，依赖外部搜索找价格与联系方式</td>
-<td>消费者缺乏官方信任入口，易流失或被比价。权威背书能让品牌从竞品中跳出来，减少信任博弈</td>
+<td>QCC资质证书+经营范围</td>
+<td>持有京B2-20251603第二类增值电信业务许可证（EDI），经营范围含“食品互联网销售”，表明公司具备在线食品交易合法资质，主营线上食品零售，可能涉及直播带货。</td>
+<td>线上卖食品最怕消费者质疑质量。办理“市监总局商品证书”可为每一件食品提供国家电商质检中心核验背书，直接提升下单转化率；若不做，面对打假人投诉或平台抽查时缺乏官方证明，极易导致商品下架，损失销量。</td>
 </tr>
 <tr>
 <td>2</td>
-<td>关键词命中段</td>
-<td>命中seg_livestream_compliance，企业有直播业务，直播中可能推销餐饮/食品，面临合规与限流风险</td>
-<td>直播带货需展示商品质量证明，商品证书可作直播间背书，降低被投诉虚假宣传的风险</td>
+<td>QCC软著</td>
+<td>拥有“安心点app”V1.0软件著作权，推测为公司自营的食品订购或会员管理APP，面向C端用户直接交易。</td>
+<td>APP内嵌入“市监总局合作证书”与“商品证书”展示，新用户下载进入时看到国家认可标志，信任感瞬间提升，注册转化率可明显提高；若无背书，用户可能因不信任而卸载或放弃下单，获客成本居高不下。</td>
 </tr>
 <tr>
 <td>3</td>
-<td>关键词命中段</td>
-<td>命中seg_new_company_trust，成立仅2年多，消费者对新品牌天然不信任</td>
-<td>市监总局合作证书可快速弥补品牌历史短的短板，为门店/直播间提供国家背书</td>
+<td>QCC ICP备案</td>
+<td>注册多个以“anxin”命名的.shop域名（anxin.shop、anxinbuy.shop等），推测运营多个食品网店或垂直品类站点，存在多店铺管理需求。</td>
+<td>多店铺统一使用主体“合作证书”可一次性证明公司整体资质，配合“商品证书”套餐覆盖不同食品，实现品牌矩阵的信任一致性，降低每个店铺的怀疑门槛；否则各店零散宣传，消费者易觉不正规，订单分散流失。</td>
 </tr>
 <tr>
 <td>4</td>
-<td>QCC软著</td>
-<td>持有“安心点app”软著，自主研发点餐/管理工具，线上订单是重要获客渠道</td>
-<td>APP下载页、详情页嵌入证书能增强下单信心，减少因信任不足放弃支付</td>
+<td>百度related_searches</td>
+<td>相关搜索出现“百品五味餐饮集团旗下品牌”，暗示公司可能存在品牌矩阵或未来有加盟招商计划，但目前未见特许经营备案。</td>
+<td>若发加盟，“市监总局合作证书”可作为总部实力的权威证明，让意向加盟商扫码查验主体资质，加速签约；不办证书，加盟商会对总部实力存疑，招商转化率大受影响。</td>
 </tr>
 <tr>
 <td>5</td>
-<td>QCC资质证书+ICP备案</td>
-<td>持有电信业务经营许可证，备案5个域名(anxin.shop等)，运营线上订餐/电商平台</td>
-<td>线上销售需资质公示，商品证书+合作证书可放在官网/小程序，降低行业普遍存在的信任门槛</td>
+<td>百度信任质疑</td>
+<td>低可见度：无媒体新闻、无电商平台搜索记录，品牌知名度极低，消费者难以建立初步信任。</td>
+<td>合作证书是市监总局唯一颁发的认可证明，比任何自卖自夸都管用，能迅速填补品牌信任缺口，推动消费者从犹豫到下单；继续空窗，在信息透明的电商时代，用户直接转向有背书的大品牌，客源持续流失。</td>
 </tr>
 <tr>
 <td>6</td>
-<td>百度相关搜索</td>
-<td>搜“百品五味餐饮集团旗下品牌”，可能有关联品牌或加盟体系，需展示集团实力</td>
-<td>连锁总部或品牌方可办理合作证书，为旗下门店提供统一信任背书，助力招商加盟</td>
+<td>QCC经营范围+市场经营类目存证表</td>
+<td>经营范围含“餐饮服务”“食品销售”，线下有实体餐饮门店，需要食品经营许可证、从业人员健康证等。</td>
+<td>门店悬挂“合作证书”并上传卫生许可、员工健康证明等，顾客扫码即见官方认证，吃得更放心，复购率提升，还能减少市场监管抽检频率；无证书，碰上消费者对卫生质疑或纠纷，缺乏权威自证手段，易引发舆情或罚款。</td>
+</tr>
+<tr>
+<td>7</td>
+<td>QCC行政许可+荣誉缺失</td>
+<td>目前仅有营业执照，无其他荣誉、奖项或专利，在竞标或商业合作中缺乏亮点。</td>
+<td>办理“合作证书”相当于获得市监总局颁发的荣誉资质，可上传门店环境、服务承诺等展示，补足荣誉空白，在商业谈判或团购平台入驻时，给合作方一个认可的证明；不办，永远停留在“小公司无名气”的阶段，错失大客户机会。</td>
+</tr>
+<tr>
+<td>8</td>
+<td>post28判定证据</td>
+<td>持有EDI证+食品互联网销售，被归类为直播电商，极有可能通过抖音、快手等平台直播带货卖食品。</td>
+<td>直播场景下，“商品证书”可在直播间展示或挂链接，立即化解观众对食品功效、安全的顾虑，降低跳失率，防止因虚假宣传举报被限流封号；无证书，直播时若被质疑，无法当场自证，轻则限流、重则封禁，造成严重损失。</td>
 </tr>
 </tbody>
 </table>
-<h2 id="6-6-ok">6. 产品匹配点 (6 条, 状态: ok)</h2>
+<h2>6. 产品匹配点 (7 条, 状态: ok)</h2>
 <ul>
-<li><strong>[信号 1] 消费者搜价目表、电话，品牌信任入口缺失</strong></li>
-<li>给门店办理市监总局合作证书，等于把国家认证的金字招牌挂在门口和线上。消费者搜到您的店时，看到总局背书，立刻削弱比价心理，愿意为可信赖的服务付溢价。证书可印在菜单、价目表旁，直接解决‘魏记五味价目表’类搜索背后的信任疑虑。（培训材料§Slide25-26，QA§第4条）</li>
-<li><em>来源: 培训材料§Slide25-26 / 实战QA§第4条</em></li>
-<li><strong>[信号 2] 直播业务面临合规与限流风险</strong></li>
-<li>我们在直播间展示市监总局商品证书，主播手持证书或贴标扫码验证，系统会判定直播间商品有国家背书，大幅降低被限流、封号的风险。遇到消费者质疑品质，直接引导扫码查验，转化率至少提升20%。（培训材料§Slide6应用场景，QA§第42条）</li>
-<li><em>来源: 培训材料§Slide6 / 实战QA§第42条</em></li>
-<li><strong>[信号 3] 新公司成立不足2年，信任底子薄</strong></li>
-<li>市监总局合作证书是新品牌的最佳信任加速器。办理后您的营业执照、卫生许可证、荣誉奖项都获得总局存证认可，对外宣称‘市监总局合作单位’，一个月内就能让消费者感觉是老字号，弥补年头短的天然劣势。（培训材料§Slide25，QA§第4条）</li>
-<li><em>来源: 培训材料§Slide25 / 实战QA§第4条</em></li>
-<li><strong>[信号 4] 自研安心点app，线上订单依赖信任闭环</strong></li>
-<li>在安心点app商家主页嵌入证书查询入口，用户点单时看到‘市监总局认证’标识，犹豫时间减少一半。配合商品证书贴标，外卖打包袋上贴二维码，消费者扫码直接看国检中心核验报告，复购率和好评率立竿见影。（培训材料§Slide6，类目存证表§序号5线上内容类）</li>
-<li><em>来源: 培训材料§Slide6 / 类目存证表§序号5</em></li>
-<li><strong>[信号 5] 拥有多个线上订餐域名，需平台信任背书</strong></li>
-<li>在anxin.shop等网站首页展示合作证书，并给主打菜品办理商品证书，每个商品详情页配置‘国检中心认证’模块。电商平台规则越来越严，提前备好国家级证书，避免突然被要求提供质检报告时措手不及。套餐含多个商品证书正好匹配多SKU需求。（培训材料§Slide8-9，QA§第18条）</li>
-<li><em>来源: 培训材料§Slide8-9 / 实战QA§第18条</em></li>
-<li><strong>[信号 6] 可能涉及品牌加盟，需赋能招商</strong></li>
-<li>总部办理市监总局合作证书，复制给每个加盟店作为标配。招商手册里加上‘国家级认证品牌’，加盟商更易信任决策，消费者对连锁店质量也统一认可。证书可写入加盟合同，作为品牌方提供的赋能支持。（QA§第20条，类目存证表§序号7连锁总部）</li>
-<li><em>来源: 实战QA§第20条 / 类目存证表§序号7</em></li>
+<li><strong>[信号 1] EDI证+食品互联网销售，线上食品交易缺乏质量背书</strong></li>
+<li>【信号】贵司持有EDI证并做食品线上销售，消费者最担心的就是食品安全是否可靠。【产品关联】市监总局商品证书由国家电商质检中心核验，为每件食品挂上“国家级身份证”。【预期收益】展示在详情页可大幅提高转化，退货率明显降低。【不办风险】无证书，遇到打假人投诉或平台抽检，拿不出有力证据，商品极易被下架。</li>
+<li><em>来源: 培训材料Slide 26；实战QA§第3条</em></li>
+<li><strong>[信号 2] 自有APP“安心点”缺少信任标识</strong></li>
+<li>【信号】您开发了安心点APP，下载后新用户第一眼看不到权威背书容易卸载。【产品关联】市监总局合作证书可上传至APP关于我们页，显示为“市监总局合作伙伴”，二维码验真。【预期收益】用户注册转化率提升，留存率增加。【不办风险】无背书，用户怀疑是野鸡APP，流失率高。</li>
+<li><em>来源: 培训材料Slide 25</em></li>
+<li><strong>[信号 5] 品牌知名度极低，消费者疑虑难消</strong></li>
+<li>【信号】百度无新闻，品牌缺乏存在感，消费者很难放心下单。【产品关联】合作证书是市监总局唯一出具的合作证明，堪称“金牌信任状”。【预期收益】一举打破信任壁垒，让消费者觉得公司受国家认可，快速提升销量。【不办风险】空白期越长，市场份额被有背书品牌抢走的风险越大。</li>
+<li><em>来源: 培训材料Slide 18；实战QA§第4条</em></li>
+<li><strong>[信号 6] 线下餐饮门店需要卫生与合规展示</strong></li>
+<li>【信号】贵司有实体餐饮店，涉及食品经营许可、员工健康等。【产品关联】合作证书可存证食品经营许可证、门店卫生环境图、服务承诺等。【预期收益】顾客扫码查看认可信息，增强堂食信心，减少现场纠纷，间接引流到线上复购。【不办风险】市场监管抽查时若不能快速出示统一存证，费时费力且易受质疑。</li>
+<li><em>来源: 市场经营类目存证表§餐饮食品类；实战QA§第44条</em></li>
+<li><strong>[信号 8] 疑似直播带货卖食品，直播间易受质疑</strong></li>
+<li>【信号】您有EDI证和食品互联网销售，大概率在直播带货。【产品关联】商品证书可挂在直播间橱窗或开场贴片，国家电商质检中心背书。【预期收益】观众瞬间相信品质，转化飙升，避免因“无检测报告”被限流。【不办风险】被举报虚假宣传时缺乏官方证明，轻则警告重则封号，心血付诸东流。</li>
+<li><em>来源: 培训材料Slide 22；实战QA§第42条</em></li>
+<li><strong>[信号 7] 企业荣誉空白，竞争力不足</strong></li>
+<li>【信号】公司目前仅有营业执照，无任何官方荣誉。【产品关联】办理合作证书，市监总局认可您上传的门店环境、服务承诺等，相当于补发了国家级荣誉。【预期收益】投标、谈合作、入驻平台时，一出示证书就拉开差距。【不办风险】对手早已用证书武装，您却空有基础执照，处处被动。</li>
+<li><em>来源: 培训材料Slide 26；实战QA§第13条</em></li>
+<li><strong>[信号 4] 品牌关联暗示可能有加盟计划</strong></li>
+<li>【信号】搜索出现“百品五味餐饮集团旗下品牌”，暗示您可能有品牌矩阵或未来招商打算。【产品关联】加盟总部办理合作证书，可将加盟商资质统一存证，增强品牌整体公信力。【预期收益】意向加盟商扫码验真后信任倍增，加速签约。【不办风险】加盟商对总部实力存疑，犹豫不决甚至被竞品挖走。</li>
+<li><em>来源: 实战QA§第20条</em></li>
 </ul>
-<h2 id="7-discovery">7. Discovery 问题 + 异议库</h2>
-<h3 id="discovery">Discovery (挖诉求)</h3>
+<h2>7. Discovery 问题 + 异议库</h2>
+<h3>Discovery (挖诉求)</h3>
 <ol>
-<li>问题1：目前直播带货时，如何证明食材品质？若被投诉虚假宣传，有应对方案吗？（基于信号id=2）</li>
-<li>问题2：品牌才两年，消费者说没听过，是不是常要花大量时间做信任教育？（基于信号id=3）</li>
-<li>问题3：您自己的app和几个订餐网站，转化率怎么样？有没有因页面不够权威丢失过订单？（基于信号id=4、5）</li>
-<li>问题4：有考虑开放加盟吗？如果要招商，您觉得用什么能快速让加盟商相信品牌实力？（基于信号id=6）</li>
-<li>问题5：有客户在百度搜“北京五味烤全羊电话”直接打过来，这种自然流量怎么让他马上决定下单而不去别家？（基于信号id=1）</li>
+<li>问题1 (基于信号id=1): 您线上卖食品时，顾客索要质检报告或质疑是否正品的多不多？这种情况是不是影响了转化？</li>
+<li>问题2 (基于信号id=2): 安心点APP上线后，新用户停留和下单率如何？有没有因为界面缺少权威认证而流失的情况？</li>
+<li>问题3 (基于信号id=5): 公司刚成立两年多，品牌知名度还没打上去，是不是感觉谈合作或拉新客时解释成本特别高？</li>
+<li>问题4 (基于信号id=8): 直播带货时，您最怕观众刷屏质疑商品质量吧？万一被举报虚假宣传，直播间被限流过吗？</li>
+<li>问题5 (基于信号id=6): 线下门店平时遇到顾客对卫生情况纠扯，或者市场监管来检查时，您觉得现有材料能快速搞定吗？</li>
 </ol>
-<h3 id="_1">异议库 (产品维度)</h3>
-<p><strong>异议 1: 我就是一个饭店，又不是电商，办这个国家证书有用吗？</strong></p>
-<p>线下店更需要。您把总局合作证书挂在收银台，菜单上印二维码，顾客扫码看到国家认可您的卫生许可、厨师证，立刻觉得比隔壁店靠谱。现在消费者都先搜评价才进门，门店也需要权威背书。（实战QA§第8条）</p>
-<p><em>来源: 实战QA§第8条</em></p>
-<p><strong>异议 2: 我产品都有检测报告，为什么还要办商品证书？</strong></p>
-<p>检测报告是去送检的几项指标，商品证书是国家电商质检中心和总局联合出的证明，在您的报告基础上再加官方存证和二维码，消费者扫码直接看，比纸质报告说服务力强10倍。别人只有报告，您有总局的商品证书，差距就拉开了。（实战QA§第3条、16条）</p>
-<p><em>来源: 实战QA§第3条、16条</em></p>
-<p><strong>异议 3: 刚成立不久，花钱办这个，效果不好能退钱吗？</strong></p>
-<p>这就像注册商标或办ISO认证，不能因为暂时没接到大单就退钱。但我们承诺证书确保官方可查，且首次办理我们赠送销售素材包（宣传海报模板），帮您快速用起来。早用早建立信任，越晚竞争对手越少有机会给您留。（实战QA§第53条）</p>
-<p><em>来源: 实战QA§第53条</em></p>
+<h3>异议库 (产品维度)</h3>
+<p><strong>异议 1: 我们已经有食品经营许可证了，还要办这个市监总局合作证书干嘛？</strong></p>
+<p>食品经营许可证是经营基础，而合作证书是国家市场监督管理总局唯一出的合作单位证明，表明您的门店、资质、承诺都得到了国家认可，含金量远高于区县级许可。对消费者来说，亲眼见到总局级认可，信任度完全不同。</p>
+<p><em>来源: 实战QA§第2条</em></p>
+<p><strong>异议 2: 我就是个小公司，线上店铺不大，有必要办这么个证书吗？</strong></p>
+<p>正因规模不大才更需要官方背书。一张商品证书就能让您的产品从众多小卖家当中脱颖而出，消费者更愿意相信有国家质检中心认证的。一次小投入就能拉高转化，比烧钱投流划算得多。</p>
+<p><em>来源: 实战QA§第39条</em></p>
+<p><strong>异议 3: 这个费用会不会很高？我们预算有限。</strong></p>
+<p>我们有专为中小企业设计的套餐，比如套餐1：市监总局合作证书1年+3个商品证书（含核验）一共5680元，算下来一天不到16块钱。这笔钱帮您赚回一个订单就回本，而且能持续产生信任红利。</p>
+<p><em>来源: 培训材料Slide 13；实战QA§第32条</em></p>
 </div>
+
+
+<div class="panel" id="kp">
+<div class="section-label">联系方式 · KP 触达情报 (S/M/A/X 判别)</div>
+<h2>KP 触达情报</h2>
+<p><em>生成时间: 自动管线 · eid=405 · 北京一方五味餐饮服务有限责任公司</em></p>
+<h3>A. 候选触达点（去重后全量）</h3>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>触达点</th>
+<th>类型</th>
+<th>角色推断</th>
+<th>来源</th>
+<th>证据 / 注释</th>
+<th>建议动作</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>https://yifangwuwei.com</td>
+<td>官网</td>
+<td>官网</td>
+<td>qcc-cli get_contact_info</td>
+<td>ICP 备案: 是 (—)</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<h3>B. 公司背景增量信息（辅助判断）</h3>
+<ul>
+<li>法人: <strong>王祥</strong> · 注册资本 500万元 · 成立 2023-04-25</li>
+<li>参保人数: 2 · 企业规模: S(小型) · 段标签: livestream</li>
+<li>疑似关联企业 (related_party_suspects): 0 条</li>
+<li>官网: yifangwuwei.com</li>
+<li>百度公开线索:</li>
+<li>刘铮- 北京一方五味餐饮服务有限责任公司 - 法定代表人/高管/股东...</li>
+<li>北京一方味餐饮管理有限公司 - 百度百科</li>
+<li>北京一方五味餐饮服务有限责任公司 京B2-20251603 许可证信息...</li>
+</ul>
+<h3>C. 不可达 / 已排除项</h3>
+<table>
+<thead>
+<tr>
+<th>触达点</th>
+<th>类型</th>
+<th>原因</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>15311092803</td>
+<td>手机</td>
+<td>CLI 标签: 疑似代记账; 与 ICP 备案官网同批 CLI 号码</td>
+</tr>
+</tbody>
+</table>
+<h3>D. 数据覆盖说明</h3>
+<blockquote>
+<p>数据源穷尽（CSV / CLI / 百度缓存 / 官网已爬正文）后，有效触达点仍不足 3 个； Phase 3 <strong>数据薄，可接受</strong>，不硬凑触点。</p>
+</blockquote>
+</div>
+
 
 <div class="panel" id="appendix">
 <div class="section-label">下半 — 辅料 (电话前/上门前看)</div>
-<h1 id="eid405">辅料 — 北京一方五味餐饮服务有限责任公司 (eid=405)</h1>
-<h2 id="1-qcc">1. QCC 全字段 (人读版)</h2>
-<h3 id="basic_info">basic_info</h3>
+<h1>辅料 — 北京一方五味餐饮服务有限责任公司 (eid=405)</h1>
+<h2>1. QCC 全字段 (人读版)</h2>
+<h3>basic_info</h3>
 <pre><code>* 企业名称: 北京一方五味餐饮服务有限责任公司
 * 基本信息:
 统一社会信用代码: 91110111MACGBBCMXG
@@ -202,25 +299,25 @@ nav.compact a:hover { text-decoration: underline; }
 成立日期: 2023-04-25
 经营范围: 许可项目：餐饮服务；食品销售；食品互联网销售；第二类增值电信业务
 </code></pre>
-<h3 id="administrative_license">administrative_license</h3>
+<h3>administrative_license</h3>
 <pre><code>* 企业名称: 北京一方五味餐饮服务有限责任公司
 * 行政许可:
 共 1 条记录
 1 91110111MACGBBCMXG 营业执照 有效 2023-04-25 2099-12-31 北京市顺义区市场监督管理局 北京一方五味餐饮服务有限责任公司 北京市市场监督管理局 详情
 </code></pre>
-<h3 id="qualifications">qualifications</h3>
+<h3>qualifications</h3>
 <pre><code>* 企业名称: 北京一方五味餐饮服务有限责任公司
 * 资质证书:
 共有 1 条资质证书记录
 证书类型分布: 电信业务经营许可证(1)
 </code></pre>
-<h3 id="software_copyright_info">software_copyright_info</h3>
+<h3>software_copyright_info</h3>
 <pre><code>* 企业名称: 北京一方五味餐饮服务有限责任公司
 * 软件著作权:
 共 1 条记录
 1 安心点app - V1.0 2025SR1371898 - - 2025-07-28 原始取得
 </code></pre>
-<h3 id="network_service_filing">network_service_filing</h3>
+<h3>network_service_filing</h3>
 <pre><code>* 企业名称: 北京一方五味餐饮服务有限责任公司
 * 网络服务备案:
 共 5 条记录
@@ -230,14 +327,14 @@ nav.compact a:hover { text-decoration: underline; }
 4 - - yifangwuwei.com 京ICP备2023012765号-2 2023-05-22 -
 1 安心点 京ICP备2023012765号-6A 2025-04-27 详情
 </code></pre>
-<h3 id="telecom_permission">telecom_permission</h3>
+<h3>telecom_permission</h3>
 <pre><code>* 企业名称: 北京一方五味餐饮服务有限责任公司
 * 电信许可:
 共 1 条记录
 1 京B2-20251603 北京市 第二类增值电信业务 在线数据处理与交易处理业务 - 2025-06-04 2030-06-04 有效 详情
 信息服务业务（仅限互联网信息服务） -
 </code></pre>
-<h2 id="2">2. 官网内容</h2>
+<h2>2. 官网内容</h2>
 <ul>
 <li>
 <p><strong>error</strong>: skipped</p>
@@ -246,16 +343,16 @@ nav.compact a:hover { text-decoration: underline; }
 <p>抓取来源:  (0 chars)</p>
 </li>
 </ul>
-<h2 id="3-app-ios-android">3. APP 矩阵 (iOS + Android)</h2>
+<h2>3. APP 矩阵 (iOS + Android)</h2>
 <p>(无)</p>
-<h2 id="4">4. 百度信号摘要</h2>
+<h2>4. 百度信号摘要</h2>
 <ul>
-<li>相关搜索: ['魏记五味价目表', '百品五味餐饮集团旗下品牌', '北京五味烤全羊电话', '北京首禾一品世家餐饮服务有限公司', '成都五味缘餐饮管理有限公司', '北京一坐一忘餐饮有限责任公司', '北京完美知味餐饮管理有限公司', '和味坊餐饮服务(北京)有限公司', '北京圣禾餐饮有限公司', '北京市连锁餐饮公司一览表']</li>
+<li>相关搜索: ["魏记五味价目表", "百品五味餐饮集团旗下品牌", "北京五味烤全羊电话", "北京首禾一品世家餐饮服务有限公司", "成都五味缘餐饮管理有限公司", "北京一坐一忘餐饮有限责任公司", "北京完美知味餐饮管理有限公司", "和味坊餐饮服务(北京)有限公司", "北京圣禾餐饮有限公司", "北京市连锁餐饮公司一览表"]</li>
 <li>信任质疑 (来自 related): []</li>
 <li>信任质疑 (来自 QA): []</li>
-<li>关键词命中段: ['seg_brand_honor', 'seg_new_company_trust', 'seg_franchise_recruitment', 'seg_livestream_compliance', 'seg_bidding_b2b_display', 'seg_regulatory_compliance', 'seg_credit_repair', 'seg_defensive_ip', 'seg_impulse_unknown', 'seg_grey_sales_facade', 'is_marketing_std_enterprise', 'is_high_capital_new_company', 'is_nff_board', 'is_3a_certified', 'is_shell_suspect']</li>
+<li>关键词命中段: ["seg_brand_honor", "seg_new_company_trust", "seg_franchise_recruitment", "seg_livestream_compliance", "seg_bidding_b2b_display", "seg_regulatory_compliance", "seg_credit_repair", "seg_defensive_ip", "seg_impulse_unknown", "seg_grey_sales_facade", "is_marketing_std_enterprise", "is_high_capital_new_company", "is_nff_board", "is_3a_certified", "is_shell_suspect"]</li>
 <li>
-<p>灰色信号: {'scam_accusation': [], 'regulatory_punishment': [], 'illegal_finance': [], 'grey_business_model': [], 'trust_doubt_general': [], 'low_visibility': {'score': 2, 'checks': {'no_official_site': False, 'no_ecommerce': True, 'no_media_news': True, 'only_business_query': False, 'sug_all_enterprise_suffix': False}}, 'summary': {'core_categories_hit': 0, 'core_total_count': 0, 'is_grey_candidate': False}}</p>
+<p>灰色信号: {"scam_accusation": [], "regulatory_punishment": [], "illegal_finance": [], "grey_business_model": [], "trust_doubt_general": [], "low_visibility": {"score": 2, "checks": {"no_official_site": false, "no_ecommerce": true, "no_media_news": true, "only_business_query": false, "sug_all_enterprise_suffix": false}}, "summary": {"core_categories_hit": 0, "core_total_count": 0, "is_grey_candidate": false}}</p>
 </li>
 <li>
 <p>各域 top 标题:</p>
@@ -280,7 +377,7 @@ nav.compact a:hover { text-decoration: underline; }
 </ul>
 </li>
 </ul>
-<h2 id="5-b">5. 研发能力佐证 (B 类软著)</h2>
+<h2>5. 研发能力佐证 (B 类软著)</h2>
 <p>(无 B 类内部系统软著)</p>
 </div>
 
@@ -333,6 +430,7 @@ nav.compact a:hover { text-decoration: underline; }
   <div><label><input type="checkbox" name="fb_pack_rate" value="产品匹配_有用"> 产品匹配 (有用)</label></div>
   <div><label><input type="checkbox" name="fb_pack_rate" value="discovery_有用"> discovery (有用)</label></div>
   <div><label><input type="checkbox" name="fb_pack_rate" value="异议_有用"> 异议库 (有用)</label></div>
+  <div><label><input type="checkbox" name="fb_pack_rate" value="KP触达_有用"> KP触达 (有用)</label></div>
 </div>
 
 <label>客户拒绝原因 (多选)</label>
@@ -349,66 +447,67 @@ nav.compact a:hover { text-decoration: underline; }
 <textarea id="fb_note" placeholder="销售自由发挥"></textarea>
 
 <div style="margin-top:1em">
-  <button onclick="saveFeedback('405')">💾 保存到浏览器</button>
-  <button class="secondary" onclick="exportFeedback('405')">📥 导出 JSON</button>
-  <button class="secondary" onclick="loadFeedback('405')">↻ 从浏览器加载</button>
+  <button type="button" onclick="saveFeedback('405')">💾 保存到浏览器</button>
+  <button type="button" class="secondary" onclick="exportFeedback('405')">📥 导出 JSON</button>
+  <button type="button" class="secondary" onclick="loadFeedback('405')">↻ 从浏览器加载</button>
   <span class="saved-status" id="fb_status"></span>
 </div>
 </div>
 
 <script>
-const EID = '405';
-const COMPANY = "\u5317\u4eac\u4e00\u65b9\u4e94\u5473\u9910\u996e\u670d\u52a1\u6709\u9650\u8d23\u4efb\u516c\u53f8";
+(function() {
+  const EID = '405';
+  const COMPANY = "北京一方五味餐饮服务有限责任公司";
 
-function collectFeedback() {
-  const $ = id => document.getElementById(id);
-  const checkbox = name => Array.from(document.querySelectorAll(`input[name="${name}"]:checked`)).map(x => x.value);
-  return {
-    entity_id: EID, company_name: COMPANY,
-    触达日期: $('fb_date').value, 触达渠道: checkbox('fb_channel'),
-    联系结果: $('fb_result').value, 客户实际业态: $('fb_real_seg').value,
-    客户主诉: $('fb_pains').value, 段判定: $('fb_seg_acc').value,
-    作战包评级: checkbox('fb_pack_rate'), 客户拒绝原因: checkbox('fb_reject'),
-    备注: $('fb_note').value,
-    saved_at: new Date().toISOString()
+  window.collectFeedback = function() {
+    const el = id => document.getElementById(id);
+    const checkbox = name => Array.from(document.querySelectorAll('input[name="' + name + '"]:checked')).map(x => x.value);
+    return {
+      entity_id: EID, company_name: COMPANY,
+      触达日期: el('fb_date').value, 触达渠道: checkbox('fb_channel'),
+      联系结果: el('fb_result').value, 客户实际业态: el('fb_real_seg').value,
+      客户主诉: el('fb_pains').value, 段判定: el('fb_seg_acc').value,
+      作战包评级: checkbox('fb_pack_rate'), 客户拒绝原因: checkbox('fb_reject'),
+      备注: el('fb_note').value,
+      saved_at: new Date().toISOString()
+    };
   };
-}
-function saveFeedback(eid) {
-  const data = collectFeedback();
-  localStorage.setItem('sales_fb_' + eid, JSON.stringify(data));
-  document.getElementById('fb_status').textContent = '✓ 已存浏览器 ' + new Date().toLocaleTimeString();
-}
-function exportFeedback(eid) {
-  const data = collectFeedback();
-  const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement('a');
-  a.href = url;
-  a.download = `feedback_${eid}_${new Date().toISOString().slice(0,10)}.json`;
-  a.click();
-  URL.revokeObjectURL(url);
-}
-function loadFeedback(eid) {
-  const raw = localStorage.getItem('sales_fb_' + eid);
-  if (!raw) { document.getElementById('fb_status').textContent = '(浏览器无历史)'; return; }
-  const d = JSON.parse(raw);
-  const $ = id => document.getElementById(id);
-  $('fb_date').value = d.触达日期 || '';
-  $('fb_result').value = d.联系结果 || '';
-  $('fb_real_seg').value = d.客户实际业态 || '';
-  $('fb_pains').value = d.客户主诉 || '';
-  $('fb_seg_acc').value = d.段判定 || '';
-  $('fb_note').value = d.备注 || '';
-  for (const set of ['fb_channel', 'fb_pack_rate', 'fb_reject']) {
-    document.querySelectorAll(`input[name="${set}"]`).forEach(el => {
-      const key = set === 'fb_channel' ? '触达渠道' :
-                  set === 'fb_pack_rate' ? '作战包评级' : '客户拒绝原因';
-      el.checked = (d[key] || []).includes(el.value);
-    });
-  }
-  document.getElementById('fb_status').textContent = '✓ 已从浏览器加载';
-}
-document.addEventListener('DOMContentLoaded', () => loadFeedback(EID));
+  window.saveFeedback = function(eid) {
+    const data = window.collectFeedback();
+    localStorage.setItem('sales_fb_' + eid, JSON.stringify(data));
+    document.getElementById('fb_status').textContent = '✓ 已存浏览器 ' + new Date().toLocaleTimeString();
+  };
+  window.exportFeedback = function(eid) {
+    const data = window.collectFeedback();
+    const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'feedback_' + eid + '_' + new Date().toISOString().slice(0,10) + '.json';
+    a.click();
+    URL.revokeObjectURL(url);
+  };
+  window.loadFeedback = function(eid) {
+    const raw = localStorage.getItem('sales_fb_' + eid);
+    if (!raw) { document.getElementById('fb_status').textContent = '(浏览器无历史)'; return; }
+    const d = JSON.parse(raw);
+    const el = id => document.getElementById(id);
+    el('fb_date').value = d.触达日期 || '';
+    el('fb_result').value = d.联系结果 || '';
+    el('fb_real_seg').value = d.客户实际业态 || '';
+    el('fb_pains').value = d.客户主诉 || '';
+    el('fb_seg_acc').value = d.段判定 || '';
+    el('fb_note').value = d.备注 || '';
+    for (const pair of [['fb_channel','触达渠道'],['fb_pack_rate','作战包评级'],['fb_reject','客户拒绝原因']]) {
+      const set = pair[0], key = pair[1];
+      document.querySelectorAll('input[name="' + set + '"]').forEach(function(el) {
+        el.checked = (d[key] || []).indexOf(el.value) >= 0;
+      });
+    }
+    document.getElementById('fb_status').textContent = '✓ 已从浏览器加载';
+  };
+  document.addEventListener('DOMContentLoaded', function() { window.loadFeedback(EID); });
+})();
 </script>
 
 </div>

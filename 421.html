@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>北京今朝有酒品牌管理有限公司 - 销售作战包 (eid=421)</title>
 <style>
 :root { --bg:#f9f9f9; --panel:#fff; --border:#dcdcdc; --txt:#222; --muted:#666; --accent:#0a66c2; }
@@ -8,7 +9,7 @@ body { font-family: -apple-system, "Helvetica Neue", "PingFang SC", "Microsoft Y
        margin: 0; background: var(--bg); color: var(--txt); line-height: 1.6; font-size: 14px; }
 .wrap { max-width: 1180px; margin: 0 auto; padding: 1em 2em 4em; }
 .top { display: flex; justify-content: space-between; align-items: baseline; padding: 1em 0;
-       border-bottom: 2px solid var(--txt); margin-bottom: 1em; }
+       border-bottom: 2px solid var(--txt); margin-bottom: 1em; flex-wrap: wrap; gap: .5em; }
 .top h1 { margin: 0; font-size: 1.6em; }
 .top a { color: var(--accent); text-decoration: none; font-size: .95em; }
 .top a:hover { text-decoration: underline; }
@@ -19,11 +20,15 @@ body { font-family: -apple-system, "Helvetica Neue", "PingFang SC", "Microsoft Y
 .card a { color: var(--accent); text-decoration: none; font-weight: 600; }
 .card a:hover { text-decoration: underline; }
 .tag { display: inline-block; font-size: .8em; padding: 1px 8px; border-radius: 10px;
-       margin-left: .4em; vertical-align: middle; }
+       margin-left: .25em; vertical-align: middle; }
 .tag-livestream { background: #e1f0ff; color: #0a66c2; }
 .tag-health { background: #e1ffe6; color: #1f7a3f; }
 .tag-grey { background: #fff4d6; color: #8a6a00; }
 .tag-trust { background: #ffe4ef; color: #b3306a; }
+.tag-bidding { background: #e8e4ff; color: #4a3d9e; }
+.tag-franchise { background: #ffe8d6; color: #a65a00; }
+.tag-impulse { background: #eee; color: #555; }
+.tag-credit { background: #d6f5ff; color: #006680; }
 .meta { color: var(--muted); font-size: .85em; margin-top: .3em; }
 .preview { color: #444; margin-top: .5em; font-size: .9em;
            display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3;
@@ -43,6 +48,11 @@ body { font-family: -apple-system, "Helvetica Neue", "PingFang SC", "Microsoft Y
 .panel li { margin: .2em 0; }
 .section-label { background: #e8eef7; color: #0a66c2; font-weight: 600;
                  padding: .3em .8em; border-radius: 4px; display: inline-block; margin-bottom: .8em; }
+.post28-banner { background: #f0f7ff; border: 1px solid #b8d4f0; border-radius: 6px;
+                 padding: .6em 1em; margin-bottom: 1em; font-size: .92em; }
+.post28-banner a { color: var(--accent); font-weight: 600; text-decoration: none; }
+.post28-banner a:hover { text-decoration: underline; }
+.contact-link { margin-left: 1em; padding-left: 1em; border-left: 1px solid #b8d4f0; }
 .feedback { background: #fffce8; border: 1px solid #e7d36b; border-radius: 8px;
             padding: 1.2em 1.6em; margin-top: 2em; }
 .feedback h2 { margin-top: 0; }
@@ -51,8 +61,8 @@ body { font-family: -apple-system, "Helvetica Neue", "PingFang SC", "Microsoft Y
     width: 100%; padding: .5em .7em; border: 1px solid #ccc; border-radius: 4px;
     font-size: .95em; font-family: inherit; }
 .feedback textarea { min-height: 100px; resize: vertical; }
-.feedback .row { display: flex; gap: 1em; margin: .5em 0; }
-.feedback .row > div { flex: 1; }
+.feedback .row { display: flex; gap: 1em; margin: .5em 0; flex-wrap: wrap; }
+.feedback .row > div { flex: 1; min-width: 120px; }
 .feedback button { background: #0a66c2; color: #fff; border: 0; padding: .7em 1.5em;
                    border-radius: 4px; font-size: .95em; cursor: pointer; margin: .5em .5em .5em 0; }
 .feedback button:hover { background: #084e96; }
@@ -68,37 +78,44 @@ nav.compact a:hover { text-decoration: underline; }
 <body>
 <div class="wrap">
 <div class="top">
-<h1>北京今朝有酒品牌管理有限公司 <span class="tag tag-health">health</span></h1>
+<h1>北京今朝有酒品牌管理有限公司 <span class="tag tag-bidding">bidding</span></h1>
 <a href="index.html">← 返回主页</a>
 </div>
 
+<div class="post28-banner">
+<strong>最终分类 (post28)</strong>: bidding · 政企招投标
+<span class="contact-link"><strong>联系方式</strong>: <a href="#kp">4 个候选触达点 →</a></span>
+</div>
+
 <nav class="compact">
-<strong>段标签</strong>: health / 类1_食品保健 &nbsp;|&nbsp;
-<a href="#cheat">cheat (一页推介)</a> · <a href="#appendix">辅料 (4源数据)</a> · <a href="#feedback">反馈</a>
+<a href="#cheat">cheat (推介)</a> ·
+<a href="#kp">联系方式</a> ·
+<a href="#appendix">辅料 (4源)</a> ·
+<a href="#feedback">反馈</a>
 </nav>
 
 <div class="panel" id="cheat">
 <div class="section-label">上半 — Cheat Sheet (现场推介用)</div>
-<h1 id="eid421">销售作战包 — 北京今朝有酒品牌管理有限公司 (eid=421)</h1>
-<p><em>段标签: health / 类1_食品保健</em></p>
-<h2 id="1">1. 公司一行</h2>
-<p>北京今朝有酒品牌管理有限公司 / FD13 / health / 88.4616万元 / 成立2年 / 13021250871;13693308639</p>
-<h2 id="2">2. 业态画像</h2>
-<p>主营葡萄酒消费场景解决方案，提供智能分酒机、SIP运管/SipSiip等软件系统、供应链和运营辅助服务，面向中餐厅、小酒馆、咖啡店等B端商家。通过设备销售/租赁、系统订阅盈利，并发展代理商渠道。虽无公开加盟业务，但系统支持连锁加盟管理。公司注册资本88万，持有20个已注册商标，拥有SIP运管、Sippai M等多款APP，处于品牌推广初期，线上声量较小。</p>
-<h2 id="3">3. 实际业务证据</h2>
+<h1>销售作战包 — 北京今朝有酒品牌管理有限公司 (eid=421)</h1>
+<p><em>最终分类 (post28): <strong>bidding</strong> · 政企招投标</em></p>
+<h2>1. 公司一行</h2>
+<p>北京今朝有酒品牌管理有限公司 / FD13 / bidding / 88.46万 / 成立2年</p>
+<h2>2. 业态画像</h2>
+<p>公司为葡萄酒消费场景B2B解决方案服务商，主营智能分酒设备销售、酒饮管理系统（SIP运管/SipSiip）及供应链服务，客户覆盖中餐厅、酒店、咖啡文创空间、高端商超等。销售模式为直销+代理商合作，无加盟业务但系统支持多级管理。成立仅2年，规模微小，资质单一，品牌知名度极低。根据post28分类，其核心业务涉及为B端餐饮客户提供设备与软件，需频繁参与酒店、连锁餐厅的采购招标，属于政企招投标潜在供应商，但自身缺乏权威背书，极易在招标审查环节因信任不足而出局。</p>
+<h2>3. 实际业务证据</h2>
 <ul>
-<li>官网：葡萄酒消费场景方案服务商，全链路服务体系 硬件、软件、供应链、运营辅助一站式服务</li>
-<li>SIP运管APP描述：帮助餐厅/酒商提升葡萄酒销售能力，总部赋能，加盟自治，线上线下一体化经营</li>
-<li>软著：SIP运管平台 V1.0、SipSiip红酒售卖系统 V1.0，均为业务核心支撑系统</li>
+<li>证据1（官网LLM抽取）：葡萄酒消费场景解决方案服务商，提供智能分酒设备、软件系统、供应链及运营辅助的一站式服务，面向中餐厅、酒店度假村等B端商家</li>
+<li>证据2（QCC软著）：拥有SIP运管平台、SipSiip红酒售卖系统两项软著，系统功能包含加盟自治、会员数字化等，服务于餐厅连锁管理及酒水销售</li>
+<li>证据3（QCC商标）：已注册SIPSIIP、CELLAR BOT等20个商标，涵盖酒、机械、餐饮住宿等类别，体现品牌化发展意图</li>
 </ul>
-<h2 id="4-4">4. 4 源信号摘要</h2>
+<h2>4. 4 源信号摘要</h2>
 <ul>
 <li><strong>QCC经营范围首项</strong>: 品牌管理；餐饮管理；食品销售（仅销售预包装食品）</li>
-<li><strong>官网核心业务</strong>: 葡萄酒消费场景解决方案服务商</li>
-<li><strong>APP评分下载</strong>: SIP运管评分5分，其余APP无评分</li>
-<li><strong>百度风险词</strong>: low_visibility: 无官方媒体新闻、无电商、品牌曝光低，存在混淆词“今朝酒业”</li>
+<li><strong>官网核心业务</strong>: 葡萄酒消费场景方案服务商，硬件、软件、供应链、运营辅助一站式服务</li>
+<li><strong>APP评分下载</strong>: SIP运管iOS评分5分，下载量未公开；SipSiip辅助服务，无评分</li>
+<li><strong>百度风险词</strong>: 低可见度score=3，无官网/电商/新闻，搜索词多围绕价格询问，品牌认知度弱</li>
 </ul>
-<h2 id="5-6">5. 信号识别表 (6 条)</h2>
+<h2>5. 信号识别表 (8 条)</h2>
 <table>
 <thead>
 <tr>
@@ -111,93 +128,181 @@ nav.compact a:hover { text-decoration: underline; }
 <tbody>
 <tr>
 <td>1</td>
-<td>百度信任质疑</td>
-<td>“今朝酒业”等搜索易造成品牌混淆，公众信任度低</td>
-<td>客户亟需国家级权威证书区分品牌、建立信任，减少消费者误认</td>
+<td>官网LLM抽取</td>
+<td>葡萄酒消费场景解决方案服务商，面向中餐厅、酒店度假村、高端商超等B端客户，提供智能分酒设备、软件系统、供应链一站式服务</td>
+<td>该客户需频繁参与B端采购或招投标（如酒店酒水设备采购），但自身缺乏权威资质背书，市监总局合作证书可成为差异化优势，提升中标率；若不办理，可能在资质审查环节即被淘汰</td>
 </tr>
 <tr>
 <td>2</td>
-<td>官网灰色信号</td>
-<td>试饮营销及“日咖夜酒”模式存在酒类销售合规与时段风险</td>
-<td>用合作证书存证酒类资质与合规承诺，规避监管处罚，增强合作方信心</td>
+<td>QCC软著</td>
+<td>拥有SIP运管平台、SipSiip红酒售卖系统2项软著，均为B2B SaaS/设备管控软件，且APP介绍强调‘加盟自治、多级管理’功能</td>
+<td>客户存在加盟管理或连锁餐厅服务场景，软著可作为技术实力证明，纳入市监总局合作证书‘荣誉专利’版块，向合作餐厅及招标方直观展示国家级认可，增强合作信心；不办则软著仅停留于登记表，难以转化为商业信任</td>
 </tr>
 <tr>
 <td>3</td>
-<td>官网灰色信号</td>
-<td>多场景酒饮嵌入需食品经营许可、时空限制等多项资质</td>
-<td>通过存证平台集中展示合规资质，帮B端餐厅快速核验，降低合作门槛</td>
+<td>QCC商标</td>
+<td>已注册SIPSIIP、CELLAR BOT等20个商标，覆盖酒、设备、餐饮住宿等类别，品牌布局较完整</td>
+<td>品牌意识强，但新公司信任度低，将商标信息存证于市监总局合作证书，可借助国家背景背书，让品牌快速获得B端客户信赖；若未存证，商标仅具备普通法律保护功能，无法在招投标中形成权威加分</td>
 </tr>
 <tr>
 <td>4</td>
-<td>QCC软著</td>
-<td>SIP运管平台明确支持“加盟自治”“总部赋能”等连锁管理功能</td>
-<td>加盟体系需强信任背书，合作证书可帮总部及加盟商统一展示官方认可，促进招商</td>
+<td>百度信任质疑</td>
+<td>百度低可见度评分3分，无官网、无媒体新闻、无电商，仅企业信息查询页，用户搜索‘今朝酒业价格表’偏向价格求证</td>
+<td>市场认知度极弱，B端客户难以快速核实其资质实力，通过办理市监总局合作证书，可在证书查验页面展示公司全面信息，让招标方或合作伙伴扫码一键验真，解决信任难题；不办理则始终面临‘查无此司’的质疑风险</td>
 </tr>
 <tr>
 <td>5</td>
-<td>百度相关搜索</td>
-<td>搜索词“今朝加盟”显示潜在合作者对公司模式存在误解或兴趣</td>
-<td>需权威资质证明正规性，将误搜流量转化为信任合作</td>
+<td>QCC成立日期</td>
+<td>2023年6月成立，注册资本88.46万元，参保人数0，属于微型新创企业</td>
+<td>新公司参与政企招投标或大型连锁合作时，极易因成立时间短、规模小被质疑稳定性，市监总局合作证书能通过官方背书弥补企业资历短板，让招标方关注其技术实力而非成立年限；无此证书，可能在资格预审阶段即被判定为‘不具备履约能力’</td>
 </tr>
 <tr>
 <td>6</td>
-<td>QCC成立日期</td>
-<td>2023年6月成立，仅2年多，市场信任积累薄弱</td>
-<td>新公司急需“市监总局合作伙伴”招牌快速破冰，弥补历史短板</td>
+<td>官网LLM抽取</td>
+<td>官网提及‘试饮营销激活转化’及咖啡店‘日咖夜酒’模式，存在酒类试饮合规风险、酒类销售资质与时段限制</td>
+<td>客户需向餐厅、商超证明自身提供的方案符合法规要求，通过市监总局合作证书将食品经营许可、卫生许可等资质集中存证，可快速打消合作方对合规的担忧；缺少证书，合作方可能因合规疑虑而放弃合作</td>
+</tr>
+<tr>
+<td>7</td>
+<td>QCC行政许可</td>
+<td>仅有营业执照，无其他特殊资质证书（如食品经营许可、电信许可等），但实际业务涉及食品销售与APP运营</td>
+<td>客户实际经营中需要展示多项资质，但目前证书缺失，市监总局合作证书可作为一个整合性背书，将现有营业执照、软著等有限材料包装成国家级认可的整体形象，应对B端客户资质索要；不办则每次合作都需反复解释、提供零散材料，效率低下且缺乏说服力</td>
+</tr>
+<tr>
+<td>8</td>
+<td>APP ICP备案</td>
+<td>已备案SIP运管、Sippai、SipSiip等多个APP/小程序，表明其数字化业务活跃，但未在官网展示相关资质</td>
+<td>APP运营合规性是餐厅等客户关注重点，将ICP备案、软著等信息存入市监总局合作证书，可作为对外宣传的‘数字信任包’，让客户扫码即验证APP合规身份；没有集中存证，客户可能因信息分散而怀疑其正规性</td>
 </tr>
 </tbody>
 </table>
-<h2 id="6-6-ok">6. 产品匹配点 (6 条, 状态: ok)</h2>
+<h2>6. 产品匹配点 (7 条, 状态: ok)</h2>
 <ul>
-<li><strong>[信号 2] 试饮营销及日咖夜酒的酒类合规风险</strong></li>
-<li>办理市监总局合作证书，可将您的酒类经营许可证、卫生许可等资质存证并对外展示，直接向监管和客户证明您已获国家认可，解决试饮合规疑虑，让合作餐厅更放心。</li>
-<li><em>来源: 实战QA§第13条（合作证书的好处：增加信任，证明合规）</em></li>
-<li><strong>[信号 4] SIP运管平台支持加盟自治，连锁管理需信任背书</strong></li>
-<li>您的SIP运管平台发展加盟商，我们可以提供市监总局合作证书，让总部和每个加盟商均悬挂‘国家级合作伙伴’标识，不仅提升整体体系可信度，还能成为招商利器。</li>
-<li><em>来源: 实战QA§第20条（加盟商可以总部统一办理，也可单独办，增强体系信誉）</em></li>
-<li><strong>[信号 6] 成立仅2年，市场信任度低</strong></li>
-<li>新公司最怕客户有疑虑，市监总局合作证书直接给您国家市场监管总局的官方合作单位身份，立刻跳出新公司信任怪圈，让餐厅老板一眼就觉得靠谱。</li>
-<li><em>来源: 实战QA§第4条（大白话：办了等于公司被市监总局认可，对外合作最有力证明）</em></li>
-<li><strong>[信号 1] 品牌混淆，搜索‘今朝酒业’多</strong></li>
-<li>证书上会清晰展示您公司全称与官方认可信息，消费者扫码即见，彻底与‘今朝酒业’区分开，用国家背书打造专属品牌形象。</li>
-<li><em>来源: 实战QA§第2条（合作证书与营业执照区别：国家级唯一，含金量不同）</em></li>
-<li><strong>[信号 3] 多场景酒饮嵌入需多项资质，合作方审核慢</strong></li>
-<li>把您的食品经营许可、侍酒机质量报告等全部存证到市监总局合作证书里，一键展示给合作咖啡店、商超，减少他们反复核验的麻烦，加速签单。</li>
-<li><em>来源: 实战QA§第8条（线下实体店办存证，增加消费者与合作方信任）</em></li>
-<li><strong>[信号 5] 百度搜‘今朝加盟’显示市场误解</strong></li>
-<li>即使没有加盟业务，合作证书也能帮您澄清正规企业身份，让搜索来的潜在合作者第一时间看到权威资质，把误解转化为合作机会。</li>
-<li><em>来源: 培训材料§Slide 25（消费者扫码查看认证信息，买得放心，商家卖得安心）</em></li>
+<li><strong>[信号 1] 需参与酒店、餐厅设备采购招标，但缺乏资质背书</strong></li>
+<li>【信号】贵司为酒店、餐厅提供分酒设备与软件，常需参与招投标。【产品关联】市监总局合作证书作为国家级背书，可将贵司软著、设备专利、营业执照等存证，生成可查验的官方证书。【预期收益】投标时直接展示证书，让招标方扫码验证企业资质，显著提升中标概率。【不办风险】缺少权威背书，可能在资质审查环节被判定为‘企业信誉不明’，错失大单。</li>
+<li><em>来源: 培训材料§Slide 2&amp;6&amp;24，实战QA§第54条</em></li>
+<li><strong>[信号 2] 拥有软著但未能转化为商业信任</strong></li>
+<li>【信号】贵司有SIP运管平台等软著，能支撑加盟自治与多门店管理。【产品关联】将软著存入市监总局合作证书‘荣誉专利’版块，即获得国家电商质检中心与市监总局的双重认可。【预期收益】向连锁餐厅客户出示证书时，技术实力获得官方背书，合作成功率提高30%以上。【不办风险】仅靠登记证书复印件谈合作，易被质疑真实性，甚至被竞争对手以‘有权威认证’而抢单。</li>
+<li><em>来源: 实战QA§第5条，培训材料§Slide 5&amp;25</em></li>
+<li><strong>[信号 4] 百度无官网无新闻，客户搜索不到权威信息</strong></li>
+<li>【信号】百度搜索贵司时，无官网、无新闻、无电商，仅企业信息页面。【产品关联】办理市监总局合作证书后，证书上有总局查验二维码，客户扫码即可看到贵司所有存证信息，相当于官方为企业背书的主页。【预期收益】从根本上解决‘查无此司’的尴尬，让合作方快速建立信任，缩短决策周期。【不办风险】持续面临潜在客户因信息缺失而流失，尤其在电商平台、招标网站等需要验证环节时受阻。</li>
+<li><em>来源: 培训材料§Slide 2&amp;6&amp;24，实战QA§第4条</em></li>
+<li><strong>[信号 5] 成立仅2年，规模微小，投标受质疑</strong></li>
+<li>【信号】贵司2023年才成立，注册资本不足百万，投标时容易被认为‘资历浅、不可靠’。【产品关联】市监总局合作证书不看企业年龄，只要材料真实即可获得国家认可，证书本身比‘成立年限’更能证明实力。【预期收益】在投标文件中附上证书，招标方评价标准会从‘成立几年’转向‘有无国家级背书’，对贵司这种新兴技术企业尤为有利。【不办风险】在综合评分法中，资质项可能得零分，直接导致落选。</li>
+<li><em>来源: 培训材料§Slide 2&amp;26，实战QA§第54条</em></li>
+<li><strong>[信号 6] 试饮营销、日咖夜酒等方案存在合规风险</strong></li>
+<li>【信号】官网提到试饮营销、咖啡店夜间卖酒，可能涉及酒类销售资质与限制。【产品关联】将食品经营许可证、酒类备案等资质存入合作证书，合作方可随时扫码查看，证明方案完全合规。【预期收益】打消合作餐厅、商超对监管风险的顾虑，加速签约；【不办风险】一旦合作方担心被牵连处罚，极易取消合作，且该风险在方案讲解时会被反复质疑，拉长成交周期。</li>
+<li><em>来源: 培训材料§Slide 22&amp;23，实战QA§第19条</em></li>
+<li><strong>[信号 8] APP已备案但未公开资质，客户担忧正规性</strong></li>
+<li>【信号】SIP运管、Sippai等APP已ICP备案，但贵司未集中展示，客户可能质疑其运营正规性。【产品关联】将ICP备案号、软著等录入市监总局合作证书，生成一张综合性的‘数字化服务资质证书’。【预期收益】销售人员在餐厅端打开证书展示页，客户扫码即可确认APP合法合规，打消疑虑，提升软件采购率。【不办风险】仅凭口头解释，客户可能认为‘小公司开发的软件没有保障’，转而选择有认证的竞品。</li>
+<li><em>来源: 培训材料§Slide 5&amp;24，实战QA§第40条</em></li>
+<li><strong>[信号 3] 拥有20个商标但未获得品牌信任背书</strong></li>
+<li>【信号】贵司已注册SIPSIIP等20个商标，品牌布局完善。【产品关联】将商标注册证存证于市监总局合作证书，意味着商标不仅受法律保护，更获得国家市监总局的官方认可，品牌价值倍增。【预期收益】在招商会、合作洽谈中展示证书，让代理商、餐厅老板直观感受到品牌‘有国家撑腰’，极大提高加盟或采购转化。【不办风险】商标仅作为普通标识使用，难以在B端市场形成权威品牌势能，品牌溢价能力受限。</li>
+<li><em>来源: 培训材料§Slide 5&amp;26，实战QA§第17条</em></li>
 </ul>
-<h3 id="1_1">待人工补充话术 (1 条无产品匹配)</h3>
+<h3>待人工补充话术 (1 条无产品匹配)</h3>
 <ul>
-<li>信号 5: 产品文档未直接涉及误搜澄清话术，但合作证书本身即权威信任工具，可间接解决</li>
+<li>信号 7: 仅有营业执照但实际经营需多资质，产品文档未直接匹配‘整合包装’话术，但可参考合作证书存证模式，需人工补充具体资质组合</li>
 </ul>
-<h2 id="7-discovery">7. Discovery 问题 + 异议库</h2>
-<h3 id="discovery">Discovery (挖诉求)</h3>
+<h2>7. Discovery 问题 + 异议库</h2>
+<h3>Discovery (挖诉求)</h3>
 <ol>
-<li>问题1 (基于信号id=2)：你们目前的试饮活动如何保障符合酒类法规？有没有被监管部门提醒过？</li>
-<li>问题2 (基于信号id=4)：SIP运管平台现管理多少家门店？加盟商最常质疑总部哪些资质？</li>
-<li>问题3 (基于信号id=6)：公司成立时间短，之前向餐厅推销时碰到过哪些不信任案例？</li>
-<li>问题4 (基于信号id=1)：用户把你们和‘今朝酒业’搞混，有过客诉或合作流失吗？</li>
-<li>问题5 (基于信号id=3)：你们帮餐厅落地分酒设备时，对方最担心什么合规问题？</li>
+<li>问题1 (基于信号 id=1)：王总，贵司经常给酒店、餐厅提供分酒设备和系统，这些项目走采购时，招标方通常会要求提供哪些资质证明啊？是不是经常觉得除了营业执照没啥拿得出手的？</li>
+<li>问题2 (基于信号 id=4)：我们查了下，贵司在网上的权威信息比较少，很多客户想搜却搜不到，这会不会导致一些大餐厅或酒店对你们的实力打个问号？</li>
+<li>问题3 (基于信号 id=5)：我看贵司是2023年成立的，按理说技术很新，但有些连锁餐饮招标特别看重公司年限，你们有没有因为这个吃过亏？</li>
+<li>问题4 (基于信号 id=6)：咱们官网提到的试饮推广、咖啡店日咖夜酒方案，挺创新的，但合作餐厅会不会担心酒类经营合规问题，比如市场监管局检查？</li>
+<li>问题5 (基于信号 id=8)：你们开发了APP给餐厅用，客户有没有问过‘你们这个软件有官方认证吗’，会不会担心数据安全或合法性？</li>
 </ol>
-<h3 id="_1">异议库 (产品维度)</h3>
-<p><strong>异议 1: 这个证书真的有用吗？办了就能让餐厅相信我？</strong></p>
-<p>市监总局合作证书是国家市场监督管理总局唯一发出的合作单位证书，表示你的企业被国家认可，不管你以后跟人合作还是对外宣传，就是最有力的证明。</p>
-<p><em>来源: 实战QA§第4条</em></p>
-<p><strong>异议 2: 我们小公司，这个证书费用贵不贵？</strong></p>
-<p>市监总局合作证书一年单3000元，三年单6280元，相当于每天花费不到一杯咖啡钱，换来国家背书，投入远低于带来的生意增长。</p>
-<p><em>来源: 实战QA§第32条</em></p>
-<p><strong>异议 3: 办了证书，市场监管部门还会罚我吗？能免检吗？</strong></p>
-<p>证书是认可，并不代表免检，但可作为合规经营的权威证明，在例行检查中提供有力证据，一般能降低检查频率和阻力。</p>
-<p><em>来源: 实战QA§第23条</em></p>
+<h3>异议库 (产品维度)</h3>
+<p><strong>异议 1: 我们就是个新公司，办个证书真的能帮我们中标吗？招标方认这个吗？</strong></p>
+<p>招标方看重的不是成立年限，而是企业可信度。市监总局合作证书是国家市场监督管理总局唯一颁发的合作单位证书，相当于国家为您的企业信誉担保。放在投标文件里，评审专家扫码就能看到总局背书，远比一张营业执照有说服力。我们服务过的新公司靠这个证书多次中标，因为它在综合评分中直接加印象分。</p>
+<p><em>来源: 实战QA§第54条</em></p>
+<p><strong>异议 2: 我做的都是B端生意，不像电商卖货需要给消费者看证书，办了有用吗？</strong></p>
+<p>B端客户采购决策比消费者更谨慎，他们担心供应商实力不足、合规风险大。当您拿出市监总局颁发的证书，就能瞬间打消所有顾虑，证明自己是得到国家认可的靠谱伙伴。尤其您合作的餐厅、酒店，自身都要应对市场监管局检查，他们更愿意选择有权威背书的供应商。</p>
+<p><em>来源: 实战QA§第8条</em></p>
+<p><strong>异议 3: 这个证书会不会很麻烦？我们小公司没人手跟进流程。</strong></p>
+<p>我们全程代办，您只需提供营业执照、软著等电子版，剩下由我们对接市监总局和电商质检中心。线上办理，1-3天您就能收到实体证书，耗费精力极少，但带来的投标优势是长期的。就像给公司办了一个国家级身份证，一次办理，处处有用。</p>
+<p><em>来源: 实战QA§第24条</em></p>
 </div>
+
+
+<div class="panel" id="kp">
+<div class="section-label">联系方式 · KP 触达情报 (S/M/A/X 判别)</div>
+<h2>KP 触达情报</h2>
+<p><em>生成时间: 自动管线 · eid=421 · 北京今朝有酒品牌管理有限公司</em></p>
+<h3>A. 候选触达点（去重后全量）</h3>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>触达点</th>
+<th>类型</th>
+<th>角色推断</th>
+<th>来源</th>
+<th>证据 / 注释</th>
+<th>建议动作</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>13021250871</td>
+<td>手机</td>
+<td>待核实</td>
+<td>QCC CSV 有效手机号 + qcc-cli get_contact_info</td>
+<td>交叉: 邮箱 13021250871@163.com local=手机号 (S2)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>2</td>
+<td>13021250871@163.com</td>
+<td>邮箱</td>
+<td>个人/免费邮箱</td>
+<td>QCC CSV 邮箱</td>
+<td>邮箱 13021250871@163.com 用户名=手机号 (S2)</td>
+<td>邮箱用户名即手机号；可短信/支付宝验证</td>
+</tr>
+<tr>
+<td>3</td>
+<td>13693308639</td>
+<td>手机</td>
+<td>工商登记号 (候选)</td>
+<td>QCC CSV 有效手机号 + qcc-cli get_contact_info</td>
+<td>工商登记号，无其他强信号 (M1)</td>
+<td>候选；建议支付宝/微信验证姓氏</td>
+</tr>
+<tr>
+<td>4</td>
+<td>3954523695@qq.com</td>
+<td>邮箱</td>
+<td>个人/免费邮箱</td>
+<td>QCC CSV 邮箱</td>
+<td>— (—)</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<h3>B. 公司背景增量信息（辅助判断）</h3>
+<ul>
+<li>法人: <strong>王炬</strong> · 注册资本 88.4616万元 · 成立 2023-06-20</li>
+<li>参保人数: 0 · 企业规模: XS(微型) · 段标签: bidding</li>
+<li>疑似关联企业 (related_party_suspects): 0 条</li>
+<li>官网: —</li>
+<li>百度公开线索:</li>
+<li>蒋彩峰 - 北京西篱把酒企业管理合伙企业(有限合伙) - 法定代表人/...</li>
+<li>北京今朝有酒品牌管理有限公司-企业信息</li>
+<li>北京今朝有酒品牌管理有限公司 - 天眼查</li>
+</ul>
+<h3>C. 不可达 / 已排除项</h3>
+<p>（无）</p>
+</div>
+
 
 <div class="panel" id="appendix">
 <div class="section-label">下半 — 辅料 (电话前/上门前看)</div>
-<h1 id="eid421">辅料 — 北京今朝有酒品牌管理有限公司 (eid=421)</h1>
-<h2 id="1-qcc">1. QCC 全字段 (人读版)</h2>
-<h3 id="basic_info">basic_info</h3>
+<h1>辅料 — 北京今朝有酒品牌管理有限公司 (eid=421)</h1>
+<h2>1. QCC 全字段 (人读版)</h2>
+<h3>basic_info</h3>
 <pre><code>* 企业名称: 北京今朝有酒品牌管理有限公司
 * 基本信息:
 统一社会信用代码: 91110118MACLFXFD13
@@ -206,13 +311,13 @@ nav.compact a:hover { text-decoration: underline; }
 成立日期: 2023-06-20
 经营范围: 一般项目：品牌管理；餐饮管理；食品销售（仅销售预包装食品）；企业管理咨询；企业管理；会议及展览服务；组织文化艺术交流活动；咨询策划服务；市场营销策划；商业综合体管理服务；食品用塑料包装容器工具制品销售；餐饮器具集中消毒服务；商业、饮食、服务专用设备销售；外卖递送服务；厨具卫具及日用杂品批发；礼仪服务；互联网销售（除销售需要许可的商品）；技术服务、技术开发、技术咨询、技术交流、技术转让、技术推广
 </code></pre>
-<h3 id="administrative_license">administrative_license</h3>
+<h3>administrative_license</h3>
 <pre><code>* 企业名称: 北京今朝有酒品牌管理有限公司
 * 行政许可:
 共 1 条记录
 1 91110118MACLFXFD13 营业执照 有效 2023-06-20 2053-06-19 北京市密云区市场监督管理局 北京今朝有酒餐饮管理有限公司 北京市市场监督管理局 详情
 </code></pre>
-<h3 id="trademark_info">trademark_info</h3>
+<h3>trademark_info</h3>
 <pre><code>* 企业名称: 北京今朝有酒品牌管理有限公司
 * 商标信息:
 共 20 条记录
@@ -226,15 +331,26 @@ nav.compact a:hover { text-decoration: underline; }
 8 SIP SIIP 11类 灯具空调 已注册 87996416 2025-10-11 2026-05-07 详情
 9 SIP SIIP 20类 家具 已注册 87996418 2025-10-11 2026-05-07 详情
 10 SIP SIIP 33类 酒 已注册 88004948 2025-10-11 2026-05-07 详情
+11 SIPSIIP 7类 机械设备 已注册 86171373 2025-06-27 2026-03-28 详情
+12 SIP SIIP 7类 机械设备 已注册 86192824 2025-06-27 2026-03-28 详情
+13 CELLAR BOT 11类 灯具空调 已注册 81357531 2024-10-13 2025-04-21 详情
+14 BOT CELLAR 11类 灯具空调 已注册 81357530 2024-10-13 2025-04-21 详情
+15 BOT CELLAR 20类 家具 已注册 81357864 2024-10-13 2025-04-21 详情
+16 CELLAR BOT 20类 家具 已注册 81357862 2024-10-13 2025-04-21 详情
+17 CHATTY 43类 餐饮住宿 商标无效·初审驳回 74296560 2023-09-25 - 详情
+18 余又木不 43类 餐饮住宿 商标无效·初审驳回 74287967 2023-09-25 - 详情
+19 余又杯 43类 餐饮住宿 商标无效·初审驳回 74287963 2023-09-25 - 详情
+20 SIP SIIP 43类 餐饮住宿 已注册 73390380 2023-08-10 2024-02-28 详情
+
 </code></pre>
-<h3 id="software_copyright_info">software_copyright_info</h3>
+<h3>software_copyright_info</h3>
 <pre><code>* 企业名称: 北京今朝有酒品牌管理有限公司
 * 软件著作权:
 共 2 条记录
 1 SIP运管平台 SIP运管 V1.0 2025SR0858624 - - 2025-05-23 原始取得
 2 SipSiip红酒售卖系统 SipSiip V1.0 2025SR0206172 2024-12-03 - 2025-02-06 原始取得
 </code></pre>
-<h3 id="network_service_filing">network_service_filing</h3>
+<h3>network_service_filing</h3>
 <pre><code>* 企业名称: 北京今朝有酒品牌管理有限公司
 * 网络服务备案:
 共 11 条记录
@@ -250,132 +366,133 @@ nav.compact a:hover { text-decoration: underline; }
 5 SipSiip Tour 京ICP备2023026569号-2X 2024-03-21 详情
 6 SipSiip 京ICP备2023026569号-1X 2023-10-12 详情
 </code></pre>
-<h3 id="app">app</h3>
+<h3>app</h3>
 <pre><code>* 企业名称: 北京今朝有酒品牌管理有限公司
 * APP:
 共 1 条记录
 1 SIP运管 2026-05-20 2026-03-02 85.38MB SIP运管 APP介绍 【新零售，新增长】帮助餐厅/酒商提升葡萄酒销售能力，经营好客户！ 一套系统满足单店/连锁经营所需，线上线下一体化经营，快速实现门店经营、客户管理、导购营销的数字化升级；精准洞察客户需求，自动输出客户画像，使门店人员实时运营，提升客单价和复购率；全方位帮助门店及导购创造更多订单，辅助门店经理，店长提高运营管理效率，使得运营管理智能化。 【使用行业】 各类餐厅，如小酒馆，西餐厅，Bistro， 烤肉店等。目前已入住餐厅包括云南菜、广东菜、西餐、bistro、烤肉等各种业态； 【功能亮点】 1.总部赋能，加盟自治 a.总部赋能：商品|库存|内容|供应链|资金|运营 b.灵活多级管理架构：酒商|城市合伙人，餐厅督导员，连锁餐厅经理，门店店长，服务员 2.线上线下一体化 a.线下门店数字化 - 出酒情况 | 扫码领券 | 同城配送 | 到店自提 b.线上多渠道触达 - 小程序 | 社群 | 导购 | 分销 c.门店拉新 - 微信 X 社群 X 会员 X 导购 d.门店智能侍酒机： 自助扫码出酒 | 会员扫码出酒 | 散客刷卡出酒 3.导购数字化 a.导购奖励：通过激励服务员或导购员增加门店葡萄酒的售卖 b.晋升机制：导购排行榜 | 级别 关联不同的奖励政策 4.会员数字化 a.实时查看门店经营情况 b.会员的到店情况，会员的用户画像 c.针对会员到店情况，发放不同的权益激励 5.数字化营销 a.裂变营销 b.提升客单 c.复购转化 d.进店营销 6.智能数据决策 a.智能数据个性化人群运营 b.多维度经营报表 c.对账记账 | 分佣结算 | 实时数据 【联系我们】 咨询热线：18810883603 官方微信公众号：SipSiip 官方网站：www.sipsiip.com 详情
 </code></pre>
-<h3 id="credit_commitment">credit_commitment</h3>
+<h3>credit_commitment</h3>
 <pre><code>* 企业名称: 北京今朝有酒品牌管理有限公司
 * 信用承诺:
 共 2 条记录
 1 11011820230620000066 审批替代型 审批替代型,市场主体登记告知承诺 （一）已知晓公布的法定条件和标准，完全按照登记机关公布的标准填写和提交材料，并已达到相应的条件和要求。 （二）对所提交的申请材料负责，保证所提交材料和填报信息的真实、合法、有效、完整和一致，不含有损国家、社会公共利益或者违背公序良俗、有其他不良影响的内容，并承担相关法律责任，如提交申请材料中信息不一致出现异议，以登记申请书填报信息为准；按照登记机关的要求对违法违规及不规范的行为予以纠正； （三）签署章程、协议、决议内容合法并已依法签署、生效，章程、协议、决议等内容与现行法律、行政法规规定不符的，以法律、行政法规规定为准，并自行承担内容无效的后果； （四）遵守法律法规，不开展未经许可事项经营活动，从事的经营活动符合本市的产业政策，不违反《北京市新增产业的禁止和限制目录》； （五）保证住所（经营场所）符合法律法规要求及本市有关规定，不将属于违法建筑的、经鉴定为危房的、住宅和公寓等居住性规划用途的、非规划为经营性用途的地下空间的房产作为住所（经营场所）； （六）保证按照登记机关的要求对违法违规及不规范的行为予以纠正，并承担虚假承诺、未履行承诺的法律责任和惩戒后果； （七）保证所做的陈述真实、合法，是本人真实意思的表达； （八）保证所提供的（法定代表人/负责人/经营者）联系电话（手机）真实有效，能够及时接听，并承诺在下一年度年报及时准确填写联系电话、电子邮箱和通信地址（个体工商户仅需填写联系电话，农民合作社仅需填写联系电话、电子邮箱），市场监管部门将对上述联系方式的真实性进行核查。 （九）本次登记中若涉及住所（经营场所）登记的，承诺确认该住所（经营场所）为本市场主体的法律文书送达地址，该法律文书送达地址真实、准确，能够及时有效接收送达的法律文书。人民法院、市场监督管理部门向该地址送达法律文书具有法律效力，产生的法律后果由本市场主体自行承担。本市场主体已知晓可以在北京市企业服务e窗通平台“法律文书送达地址专栏中另行填报其他地址，作为承诺确认的法律文书送达地址，人民法院优先向自行填报的地址进行送达。 （十）保证遵守《个人所得税法》的有关规定，公司自然人股东转让股权的，主动到税务机关办理完税手续。 2023-06-20 全部履行 北京市密云区市场监督管理局
 2 11011820190120019769 审批替代型 审批替代型,市场主体登记告知承诺 （一）已知晓公布的法定条件和标准，完全按照登记机关公布的标准填写和提交材料，并已达到相应的条件和要求。 （二）对所提交的申请材料负责，保证所提交材料和填报信息的真实、合法、有效、完整和一致，不含有损国家、社会公共利益或者违背公序良俗、有其他不良影响的内容，并承担相关法律责任，如提交申请材料中信息不一致出现异议，以登记申请书填报信息为准；按照登记机关的要求对违法违规及不规范的行为予以纠正； （三）签署章程、协议、决议内容合法并已依法签署、生效，章程、协议、决议等内容与现行法律、行政法规规定不符的，以法律、行政法规规定为准，并自行承担内容无效的后果； （四）遵守法律法规，不开展未经许可事项经营活动，从事的经营活动符合本市的产业政策，不违反《北京市新增产业的禁止和限制目录》； （五）保证住所（经营场所）符合法律法规要求及本市有关规定，不将属于违法建筑的、经鉴定为危房的、住宅和公寓等居住性规划用途的、非规划为经营性用途的地下空间的房产作为住所（经营场所）； （六）保证按照登记机关的要求对违法违规及不规范的行为予以纠正，并承担虚假承诺、未履行承诺的法律责任和惩戒后果； （七）保证所做的陈述真实、合法，是本人真实意思的表达； （八）保证所提供的（法定代表人/负责人/经营者）联系电话（手机）真实有效，能够及时接听，并承诺在下一年度年报及时准确填写联系电话、电子邮箱和通信地址（个体工商户仅需填写联系电话，农民合作社仅需填写联系电话、电子邮箱），市场监管部门将对上述联系方式的真实性进行核查。 （九）本次登记中若涉及住所（经营场所）登记的，承诺确认该住所（经营场所）为本市场主体的法律文书送达地址，该法律文书送达地址真实、准确，能够及时有效接收送达的法律文书。人民法院、市场监督管理部门向该地址送达法律文书具有法律效力，产生的法律后果由本市场主体自行承担。本市场主体已知晓可以在北京市企业服务e窗通平台“法律文书送达地址专栏中另行填报其他地址，作为承诺确认的法律文书送达地址，人民法院优先向自行填报的地址进行送达。 （十）保证遵守《个人所得税法》的有关规定，公司自然人股东转让股权的，主动到税务机关办理完税手续。 2019-01-20 全部履行 北京市密云区市场监督管理局
 </code></pre>
-<h2 id="2">2. 官网内容</h2>
+<h2>2. 官网内容</h2>
 <ul>
 <li><strong>core_business</strong>: 葡萄酒消费场景解决方案服务商，提供智能分酒设备、软件系统、供应链及运营辅助的一站式服务，帮助餐饮、零售等商业场景提升酒饮销售。</li>
 <li><strong>customer_object</strong>: 中餐厅、异国料理、烘焙轻食店、酒店度假村、葡萄酒商店、酒庄品酒室、咖啡文创空间、高端商超等B端商家，以及代理商合作伙伴。</li>
-<li><strong>sales_channels</strong>: ['官方网站品牌展示', '代理商合作渠道', '直销团队（推测）']</li>
+<li><strong>sales_channels</strong>: ["官方网站品牌展示", "代理商合作渠道", "直销团队（推测）"]</li>
 <li><strong>franchise_signals</strong>: []</li>
 <li><strong>ecom_signals</strong>: []</li>
-<li><strong>grey_signals</strong>: ['试饮营销激活转化：在高端商超场景提到‘激活试饮营销’，可能涉及线下试饮合规风险（需食品经营许可、限制向未成年人提供酒类试饮等）', '多场景酒饮嵌入：咖啡店‘日咖夜酒’模式需关注酒类销售资质与时段限制']</li>
+<li><strong>grey_signals</strong>: ["试饮营销激活转化：在高端商超场景提到‘激活试饮营销’，可能涉及线下试饮合规风险（需食品经营许可、限制向未成年人提供酒类试饮等）", "多场景酒饮嵌入：咖啡店‘日咖夜酒’模式需关注酒类销售资质与时段限制"]</li>
 <li><strong>disclaimer_red_flags</strong>: []</li>
-<li><strong>suggested_segments</strong>: ['智能零售设备', '餐饮酒饮解决方案', '葡萄酒供应链服务']</li>
+<li><strong>suggested_segments</strong>: ["智能零售设备", "餐饮酒饮解决方案", "葡萄酒供应链服务"]</li>
 <li>
-<p><strong>evidence</strong>: ['首页: 葡萄酒消费场景方案服务商', '首页: 全链路服务体系 硬件、软件、供应链、运营辅助一站式服务', '首页: 仅占0.15㎡台面，多场景灵活嵌入（指分酒设备）', '首页: 智慧屏幕交互，选酒下单一步到位', '首页: C端智能生态 ‘Sip Tour’小程序与AI荐酒赋能', '首页: B端运管APP ‘SIP运管’ APP实现设备配置、数据管理', '首页: 代理商合作伙伴 实现数据化运营，指导精准营销', '首页: 高端商超零售 激活试饮营销，极大提升转化率', '首页: 咖啡店与文创空间 打造‘日咖夜酒’模式']</p>
+<p><strong>evidence</strong>: ["首页: 葡萄酒消费场景方案服务商", "首页: 全链路服务体系 硬件、软件、供应链、运营辅助一站式服务", "首页: 仅占0.15㎡台面，多场景灵活嵌入（指分酒设备）", "首页: 智慧屏幕交互，选酒下单一步到位", "首页: C端智能生态 ‘Sip Tour’小程序与AI荐酒赋能", "首页: B端运管APP ‘SIP运管’ APP实现设备配置、数据管理", "首页: 代理商合作伙伴 实现数据化运营，指导精准营销", "首页: 高端商超零售 激活试饮营销，极大提升转化率", "首页: 咖啡店与文创空间 打造‘日咖夜酒’模式"]</p>
 </li>
 <li>
 <p>抓取来源: L1_scrapling (663 chars)</p>
 </li>
 </ul>
-<h2 id="3-app-ios-android">3. APP 矩阵 (iOS + Android)</h2>
-<h3 id="sip-platforms-ios">SIP运管 (platforms: ['ios'])</h3>
+<h2>3. APP 矩阵 (iOS + Android)</h2>
+<p>共 5 个 APP (iOS 5 / Android 1)</p>
+<h3>SIP运管 (platforms: ['ios'])</h3>
 <ul>
 <li>iOS: rating=5, version=3.1.16, category=工具</li>
 <li>description: SIP运管  APP介绍</li>
 </ul>
-<p>【新零售，新增长】帮助餐厅/酒商提升葡萄酒销售能力，经营好客户！
+<p>【新零售，新增长】帮助餐厅/酒商提升葡萄酒销售能力，经营好客户！<br />
 一套系统满足单店/连锁经营所需，线上线下一体化经营，快速实现门店经营、客户管理、导购营销的数字化升级；精准洞察客户需求，自动输出客户画像，使门店人员实时运营，提升客单价和复购率；全方位帮助门店及导购创造更多订单，辅助门店经理，店长提高运营管理效率，使得运营管理智能化。</p>
-<p>【使用行业】
+<p>【使用行业】<br />
 各类餐厅，如小酒馆，西餐厅，Bistro， 烤肉店等。目前已入住餐厅包括云南菜、广东菜、西餐、bistro、烤肉等各种业态；</p>
-<p>【功能亮点】
-1.总部赋能，加盟自治
-a.总部赋能：商品|库存|内容|供应链|资金|运营
-b.灵活多级管理架构：酒商|城市合伙人，餐厅督导员，连锁餐厅经理，门店店长，服务员
-2.线上线下一体化
-a.线下门店数字化 - 出酒情况 | 扫码领券 | 同城配送 | 到店自提
-b.线上多渠道触达 - 小程序 | 社群 | 导购 | 分销
-c.门店拉新 - 微信 X 社群 X 会员 X 导购
-d.门店智能侍酒机： 自助扫码出酒 | 会员扫码出酒 | 散客刷卡出酒
-3.导购数字化
-a.导购奖励：通过激励服务员或导购员增加门店葡萄酒的售卖
-b.晋升机制：导购排行榜 | 级别 关联不同的奖励政策
-4.会员数字化
-a.实时查看门店经营情况
-b.会员的到店情况，会员的用户画像
+<p>【功能亮点】<br />
+1.总部赋能，加盟自治<br />
+a.总部赋能：商品|库存|内容|供应链|资金|运营<br />
+b.灵活多级管理架构：酒商|城市合伙人，餐厅督导员，连锁餐厅经理，门店店长，服务员<br />
+2.线上线下一体化<br />
+a.线下门店数字化 - 出酒情况 | 扫码领券 | 同城配送 | 到店自提<br />
+b.线上多渠道触达 - 小程序 | 社群 | 导购 | 分销<br />
+c.门店拉新 - 微信 X 社群 X 会员 X 导购<br />
+d.门店智能侍酒机： 自助扫码出酒 | 会员扫码出酒 | 散客刷卡出酒<br />
+3.导购数字化<br />
+a.导购奖励：通过激励服务员或导购员增加门店葡萄酒的售卖<br />
+b.晋升机制：导购排行榜 | 级别 关联不同的奖励政策<br />
+4.会员数字化<br />
+a.实时查看门店经营情况<br />
+b.会员的到店情况，会员的用户画像<br />
 c.针对会员到店情况，发放</p>
-<h3 id="sipsiip-platforms-ios">SipSiip (platforms: ['ios'])</h3>
+<h3>SipSiip (platforms: ['ios'])</h3>
 <ul>
 <li>iOS: rating=0, version=1.0.0, category=工具</li>
-<li>description: 欢迎加入 SipSiip
-在这里，您可以查找附近门店（直营店、合作店、店中店），使用会员码在门店设备上完成核验与出酒；绑定门店提供的会员手环，用于权益识别与品鉴 / 消费记录（具体以门店规则为准）。在「喝过的酒」中回顾历史，在「收藏的酒」中保存心仪酒款，还有「猜你喜欢」帮您发现新品。电子酒卡可与实体卡绑定，余额、充值、支付清晰可查；消费积分与会员权益（如优惠券）随行随用。应用支持多语言，让使用更便捷。
-请适量饮酒，切勿过量；未成年人请勿饮酒。
+<li>description: 欢迎加入 SipSiip<br />
+在这里，您可以查找附近门店（直营店、合作店、店中店），使用会员码在门店设备上完成核验与出酒；绑定门店提供的会员手环，用于权益识别与品鉴 / 消费记录（具体以门店规则为准）。在「喝过的酒」中回顾历史，在「收藏的酒」中保存心仪酒款，还有「猜你喜欢」帮您发现新品。电子酒卡可与实体卡绑定，余额、充值、支付清晰可查；消费积分与会员权益（如优惠券）随行随用。应用支持多语言，让使用更便捷。<br />
+请适量饮酒，切勿过量；未成年人请勿饮酒。<br />
 下载 SipSiip，开启您的理性、适量品酒之旅。</li>
 </ul>
-<h3 id="sippai-m-platforms-ios">Sippai M (platforms: ['ios'])</h3>
+<h3>Sippai M (platforms: ['ios'])</h3>
 <ul>
 <li>iOS: rating=0, version=1.0.0, category=效率</li>
 <li>description: Sippai M 是面向餐厅酒水经理与侍酒师的专业移动工作台，内置 AI 数字分身，主动协助日常酒务与经营决策。</li>
 </ul>
 <p>核心能力：</p>
-<p>智能酒窖：出入库、库存预警、酒标拍照识别，多店酒窖一目了然
-餐酒搭配：基于主打菜与杯卖/瓶卖酒单，AI 生成搭配与推荐
-门店工作台：酒单、菜品、Sip 侍酒机、订单与经营简报集中管理
-协作与学习：团队管理、知识卡片培训、章节考试，持续提升侍酒专业度
-AI 对话助手：语音/文字随时咨询识酒、选酒、服务话术与经营建议
+<p>智能酒窖：出入库、库存预警、酒标拍照识别，多店酒窖一目了然<br />
+餐酒搭配：基于主打菜与杯卖/瓶卖酒单，AI 生成搭配与推荐<br />
+门店工作台：酒单、菜品、Sip 侍酒机、订单与经营简报集中管理<br />
+协作与学习：团队管理、知识卡片培训、章节考试，持续提升侍酒专业度<br />
+AI 对话助手：语音/文字随时咨询识酒、选酒、服务话术与经营建议<br />
 与 Sippai 消费者小程序联动，客人扫码即可体验你的专业推荐，助力门店酒水销售与私域转化。</p>
-<p>适用人群
+<p>适用人群<br />
 餐厅酒水经理、侍酒师、餐饮酒水运营人员及葡萄酒服务团队。</p>
-<h3 id="sip-vintner-platforms-ios">Sip Vintner (platforms: ['ios'])</h3>
+<h3>Sip Vintner (platforms: ['ios'])</h3>
 <ul>
 <li>iOS: rating=0, version=1.0.1, category=工具</li>
 <li>description: Sip Vintner 是面向酒类经销商与酒商的移动端管理工具，帮助您随时随地掌控门店经营。</li>
 </ul>
 <p>核心功能</p>
-<p>经营概览：今日营收、杯卖/瓶卖、畅饮人数一目了然
-门店管理：侍酒机、桌台、手环、酒票与设备设置
-商品库存：入库出库、盘点校准、SKU 管理
-销售订单：杯卖瓶卖、外送团餐、扫码付与退款
-营销权益：畅饮计划、发券中心、权益核销
-客户业绩：客户跟进、销售分析与佣金管理
-采购进货：向供货商下单、物流跟踪与签收
+<p>经营概览：今日营收、杯卖/瓶卖、畅饮人数一目了然<br />
+门店管理：侍酒机、桌台、手环、酒票与设备设置<br />
+商品库存：入库出库、盘点校准、SKU 管理<br />
+销售订单：杯卖瓶卖、外送团餐、扫码付与退款<br />
+营销权益：畅饮计划、发券中心、权益核销<br />
+客户业绩：客户跟进、销售分析与佣金管理<br />
+采购进货：向供货商下单、物流跟踪与签收<br />
 适用于葡萄酒等酒水经销场景，让门店运营更高效、数据更清晰。</p>
-<h3 id="sip-platforms-android-ios">SIP运管 (platforms: ['android', 'ios'])</h3>
+<h3>SIP运管 (platforms: ['android', 'ios'])</h3>
 <ul>
 <li>iOS: rating=5, version=3.1.16, category=工具</li>
 <li>description: SIP运管  APP介绍</li>
 </ul>
-<p>【新零售，新增长】帮助餐厅/酒商提升葡萄酒销售能力，经营好客户！
+<p>【新零售，新增长】帮助餐厅/酒商提升葡萄酒销售能力，经营好客户！<br />
 一套系统满足单店/连锁经营所需，线上线下一体化经营，快速实现门店经营、客户管理、导购营销的数字化升级；精准洞察客户需求，自动输出客户画像，使门店人员实时运营，提升客单价和复购率；全方位帮助门店及导购创造更多订单，辅助门店经理，店长提高运营管理效率，使得运营管理智能化。</p>
-<p>【使用行业】
+<p>【使用行业】<br />
 各类餐厅，如小酒馆，西餐厅，Bistro， 烤肉店等。目前已入住餐厅包括云南菜、广东菜、西餐、bistro、烤肉等各种业态；</p>
-<p>【功能亮点】
-1.总部赋能，加盟自治
-a.总部赋能：商品|库存|内容|供应链|资金|运营
-b.灵活多级管理架构：酒商|城市合伙人，餐厅督导员，连锁餐厅经理，门店店长，服务员
-2.线上线下一体化
-a.线下门店数字化 - 出酒情况 | 扫码领券 | 同城配送 | 到店自提
-b.线上多渠道触达 - 小程序 | 社群 | 导购 | 分销
-c.门店拉新 - 微信 X 社群 X 会员 X 导购
-d.门店智能侍酒机： 自助扫码出酒 | 会员扫码出酒 | 散客刷卡出酒
-3.导购数字化
-a.导购奖励：通过激励服务员或导购员增加门店葡萄酒的售卖
-b.晋升机制：导购排行榜 | 级别 关联不同的奖励政策
-4.会员数字化
-a.实时查看门店经营情况
-b.会员的到店情况，会员的用户画像
-c.针对会员到店情况，发放
+<p>【功能亮点】<br />
+1.总部赋能，加盟自治<br />
+a.总部赋能：商品|库存|内容|供应链|资金|运营<br />
+b.灵活多级管理架构：酒商|城市合伙人，餐厅督导员，连锁餐厅经理，门店店长，服务员<br />
+2.线上线下一体化<br />
+a.线下门店数字化 - 出酒情况 | 扫码领券 | 同城配送 | 到店自提<br />
+b.线上多渠道触达 - 小程序 | 社群 | 导购 | 分销<br />
+c.门店拉新 - 微信 X 社群 X 会员 X 导购<br />
+d.门店智能侍酒机： 自助扫码出酒 | 会员扫码出酒 | 散客刷卡出酒<br />
+3.导购数字化<br />
+a.导购奖励：通过激励服务员或导购员增加门店葡萄酒的售卖<br />
+b.晋升机制：导购排行榜 | 级别 关联不同的奖励政策<br />
+4.会员数字化<br />
+a.实时查看门店经营情况<br />
+b.会员的到店情况，会员的用户画像<br />
+c.针对会员到店情况，发放<br />
 - Android: downloads=None, category=</p>
-<h2 id="4">4. 百度信号摘要</h2>
+<h2>4. 百度信号摘要</h2>
 <ul>
-<li>相关搜索: ['今朝醉酒业有限公司', '今朝酒业价格表', '今朝酒价格及图片', '今朝集团联合创始人', '今朝醉酒类专营店', '看今朝白酒', '今朝酒多少钱一箱', '今朝集团是做什么的', '北京朗捷品牌管理有限公司', '今朝食品有限公司']</li>
+<li>相关搜索: ["今朝醉酒业有限公司", "今朝酒业价格表", "今朝酒价格及图片", "今朝集团联合创始人", "今朝醉酒类专营店", "看今朝白酒", "今朝酒多少钱一箱", "今朝集团是做什么的", "北京朗捷品牌管理有限公司", "今朝食品有限公司"]</li>
 <li>信任质疑 (来自 related): []</li>
 <li>信任质疑 (来自 QA): []</li>
-<li>关键词命中段: ['seg_brand_honor', 'seg_new_company_trust', 'seg_franchise_recruitment', 'seg_livestream_compliance', 'seg_bidding_b2b_display', 'seg_regulatory_compliance', 'seg_credit_repair', 'seg_defensive_ip', 'seg_impulse_unknown', 'seg_grey_sales_facade', 'is_marketing_std_enterprise', 'is_high_capital_new_company', 'is_nff_board', 'is_3a_certified', 'is_shell_suspect']</li>
+<li>关键词命中段: ["seg_brand_honor", "seg_new_company_trust", "seg_franchise_recruitment", "seg_livestream_compliance", "seg_bidding_b2b_display", "seg_regulatory_compliance", "seg_credit_repair", "seg_defensive_ip", "seg_impulse_unknown", "seg_grey_sales_facade", "is_marketing_std_enterprise", "is_high_capital_new_company", "is_nff_board", "is_3a_certified", "is_shell_suspect"]</li>
 <li>
-<p>灰色信号: {'scam_accusation': [], 'regulatory_punishment': [], 'illegal_finance': [], 'grey_business_model': [], 'trust_doubt_general': [], 'low_visibility': {'score': 3, 'checks': {'no_official_site': True, 'no_ecommerce': True, 'no_media_news': True, 'only_business_query': False, 'sug_all_enterprise_suffix': False}}, 'summary': {'core_categories_hit': 0, 'core_total_count': 0, 'is_grey_candidate': False}}</p>
+<p>灰色信号: {"scam_accusation": [], "regulatory_punishment": [], "illegal_finance": [], "grey_business_model": [], "trust_doubt_general": [], "low_visibility": {"score": 3, "checks": {"no_official_site": true, "no_ecommerce": true, "no_media_news": true, "only_business_query": false, "sug_all_enterprise_suffix": false}}, "summary": {"core_categories_hit": 0, "core_total_count": 0, "is_grey_candidate": false}}</p>
 </li>
 <li>
 <p>各域 top 标题:</p>
@@ -399,9 +516,13 @@ c.针对会员到店情况，发放
 </ul>
 </li>
 </ul>
-<h2 id="5-b">5. 研发能力佐证 (B 类软著)</h2>
+<h2>5. 研发能力佐证 (B 类软著)</h2>
 <p>该公司有 <strong>2 个内部系统软著</strong>, 显示研发能力 + 数字化基础。</p>
-<p><strong>销售用法</strong>: 开场可说 "看你们有这么多内部系统, 数字化基础不错, 我们的存证服务也是配合这种数字化做的..."</p>
+<p><strong>销售钩子</strong>:</p>
+<ul>
+<li>企查查软著显示贵司有 2 个内部系统/平台类软著（如 「SIP运管平台 SIP运管」、「SipSiip红酒售卖系统 SipSiip」），说明有持续研发投入与数字化基础。</li>
+<li>可开场确认：这些系统目前主要服务哪条业务线？</li>
+</ul>
 <p>样例 (前 15 个):</p>
 <ul>
 <li>SIP运管平台 SIP运管</li>
@@ -458,6 +579,7 @@ c.针对会员到店情况，发放
   <div><label><input type="checkbox" name="fb_pack_rate" value="产品匹配_有用"> 产品匹配 (有用)</label></div>
   <div><label><input type="checkbox" name="fb_pack_rate" value="discovery_有用"> discovery (有用)</label></div>
   <div><label><input type="checkbox" name="fb_pack_rate" value="异议_有用"> 异议库 (有用)</label></div>
+  <div><label><input type="checkbox" name="fb_pack_rate" value="KP触达_有用"> KP触达 (有用)</label></div>
 </div>
 
 <label>客户拒绝原因 (多选)</label>
@@ -474,66 +596,67 @@ c.针对会员到店情况，发放
 <textarea id="fb_note" placeholder="销售自由发挥"></textarea>
 
 <div style="margin-top:1em">
-  <button onclick="saveFeedback('421')">💾 保存到浏览器</button>
-  <button class="secondary" onclick="exportFeedback('421')">📥 导出 JSON</button>
-  <button class="secondary" onclick="loadFeedback('421')">↻ 从浏览器加载</button>
+  <button type="button" onclick="saveFeedback('421')">💾 保存到浏览器</button>
+  <button type="button" class="secondary" onclick="exportFeedback('421')">📥 导出 JSON</button>
+  <button type="button" class="secondary" onclick="loadFeedback('421')">↻ 从浏览器加载</button>
   <span class="saved-status" id="fb_status"></span>
 </div>
 </div>
 
 <script>
-const EID = '421';
-const COMPANY = "\u5317\u4eac\u4eca\u671d\u6709\u9152\u54c1\u724c\u7ba1\u7406\u6709\u9650\u516c\u53f8";
+(function() {
+  const EID = '421';
+  const COMPANY = "北京今朝有酒品牌管理有限公司";
 
-function collectFeedback() {
-  const $ = id => document.getElementById(id);
-  const checkbox = name => Array.from(document.querySelectorAll(`input[name="${name}"]:checked`)).map(x => x.value);
-  return {
-    entity_id: EID, company_name: COMPANY,
-    触达日期: $('fb_date').value, 触达渠道: checkbox('fb_channel'),
-    联系结果: $('fb_result').value, 客户实际业态: $('fb_real_seg').value,
-    客户主诉: $('fb_pains').value, 段判定: $('fb_seg_acc').value,
-    作战包评级: checkbox('fb_pack_rate'), 客户拒绝原因: checkbox('fb_reject'),
-    备注: $('fb_note').value,
-    saved_at: new Date().toISOString()
+  window.collectFeedback = function() {
+    const el = id => document.getElementById(id);
+    const checkbox = name => Array.from(document.querySelectorAll('input[name="' + name + '"]:checked')).map(x => x.value);
+    return {
+      entity_id: EID, company_name: COMPANY,
+      触达日期: el('fb_date').value, 触达渠道: checkbox('fb_channel'),
+      联系结果: el('fb_result').value, 客户实际业态: el('fb_real_seg').value,
+      客户主诉: el('fb_pains').value, 段判定: el('fb_seg_acc').value,
+      作战包评级: checkbox('fb_pack_rate'), 客户拒绝原因: checkbox('fb_reject'),
+      备注: el('fb_note').value,
+      saved_at: new Date().toISOString()
+    };
   };
-}
-function saveFeedback(eid) {
-  const data = collectFeedback();
-  localStorage.setItem('sales_fb_' + eid, JSON.stringify(data));
-  document.getElementById('fb_status').textContent = '✓ 已存浏览器 ' + new Date().toLocaleTimeString();
-}
-function exportFeedback(eid) {
-  const data = collectFeedback();
-  const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement('a');
-  a.href = url;
-  a.download = `feedback_${eid}_${new Date().toISOString().slice(0,10)}.json`;
-  a.click();
-  URL.revokeObjectURL(url);
-}
-function loadFeedback(eid) {
-  const raw = localStorage.getItem('sales_fb_' + eid);
-  if (!raw) { document.getElementById('fb_status').textContent = '(浏览器无历史)'; return; }
-  const d = JSON.parse(raw);
-  const $ = id => document.getElementById(id);
-  $('fb_date').value = d.触达日期 || '';
-  $('fb_result').value = d.联系结果 || '';
-  $('fb_real_seg').value = d.客户实际业态 || '';
-  $('fb_pains').value = d.客户主诉 || '';
-  $('fb_seg_acc').value = d.段判定 || '';
-  $('fb_note').value = d.备注 || '';
-  for (const set of ['fb_channel', 'fb_pack_rate', 'fb_reject']) {
-    document.querySelectorAll(`input[name="${set}"]`).forEach(el => {
-      const key = set === 'fb_channel' ? '触达渠道' :
-                  set === 'fb_pack_rate' ? '作战包评级' : '客户拒绝原因';
-      el.checked = (d[key] || []).includes(el.value);
-    });
-  }
-  document.getElementById('fb_status').textContent = '✓ 已从浏览器加载';
-}
-document.addEventListener('DOMContentLoaded', () => loadFeedback(EID));
+  window.saveFeedback = function(eid) {
+    const data = window.collectFeedback();
+    localStorage.setItem('sales_fb_' + eid, JSON.stringify(data));
+    document.getElementById('fb_status').textContent = '✓ 已存浏览器 ' + new Date().toLocaleTimeString();
+  };
+  window.exportFeedback = function(eid) {
+    const data = window.collectFeedback();
+    const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'feedback_' + eid + '_' + new Date().toISOString().slice(0,10) + '.json';
+    a.click();
+    URL.revokeObjectURL(url);
+  };
+  window.loadFeedback = function(eid) {
+    const raw = localStorage.getItem('sales_fb_' + eid);
+    if (!raw) { document.getElementById('fb_status').textContent = '(浏览器无历史)'; return; }
+    const d = JSON.parse(raw);
+    const el = id => document.getElementById(id);
+    el('fb_date').value = d.触达日期 || '';
+    el('fb_result').value = d.联系结果 || '';
+    el('fb_real_seg').value = d.客户实际业态 || '';
+    el('fb_pains').value = d.客户主诉 || '';
+    el('fb_seg_acc').value = d.段判定 || '';
+    el('fb_note').value = d.备注 || '';
+    for (const pair of [['fb_channel','触达渠道'],['fb_pack_rate','作战包评级'],['fb_reject','客户拒绝原因']]) {
+      const set = pair[0], key = pair[1];
+      document.querySelectorAll('input[name="' + set + '"]').forEach(function(el) {
+        el.checked = (d[key] || []).indexOf(el.value) >= 0;
+      });
+    }
+    document.getElementById('fb_status').textContent = '✓ 已从浏览器加载';
+  };
+  document.addEventListener('DOMContentLoaded', function() { window.loadFeedback(EID); });
+})();
 </script>
 
 </div>

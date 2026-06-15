@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>北京永康永泰健康管理服务有限公司 - 销售作战包 (eid=426)</title>
 <style>
 :root { --bg:#f9f9f9; --panel:#fff; --border:#dcdcdc; --txt:#222; --muted:#666; --accent:#0a66c2; }
@@ -8,7 +9,7 @@ body { font-family: -apple-system, "Helvetica Neue", "PingFang SC", "Microsoft Y
        margin: 0; background: var(--bg); color: var(--txt); line-height: 1.6; font-size: 14px; }
 .wrap { max-width: 1180px; margin: 0 auto; padding: 1em 2em 4em; }
 .top { display: flex; justify-content: space-between; align-items: baseline; padding: 1em 0;
-       border-bottom: 2px solid var(--txt); margin-bottom: 1em; }
+       border-bottom: 2px solid var(--txt); margin-bottom: 1em; flex-wrap: wrap; gap: .5em; }
 .top h1 { margin: 0; font-size: 1.6em; }
 .top a { color: var(--accent); text-decoration: none; font-size: .95em; }
 .top a:hover { text-decoration: underline; }
@@ -19,11 +20,15 @@ body { font-family: -apple-system, "Helvetica Neue", "PingFang SC", "Microsoft Y
 .card a { color: var(--accent); text-decoration: none; font-weight: 600; }
 .card a:hover { text-decoration: underline; }
 .tag { display: inline-block; font-size: .8em; padding: 1px 8px; border-radius: 10px;
-       margin-left: .4em; vertical-align: middle; }
+       margin-left: .25em; vertical-align: middle; }
 .tag-livestream { background: #e1f0ff; color: #0a66c2; }
 .tag-health { background: #e1ffe6; color: #1f7a3f; }
 .tag-grey { background: #fff4d6; color: #8a6a00; }
 .tag-trust { background: #ffe4ef; color: #b3306a; }
+.tag-bidding { background: #e8e4ff; color: #4a3d9e; }
+.tag-franchise { background: #ffe8d6; color: #a65a00; }
+.tag-impulse { background: #eee; color: #555; }
+.tag-credit { background: #d6f5ff; color: #006680; }
 .meta { color: var(--muted); font-size: .85em; margin-top: .3em; }
 .preview { color: #444; margin-top: .5em; font-size: .9em;
            display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3;
@@ -43,6 +48,11 @@ body { font-family: -apple-system, "Helvetica Neue", "PingFang SC", "Microsoft Y
 .panel li { margin: .2em 0; }
 .section-label { background: #e8eef7; color: #0a66c2; font-weight: 600;
                  padding: .3em .8em; border-radius: 4px; display: inline-block; margin-bottom: .8em; }
+.post28-banner { background: #f0f7ff; border: 1px solid #b8d4f0; border-radius: 6px;
+                 padding: .6em 1em; margin-bottom: 1em; font-size: .92em; }
+.post28-banner a { color: var(--accent); font-weight: 600; text-decoration: none; }
+.post28-banner a:hover { text-decoration: underline; }
+.contact-link { margin-left: 1em; padding-left: 1em; border-left: 1px solid #b8d4f0; }
 .feedback { background: #fffce8; border: 1px solid #e7d36b; border-radius: 8px;
             padding: 1.2em 1.6em; margin-top: 2em; }
 .feedback h2 { margin-top: 0; }
@@ -51,8 +61,8 @@ body { font-family: -apple-system, "Helvetica Neue", "PingFang SC", "Microsoft Y
     width: 100%; padding: .5em .7em; border: 1px solid #ccc; border-radius: 4px;
     font-size: .95em; font-family: inherit; }
 .feedback textarea { min-height: 100px; resize: vertical; }
-.feedback .row { display: flex; gap: 1em; margin: .5em 0; }
-.feedback .row > div { flex: 1; }
+.feedback .row { display: flex; gap: 1em; margin: .5em 0; flex-wrap: wrap; }
+.feedback .row > div { flex: 1; min-width: 120px; }
 .feedback button { background: #0a66c2; color: #fff; border: 0; padding: .7em 1.5em;
                    border-radius: 4px; font-size: .95em; cursor: pointer; margin: .5em .5em .5em 0; }
 .feedback button:hover { background: #084e96; }
@@ -68,37 +78,44 @@ nav.compact a:hover { text-decoration: underline; }
 <body>
 <div class="wrap">
 <div class="top">
-<h1>北京永康永泰健康管理服务有限公司 <span class="tag tag-grey">grey</span></h1>
+<h1>北京永康永泰健康管理服务有限公司 <span class="tag tag-bidding">bidding</span> <span class="tag tag-health">health</span></h1>
 <a href="index.html">← 返回主页</a>
 </div>
 
+<div class="post28-banner">
+<strong>最终分类 (post28)</strong>: bidding+health · 政企招投标 + 大健康合规
+<span class="contact-link"><strong>联系方式</strong>: <a href="#kp">2 个候选触达点 →</a></span>
+</div>
+
 <nav class="compact">
-<strong>段标签</strong>: grey / 类3_虚假保健 &nbsp;|&nbsp;
-<a href="#cheat">cheat (一页推介)</a> · <a href="#appendix">辅料 (4源数据)</a> · <a href="#feedback">反馈</a>
+<a href="#cheat">cheat (推介)</a> ·
+<a href="#kp">联系方式</a> ·
+<a href="#appendix">辅料 (4源)</a> ·
+<a href="#feedback">反馈</a>
 </nav>
 
 <div class="panel" id="cheat">
 <div class="section-label">上半 — Cheat Sheet (现场推介用)</div>
-<h1 id="eid426">销售作战包 — 北京永康永泰健康管理服务有限公司 (eid=426)</h1>
-<p><em>段标签: grey / 类3_虚假保健</em></p>
-<h2 id="1">1. 公司一行</h2>
-<p>北京永康永泰健康管理服务有限公司 / G53 / grey / 2000万 / 成立不足1年 / 18670042115</p>
-<h2 id="2">2. 业态画像</h2>
-<p>主营心理健康数字化管理系统的研发与销售，覆盖干预、筛查、档案管理等场景，客户定位为中小学等教育机构；同时从事特殊医学用途配方食品、第一二类医疗器械销售及化妆品零售，线上通过自有网站展示，线下可能借助渠道推广。企业刚成立，无分支机构，持有食品经营备案凭证，暂无媒体曝光及电商入驻，品牌公信力薄弱，且因虚假保健标签面临严重信任危机。</p>
-<h2 id="3">3. 实际业务证据</h2>
+<h1>销售作战包 — 北京永康永泰健康管理服务有限公司 (eid=426)</h1>
+<p><em>最终分类 (post28): <strong>bidding+health</strong> · 政企招投标 + 大健康合规</em></p>
+<h2>1. 公司一行</h2>
+<p>北京永康永泰健康管理服务有限公司 / G53 / bidding+health / 2000万元 / 成立0年</p>
+<h2>2. 业态画像</h2>
+<p>主营心理健康管理服务，依托心理健康干预管理、心理筛查档案管理、中小学心理健康管理等软著，提供数字化心理服务平台，客户以学校、政府、B端机构为主，同时经营范围含医疗器械、特医食品、化妆品销售，可能涉及电商或线下门店零售。目前无招投标记录但百度命中政企招投标段，推测正筹备参与校园或社区心理健康项目招标。新成立公司，仅持有食品经营备案凭证，资质薄弱，面临消费者信任质疑（百度“健康管理公司靠谱吗”），亟需权威背书提升公信力。符合post28 ‘政企招投标 + 大健康合规’定位，既需投标资质又需健康领域合规证明。</p>
+<h2>3. 实际业务证据</h2>
 <ul>
-<li>证据1：持“心理健康干预管理系统V1.0”等3项软件著作权，表明其核心业务为心理健康数字化服务（来源:QCC软著）</li>
-<li>证据2：经营范围包含“特殊医学用途配方食品销售”“第二类医疗器械销售”，显示其涉足需强资质的健康快消品（来源:QCC经营范围）</li>
-<li>证据3：ICP备案域名bjykyt.cn及bjyongyong.com，用于公司及产品线上展示（来源:QCC ICP备案）</li>
+<li>百度结果“心理健康数字管理服务平台”展示为公司名片，表明主营方向</li>
+<li>软著3项全为心理健康管理系统，证实技术产品化</li>
+<li>经营范围含健康咨询、医疗器械、特殊医学用途配方食品，指向大健康服务及商品销售</li>
 </ul>
-<h2 id="4-4">4. 4 源信号摘要</h2>
+<h2>4. 4 源信号摘要</h2>
 <ul>
 <li><strong>QCC经营范围首项</strong>: 健康咨询服务（不含诊疗服务）</li>
-<li><strong>官网核心业务</strong>: 未获取</li>
-<li><strong>APP评分下载</strong>: 未发现APP</li>
+<li><strong>官网核心业务</strong>: 无实质官网内容</li>
+<li><strong>APP评分下载</strong>: 无APP</li>
 <li><strong>百度风险词</strong>: 健康管理公司靠谱吗</li>
 </ul>
-<h2 id="5-6">5. 信号识别表 (6 条)</h2>
+<h2>5. 信号识别表 (7 条)</h2>
 <table>
 <thead>
 <tr>
@@ -111,86 +128,158 @@ nav.compact a:hover { text-decoration: underline; }
 <tbody>
 <tr>
 <td>1</td>
-<td>百度信任质疑</td>
-<td>健康管理公司靠谱吗</td>
-<td>企业面临严重的消费者信任危机，急需权威背书打破质疑</td>
+<td>百度信任质疑/百度segment seg_new_company_trust</td>
+<td>百度搜索出现“健康管理公司靠谱吗”，且公司成立仅4个月（2025-02-18），用户对新公司信任度低</td>
+<td>【产品关联】市监总局合作证书可为国家权威背书，证明公司资质、软著等受总局认可。【预期收益】快速建立客户信任，化解“不靠谱”疑虑，提升咨询转化率。【不办风险】用户因不信任而流失，尤其参与学校/政府项目时因资质单薄被淘汰</td>
 </tr>
 <tr>
 <td>2</td>
-<td>段标签 grey/类3_虚假保健</td>
-<td>企业被归类为虚假保健灰名单</td>
-<td>存在合规风险，急需官方证书自证清白，扭转负面形象</td>
+<td>百度segment seg_bidding_b2b_display</td>
+<td>百度命中“政企招投标”段，虽无直接中标记录，但软著面向中小学，推测需参与心理健康服务招标</td>
+<td>【产品关联】合作证书能把软著、营业执照等打包为国家认可材料，成为投标加分项。【预期收益】在招投标中区别竞品，增加中标几率，彰显合规实力。【不办风险】无权威证书可能连入围资格都没有，错失政企大单</td>
 </tr>
 <tr>
 <td>3</td>
-<td>QCC软件著作权</td>
-<td>心理健康干预管理系统等3项软著</td>
-<td>有自研心理管理软件但缺乏权威认证，向学校等客户推广时可信度不足</td>
+<td>QCC软著</td>
+<td>拥有心理健康干预管理系统、心理筛查档案管理系统、中小学心理健康数字化管理系统3项软著</td>
+<td>【产品关联】合作证书可展示软著等荣誉，将这些技术成果得到市监总局认可，对外宣传更有底气。【预期收益】把技术实力转化为市场信任，在签约学校或政府时作为核心竞争力展示。【不办风险】软著仅证明开发能力，未升华为国家认可，客户可能质疑公司正规性</td>
 </tr>
 <tr>
 <td>4</td>
-<td>QCC经营范围</td>
-<td>销售特医食品、一、二类医疗器械</td>
-<td>涉及健康敏感类商品，客户对产品质量和安全性存疑，需产品证书增信</td>
+<td>QCC经营范围/百度segment seg_regulatory_compliance</td>
+<td>经营范围含特殊医学用途配方食品销售、第一/二类医疗器械销售等，涉及强监管商品</td>
+<td>【产品关联】市监总局商品证书可为所售商品提供国家电商质检中心存证，证明质量合规。【预期收益】消除消费者对保健食品、医疗器械的质疑，避免“虚假保健”嫌疑，线上店铺可展示证书提升转化。【不办风险】被用户举报或监管部门抽查时无权威证明，面临处罚、下架风险</td>
 </tr>
 <tr>
 <td>5</td>
-<td>QCC成立日期</td>
-<td>2025年2月新成立，成立不足1年</td>
-<td>新公司市场认知度为零，急需快速建立权威感以获取合作方信任</td>
+<td>QCC资质证书</td>
+<td>唯一资质为食品经营备案凭证，缺少医疗器械经营许可等硬资质，资质薄弱</td>
+<td>【产品关联】市监总局合作证书可作为资质补充，将营业执照、食品备案、软著等统一由国家背书，弥补资质缺口。【预期收益】在缺乏硬资质的情况下，树立合规经营形象，应对客户资质审查。【不办风险】被质疑超范围经营或能力不足，丢失合作机会</td>
 </tr>
 <tr>
 <td>6</td>
-<td>百度灰色信号低可见度</td>
-<td>无电商渠道、无媒体新闻，线上可见度极低</td>
-<td>线上购买者无法验证其真实性，商品证书扫码查真伪可弥补缺失</td>
+<td>百度相关搜索/名称联想</td>
+<td>相关搜索含“永康医疗器械有限责任公司”，易与同名医疗器械公司混淆，品牌识别乱</td>
+<td>【产品关联】合作证书可明确公司主体信息，在证书上展示精准的经营范围与荣誉，区分相似企业。【预期收益】强化品牌辨识度，避免客户因混淆而选错供应商。【不办风险】品牌被弱化，潜在客户可能流向同名公司或质疑专业度</td>
+</tr>
+<tr>
+<td>7</td>
+<td>KP触达情报</td>
+<td>联系人邮箱为个人QQ邮箱（215924516@qq.com），非企业域名邮箱，缺乏正规感</td>
+<td>【产品关联】合作证书提升公司整体形象，弥补细节不规范，对外展示时以权威证书代替山寨印象。【预期收益】包装企业专业形象，在接触客户、招标时留下可信赖印象。【不办风险】细微处失分，客户以小见大判断公司实力，失去合作信任</td>
 </tr>
 </tbody>
 </table>
-<h2 id="6-5-ok">6. 产品匹配点 (5 条, 状态: ok)</h2>
+<h2>6. 产品匹配点 (6 条, 状态: ok)</h2>
 <ul>
-<li><strong>[信号 1] 被问“靠谱吗”，信任度极低</strong></li>
-<li>办理市监总局合作证书，等于您的公司获得国家市场监督管理总局的认可，对外展示实体证书，能立刻打消客户‘靠不靠谱’的疑虑，比任何口头承诺都管用。</li>
-<li><em>来源: 实战QA§第4条</em></li>
-<li><strong>[信号 2] 虚假保健段标签，合规风险高</strong></li>
-<li>市监总局商品证书由国家电商质检中心核验并出具，为您的食品、医疗器械贴标，消费者扫码可查官方认证信息，用国家级结论证明您的产品不虚假、不夸大，帮您走出灰名单印象。</li>
-<li><em>来源: 培训材料§Slide 8</em></li>
-<li><strong>[信号 3] 心理软件无权威背书</strong></li>
-<li>将您的软件著作权证书、系统功能说明等资料上传至市监总局合作证书，除营业执照外再展示5项荣誉/专利，让学校看到您的系统受国家总局认可，谈合作更有说服力。</li>
-<li><em>来源: 实战QA§第5条</em></li>
-<li><strong>[信号 4] 经营特医食品、医疗器械等敏感商品</strong></li>
-<li>线上销售特医食品、医疗器械时平台要求质检报告，商品证书能直接展示您的质检报告并获得国家电商质检中心核验背书，客户看到总局印章会更敢下单。</li>
-<li><em>来源: 培训材料§Slide 22</em></li>
-<li><strong>[信号 5] 新成立不足一年，无市场认知</strong></li>
-<li>新公司最缺信任，这套实体证书挂在门店或直播间，立刻提升公司档次，配合总局网站可查的电子证书，让陌生客户第一次接触就感觉您是正规大企业。</li>
-<li><em>来源: 培训材料§Slide 4</em></li>
+<li><strong>[信号 1] 百度信任质疑“健康管理公司靠谱吗”+新公司成立</strong></li>
+<li>【信号事实】百度搜索显示用户搜“健康管理公司靠谱吗”，贵司刚成立，客户天然不信任。【产品关联】市监总局合作证书是国家市场监督管理总局唯一颁发的合作单位认证，能将贵司资质、软著、承诺全部由国家背书。【预期收益】证书放在网站、宣传资料上，消费者扫码即见总局认可，立变“靠谱”，源头阻断质疑。【不办风险】若不办，消费者持续怀疑，聊到成交环节就卡壳，甚至流向有背书的竞品，丢掉市场。</li>
+<li><em>来源: 培训材料§Slide 2-3, 实战QA§第4条</em></li>
+<li><strong>[信号 2] 百度命中政企招投标段，推测有中小学心理健康项目招标需求</strong></li>
+<li>【信号事实】百度标记贵司有政企招投标需求，软著面向中小学，这正是最需要权威资质的战场。【产品关联】办理市监总局合作证书，等于告诉评标专家：本公司资质、软著、服务承诺获市监总局认可。【预期收益】在技术分拉不开差距时，证书可成为关键加分项，帮您甩开竞争者，中标率大增。【不办风险】没有国家背书，在众多投标方中可能被认定为“新公司、资质不全”，直接废标或丢分。</li>
+<li><em>来源: 实战QA§第54条, 培训材料§Slide 26</em></li>
+<li><strong>[信号 3] 3项心理健康软著，技术资产待转化信任</strong></li>
+<li>【信号事实】贵司拥有心理健康干预管理等3项软著，是技术实力的证明，但客户看不到国家队盖章。【产品关联】将这些软著上传至市监总局合作证书，总局为其做了存证认可，相当于给技术成果加冕。【预期收益】签约学校或政府时，展示带有国家logo的软著认可页，说服力翻倍，成交周期缩短。【不办风险】软著只是一张纸，客户可能觉得谁都能申请，不信任您的系统稳定性和权威性，不舍得买单。</li>
+<li><em>来源: 培训材料§Slide 26, 实战QA§第4-5条</em></li>
+<li><strong>[信号 4] 经营特医食品、医疗器械，属敏感商品需质量证明</strong></li>
+<li>【信号事实】贵司销售特殊医学用途食品、一二类医疗器械，这些品类极易被消费者质疑“有没有用”“安不安全”。【产品关联】市监总局商品证书由国家电商质检中心核验，为每一款产品出具国家级质量存证，扫码可查。【预期收益】线上挂证书，转化率至少提升15%；也可以印在包装上，退货率降低，消费者更放心购买。【不办风险】没有权威认证，一旦被人质疑功效或质量，拿不出国家证明，面临投诉、退款、甚至监管处罚，还会被归为‘虚假保健’。</li>
+<li><em>来源: 培训材料§Slide 8-9, 实战QA§第16条</em></li>
+<li><strong>[信号 5] 仅有食品经营备案凭证，资质单薄</strong></li>
+<li>【信号事实】查遍公开信息，贵司目前只有食品备案，无医疗器械经营许可等硬证，客户资质审查难过关。【产品关联】合作证书能把现有营业执照、食品备案、软著等聚合成一个总局认可的资质包，弥补硬件不足。【预期收益】面对医院、学校等严审核客户，凭证书顺利通过供应商入围，业务不卡脖子。【不办风险】客户索要资质时只给得出食品备案，会严重质疑贵司经营能力，直接出局。</li>
+<li><em>来源: 培训材料§Slide 6, 实战QA§第14条</em></li>
+<li><strong>[信号 7] 使用个人QQ邮箱，企业形象不专业</strong></li>
+<li>【信号事实】对外联系方式用的是个人QQ邮箱，缺乏企业正规感，容易让客户在心里减分。【产品关联】办理合作证书后，可在名片、官网、报价单统一嵌入“市监总局合作单位”标识及证书编号。【预期收益】用国家背书覆盖细节瑕疵，客户聚焦权威认证而非邮箱后缀，专业度瞬间拉升。【不办风险】小细节引发客户对规模的怀疑，在多家对比时可能因“看起来不靠谱”被放弃。</li>
+<li><em>来源: 培训材料§Slide 25, 实战QA§第14条</em></li>
 </ul>
-<h2 id="7-discovery">7. Discovery 问题 + 异议库</h2>
-<h3 id="discovery">Discovery (挖诉求)</h3>
+<h3>待人工补充话术 (1 条无产品匹配)</h3>
+<ul>
+<li>信号 6: 产品匹配待人工补充——混淆品牌名问题可通过合作证书强调公司全称及软著，但无专门品牌保护产品，可关联合作证书主体展示功能</li>
+</ul>
+<h2>7. Discovery 问题 + 异议库</h2>
+<h3>Discovery (挖诉求)</h3>
 <ol>
-<li>问题1：您当前被平台标注为虚假保健灰名单，有没有想过怎么向客户证明自己的产品没问题？（基于信号id2）</li>
-<li>问题2：客户在百度搜到‘健康管理公司靠谱吗’这类词，您一般怎么应对？（基于信号id1）</li>
-<li>问题3：您的心理管理系统在投标或向学校推广时，对方是不是常要求提供第三方权威认证？（基于信号id3）</li>
-<li>问题4：您销售的医疗器械和特医食品，现在在所有电商平台都提供完整的质检报告了吗？（基于信号id4）</li>
-<li>问题5：公司刚成立，您觉得一张市监总局颁发的合作证书能否让招商或合作谈判更快？（基于信号id5）</li>
+<li>问题1：王总，我看到百度上有人搜‘健康管理公司靠谱吗’，您这边刚成立，客户是不是也经常犹豫，咱们一般怎么打消他们疑虑啊？（基于信号 id=1）</li>
+<li>问题2：您这些心理筛查系统是卖给学校的吧？那投标的时候，专家们最看重什么？是不是资质这块儿经常被卡？（基于信号 id=2）</li>
+<li>问题3：你们有三款心理软件的著作权，碰到学校要验证实力的，咱们都拿什么材料给他们看？（基于信号 id=3）</li>
+<li>问题4：您这边还在卖特医食品、医疗器械，万一消费者问这东西管用不，您们一般咋证明质量？（基于信号 id=4）</li>
+<li>问题5：我看您公司目前就只有个食品经营备案，出去谈大客户或者招标的时候，会不会觉得资质有点薄？（基于信号 id=5）</li>
 </ol>
-<h3 id="_1">异议库 (产品维度)</h3>
-<p><strong>异议 1: 你们这个健康管理公司靠谱吗？我怎么相信你们？</strong></p>
-<p>市监总局合作证书，是由市监总局和国家电商质检中心一起出的，办了以后等于你的公司被国家认可了，你上传的关于你公司的资质或者荣誉也是得到了认可，就相当于你公司拥有国家承认认可的证明。对外宣传这就是最有力的证明。</p>
-<p><em>来源: 实战QA§第4条</em></p>
-<p><strong>异议 2: 我做了证书，万一还是被说是虚假宣传，能帮我什么？</strong></p>
-<p>办了以后，你这个资质荣誉都有市监总局的盖章了，上传的资料真实有效，如果被质疑虚假宣传，你可以出示证书和相关上传资料作为举证，能够证明你对外展示的内容经过官方认可，并不是虚假的。</p>
-<p><em>来源: 实战QA§第14条</em></p>
-<p><strong>异议 3: 我刚成立的公司，做这个证书能有什么用？</strong></p>
-<p>市监总局合作证书能帮你快速建立信任，提升公司形象，对外宣传更有底气，谈合作更有优势，相当于国家给你的公司做了背书，新公司更需要这个来赢得客户。</p>
-<p><em>来源: 实战QA§第4条</em></p>
+<h3>异议库 (产品维度)</h3>
+<p><strong>异议 1: 我们是做心理服务的，不是卖实物的，你让我办商品证书有啥用？</strong></p>
+<p>您误会了，商品证书只是其中一个。您主营心理服务，最需要的是市监总局合作证书，它能证明您的公司、团队、软著、服务承诺都得到国家认可。这比任何自卖自夸都有用，尤其对政府学校客户，他们要的就是这个国家级的安全感。</p>
+<p><em>来源: 实战QA§第4条、第43条结合</em></p>
+<p><strong>异议 2: 我现在刚开张，单都没有，花这钱不值。</strong></p>
+<p>正是因为新公司，才更需要权威背书来打开局面。您现在办了，名片、网站、投标文件立刻就能挂上‘市监总局合作单位’，客户一看就放心。等业务跑起来再办，这期间流失的可都是真金白银，而且先发优势就被对手抢了。</p>
+<p><em>来源: 实战QA§第13条、培训材料§Slide 20</em></p>
+<p><strong>异议 3: 我这是健康咨询，不算保健，不用办吧？</strong></p>
+<p>咱们公司法务会把健康管理、特殊食品销售归入大健康严管，尤其您还有特医食品。没有总局证书，万一用户怀疑咨询意见的专业度，或者质疑食品的功效，您拿不出国家证明，很容易被扣上‘虚假保健’的帽子。办了就是给自己加一道防火墙。</p>
+<p><em>来源: 实战QA§第19条、培训材料§Slide 18</em></p>
 </div>
+
+
+<div class="panel" id="kp">
+<div class="section-label">联系方式 · KP 触达情报 (S/M/A/X 判别)</div>
+<h2>KP 触达情报</h2>
+<p><em>生成时间: 自动管线 · eid=426 · 北京永康永泰健康管理服务有限公司</em></p>
+<h3>A. 候选触达点（去重后全量）</h3>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>触达点</th>
+<th>类型</th>
+<th>角色推断</th>
+<th>来源</th>
+<th>证据 / 注释</th>
+<th>建议动作</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>18670042115</td>
+<td>手机</td>
+<td>工商登记号 (候选)</td>
+<td>QCC CSV 有效手机号 + qcc-cli get_contact_info</td>
+<td>工商登记号，无其他强信号; 企业规模 M(中型)，工商号多为前台/客服 (M1,A3)</td>
+<td>候选；建议支付宝/微信验证姓氏</td>
+</tr>
+<tr>
+<td>2</td>
+<td>215924516@qq.com</td>
+<td>邮箱</td>
+<td>个人/免费邮箱</td>
+<td>QCC CSV 邮箱</td>
+<td>— (—)</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<h3>B. 公司背景增量信息（辅助判断）</h3>
+<ul>
+<li>法人: <strong>谭静怡</strong> · 注册资本 2000万元 · 成立 2025-02-18</li>
+<li>参保人数: - · 企业规模: M(中型) · 段标签: bidding+health</li>
+<li>疑似关联企业 (related_party_suspects): 0 条</li>
+<li>官网: —</li>
+<li>百度公开线索:</li>
+<li>在北京市搜索北京永康永泰健康管理服务有限公司 - 百度地图</li>
+<li>北京永康永泰健康管理服务有限公司-首页</li>
+<li>北京永康永泰健康管理服务有限公司-企业信息</li>
+</ul>
+<h3>C. 不可达 / 已排除项</h3>
+<p>（无）</p>
+<h3>D. 数据覆盖说明</h3>
+<blockquote>
+<p>数据源穷尽（CSV / CLI / 百度缓存 / 官网已爬正文）后，有效触达点仍不足 3 个； Phase 3 <strong>数据薄，可接受</strong>，不硬凑触点。</p>
+</blockquote>
+</div>
+
 
 <div class="panel" id="appendix">
 <div class="section-label">下半 — 辅料 (电话前/上门前看)</div>
-<h1 id="eid426">辅料 — 北京永康永泰健康管理服务有限公司 (eid=426)</h1>
-<h2 id="1-qcc">1. QCC 全字段 (人读版)</h2>
-<h3 id="basic_info">basic_info</h3>
+<h1>辅料 — 北京永康永泰健康管理服务有限公司 (eid=426)</h1>
+<h2>1. QCC 全字段 (人读版)</h2>
+<h3>basic_info</h3>
 <pre><code>* 企业名称: 北京永康永泰健康管理服务有限公司
 * 基本信息:
 统一社会信用代码: 91110108MAEC8LXG53
@@ -199,19 +288,19 @@ nav.compact a:hover { text-decoration: underline; }
 成立日期: 2025-02-18
 经营范围: 一般项目：健康咨询服务（不含诊疗服务）；业务培训（不含教育培训、职业技能培训等需取得许可的培训）；第一类医疗器械销售；第二类医疗器械销售；特殊医学用途配方食品销售；化妆品零售；第二类医疗设备租赁；食品互联网销售（仅销售预包装食品）；食品进出口；远程健康管理服务；食品销售（仅销售预包装食品）
 </code></pre>
-<h3 id="administrative_license">administrative_license</h3>
+<h3>administrative_license</h3>
 <pre><code>* 企业名称: 北京永康永泰健康管理服务有限公司
 * 行政许可:
 共 1 条记录
 1 91110108MAEC8LXG53 营业执照 有效 2025-02-18 2099-12-31 北京市海淀区市场监督管理局 北京永康永泰健康管理服务有限公司 北京市市场监督管理局 详情
 </code></pre>
-<h3 id="qualifications">qualifications</h3>
+<h3>qualifications</h3>
 <pre><code>* 企业名称: 北京永康永泰健康管理服务有限公司
 * 资质证书:
 共有 1 条资质证书记录
 证书类型分布: 食品经营备案凭证(1)
 </code></pre>
-<h3 id="software_copyright_info">software_copyright_info</h3>
+<h3>software_copyright_info</h3>
 <pre><code>* 企业名称: 北京永康永泰健康管理服务有限公司
 * 软件著作权:
 共 3 条记录
@@ -219,14 +308,14 @@ nav.compact a:hover { text-decoration: underline; }
 2 心理筛查档案管理系统 - V1.0 2025SR1402573 - - 2025-07-30 原始取得
 3 中小学心理健康数字化管理系统 - V1.0 2025SR1402474 - - 2025-07-30 原始取得
 </code></pre>
-<h3 id="network_service_filing">network_service_filing</h3>
+<h3>network_service_filing</h3>
 <pre><code>* 企业名称: 北京永康永泰健康管理服务有限公司
 * 网络服务备案:
 共 2 条记录
 1 - - bjykyt.cn 京ICP备2025144571号-2 2026-04-09 -
 2 - - bjyongyong.com 京ICP备2025144571号-1 2025-09-24 -
 </code></pre>
-<h2 id="2">2. 官网内容</h2>
+<h2>2. 官网内容</h2>
 <ul>
 <li>
 <p><strong>error</strong>: skipped</p>
@@ -235,16 +324,16 @@ nav.compact a:hover { text-decoration: underline; }
 <p>抓取来源:  (0 chars)</p>
 </li>
 </ul>
-<h2 id="3-app-ios-android">3. APP 矩阵 (iOS + Android)</h2>
+<h2>3. APP 矩阵 (iOS + Android)</h2>
 <p>(无)</p>
-<h2 id="4">4. 百度信号摘要</h2>
+<h2>4. 百度信号摘要</h2>
 <ul>
-<li>相关搜索: ['泰康养老院', '健康管理公司靠谱吗', '康泰养老集团有限公司养老地点', '永康医疗器械有限责任公司', '北京和为永泰科技有限公司', '永泰集团', '北京永康药业有限公司电话', '中国健康管理公司 排名', '北京泰康医养中心', '永泰亚洲控股有限公司']</li>
-<li>信任质疑 (来自 related): ['健康管理公司靠谱吗']</li>
+<li>相关搜索: ["泰康养老院", "健康管理公司靠谱吗", "康泰养老集团有限公司养老地点", "永康医疗器械有限责任公司", "北京和为永泰科技有限公司", "永泰集团", "北京永康药业有限公司电话", "中国健康管理公司 排名", "北京泰康医养中心", "永泰亚洲控股有限公司"]</li>
+<li>信任质疑 (来自 related): ["健康管理公司靠谱吗"]</li>
 <li>信任质疑 (来自 QA): []</li>
-<li>关键词命中段: ['seg_brand_honor', 'seg_new_company_trust', 'seg_franchise_recruitment', 'seg_livestream_compliance', 'seg_bidding_b2b_display', 'seg_regulatory_compliance', 'seg_credit_repair', 'seg_defensive_ip', 'seg_impulse_unknown', 'seg_grey_sales_facade', 'is_marketing_std_enterprise', 'is_high_capital_new_company', 'is_nff_board', 'is_3a_certified', 'is_shell_suspect']</li>
+<li>关键词命中段: ["seg_brand_honor", "seg_new_company_trust", "seg_franchise_recruitment", "seg_livestream_compliance", "seg_bidding_b2b_display", "seg_regulatory_compliance", "seg_credit_repair", "seg_defensive_ip", "seg_impulse_unknown", "seg_grey_sales_facade", "is_marketing_std_enterprise", "is_high_capital_new_company", "is_nff_board", "is_3a_certified", "is_shell_suspect"]</li>
 <li>
-<p>灰色信号: {'scam_accusation': [], 'regulatory_punishment': [], 'illegal_finance': [], 'grey_business_model': [], 'trust_doubt_general': [{'category': 'trust_doubt_general', 'level': 'medium', 'keyword': '靠谱吗', 'from_query': '健康管理公司靠谱吗', 'source': 'related_searches'}], 'low_visibility': {'score': 2, 'checks': {'no_official_site': False, 'no_ecommerce': True, 'no_media_news': True, 'only_business_query': False, 'sug_all_enterprise_suffix': False}}, 'summary': {'core_categories_hit': 0, 'core_total_count': 0, 'is_grey_candidate': False}}</p>
+<p>灰色信号: {"scam_accusation": [], "regulatory_punishment": [], "illegal_finance": [], "grey_business_model": [], "trust_doubt_general": [{"category": "trust_doubt_general", "level": "medium", "keyword": "靠谱吗", "from_query": "健康管理公司靠谱吗", "source": "related_searches"}], "low_visibility": {"score": 2, "checks": {"no_official_site": false, "no_ecommerce": true, "no_media_news": true, "only_business_query": false, "sug_all_enterprise_suffix": false}}, "summary": {"core_categories_hit": 0, "core_total_count": 0, "is_grey_candidate": false}}</p>
 </li>
 <li>
 <p>各域 top 标题:</p>
@@ -270,9 +359,13 @@ nav.compact a:hover { text-decoration: underline; }
 </ul>
 </li>
 </ul>
-<h2 id="5-b">5. 研发能力佐证 (B 类软著)</h2>
+<h2>5. 研发能力佐证 (B 类软著)</h2>
 <p>该公司有 <strong>3 个内部系统软著</strong>, 显示研发能力 + 数字化基础。</p>
-<p><strong>销售用法</strong>: 开场可说 "看你们有这么多内部系统, 数字化基础不错, 我们的存证服务也是配合这种数字化做的..."</p>
+<p><strong>销售钩子</strong>:</p>
+<ul>
+<li>企查查软著显示贵司有 3 个内部系统/平台类软著（如 「心理健康干预管理系统」、「心理筛查档案管理系统」、「中小学心理健康数字化管理系统」），说明有持续研发投入与数字化基础。</li>
+<li>可开场确认：这些系统目前主要服务哪条业务线？</li>
+</ul>
 <p>样例 (前 15 个):</p>
 <ul>
 <li>心理健康干预管理系统</li>
@@ -330,6 +423,7 @@ nav.compact a:hover { text-decoration: underline; }
   <div><label><input type="checkbox" name="fb_pack_rate" value="产品匹配_有用"> 产品匹配 (有用)</label></div>
   <div><label><input type="checkbox" name="fb_pack_rate" value="discovery_有用"> discovery (有用)</label></div>
   <div><label><input type="checkbox" name="fb_pack_rate" value="异议_有用"> 异议库 (有用)</label></div>
+  <div><label><input type="checkbox" name="fb_pack_rate" value="KP触达_有用"> KP触达 (有用)</label></div>
 </div>
 
 <label>客户拒绝原因 (多选)</label>
@@ -346,66 +440,67 @@ nav.compact a:hover { text-decoration: underline; }
 <textarea id="fb_note" placeholder="销售自由发挥"></textarea>
 
 <div style="margin-top:1em">
-  <button onclick="saveFeedback('426')">💾 保存到浏览器</button>
-  <button class="secondary" onclick="exportFeedback('426')">📥 导出 JSON</button>
-  <button class="secondary" onclick="loadFeedback('426')">↻ 从浏览器加载</button>
+  <button type="button" onclick="saveFeedback('426')">💾 保存到浏览器</button>
+  <button type="button" class="secondary" onclick="exportFeedback('426')">📥 导出 JSON</button>
+  <button type="button" class="secondary" onclick="loadFeedback('426')">↻ 从浏览器加载</button>
   <span class="saved-status" id="fb_status"></span>
 </div>
 </div>
 
 <script>
-const EID = '426';
-const COMPANY = "\u5317\u4eac\u6c38\u5eb7\u6c38\u6cf0\u5065\u5eb7\u7ba1\u7406\u670d\u52a1\u6709\u9650\u516c\u53f8";
+(function() {
+  const EID = '426';
+  const COMPANY = "北京永康永泰健康管理服务有限公司";
 
-function collectFeedback() {
-  const $ = id => document.getElementById(id);
-  const checkbox = name => Array.from(document.querySelectorAll(`input[name="${name}"]:checked`)).map(x => x.value);
-  return {
-    entity_id: EID, company_name: COMPANY,
-    触达日期: $('fb_date').value, 触达渠道: checkbox('fb_channel'),
-    联系结果: $('fb_result').value, 客户实际业态: $('fb_real_seg').value,
-    客户主诉: $('fb_pains').value, 段判定: $('fb_seg_acc').value,
-    作战包评级: checkbox('fb_pack_rate'), 客户拒绝原因: checkbox('fb_reject'),
-    备注: $('fb_note').value,
-    saved_at: new Date().toISOString()
+  window.collectFeedback = function() {
+    const el = id => document.getElementById(id);
+    const checkbox = name => Array.from(document.querySelectorAll('input[name="' + name + '"]:checked')).map(x => x.value);
+    return {
+      entity_id: EID, company_name: COMPANY,
+      触达日期: el('fb_date').value, 触达渠道: checkbox('fb_channel'),
+      联系结果: el('fb_result').value, 客户实际业态: el('fb_real_seg').value,
+      客户主诉: el('fb_pains').value, 段判定: el('fb_seg_acc').value,
+      作战包评级: checkbox('fb_pack_rate'), 客户拒绝原因: checkbox('fb_reject'),
+      备注: el('fb_note').value,
+      saved_at: new Date().toISOString()
+    };
   };
-}
-function saveFeedback(eid) {
-  const data = collectFeedback();
-  localStorage.setItem('sales_fb_' + eid, JSON.stringify(data));
-  document.getElementById('fb_status').textContent = '✓ 已存浏览器 ' + new Date().toLocaleTimeString();
-}
-function exportFeedback(eid) {
-  const data = collectFeedback();
-  const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement('a');
-  a.href = url;
-  a.download = `feedback_${eid}_${new Date().toISOString().slice(0,10)}.json`;
-  a.click();
-  URL.revokeObjectURL(url);
-}
-function loadFeedback(eid) {
-  const raw = localStorage.getItem('sales_fb_' + eid);
-  if (!raw) { document.getElementById('fb_status').textContent = '(浏览器无历史)'; return; }
-  const d = JSON.parse(raw);
-  const $ = id => document.getElementById(id);
-  $('fb_date').value = d.触达日期 || '';
-  $('fb_result').value = d.联系结果 || '';
-  $('fb_real_seg').value = d.客户实际业态 || '';
-  $('fb_pains').value = d.客户主诉 || '';
-  $('fb_seg_acc').value = d.段判定 || '';
-  $('fb_note').value = d.备注 || '';
-  for (const set of ['fb_channel', 'fb_pack_rate', 'fb_reject']) {
-    document.querySelectorAll(`input[name="${set}"]`).forEach(el => {
-      const key = set === 'fb_channel' ? '触达渠道' :
-                  set === 'fb_pack_rate' ? '作战包评级' : '客户拒绝原因';
-      el.checked = (d[key] || []).includes(el.value);
-    });
-  }
-  document.getElementById('fb_status').textContent = '✓ 已从浏览器加载';
-}
-document.addEventListener('DOMContentLoaded', () => loadFeedback(EID));
+  window.saveFeedback = function(eid) {
+    const data = window.collectFeedback();
+    localStorage.setItem('sales_fb_' + eid, JSON.stringify(data));
+    document.getElementById('fb_status').textContent = '✓ 已存浏览器 ' + new Date().toLocaleTimeString();
+  };
+  window.exportFeedback = function(eid) {
+    const data = window.collectFeedback();
+    const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'feedback_' + eid + '_' + new Date().toISOString().slice(0,10) + '.json';
+    a.click();
+    URL.revokeObjectURL(url);
+  };
+  window.loadFeedback = function(eid) {
+    const raw = localStorage.getItem('sales_fb_' + eid);
+    if (!raw) { document.getElementById('fb_status').textContent = '(浏览器无历史)'; return; }
+    const d = JSON.parse(raw);
+    const el = id => document.getElementById(id);
+    el('fb_date').value = d.触达日期 || '';
+    el('fb_result').value = d.联系结果 || '';
+    el('fb_real_seg').value = d.客户实际业态 || '';
+    el('fb_pains').value = d.客户主诉 || '';
+    el('fb_seg_acc').value = d.段判定 || '';
+    el('fb_note').value = d.备注 || '';
+    for (const pair of [['fb_channel','触达渠道'],['fb_pack_rate','作战包评级'],['fb_reject','客户拒绝原因']]) {
+      const set = pair[0], key = pair[1];
+      document.querySelectorAll('input[name="' + set + '"]').forEach(function(el) {
+        el.checked = (d[key] || []).indexOf(el.value) >= 0;
+      });
+    }
+    document.getElementById('fb_status').textContent = '✓ 已从浏览器加载';
+  };
+  document.addEventListener('DOMContentLoaded', function() { window.loadFeedback(EID); });
+})();
 </script>
 
 </div>
