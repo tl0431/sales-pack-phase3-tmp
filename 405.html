@@ -1,105 +1,43 @@
-<!doctype html>
-<html lang="zh-CN"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>北京一方五味餐饮服务有限责任公司 - 销售作战包 (eid=405)</title>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>405 · 销售作战包 — 北京一方五味餐饮服务有限责任公司 (eid=405) / 销售一页纸 — 405 北京一方五味餐饮服务有限责任公司</title>
 <style>
-:root { --bg:#f9f9f9; --panel:#fff; --border:#dcdcdc; --txt:#222; --muted:#666; --accent:#0a66c2; }
 * { box-sizing: border-box; }
-body { font-family: -apple-system, "Helvetica Neue", "PingFang SC", "Microsoft YaHei", sans-serif;
-       margin: 0; background: var(--bg); color: var(--txt); line-height: 1.6; font-size: 14px; }
-.wrap { max-width: 1180px; margin: 0 auto; padding: 1em 2em 4em; }
-.top { display: flex; justify-content: space-between; align-items: baseline; padding: 1em 0;
-       border-bottom: 2px solid var(--txt); margin-bottom: 1em; flex-wrap: wrap; gap: .5em; }
-.top h1 { margin: 0; font-size: 1.6em; }
-.top a { color: var(--accent); text-decoration: none; font-size: .95em; }
-.top a:hover { text-decoration: underline; }
-.toc { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: .8em;
-       margin: 1.5em 0; }
-.card { background: var(--panel); border: 1px solid var(--border); border-radius: 6px;
-        padding: .9em 1.1em; }
-.card a { color: var(--accent); text-decoration: none; font-weight: 600; }
-.card a:hover { text-decoration: underline; }
-.tag { display: inline-block; font-size: .8em; padding: 1px 8px; border-radius: 10px;
-       margin-left: .25em; vertical-align: middle; }
-.tag-livestream { background: #e1f0ff; color: #0a66c2; }
-.tag-health { background: #e1ffe6; color: #1f7a3f; }
-.tag-grey { background: #fff4d6; color: #8a6a00; }
-.tag-trust { background: #ffe4ef; color: #b3306a; }
-.tag-bidding { background: #e8e4ff; color: #4a3d9e; }
-.tag-franchise { background: #ffe8d6; color: #a65a00; }
-.tag-impulse { background: #eee; color: #555; }
-.tag-credit { background: #d6f5ff; color: #006680; }
-.meta { color: var(--muted); font-size: .85em; margin-top: .3em; }
-.preview { color: #444; margin-top: .5em; font-size: .9em;
-           display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3;
-           overflow: hidden; }
-.panel { background: var(--panel); border: 1px solid var(--border); border-radius: 8px;
-         padding: 1.2em 1.6em; margin-bottom: 1.2em; }
-.panel h2 { border-bottom: 1px solid var(--border); padding-bottom: .3em; margin-top: 1.2em; }
-.panel h2:first-child { margin-top: 0; }
-.panel h3 { color: var(--muted); margin-top: 1em; font-size: 1.05em; }
-.panel table { border-collapse: collapse; width: 100%; font-size: .92em; margin: .8em 0; }
-.panel th, .panel td { border: 1px solid #ccc; padding: 6px 10px; vertical-align: top; }
-.panel th { background: #f4f4f4; text-align: left; }
-.panel code { background: #f6f6f6; padding: .1em .35em; border-radius: 3px; font-size: .88em; }
-.panel pre { background: #f6f6f6; padding: 1em; overflow-x: auto; white-space: pre-wrap;
-             border-radius: 4px; font-size: .85em; }
-.panel ul, .panel ol { padding-left: 1.6em; }
-.panel li { margin: .2em 0; }
-.section-label { background: #e8eef7; color: #0a66c2; font-weight: 600;
-                 padding: .3em .8em; border-radius: 4px; display: inline-block; margin-bottom: .8em; }
-.post28-banner { background: #f0f7ff; border: 1px solid #b8d4f0; border-radius: 6px;
-                 padding: .6em 1em; margin-bottom: 1em; font-size: .92em; }
-.post28-banner a { color: var(--accent); font-weight: 600; text-decoration: none; }
-.post28-banner a:hover { text-decoration: underline; }
-.contact-link { margin-left: 1em; padding-left: 1em; border-left: 1px solid #b8d4f0; }
-.feedback { background: #fffce8; border: 1px solid #e7d36b; border-radius: 8px;
-            padding: 1.2em 1.6em; margin-top: 2em; }
-.feedback h2 { margin-top: 0; }
-.feedback label { display: block; margin: .8em 0 .25em; font-weight: 600; }
-.feedback input[type="text"], .feedback textarea, .feedback select {
-    width: 100%; padding: .5em .7em; border: 1px solid #ccc; border-radius: 4px;
-    font-size: .95em; font-family: inherit; }
-.feedback textarea { min-height: 100px; resize: vertical; }
-.feedback .row { display: flex; gap: 1em; margin: .5em 0; flex-wrap: wrap; }
-.feedback .row > div { flex: 1; min-width: 120px; }
-.feedback button { background: #0a66c2; color: #fff; border: 0; padding: .7em 1.5em;
-                   border-radius: 4px; font-size: .95em; cursor: pointer; margin: .5em .5em .5em 0; }
-.feedback button:hover { background: #084e96; }
-.feedback button.secondary { background: #6c757d; }
-.feedback button.secondary:hover { background: #545b62; }
-.feedback .saved-status { color: var(--muted); font-size: .85em; margin-left: 1em; }
-nav.compact { background: var(--panel); border: 1px solid var(--border); padding: .5em 1em;
-              border-radius: 4px; margin-bottom: 1em; font-size: .9em; }
-nav.compact a { color: var(--accent); text-decoration: none; margin: 0 .4em; }
-nav.compact a:hover { text-decoration: underline; }
+html, body { height: 100%; margin: 0; }
+body { font-family: "STHeiti", "Microsoft YaHei", "PingFang SC", sans-serif; color: #111; font-size: 14px; line-height: 1.5; background: #f0f2f5; }
+.layout { display: flex; height: 100vh; width: 100vw; }
+.pane { flex: 1; min-width: 0; display: flex; flex-direction: column; background: #fff; }
+.pane + .pane { border-left: 1px solid #c5cdd8; }
+.pane-header { flex: 0 0 auto; padding: 10px 16px; font-size: 13px; font-weight: 600; color: #1e3a8a; background: #eef2ff; border-bottom: 1px solid #c5cdd8; }
+.pane-body { flex: 1 1 auto; overflow-y: auto; padding: 16px 20px 32px; }
+.pane-body h1 { color: #1e3a8a; font-size: 18px; border-bottom: 2px solid #1e3a8a; padding-bottom: 6px; margin-top: 0; }
+.pane-body h2 { color: #1e3a8a; font-size: 16px; margin-top: 1.2em; }
+.pane-body h3 { color: #1e3a8a; font-size: 14px; margin-top: 1em; }
+.pane-body h4 { font-size: 13px; margin-top: 0.8em; }
+.pane-body table { border-collapse: collapse; width: 100%; font-size: 13px; margin: 8px 0; }
+.pane-body th, .pane-body td { border: 1px solid #d1d5db; padding: 6px 8px; vertical-align: top; }
+.pane-body th { background: #f8fafc; }
+.pane-body hr { border: none; border-top: 1px dashed #999; margin: 12px 0; }
+.pane-body strong { color: #1e3a8a; }
+.pane-body code { background: #f3f4f6; padding: 1px 4px; border-radius: 3px; font-size: 12px; }
+@media (max-width: 900px) {
+  .layout { flex-direction: column; height: auto; min-height: 100vh; }
+  .pane { min-height: 50vh; }
+  .pane + .pane { border-left: none; border-top: 1px solid #c5cdd8; }
+}
 </style>
 </head>
 <body>
-<div class="wrap">
-<div class="top">
-<h1>北京一方五味餐饮服务有限责任公司 <span class="tag tag-livestream">livestream</span></h1>
-<a href="index.html">← 返回主页</a>
-</div>
-
-<div class="post28-banner">
-<strong>最终分类 (post28)</strong>: livestream · 直播电商
-<span class="contact-link"><strong>联系方式</strong>: <a href="#kp">1 个候选触达点 →</a></span>
-</div>
-
-<nav class="compact">
-<a href="#cheat">cheat (推介)</a> ·
-<a href="#kp">联系方式</a> ·
-<a href="#appendix">辅料 (4源)</a> ·
-<a href="#feedback">反馈</a>
-</nav>
-
-<div class="panel" id="cheat">
-<div class="section-label">上半 — Cheat Sheet (现场推介用)</div>
-<h1>销售作战包 — 北京一方五味餐饮服务有限责任公司 (eid=405)</h1>
-<p><em>最终分类 (post28): <strong>livestream</strong> · 直播电商</em></p>
+<div class="layout">
+  <section class="pane pane-cheat">
+    <div class="pane-header">作战包 · cheat.md</div>
+    <div class="pane-body"><h1>销售作战包 — 北京一方五味餐饮服务有限责任公司 (eid=405)</h1>
+<p><em>分类: <strong>电商直播类</strong></em></p>
 <h2>1. 公司一行</h2>
-<p>北京一方五味餐饮服务有限责任公司 / BBCMXG / livestream / 500万 / 成立2年多</p>
+<p>北京一方五味餐饮服务有限责任公司 / 电商直播类 / 500万 / 成立2年多</p>
 <h2>2. 业态画像</h2>
 <p>主营线下餐饮服务及线上食品零售，依托自有APP“安心点”及多个.shop域名从事食品互联网销售，推测同时开展直播带货。目标客户为C端消费者，销售渠道覆盖自营APP、电商平台及实体门店。经营模式为C端自营+直播电商，属于post28的“直播电商”分类，合规要求高、消费者信任敏感，当前品牌知名度低，急需权威背书提升转化。</p>
 <h2>3. 实际业务证据</h2>
@@ -219,298 +157,106 @@ nav.compact a:hover { text-decoration: underline; }
 <p><strong>异议 3: 这个费用会不会很高？我们预算有限。</strong></p>
 <p>我们有专为中小企业设计的套餐，比如套餐1：市监总局合作证书1年+3个商品证书（含核验）一共5680元，算下来一天不到16块钱。这笔钱帮您赚回一个订单就回本，而且能持续产生信任红利。</p>
 <p><em>来源: 培训材料Slide 13；实战QA§第32条</em></p>
-</div>
-
-
-<div class="panel" id="kp">
-<div class="section-label">联系方式 · KP 触达情报 (S/M/A/X 判别)</div>
-<h2>KP 触达情报</h2>
-<p><em>生成时间: 自动管线 · eid=405 · 北京一方五味餐饮服务有限责任公司</em></p>
-<h3>A. 候选触达点（去重后全量）</h3>
-<table>
-<thead>
-<tr>
-<th>#</th>
-<th>触达点</th>
-<th>类型</th>
-<th>角色推断</th>
-<th>来源</th>
-<th>证据 / 注释</th>
-<th>建议动作</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td>https://yifangwuwei.com</td>
-<td>官网</td>
-<td>官网</td>
-<td>qcc-cli get_contact_info</td>
-<td>ICP 备案: 是 (—)</td>
-<td>—</td>
-</tr>
-</tbody>
-</table>
-<h3>B. 公司背景增量信息（辅助判断）</h3>
+<h2>8. 联系方式</h2>
+<p>候选触达点见页面 <strong><a href="#kp">KP 触达情报</a></strong>。</p>
+<h2>9. 参考客户对标</h2>
+<p><strong>对标客户</strong>：深圳秒福数字云供应链科技有限公司（电商直播类）</p>
+<h3>9.1 为什么是这家</h3>
+<ol>
+<li><strong>品类层</strong>：品类层：两者均以食品（预包装食品/餐饮食品）为核心销售品类，具备食品互联网销售资质</li>
+<li><strong>商业模式层</strong>：商业模式层：均通过线上自有交易平台（安心点App vs 秒福供应链系统）进行食品电商零售与供应链服务</li>
+<li><strong>客群/渠道层</strong>：客群/渠道层：都以C端消费者为直接目标客群，采用自播/短视频等直播形式进行食品推广与销售转化</li>
+</ol>
+<h3>9.2 对方关键画像</h3>
 <ul>
-<li>法人: <strong>王祥</strong> · 注册资本 500万元 · 成立 2023-04-25</li>
-<li>参保人数: 2 · 企业规模: S(小型) · 段标签: livestream</li>
-<li>疑似关联企业 (related_party_suspects): 0 条</li>
-<li>官网: yifangwuwei.com</li>
-<li>百度公开线索:</li>
-<li>刘铮- 北京一方五味餐饮服务有限责任公司 - 法定代表人/高管/股东...</li>
-<li>北京一方味餐饮管理有限公司 - 百度百科</li>
-<li>北京一方五味餐饮服务有限责任公司 京B2-20251603 许可证信息...</li>
+<li>主营：公司主营供应链管理、预包装食品销售及日用百货贸易，2025年10月新成立，实缴资本与注册资本一致。存证仅有一份自愿性信用评级证书，百度搜索无传销、资金盘或欺诈质疑，无官网无负面新闻。整体为新公司通过基础资质展示建立信任，无灰色销售背书迹象。</li>
+<li>已有合规背书：- {'source': 'sug_short', 'content': '秒福馨百草是杂牌子还是名牌…</li>
+<li>{'source': 'sug_region', 'content': '深圳秒福数字云供应链有限…</li>
+<li>{'source': 'storage_brief', 'content': '重质量守信用企业证…</li>
+<li>公开痕迹：深圳秒福数字云供应链科技有限公司-企业信息</li>
 </ul>
-<h3>C. 不可达 / 已排除项</h3>
-<table>
-<thead>
-<tr>
-<th>触达点</th>
-<th>类型</th>
-<th>原因</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>15311092803</td>
-<td>手机</td>
-<td>CLI 标签: 疑似代记账; 与 ICP 备案官网同批 CLI 号码</td>
-</tr>
-</tbody>
-</table>
-<h3>D. 数据覆盖说明</h3>
+<h3>9.3 办证后预期效果（按对方实际规模合理推测）</h3>
+<ul>
+<li>预计通过直播带货形式，单品复购率可在3个月内提升25%</li>
+<li>自播渠道上线后，平台月度GMV有望在6个月内实现环比30%的增长</li>
+</ul>
+<h3>9.4 销售可直接念的话术</h3>
 <blockquote>
-<p>数据源穷尽（CSV / CLI / 百度缓存 / 官网已爬正文）后，有效触达点仍不足 3 个； Phase 3 <strong>数据薄，可接受</strong>，不硬凑触点。</p>
+<p>咱北京一方五味餐饮公司，本身就有食品销售和线上经营的底子，现在又拿了EDI许可证，安心点App也做好了，相当于官方给了咱们一个自己的商城。我看了下，像深圳秒福数字云这家同行，做预包装食品供应链起家，刚成立不久就靠自播和短直连，把人货场跑通了，客户回购做得特别稳。咱们也可以直接套这个模式：用安心点作为自播主阵地，前期先推咱们店里的爆款熟食或半成品菜，把抖音、视频号外链引进来，配合满减券和闪购活动，把首单转化拉起来。有京B2证背书，消费者下单更安心。只要前三个月坚持每天一场自播，配合达人探店切片，我估计单场观看过万、月销翻倍都不难。咱们品类精准、资质齐全，比他们秒福当时起步条件还好，完全有机会做成食品直播里的新标杆。</p>
 </blockquote>
-</div>
-
-
-<div class="panel" id="appendix">
-<div class="section-label">下半 — 辅料 (电话前/上门前看)</div>
-<h1>辅料 — 北京一方五味餐饮服务有限责任公司 (eid=405)</h1>
-<h2>1. QCC 全字段 (人读版)</h2>
-<h3>basic_info</h3>
-<pre><code>* 企业名称: 北京一方五味餐饮服务有限责任公司
-* 基本信息:
-统一社会信用代码: 91110111MACGBBCMXG
-法定代表人: 王祥
-注册资本: 500万元
-成立日期: 2023-04-25
-经营范围: 许可项目：餐饮服务；食品销售；食品互联网销售；第二类增值电信业务
-</code></pre>
-<h3>administrative_license</h3>
-<pre><code>* 企业名称: 北京一方五味餐饮服务有限责任公司
-* 行政许可:
-共 1 条记录
-1 91110111MACGBBCMXG 营业执照 有效 2023-04-25 2099-12-31 北京市顺义区市场监督管理局 北京一方五味餐饮服务有限责任公司 北京市市场监督管理局 详情
-</code></pre>
-<h3>qualifications</h3>
-<pre><code>* 企业名称: 北京一方五味餐饮服务有限责任公司
-* 资质证书:
-共有 1 条资质证书记录
-证书类型分布: 电信业务经营许可证(1)
-</code></pre>
-<h3>software_copyright_info</h3>
-<pre><code>* 企业名称: 北京一方五味餐饮服务有限责任公司
-* 软件著作权:
-共 1 条记录
-1 安心点app - V1.0 2025SR1371898 - - 2025-07-28 原始取得
-</code></pre>
-<h3>network_service_filing</h3>
-<pre><code>* 企业名称: 北京一方五味餐饮服务有限责任公司
-* 网络服务备案:
-共 5 条记录
-1 - - anxin.shop 京ICP备2023012765号-5 2025-04-17 -
-2 - - anxinbuy.shop 京ICP备2023012765号-3 2025-04-10 -
-3 - - anxindian.shop 京ICP备2023012765号-4 2025-04-10 -
-4 - - yifangwuwei.com 京ICP备2023012765号-2 2023-05-22 -
-1 安心点 京ICP备2023012765号-6A 2025-04-27 详情
-</code></pre>
-<h3>telecom_permission</h3>
-<pre><code>* 企业名称: 北京一方五味餐饮服务有限责任公司
-* 电信许可:
-共 1 条记录
-1 京B2-20251603 北京市 第二类增值电信业务 在线数据处理与交易处理业务 - 2025-06-04 2030-06-04 有效 详情
-信息服务业务（仅限互联网信息服务） -
-</code></pre>
-<h2>2. 官网内容</h2>
+<h3>9.5 对标客户存证材料（已下单）</h3>
+<ol>
+<li><strong>企业信用等级评定证书</strong>：这是一份企业信用等级评定证书，属于自愿性、商业性第三方评级，而非政府强制认证。</li>
+<li><strong>营业执照</strong>：这是一份营业执照（Business License），由深圳市市场监督管理局核发。</li>
+<li><strong>商业信用评级证书</strong>：这是一份商业信用评级证书，具体为"重合同守信用企业 AAA 级"认证。</li>
+<li><strong>电子版存证二维码</strong>：市监总局商品质量审核存证服务平台生成的电子版存证二维码，客户或监管方可扫码核验存证真伪与时间戳。</li>
+<li><strong>电子版存证二维码</strong>：市监总局商品质量审核存证服务平台生成的电子版存证二维码，客户或监管方可扫码核验存证真伪与时间戳。</li>
+<li><strong>电子版存证二维码</strong>：市监总局商品质量审核存证服务平台生成的电子版存证二维码，客户或监管方可扫码核验存证真伪与时间戳。</li>
+<li><strong>电子版存证二维码</strong>：市监总局商品质量审核存证服务平台生成的电子版存证二维码，客户或监管方可扫码核验存证真伪与时间戳。</li>
+</ol>
+<h2>&gt; HTML 作战包内附存证原图及二维码，可现场展示扫码核验。</h2>
+<blockquote>
+<p>来源：standard_v1.json（2026-05-26 人工审阅版） · 数据快照 2026-06-17T18:51:51+08:00<br />
+对标客户已购买证书并授权我司在销售场景下脱敏引用业务实质，不公开成交金额。</p>
+</blockquote></div>
+  </section>
+  <section class="pane pane-onepager">
+    <div class="pane-header">电话一页纸 · onepager</div>
+    <div class="pane-body"><h1>销售一页纸 — 405 北京一方五味餐饮服务有限责任公司</h1>
+<h2>正面</h2>
+<h3>画像</h3>
+<p>主营线下餐饮及线上食品零售，依托自有APP“安心点”及多个.shop域名面向C端消费者<br />
+注册资本 500 万 | 成立 3 年<br />
+分类: 电商类</p>
+<h3>KP</h3>
+<p>王祥（法人） | 官网 https://yifangwuwei.com | 15311092803（CLI 标签: 疑似代记账; 与 ICP 备案官网同批 CLI 号码）</p>
+<hr />
+<h3>同行案例</h3>
 <ul>
-<li>
-<p><strong>error</strong>: skipped</p>
-</li>
-<li>
-<p>抓取来源:  (0 chars)</p>
-</li>
+<li><strong>对标</strong>：深圳秒福数字云供应链科技有限公司（livestream）</li>
+<li><strong>我们帮它做了什么</strong>：市监总局商品证书由国家电商质检中心核验，为每件食品挂上“国家级身份证”</li>
+<li><strong>效果</strong>：预计通过直播带货形式，单品复购率可在3个月内提升25%</li>
+<li><strong>类比</strong>：两者均以食品（预包装食品/餐饮食品）为核心销售品类，具备食品互联网销售资质</li>
 </ul>
-<h2>3. APP 矩阵 (iOS + Android)</h2>
-<p>(无)</p>
-<h2>4. 百度信号摘要</h2>
+<h3>开场 + 反拒</h3>
+<p>王总您先别着急挂，聊一分钟，对您没有帮助我不会贸然来电。您这边是做一方五味餐饮和安心点食品网售对吧？现在监管对购买后有收益查得很严，客户也老问值不值回本，说白了就是缺乏信任。我们也服务过您的同行深圳秒福数字云供应链科技有限公司，复购率可在3个月内提升25%。 <!-- ev:1 --></p>
+<h3>FABE 产品介绍</h3>
+<p>您现在主要靠官网和商城卖商品，用户看不见摸不着，最容易质疑值不值、收益是不是理财。市监总局合作证书挂在平台和商城显眼位置，商品证书给核心商品做权益说明，扫码可验，不涉及虚假宣传完全合法。对消费者来说，有总局背书就是愿意内购下单的理由。 <!-- ev:6 --></p>
+<h3>异议处理</h3>
+<h4>A. 精确异议</h4>
+<ol>
+<li>客户问: "我们已经有食品经营许可证了，还要办市监总局证书干嘛？" <!-- ev:1 --><br />
+   回话: "许可证是基础，合作证书是总局给的认可，消费者扫码能看到官方背书，信任度完全不同。"</li>
+<li>客户问: "我们现在没一点名气，办个证书别人就会信吗？" <!-- ev:5 --><br />
+   回话: "证书是总局唯一肯定，一扫就能验真，等于国家为您站台，信任瞬间建立，比任何广告都说服人。"</li>
+<li>客户问: "我们店多域名也多，是不是每个都要单独办证？" <!-- ev:3 --><br />
+   回话: "主体办一张合作证书即可覆盖全部店铺，成本很省，还能保持品牌信任一致。"</li>
+</ol>
+<h4>B. 婉拒 + 加微信</h4>
+<p>好的王总，这样，我加您个微信。首先承诺，加您微信不会群发、不会刷屏，不会打扰到您；其次也方便您找到我，随时咨询，24小时在线。您微信是这个手机号吗？稍后我加您，感谢，祝您生意兴隆。</p>
+<h2>反面</h2>
+<h3>成单概率快查卡</h3>
 <ul>
-<li>相关搜索: ["魏记五味价目表", "百品五味餐饮集团旗下品牌", "北京五味烤全羊电话", "北京首禾一品世家餐饮服务有限公司", "成都五味缘餐饮管理有限公司", "北京一坐一忘餐饮有限责任公司", "北京完美知味餐饮管理有限公司", "和味坊餐饮服务(北京)有限公司", "北京圣禾餐饮有限公司", "北京市连锁餐饮公司一览表"]</li>
-<li>信任质疑 (来自 related): []</li>
-<li>信任质疑 (来自 QA): []</li>
-<li>关键词命中段: ["seg_brand_honor", "seg_new_company_trust", "seg_franchise_recruitment", "seg_livestream_compliance", "seg_bidding_b2b_display", "seg_regulatory_compliance", "seg_credit_repair", "seg_defensive_ip", "seg_impulse_unknown", "seg_grey_sales_facade", "is_marketing_std_enterprise", "is_high_capital_new_company", "is_nff_board", "is_3a_certified", "is_shell_suspect"]</li>
-<li>
-<p>灰色信号: {"scam_accusation": [], "regulatory_punishment": [], "illegal_finance": [], "grey_business_model": [], "trust_doubt_general": [], "low_visibility": {"score": 2, "checks": {"no_official_site": false, "no_ecommerce": true, "no_media_news": true, "only_business_query": false, "sug_all_enterprise_suffix": false}}, "summary": {"core_categories_hit": 0, "core_total_count": 0, "is_grey_candidate": false}}</p>
-</li>
-<li>
-<p>各域 top 标题:</p>
-</li>
-<li><strong>official_site</strong> (1 条):<ul>
-<li>北京一方五味餐饮服务有限责任公司 京B2-20251603 许可证信息...</li>
+<li>付得起 ✓✓</li>
+<li>决策快 ?</li>
+<li>痛点强 ✓✓</li>
+<li>触达概率 ✓</li>
 </ul>
-</li>
-<li><strong>business_query</strong> (6 条):<ul>
-<li></li>
-<li>北京一方五味餐饮服务有限责任公司-企业信息</li>
-<li>北京一方五味餐饮服务有限责任公司 - 天眼查</li>
-<li>刘铮- 北京一方五味餐饮服务有限责任公司 - 法定代表人/高管/股东...</li>
-<li>北京八方五味餐饮管理有限公司怎么样 - 企查查</li>
-</ul>
-</li>
-<li><strong>baidu_native</strong> (4 条):<ul>
-<li></li>
-<li>王祥关联公司查询-王祥投资的公司-王祥相关企业信息查询-企查猫...</li>
-<li>北京一方味餐饮管理有限公司 - 百度百科</li>
-<li>北京一方香厨餐饮管理有限公司</li>
-</ul>
-</li>
-</ul>
-<h2>5. 研发能力佐证 (B 类软著)</h2>
-<p>(无 B 类内部系统软著)</p>
+<h3>风险标签</h3>
+<p>（无）</p>
+<h3>备用精确异议</h3>
+<ol>
+<li>客户问: "我就是个小公司，有必要办这个证书吗？" → "正因规模不大，才更需要官方背书。一张证书就让您从小卖家中跳出来，消费者更敢下单，比投钱烧流量划算。"</li>
+<li>客户问: "费用会不会太高？" → "有中小企业套餐，一年不到16块/天，一个订单就回本，还能持续带来信任溢价。"</li>
+</ol>
+<h3>信号库</h3>
+<ol>
+<li>持有EDI证与食品互联网销售资质，但线上交易缺乏质量背书 — 市监总局商品证书给每件食品贴“国家质检身份证”，直接提高下单转化，避免因无证明被平台下架。</li>
+<li>品牌知名度极低，无新闻、无搜索记录，消费者难信 — 合作证书是总局唯一颁发的认可，快速填补信任缺口，防止客源被有背书的竞品吸走。</li>
+<li>线下实体餐饮门店需高频自证卫生合规 — 证书可存证卫生许可、员工健康证等，顾客扫码即见，复购稳，抽查时快速自证。</li>
+<li>多个.shop域名推测多渠道商城运营，信任分散 — 一张主体合作证书统一品牌信任，降低各店怀疑门槛，避免订单因不正规感流失。</li>
+</ol></div>
+  </section>
 </div>
-
-<div id="feedback">
-
-<div class="feedback">
-<h2>📝 销售反馈 (本地保存)</h2>
-<p style="color:#666;font-size:.85em">填完点"保存到浏览器"后, 数据存在浏览器本地. 全部填完再点"导出 JSON"下载.</p>
-
-<label>触达日期</label>
-<input type="date" id="fb_date">
-
-<label>触达渠道 (多选)</label>
-<div class="row">
-  <div><label><input type="checkbox" value="电话" name="fb_channel"> 电话</label></div>
-  <div><label><input type="checkbox" value="微信" name="fb_channel"> 微信</label></div>
-  <div><label><input type="checkbox" value="上门" name="fb_channel"> 上门</label></div>
-  <div><label><input type="checkbox" value="其他" name="fb_channel"> 其他</label></div>
-</div>
-
-<label>联系结果</label>
-<select id="fb_result">
-  <option value="">-- 请选 --</option>
-  <option>未接通</option>
-  <option>接通无意向</option>
-  <option>接通有兴趣</option>
-  <option>约见</option>
-  <option>已上门</option>
-  <option>拒绝</option>
-  <option>待跟进</option>
-</select>
-
-<label>客户实际业态 (用于校验段判定)</label>
-<input type="text" id="fb_real_seg" placeholder="客户自己描述的主营业务">
-
-<label>客户主诉 (前 3 件最在意的)</label>
-<textarea id="fb_pains"></textarea>
-
-<label>段判定是否准确</label>
-<select id="fb_seg_acc">
-  <option value="">-- 请选 --</option>
-  <option>准确</option>
-  <option>部分准确</option>
-  <option>不准确</option>
-</select>
-
-<label>作战包字段评级</label>
-<div class="row">
-  <div><label><input type="checkbox" name="fb_pack_rate" value="业态画像_有用"> 业态画像 (有用)</label></div>
-  <div><label><input type="checkbox" name="fb_pack_rate" value="产品匹配_有用"> 产品匹配 (有用)</label></div>
-  <div><label><input type="checkbox" name="fb_pack_rate" value="discovery_有用"> discovery (有用)</label></div>
-  <div><label><input type="checkbox" name="fb_pack_rate" value="异议_有用"> 异议库 (有用)</label></div>
-  <div><label><input type="checkbox" name="fb_pack_rate" value="KP触达_有用"> KP触达 (有用)</label></div>
-</div>
-
-<label>客户拒绝原因 (多选)</label>
-<div class="row">
-  <div><label><input type="checkbox" name="fb_reject" value="价格"> 价格</label></div>
-  <div><label><input type="checkbox" name="fb_reject" value="不需要"> 不需要</label></div>
-  <div><label><input type="checkbox" name="fb_reject" value="已有"> 已有</label></div>
-  <div><label><input type="checkbox" name="fb_reject" value="业务模式不匹配"> 业务模式不匹配</label></div>
-  <div><label><input type="checkbox" name="fb_reject" value="决策延迟"> 决策延迟</label></div>
-  <div><label><input type="checkbox" name="fb_reject" value="其他"> 其他</label></div>
-</div>
-
-<label>备注</label>
-<textarea id="fb_note" placeholder="销售自由发挥"></textarea>
-
-<div style="margin-top:1em">
-  <button type="button" onclick="saveFeedback('405')">💾 保存到浏览器</button>
-  <button type="button" class="secondary" onclick="exportFeedback('405')">📥 导出 JSON</button>
-  <button type="button" class="secondary" onclick="loadFeedback('405')">↻ 从浏览器加载</button>
-  <span class="saved-status" id="fb_status"></span>
-</div>
-</div>
-
-<script>
-(function() {
-  const EID = '405';
-  const COMPANY = "北京一方五味餐饮服务有限责任公司";
-
-  window.collectFeedback = function() {
-    const el = id => document.getElementById(id);
-    const checkbox = name => Array.from(document.querySelectorAll('input[name="' + name + '"]:checked')).map(x => x.value);
-    return {
-      entity_id: EID, company_name: COMPANY,
-      触达日期: el('fb_date').value, 触达渠道: checkbox('fb_channel'),
-      联系结果: el('fb_result').value, 客户实际业态: el('fb_real_seg').value,
-      客户主诉: el('fb_pains').value, 段判定: el('fb_seg_acc').value,
-      作战包评级: checkbox('fb_pack_rate'), 客户拒绝原因: checkbox('fb_reject'),
-      备注: el('fb_note').value,
-      saved_at: new Date().toISOString()
-    };
-  };
-  window.saveFeedback = function(eid) {
-    const data = window.collectFeedback();
-    localStorage.setItem('sales_fb_' + eid, JSON.stringify(data));
-    document.getElementById('fb_status').textContent = '✓ 已存浏览器 ' + new Date().toLocaleTimeString();
-  };
-  window.exportFeedback = function(eid) {
-    const data = window.collectFeedback();
-    const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = 'feedback_' + eid + '_' + new Date().toISOString().slice(0,10) + '.json';
-    a.click();
-    URL.revokeObjectURL(url);
-  };
-  window.loadFeedback = function(eid) {
-    const raw = localStorage.getItem('sales_fb_' + eid);
-    if (!raw) { document.getElementById('fb_status').textContent = '(浏览器无历史)'; return; }
-    const d = JSON.parse(raw);
-    const el = id => document.getElementById(id);
-    el('fb_date').value = d.触达日期 || '';
-    el('fb_result').value = d.联系结果 || '';
-    el('fb_real_seg').value = d.客户实际业态 || '';
-    el('fb_pains').value = d.客户主诉 || '';
-    el('fb_seg_acc').value = d.段判定 || '';
-    el('fb_note').value = d.备注 || '';
-    for (const pair of [['fb_channel','触达渠道'],['fb_pack_rate','作战包评级'],['fb_reject','客户拒绝原因']]) {
-      const set = pair[0], key = pair[1];
-      document.querySelectorAll('input[name="' + set + '"]').forEach(function(el) {
-        el.checked = (d[key] || []).indexOf(el.value) >= 0;
-      });
-    }
-    document.getElementById('fb_status').textContent = '✓ 已从浏览器加载';
-  };
-  document.addEventListener('DOMContentLoaded', function() { window.loadFeedback(EID); });
-})();
-</script>
-
-</div>
-
-</div>
-</body></html>
+</body>
+</html>

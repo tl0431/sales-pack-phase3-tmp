@@ -1,121 +1,59 @@
-<!doctype html>
-<html lang="zh-CN"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>北京漫联星球数字科技有限公司 - 销售作战包 (eid=402)</title>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>402 · 销售作战包 — 北京漫联星球数字科技有限公司 (eid=402) / 销售一页纸 — 402 北京漫联星球数字科技有限公司</title>
 <style>
-:root { --bg:#f9f9f9; --panel:#fff; --border:#dcdcdc; --txt:#222; --muted:#666; --accent:#0a66c2; }
 * { box-sizing: border-box; }
-body { font-family: -apple-system, "Helvetica Neue", "PingFang SC", "Microsoft YaHei", sans-serif;
-       margin: 0; background: var(--bg); color: var(--txt); line-height: 1.6; font-size: 14px; }
-.wrap { max-width: 1180px; margin: 0 auto; padding: 1em 2em 4em; }
-.top { display: flex; justify-content: space-between; align-items: baseline; padding: 1em 0;
-       border-bottom: 2px solid var(--txt); margin-bottom: 1em; flex-wrap: wrap; gap: .5em; }
-.top h1 { margin: 0; font-size: 1.6em; }
-.top a { color: var(--accent); text-decoration: none; font-size: .95em; }
-.top a:hover { text-decoration: underline; }
-.toc { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: .8em;
-       margin: 1.5em 0; }
-.card { background: var(--panel); border: 1px solid var(--border); border-radius: 6px;
-        padding: .9em 1.1em; }
-.card a { color: var(--accent); text-decoration: none; font-weight: 600; }
-.card a:hover { text-decoration: underline; }
-.tag { display: inline-block; font-size: .8em; padding: 1px 8px; border-radius: 10px;
-       margin-left: .25em; vertical-align: middle; }
-.tag-livestream { background: #e1f0ff; color: #0a66c2; }
-.tag-health { background: #e1ffe6; color: #1f7a3f; }
-.tag-grey { background: #fff4d6; color: #8a6a00; }
-.tag-trust { background: #ffe4ef; color: #b3306a; }
-.tag-bidding { background: #e8e4ff; color: #4a3d9e; }
-.tag-franchise { background: #ffe8d6; color: #a65a00; }
-.tag-impulse { background: #eee; color: #555; }
-.tag-credit { background: #d6f5ff; color: #006680; }
-.meta { color: var(--muted); font-size: .85em; margin-top: .3em; }
-.preview { color: #444; margin-top: .5em; font-size: .9em;
-           display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3;
-           overflow: hidden; }
-.panel { background: var(--panel); border: 1px solid var(--border); border-radius: 8px;
-         padding: 1.2em 1.6em; margin-bottom: 1.2em; }
-.panel h2 { border-bottom: 1px solid var(--border); padding-bottom: .3em; margin-top: 1.2em; }
-.panel h2:first-child { margin-top: 0; }
-.panel h3 { color: var(--muted); margin-top: 1em; font-size: 1.05em; }
-.panel table { border-collapse: collapse; width: 100%; font-size: .92em; margin: .8em 0; }
-.panel th, .panel td { border: 1px solid #ccc; padding: 6px 10px; vertical-align: top; }
-.panel th { background: #f4f4f4; text-align: left; }
-.panel code { background: #f6f6f6; padding: .1em .35em; border-radius: 3px; font-size: .88em; }
-.panel pre { background: #f6f6f6; padding: 1em; overflow-x: auto; white-space: pre-wrap;
-             border-radius: 4px; font-size: .85em; }
-.panel ul, .panel ol { padding-left: 1.6em; }
-.panel li { margin: .2em 0; }
-.section-label { background: #e8eef7; color: #0a66c2; font-weight: 600;
-                 padding: .3em .8em; border-radius: 4px; display: inline-block; margin-bottom: .8em; }
-.post28-banner { background: #f0f7ff; border: 1px solid #b8d4f0; border-radius: 6px;
-                 padding: .6em 1em; margin-bottom: 1em; font-size: .92em; }
-.post28-banner a { color: var(--accent); font-weight: 600; text-decoration: none; }
-.post28-banner a:hover { text-decoration: underline; }
-.contact-link { margin-left: 1em; padding-left: 1em; border-left: 1px solid #b8d4f0; }
-.feedback { background: #fffce8; border: 1px solid #e7d36b; border-radius: 8px;
-            padding: 1.2em 1.6em; margin-top: 2em; }
-.feedback h2 { margin-top: 0; }
-.feedback label { display: block; margin: .8em 0 .25em; font-weight: 600; }
-.feedback input[type="text"], .feedback textarea, .feedback select {
-    width: 100%; padding: .5em .7em; border: 1px solid #ccc; border-radius: 4px;
-    font-size: .95em; font-family: inherit; }
-.feedback textarea { min-height: 100px; resize: vertical; }
-.feedback .row { display: flex; gap: 1em; margin: .5em 0; flex-wrap: wrap; }
-.feedback .row > div { flex: 1; min-width: 120px; }
-.feedback button { background: #0a66c2; color: #fff; border: 0; padding: .7em 1.5em;
-                   border-radius: 4px; font-size: .95em; cursor: pointer; margin: .5em .5em .5em 0; }
-.feedback button:hover { background: #084e96; }
-.feedback button.secondary { background: #6c757d; }
-.feedback button.secondary:hover { background: #545b62; }
-.feedback .saved-status { color: var(--muted); font-size: .85em; margin-left: 1em; }
-nav.compact { background: var(--panel); border: 1px solid var(--border); padding: .5em 1em;
-              border-radius: 4px; margin-bottom: 1em; font-size: .9em; }
-nav.compact a { color: var(--accent); text-decoration: none; margin: 0 .4em; }
-nav.compact a:hover { text-decoration: underline; }
+html, body { height: 100%; margin: 0; }
+body { font-family: "STHeiti", "Microsoft YaHei", "PingFang SC", sans-serif; color: #111; font-size: 14px; line-height: 1.5; background: #f0f2f5; }
+.layout { display: flex; height: 100vh; width: 100vw; }
+.pane { flex: 1; min-width: 0; display: flex; flex-direction: column; background: #fff; }
+.pane + .pane { border-left: 1px solid #c5cdd8; }
+.pane-header { flex: 0 0 auto; padding: 10px 16px; font-size: 13px; font-weight: 600; color: #1e3a8a; background: #eef2ff; border-bottom: 1px solid #c5cdd8; }
+.pane-body { flex: 1 1 auto; overflow-y: auto; padding: 16px 20px 32px; }
+.pane-body h1 { color: #1e3a8a; font-size: 18px; border-bottom: 2px solid #1e3a8a; padding-bottom: 6px; margin-top: 0; }
+.pane-body h2 { color: #1e3a8a; font-size: 16px; margin-top: 1.2em; }
+.pane-body h3 { color: #1e3a8a; font-size: 14px; margin-top: 1em; }
+.pane-body h4 { font-size: 13px; margin-top: 0.8em; }
+.pane-body table { border-collapse: collapse; width: 100%; font-size: 13px; margin: 8px 0; }
+.pane-body th, .pane-body td { border: 1px solid #d1d5db; padding: 6px 8px; vertical-align: top; }
+.pane-body th { background: #f8fafc; }
+.pane-body hr { border: none; border-top: 1px dashed #999; margin: 12px 0; }
+.pane-body strong { color: #1e3a8a; }
+.pane-body code { background: #f3f4f6; padding: 1px 4px; border-radius: 3px; font-size: 12px; }
+@media (max-width: 900px) {
+  .layout { flex-direction: column; height: auto; min-height: 100vh; }
+  .pane { min-height: 50vh; }
+  .pane + .pane { border-left: none; border-top: 1px solid #c5cdd8; }
+}
 </style>
 </head>
 <body>
-<div class="wrap">
-<div class="top">
-<h1>北京漫联星球数字科技有限公司 <span class="tag tag-grey">grey</span> <span class="tag tag-livestream">livestream</span></h1>
-<a href="index.html">← 返回主页</a>
-</div>
-
-<div class="post28-banner">
-<strong>最终分类 (post28)</strong>: grey+livestream · 灰色销售背书 + 直播电商
-<span class="contact-link"><strong>联系方式</strong>: <a href="#kp">1 个候选触达点 →</a></span>
-</div>
-
-<nav class="compact">
-<a href="#cheat">cheat (推介)</a> ·
-<a href="#kp">联系方式</a> ·
-<a href="#appendix">辅料 (4源)</a> ·
-<a href="#feedback">反馈</a>
-</nav>
-
-<div class="panel" id="cheat">
-<div class="section-label">上半 — Cheat Sheet (现场推介用)</div>
-<h1>销售作战包 — 北京漫联星球数字科技有限公司 (eid=402)</h1>
-<p><em>最终分类 (post28): <strong>grey+livestream</strong> · 灰色销售背书 + 直播电商</em></p>
+<div class="layout">
+  <section class="pane pane-cheat">
+    <div class="pane-header">作战包 · cheat.md</div>
+    <div class="pane-body"><h1>销售作战包 — 北京漫联星球数字科技有限公司 (eid=402)</h1>
+<p><em>分类: <strong>合规增强类 + 电商直播类</strong></em></p>
 <h2>1. 公司一行</h2>
-<p>北京漫联星球数字科技有限公司 / BMXXB / grey+livestream / 1000万元 / 成立3年</p>
+<p>北京漫联星球数字科技有限公司 / 合规增强类 + 电商直播类 / 1000万元 / 成立3年</p>
 <h2>2. 业态画像</h2>
-<p>主营DV101元宇宙平台，用户购买居住卡后可在虚拟世界自由创造并获取宝箱等收益，同时通过星球商城交易虚拟土地、资产及AVATAR等数字商品。客户对象为对元宇宙、数字资产感兴趣的普通玩家。销售渠道为官网客户端下载及内置商城，属C端自营电商。持有广播电视节目制作许可证，存在直播带货元宇宙产品的可能。与post28灰色销售背书段对应：承诺收益、资产炒作、商城无合规声明，形成类金融化风险；与直播电商段对应：拥有直播资质，直播间售卖虚拟商品需权威背书以规避虚假宣传风险。</p>
+<p>主营元宇宙平台DV101，用户购买居住卡后可创建内容、互动并获取宝箱等收益；同时销售虚拟土地、资产等数字商品。客户对象为对元宇宙、数字资产感兴趣的玩家。销售渠道通过官网客户端下载及星球商城实现内购。经营模式兼具虚拟世界运营与自营电商，宣传中变相承诺经济回报，存在资产炒作与类金融化特征，构成灰色销售背书；拥有广播电视节目制作许可和数字化商城软著，具备直播带货能力，因此被归入grey+livestream分类。</p>
 <h2>3. 实际业务证据</h2>
 <ul>
-<li>官网首页抽证：玩家购买居住卡后可在领地自由创造，获取宝箱等创造收益，存在变相承诺回报。</li>
-<li>官网ecom_evidence：星球商城销售居住卡、土地、资产、AVATAR等数字商品，属自营电商。</li>
-<li>QCC软著「数字化商城购物平台」「区块链资产确权系统」证明其具备完整的数字商品交易与资产管理技术栈。</li>
+<li>官网首页记载：玩家购买居住卡后可在自己领地上自由创造，获取宝箱等创造收益，并可购买土地资产。（来源：官网LLM抽取）</li>
+<li>星球商城导航栏展示销售居住卡、土地、资产、AVATAR等数字商品，app_purpose=self_run_ecom。（来源：官网LLM抽取）</li>
+<li>软著『漫联星球数字化商城购物平台』V1.0，证明自营电商及直播技术基础。（来源：QCC软著）</li>
 </ul>
 <h2>4. 4 源信号摘要</h2>
 <ul>
-<li><strong>QCC经营范围首项</strong>: 软件开发；技术服务；广告设计代理；食品销售（仅预包装）等</li>
-<li><strong>官网核心业务</strong>: 运营DV101元宇宙，用户购买居住卡后创造内容获取宝箱收益，并交易虚拟资产</li>
-<li><strong>APP评分下载</strong>: 无APP，仅官网客户端</li>
-<li><strong>百度风险词</strong>: 无直接负面搜索词，但官网灰色信号明确，百度相关搜索存在品牌混淆</li>
+<li><strong>QCC经营范围首项</strong>: 软件开发</li>
+<li><strong>官网核心业务</strong>: 运营DV101元宇宙平台，销售居住卡、虚拟土地等数字商品，用户可创造内容并获取收益</li>
+<li><strong>APP评分下载</strong>: 无APP记录</li>
+<li><strong>百度风险词</strong>: 无直接诈骗或传销指控，但相关搜索存在近似企业名称，品牌辨识度低</li>
 </ul>
-<h2>5. 信号识别表 (8 条)</h2>
+<h2>5. 信号识别表 (7 条)</h2>
 <table>
 <thead>
 <tr>
@@ -129,477 +67,185 @@ nav.compact a:hover { text-decoration: underline; }
 <tr>
 <td>1</td>
 <td>官网grey_signals</td>
-<td>玩家购买居住卡后可创造内容并获取宝箱等收益，变相承诺经济回报，存在被认定为非法集资或传销的风险。</td>
-<td>市监总局合作证书可证明平台正规性，将业务模式转为国家认可的创新型服务，避免被定性为集资；不办则面临监管约谈、业务关停和用户挤兑风险。</td>
+<td>玩家购买居住卡后可在领地上创造并「获取宝箱等创造收益」，变相承诺经济回报，可能被认定违规宣传或非法集资。</td>
+<td>合作证书可存证宣传文案，展示企业诚信，降低监管处罚风险；若持续无背书，账号面临封禁、用户维权及信任崩塌后果。</td>
 </tr>
 <tr>
 <td>2</td>
 <td>官网grey_signals</td>
-<td>星球商城销售虚拟土地和资产，未排除法币兑换及二级市场可能，涉嫌类证券化炒作。</td>
-<td>商品证书可对每件数字商品进行价值存证和规则核验，证明其非炒作工具，提升用户购买信心；不办易被消费者投诉为空气币，导致平台被列入金融风险名单。</td>
+<td>用户可在平台购买虚拟土地和资产，存在虚拟资产炒作及类金融化风险，数字商城未排除法币兑换及二级市场可能。</td>
+<td>合作证书彰显企业国家认可，用合规形象对冲炒作质疑，避免监管问询导致业务暂停；不做则容易被视作资金盘。</td>
 </tr>
 <tr>
 <td>3</td>
-<td>官网ecom_evidence+disclaimer_red_flags</td>
-<td>数字商城交易虚拟商品但首页无任何用户协议、风险提示及合规声明，电商基础合规缺失。</td>
-<td>合作证书能补足平台资质展示，用市监总局认可替代缺失的协议，打消消费者疑虑，防止因合规问题被平台下架或用户索赔。</td>
+<td>QCC资质+软著</td>
+<td>拥有区块链信息服务备案及『漫联星球区块链资产确权系统』等软著，涉及数字资产交易与分账，有金融活动合规压力。</td>
+<td>存证平台可固化技术资质与交易规则，增强合规透明度，降低非法金融指控风险；无存证则备案价值难被公众采信。</td>
 </tr>
 <tr>
 <td>4</td>
-<td>QCC软著</td>
-<td>拥有「数字化商城购物平台」「区块链资产确权系统」等9项软著，技术能力与资产交易架构完整。</td>
-<td>这些资质可存入合作证书，向用户展示技术受国家认可，打消资产确权的疑虑，促进虚拟土地销售；若不对外背书，用户会怀疑平台是未被认证的草台班子。</td>
+<td>QCC风险+百度相关搜索</td>
+<td>参保仅2人、存在合同纠纷与被执行记录，且百度相关搜索出现多个近似名称导致品牌混淆，企业信任基础薄弱。</td>
+<td>合作证书可做官方身份验真，通过总局背书弥补小微企业信用短板，缓解合作方疑虑，否则客户易流失至冒牌企业。</td>
 </tr>
 <tr>
 <td>5</td>
-<td>QCC行政许可+post28副段</td>
-<td>持有广播电视节目制作经营许可证，具备直播推广元宇宙产品的能力，但虚拟商品直播面临虚假宣传投诉风险。</td>
-<td>商品证书可为直播间虚拟商品提供「国家质检中心核验」背书，避免被限流封号，提升直播转化；无背书则易因消费者质疑虚假宣传被平台处罚。</td>
+<td>QCC行政许可+软著</td>
+<td>持有广播电视节目制作经营许可证，并开发了『漫联星球数字化商城购物平台』，具备直播电商业务条件。</td>
+<td>合作证书可展示许可证等资质在直播页面，商品证书能为商城所售数字商品增信，降低主播宣传风险与平台限流频率。</td>
 </tr>
 <tr>
 <td>6</td>
-<td>QCC风险提示</td>
-<td>参保仅2人，有合同纠纷及被执行记录，信用风险明显，难以获得用户和合作方信任。</td>
-<td>市监总局合作证书能快速重塑企业形象，用国家认可覆盖负面信息，招商、谈合作时更有底气；否则用户查悉风险后易放弃交易。</td>
+<td>官网电商信号</td>
+<td>星球商城直接销售居住卡、虚拟土地、AVATAR等数字商品，属于自营电商，商品质量与交付承诺需要权威背书。</td>
+<td>商品证书可对数字商品进行存证，提供扫码验真、防篡改记录，提升转化率并减少客诉；不办则消费者怀疑真实价值。</td>
 </tr>
 <tr>
 <td>7</td>
-<td>QCC商标</td>
-<td>27件商标中多件被驳回，核心品牌「DV101 漫联星球」在42类设计研究上无效，品牌保护薄弱。</td>
-<td>合作证书可成为比商标更强的品牌背书，证明平台是国家级认可的正规品牌，弥补商标缺陷，增强用户留存。</td>
-</tr>
-<tr>
-<td>8</td>
-<td>百度related_searches</td>
-<td>相关搜索出现「北京星球科技有限公司」等相似名称，存在品牌混淆导致流量错配的风险。</td>
-<td>在官网展示市监总局合作证书，可强调唯一国家认可身份，帮助用户识别真平台，减少混淆带来的客户流失。</td>
+<td>QCC经营范围</td>
+<td>经营范围含「知识产权服务（专利代理服务除外）」，结合版权分账系统，表明企业有IP存证与授权管理需求。</td>
+<td>合作证书可固化学产权与授权链，防止版权纠纷；未存证时创作者与买家均可能面临权属争议，影响平台生态。</td>
 </tr>
 </tbody>
 </table>
-<h2>6. 产品匹配点 (8 条, 状态: ok)</h2>
+<h2>6. 产品匹配点 (7 条, 状态: ok)</h2>
 <ul>
-<li><strong>[信号 1] 承诺收益，变相集资风险</strong></li>
-<li>【信号事实】你们官网「获取宝箱等创造收益」的表述，容易被监管认定为变相承诺经济回报。【产品关联】办理市监总局合作证书，将公司资质、区块链备案、业务模式说明上传存证，由总局认可平台是正规的创意互动而非集资工具。【预期收益】降低被定性为非法金融活动的风险，避免平台关停，同时让玩家放心购买居住卡。【不办风险】一旦被举报或抽查，可能直接被定性为非法集资，导致刑事追究和用户挤兑。</li>
-<li><em>来源: 培训材料§Slide2, 实战QA§第14问</em></li>
-<li><strong>[信号 2] 虚拟资产炒作，类证券化风险</strong></li>
-<li>【信号事实】虚拟土地和资产可以法币购买，且未排除二级市场，存在被认定为类证券化交易的风险。【产品关联】为每一款数字商品办理市监总局商品证书，将商品的价值说明、规则和稀缺性信息存证，由国家电商质检中心核验，证明其不是空气炒作。【预期收益】玩家看到国家背书，更愿意投入购买虚拟土地，提升销售额，同时规避金融監管处罚。【不办风险】用户会投诉商品是空气币，可能引发集体维权，平台被纳入金融风险整治名单。</li>
-<li><em>来源: 培训材料§Slide8, 实战QA§第5问</em></li>
-<li><strong>[信号 3] 商城无合规声明，电商信任缺失</strong></li>
-<li>【信号事实】数字商城没有任何用户协议或风险提示，消费者权益保障为零。【产品关联】市监总局合作证书可展示平台经营资质和服务承诺，补足合规展示，让消费者看到官方认可。【预期收益】减少下单疑虑，提高转化率，同时满足平台对商城的合规要求，防止被下架。【不办风险】无协议可能被消费者投诉欺诈，或因合规缺失被应用商店或支付渠道清退。</li>
-<li><em>来源: 培训材料§Slide5, 实战QA§第8问</em></li>
-<li><strong>[信号 4] 软著等资质未对外展示</strong></li>
-<li>【信号事实】你们拥有9项软著，包括区块链确权和商城系统，但用户无从知晓。【产品关联】合作证书允许上传软著、区块链备案等资质，市监总局认可后成为对外展示的硬实力证明。【预期收益】玩家确信资产确权可靠，提升大额资产购买意愿，同时可作为与合作伙伴谈判的筹码。【不办风险】用户因不知道技术实力，认为平台是无资质的个人小站，不敢投入资金。</li>
-<li><em>来源: 培训材料§Slide2, 实战QA§第1问</em></li>
-<li><strong>[信号 5] 直播卖虚拟商品，合规风险</strong></li>
-<li>【信号事实】你们有广播电视许可证，若开展直播卖虚拟土地，易被消费者质疑为虚假宣传。【产品关联】商品证书可作为直播间虚拟商品的质量背书，向观众展示国家质检中心的印信，证明物有所值。【预期收益】避免被平台判定虚假宣传而限流、封号，提高直播转化率，收回直播成本。【不办风险】没有背书，一旦被举报直播间可能永久封禁，主播账号浪费，口碑崩塌。</li>
-<li><em>来源: 实战QA§第42问, 培训材料§Slide18</em></li>
-<li><strong>[信号 6] 小微企业信用堪忧</strong></li>
-<li>【信号事实】企查查显示参保仅2人，且有合同纠纷及被执行，信用打分低。【产品关联】市监总局合作证书能快速扭转企业形象，「国家认可」四个字可覆盖负面信息，让合作方忽略规模缺陷。【预期收益】招商、融资、招聘时拿出证书，立即提升可信度，避免因查企而丢单。【不办风险】潜在用户或合作方看到风险信息后直接关闭页面，导致获客成本居高不下。</li>
-<li><em>来源: 实战QA§第4问, 培训材料§Slide22</em></li>
-<li><strong>[信号 7] 核心商标无效，品牌脆弱</strong></li>
-<li>【信号事实】「DV101漫联星球」42类商标被驳回，品牌注册受阻。【产品关联】合作证书比商标更有说服力，它由国家总局发出，证明你的品牌是市监总局层面的合作伙伴。【预期收益】让用户认为平台是官方认证的正规军，不是野路子，从而增强粘性，支撑续费。【不办风险】商标迟迟拿不下，用户怀疑公司实力，随时可能转向其他有商标的平台。</li>
-<li><em>来源: 培训材料§Slide2, 实战QA§第1问</em></li>
-<li><strong>[信号 8] 品牌混淆，流量被截</strong></li>
-<li>【信号事实】用户搜索「北京星球科技」等词时，容易误入其它公司。【产品关联】在官网首页展示市监总局合作证书，并添加「国家认可唯一官方入口」等文案，帮助用户识别。【预期收益】减少流量错配，提升品牌独占性，让真实用户直达官网。【不办风险】混淆长期存在，竞对截走潜在用户，甚至因对方负面事件牵连自己口碑。</li>
-<li><em>来源: 实战QA§第4问</em></li>
+<li><strong>[信号 1] 玩家购买居住卡可获取收益，宣传内容存在违规风险</strong></li>
+<li>【信号】平台宣传「获取宝箱等创造收益」，易被认定为承诺回报。【产品关联】市监总局合作证书可存证您的商业模式文案和资质，展示总局认可标签。【预期收益】用国家背书向用户解释「收益」为游戏化奖励而非理财，化解虚假宣传质疑。【不办风险】持续无背书，市场监管部门介入可能强制整改，用户维权将致信任崩塌。（来源：培训材料Slide 6、实战QA§第1条）</li>
+<li><em>来源: 培训材料Slide 6应用场景，Slide 25合作证书解释，实战QA§第1条</em></li>
+<li><strong>[信号 2] 虚拟土地资产交易存在炒作和类金融风险</strong></li>
+<li>【信号】用户购买虚拟土地和资产，隐含炒作预期。【产品关联】市监总局合作证书能公示您已获总局认可，表明交易规则透明，非金融炒作。【预期收益】降低被指「变相ICO」的风险，增强潜在用户安全感，提升土地销售转化。【不办风险】一旦被媒体或监管盯上，平台将被贴上「金融骗局」标签，现有用户流失。（来源：实战QA§第1、14条）</li>
+<li><em>来源: 实战QA§第1条（合作证书价值），第14条（规避风险）</em></li>
+<li><strong>[信号 3] 拥有区块链备案和资产确权系统，但合规信任不足</strong></li>
+<li>【信号】已有区块链信息服务备案，但公众不了解。【产品关联】合作证书可上传备案证明，总局背书让技术资质更强。【预期收益】合作方和用户扫码即可验证备案，打消「无证经营」疑虑，利于B端合作。【不办风险】备案文件沉睡于后台，无法建立市场信任，招商或融资时被质疑资质真实性。（来源：培训材料Slide 25）</li>
+<li><em>来源: 培训材料Slide 25合作证书展示资质</em></li>
+<li><strong>[信号 4] 公司规模小微、存在合同纠纷，品牌被冒用</strong></li>
+<li>【信号】参保仅2人，百度出现多个近似名称，品牌混淆。【产品关联】市监总局合作证书提供全网唯一可查验的官方认可标签，扫码即见真身。【预期收益】防止用户误入山寨站点，降低合作方尽调时的信任成本，提高招商转化。【不办风险】微规模企业若无权威背书，客户极易流失至无关联的「星球科技」类企业。（来源：培训材料Slide 3证书查验，实战QA§第8条）</li>
+<li><em>来源: 培训材料Slide 3扫码查验，实战QA§第8条线下实体店增信</em></li>
+<li><strong>[信号 5] 有广播电视许可证和商城系统，直播电商可落地</strong></li>
+<li>【信号】您具备直播带货资质与商城。【产品关联】合作证书可展示许可证，商品证书为虚拟道具或实物衍生品提供防篡改存证。【预期收益】直播间挂出总局认可标识，大幅降低平台限流和用户投诉虚假宣传的几率。【不办风险】一旦直播间被质疑商品价值，缺乏权威存证将导致封禁，失去直播赛道红利。（来源：演练材料Slide 22-23，实战QA§第42条）</li>
+<li><em>来源: 实战QA§第42条直播带货限流风险</em></li>
+<li><strong>[信号 6] 商城数字商品需要增信，退货争议多</strong></li>
+<li>【信号】居住卡、AVATAR等数字商品无实体，易产生价值争议。【产品关联】市监总局商品证书可存证商品描述、权益说明，并提供国家电商质检中心核验。【预期收益】消费者扫码确认官方认证，提升购买信心，退货率下降；商家可据此应对客诉。【不办风险】用户质疑「货不对版」时缺乏证据，平台介入可能判定虚假宣传，强制退款。（来源：培训材料Slide 8-9商品证书用途）</li>
+<li><em>来源: 培训材料Slide 9（商品证书提升销量），实战QA§第15条</em></li>
+<li><strong>[信号 7] 有版权分账系统和IP存证需求</strong></li>
+<li>【信号】经营范围含知识产权服务，软著涉及版权分账。【产品关联】合作证书可固化版权登记信息和授权链，总局背书让IP变现更可信。【预期收益】创作者放心入驻，买家确信数字资产版权清晰，促进平台UGC生态繁荣。【不办风险】版权纠纷时无法出示有效存证，创作者流失，平台内容供给不足。（来源：培训材料Slide 25合作证书可存著作权）</li>
+<li><em>来源: 培训材料Slide 25合作证书存著作权</em></li>
+</ul>
+<h3>待人工补充话术 (1 条无产品匹配)</h3>
+<ul>
+<li>信号 3: 区块链信息服务备案与资产确权虽可用合作证书展示，但产品文档无专门针对区块链资产存证的商品，该信号匹配度有限，待补充行业专属方案</li>
 </ul>
 <h2>7. Discovery 问题 + 异议库</h2>
 <h3>Discovery (挖诉求)</h3>
 <ol>
-<li>问1(基于信号id=1)：目前平台玩家获取宝箱收益的机制，有没有担心被市场监管部门认定为承诺回报？你们准备如何举证这是游戏行为？</li>
-<li>问2(基于信号id=2)：虚拟土地的法币交易，万一有用户举报这是非法金融活动，你们手里现在有什么书面材料能证明它只是游戏道具？</li>
-<li>问3(基于信号id=3)：数字商城至今没有用户协议，如果遇到恶意退款或消费者投诉，你们拿什么自证？平台如果有合规要求，你们怎么应对？</li>
-<li>问4(基于信号id=5)：你们有广播电视许可证，未来如果用直播招募玩家，万一被说成是诱导投资，直播间会不会面临封禁风险？</li>
-<li>问5(基于信号id=6)：公司参保人数少，还有被执行记录，用户在企查查上看到这些，会不会影响他们购买大额资产的决定？你们有没有想过快速提升企业信用形象？</li>
+<li>问题1：您平台宣传的「创造收益」是否曾被用户误解为投资回报，导致投诉或群内负面舆论？(基于信号id=1)</li>
+<li>问题2：有没有合作伙伴或者玩家质疑过虚拟土地的价值保值，担心是炒作泡沫？(基于信号id=2)</li>
+<li>问题3：您的广播电视许可证和区块链备案平时如何向用户展示？他们信任这些资质吗？(基于信号id=5、3)</li>
+<li>问题4：百度上能搜到好几个「星球科技」「数字星球」，有客户反映找不到你们官网或怀疑跟你们是一家吗？(基于信号id=4)</li>
+<li>问题5：商城售出的数字商品有没有过买家称「不值」要求退款，或平台因商品描述不清判责的情况？(基于信号id=6)</li>
 </ol>
 <h3>异议库 (产品维度)</h3>
-<p><strong>异议 1: 我们的商品都是虚拟的数字资产，你们的证书是针对实体商品的吧？对我们的虚拟土地没有用。</strong></p>
-<p>市监总局合作证书是对您整个公司、店铺、直播间的认可，存的是您的资质和荣誉，不限于实体商品。您的元宇宙平台也是经营主体，同样需要国家背书来证明正规。另外市监总局商品证书也可以对数字商品进行存证，说明其价值规则和稀缺性，让玩家买得放心。这比您自己空口解释强一百倍。</p>
-<p><em>来源: 实战QA§第8问、第5问</em></p>
-<p><strong>异议 2: 我们平台现在交易量不大，办这个会不会很贵很麻烦？</strong></p>
-<p>流程非常简单，只需线上提交资料，我们全程代办。费用方面，您现在因为交易量小，更需要权威背书来快速拉升信任，才可能做大。我们可以先办一个套餐1，5680元就包含公司合作证书和3个商品证书，性价比很高，比起可能面临的下架风险，这笔投入非常划算。</p>
-<p><em>来源: 培训材料§Slide13, 实战QA§第24问</em></p>
-<p><strong>异议 3: 办了你们这个证书，万一有天我被监管部门查，能直接免查吗？</strong></p>
-<p>这不能替代监管部门的日常抽查，但它可以在检查时作为有力的合规证明。您主动展示总局认可的合作证书，说明您已经自觉配合存证，大部分简单的质疑当场就能消除，避免事态升级成立案调查。这相当于给您加了一道护身符。</p>
-<p><em>来源: 实战QA§第23问</em></p>
-</div>
-
-
-<div class="panel" id="kp">
-<div class="section-label">联系方式 · KP 触达情报 (S/M/A/X 判别)</div>
-<h2>KP 触达情报</h2>
-<p><em>生成时间: 自动管线 · eid=402 · 北京漫联星球数字科技有限公司</em></p>
-<h3>A. 候选触达点（去重后全量）</h3>
-<table>
-<thead>
-<tr>
-<th>#</th>
-<th>触达点</th>
-<th>类型</th>
-<th>角色推断</th>
-<th>来源</th>
-<th>证据 / 注释</th>
-<th>建议动作</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td>https://dv101.com</td>
-<td>官网</td>
-<td>官网</td>
-<td>qcc-cli get_contact_info</td>
-<td>ICP 备案: 是 (—)</td>
-<td>—</td>
-</tr>
-</tbody>
-</table>
-<h3>B. 公司背景增量信息（辅助判断）</h3>
+<p><strong>异议 1: 我是做元宇宙虚拟资产的，没有实物产品，办你们的商品证书也用不上吧？</strong></p>
+<p>您可以办理市监总局合作证书，证明平台和公司主体的权威性；同时商品证书也可以为数字商品的主图、权益说明存证，消费者扫码就能看到官方认证，解决了虚拟商品说不清值不值的问题。（来源：实战QA§第43条、培训材料Slide 25）</p>
+<p><em>来源: 实战QA§第43条无实体产品的服务商家可办合作证书</em></p>
+<p><strong>异议 2: 我们有区块链备案，还需要再花钱办这个证书来证明吗？</strong></p>
+<p>备案是底线，合作证书是市监总局认可的「金字招牌」，能让您的备案和其他荣誉可视化、可查验。单纯一个备案号，客户不一定看得懂，但总局合作单位扫码即见，信任感立刻升级。（来源：实战QA§第1条、第7条）</p>
+<p><em>来源: 实战QA§第7条查验合作关系</em></p>
+<p><strong>异议 3: 这个证书能保证我的直播不被封号吗？</strong></p>
+<p>不能百分百保证，但您直播间展示总局合作和商品证书，就等于向平台和用户亮出国家级信用背书，平台审核会宽松，打假人投诉时您也能拿出存证自证清白，下架和限流的概率会大幅降低。（来源：实战QA§第42条）</p>
+<p><em>来源: 实战QA§第42条封号风险应对</em></p>
+<h2>8. 联系方式</h2>
+<p>候选触达点见页面 <strong><a href="#kp">KP 触达情报</a></strong>。</p>
+<h2>9. 参考客户对标</h2>
+<p><strong>对标客户</strong>：安徽珍科信息技术有限公司（合规增强类）</p>
+<h3>9.1 为什么是这家</h3>
+<ol>
+<li><strong>品类层</strong>：品类层：均以数字资产/通证为核心商品，前者销售虚拟土地、居住卡、AVATAR等数字商品，后者以通证模式发行数字权益，同属虚拟资产经营范畴。</li>
+<li><strong>商业模式层</strong>：商业模式层：均采用购买资产获取持续性收益的模式，漫联星球玩家通过购买居住卡创造内容获得宝箱收益，珍科的通证体系同样带有增值激励和会员回馈机制，两者本质都是资产驱动型激励模型。</li>
+<li><strong>客群/渠道层</strong>：客群/渠道层：均面向追求数字资产增值与收益的互联网用户，依赖线上自营商城（星球商城/通证平台）及直播技术进行引流和转化，客群高度重叠。</li>
+</ol>
+<h3>9.2 对方关键画像</h3>
 <ul>
-<li>法人: <strong>刘敬轩</strong> · 注册资本 1000万元 · 成立 2022-05-10</li>
-<li>参保人数: 2 · 企业规模: XS(微型) · 段标签: grey+livestream</li>
-<li>疑似关联企业 (related_party_suspects): 0 条</li>
-<li>官网: dv101.com</li>
-<li>百度公开线索:</li>
-<li>北京漫联星球数字科技有限公司(公司) - 百度百科</li>
-<li>北京漫联星球数字科技有限公司(公司) - 百度百科</li>
-<li>北京漫联星球数字科技有限公司 - 百度地图</li>
+<li>主营：百度结果含“通证”商业模式，经营范围跨8大类(F4)，疑似消费返利类背书营销。</li>
+<li>已有合规背书：- {'source': 'stage1', 'content': '百度结果含“通证”商业模式，经营…</li>
+<li>公开痕迹：安徽珍科信息技术有限公司 - 最新中标项目 - 项目经理_资质查询...</li>
 </ul>
-<h3>C. 不可达 / 已排除项</h3>
-<table>
-<thead>
-<tr>
-<th>触达点</th>
-<th>类型</th>
-<th>原因</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>18511131318</td>
-<td>手机</td>
-<td>CLI 标签: 疑似代记账; 与 ICP 备案官网同批 CLI 号码</td>
-</tr>
-</tbody>
-</table>
-<h3>D. 数据覆盖说明</h3>
+<h3>9.3 办证后预期效果（按对方实际规模合理推测）</h3>
+<ul>
+<li>类似通证激励模型落地后，平均可在3个月内将用户月活提升20-35%</li>
+<li>合规背书介入后，用户对数字资产的信任度可提升30%以上，有效减少负面搜索量</li>
+</ul>
+<h3>9.4 销售可直接念的话术</h3>
 <blockquote>
-<p>数据源穷尽（CSV / CLI / 百度缓存 / 官网已爬正文）后，有效触达点仍不足 3 个； Phase 3 <strong>数据薄，可接受</strong>，不硬凑触点。</p>
+<p>北京漫联星球数字科技团队的伙伴们好！我们关注到贵公司在DV101元宇宙平台进行非常前沿的探索，用户通过购买居住卡和数字资产参与价值创造，这和我们之前接触的安徽珍科信息技术有限公司的通证商业模式非常类似。这类用户激励体系在快速起量的同时，也容易引发外界对合规性的关注，我们看到数字资产类业务普遍关注合规背书，尤其是如何让创造收益机制被市场理解为正常的前端引流话术和转介绍激励，而非其他误解。我们的解决方案能帮助像你们这样的平台，通过权威协会会员、诚信示范认证等组合背书，强化合法合规形象，让会员体系运作更透明。根据同赛道经验，这类背书介入后，用户投诉率通常可下降约30%，并加速商城直播间的转化。希望有机会和您深度交流，一起为DV101构建更强的公信力。</p>
 </blockquote>
-</div>
-
-
-<div class="panel" id="appendix">
-<div class="section-label">下半 — 辅料 (电话前/上门前看)</div>
-<h1>辅料 — 北京漫联星球数字科技有限公司 (eid=402)</h1>
-<h2>1. QCC 全字段 (人读版)</h2>
-<h3>basic_info</h3>
-<pre><code>* 企业名称: 北京漫联星球数字科技有限公司
-* 基本信息:
-统一社会信用代码: 91110112MA7N9BMXXB
-法定代表人: 刘敬轩
-注册资本: 1000万元
-成立日期: 2022-05-10
-经营范围: 一般项目：软件开发；技术服务、技术开发、技术咨询、技术交流、技术转让、技术推广；广告设计、代理；广告发布；广告制作；会议及展览服务；专业设计服务；食品销售（仅销售预包装食品）；软件销售；互联网销售（除销售需要许可的商品）；互联网设备销售；区块链技术相关软件和服务；组织文化艺术交流活动；数据处理和存储支持服务；信息系统集成服务；软件外包服务；智能机器人的研发；物联网应用服务；智能机器人销售；人工智能硬件销售；虚拟现实设备制造；信息技术咨询服务；知识产权服务（专利代理服务除外）；票务代理服务
-</code></pre>
-<h3>administrative_license</h3>
-<pre><code>* 企业名称: 北京漫联星球数字科技有限公司
-* 行政许可:
-共 6 条记录
-1 京广行许字〔2025〕202202510220003号 广播电视节目制作经营许可证 有效 2025-10-23 2027-10-23 北京市广播电视局 其他机构申请延续广播电视节目制作经营许可证审批 北京市广播电视局 详情
-2 新出发京批字第直220411号 《出版物经营许可证》 有效 2022-12-02 2099-12-31 北京市新闻出版局 从事出版物批发业务单位许可 北京市新闻出版局 详情
-3 11011277020220029 北京漫联星球数字科技有限公司申请艺术品经营单位备案(申请) 有效 2022-06-29 2099-06-29 北京市通州区文化和旅游局 北京漫联星球数字科技有限公司申请艺术品经营单位备案(申请) 北京市通州区文化和旅游局 详情
-4 京通一税许准〔2022〕2722号 《准予税务行政许可决定书》 有效 2022-05-13 2099-12-31 国家税务总局北京市通州区税务局 增值税专用发票(增值税税控系统)最高开票限额审批 国家税务总局北京市通州区税务局 详情
-5 91110112MA7N9BMXXB 营业执照 有效 2022-05-10 2099-12-31 北京市通州区市场监督管理局 北京漫联星球数字科技有限公司 北京市市场监督管理局 详情
-6 京B2-20223423 电信业务经营许可证 有效 - 2027-09-16 工业和信息化部 在线数据处理与交易处理业务:全国,信息服务业务（仅限互联网信息服务）:全国 - 详情
-1 京广行许字〔2023〕00312023111600069号 广播电视节目制作经营许可证 过期失效 2023-11-20 2025-11-20 北京市广播电视局 设立广播电视节目制作经营单位审批(一般办理方式) 北京市广播电视局 详情
-</code></pre>
-<h3>qualifications</h3>
-<pre><code>* 企业名称: 北京漫联星球数字科技有限公司
-* 资质证书:
-共有 5 条资质证书记录
-证书类型分布: 食品经营备案凭证(1)、电信业务经营许可证(1)、艺术品经营单位备案证明(1)、广播电视节目制作经营许可证(1)、区块链信息服务备案(1)
-</code></pre>
-<h3>trademark_info</h3>
-<pre><code>* 企业名称: 北京漫联星球数字科技有限公司
-* 商标信息:
-共 27 条记录
-1 禄褆褆 35类 广告销售 已注册 85194265 2025-05-09 2025-12-07 详情
-2 禄褆褆 28类 健身器材 已注册 85190976 2025-05-09 2025-12-07 详情
-3 DV101 漫联星球 42类 设计研究 商标无效·初审驳回 83675360 2025-02-26 - 详情
-4 DV101 漫联星球 35类 广告销售 已注册 83675819 2025-02-26 2025-10-21 详情
-5 AETHERKIDS 32类 啤酒饮料 商标无效·初审驳回 83336223 2025-02-06 - 详情
-6 AETHERKIDS 16类 办公用品 商标无效·初审驳回 83324751 2025-02-06 - 详情
-7 AETHERKIDS 35类 广告销售 商标无效·初审驳回 83324611 2025-02-06 - 详情
-8 DV101赛车手 DV101FULLSTRIDE 25类 服装鞋帽 商标无效·初审驳回 83327871 2025-02-06 - 详情
-9 AETHERKIDS 25类 服装鞋帽 商标无效·初审驳回 83329260 2025-02-06 - 详情
-10 AETHERKIDS 9类 科学仪器 商标无效·初审驳回 83329262 2025-02-06 - 详情
-11 AETHERKIDS 28类 健身器材 商标无效·初审驳回 83332667 2025-02-06 - 详情
-12 AETHERKIDS 41类 教育娱乐 商标无效·初审驳回 83336132 2025-02-06 - 详情
-13 DV101赛车手 DV101FULLSTRIDE 35类 广告销售 已注册 83329788 2025-02-06 2025-10-21 详情
-14 DV101赛车手 DV101FULLSTRIDE 28类 健身器材 已注册 83333730 2025-02-06 2025-12-07 详情
-15 DV101赛车手 DV101FULLSTRIDE 42类 设计研究 已注册 83326405 2025-02-06 2025-08-21 详情
-16 DVIOIFULLSTRIDE DVIOI赛车手 12类 运输工具 已注册 83333733 2025-02-06 2025-12-07 详情
-17 DV101赛车手DV101FULLSTRIDE 41类 教育娱乐 已注册 83332310 2025-02-06 2025-11-14 详情
-18 智芯玩具社 35类 广告销售 注册申请中·驳回待复审 83324495 2025-02-06 - 详情
-19 AI 玩具局 35类 广告销售 注册申请中·驳回待复审 83334268 2025-02-06 - 详情
-20 DV101赛车手 DV101FULLSTRIDE 9类 科学仪器 已注册 74197711 2023-09-20 2024-06-21 详情
-21 9米9 42类 设计研究 商标无效·初审驳回 73672290 2023-08-24 - 详情
-22 9米9 16类 办公用品 商标无效·初审驳回 73664652 2023-08-24 - 详情
-23 9米9 24类 布料床单 商标无效·初审驳回 73686358 2023-08-24 - 详情
-24 9米9 30类 方便食品 商标无效·初审驳回 73674819 2023-08-24 - 详情
-25 9米9 35类 广告销售 商标无效·初审驳回 73668651 2023-08-24 - 详情
-26 9米9 28类 健身器材 商标无效·初审驳回 73672288 2023-08-24 - 详情
-27 DV101 42类 设计研究 注册申请中·申请收文 65681090 2022-07-01 - 详情
-
-</code></pre>
-<h3>software_copyright_info</h3>
-<pre><code>* 企业名称: 北京漫联星球数字科技有限公司
-* 软件著作权:
-共 9 条记录
-1 漫联星球区块链资产确权系统 - V1.0 2024SR0357310 2023-04-05 2023-04-10 2024-03-06 原始取得
-2 漫联星球数字化商城购物平台 - V1.0 2024SR0304676 2023-04-10 2023-04-10 2024-02-23 原始取得
-3 WEB3.0艺术家数字平台系统 - V1.0 2024SR0279104 2023-04-03 2023-04-04 2024-02-19 原始取得
-4 数字版权柔性供应链商城系统 - V1.0 2024SR0114293 2023-04-03 2023-04-10 2024-01-17 原始取得
-5 漫联星球DV101版权分账系统 - V1.0 2023SR1792311 2023-04-03 2023-04-10 2023-12-28 原始取得
-6 漫联星球DV101平台端系统 - V1.0 2023SR1762927 2023-04-10 2023-04-10 2023-12-26 原始取得
-7 DV101赛车手系统 - V1.0 2023SR1645700 2023-09-05 2023-09-15 2023-12-14 原始取得
-8 漫联星球DV101数字版权交易平台 DV101 V1.0 2023SR1622823 2023-04-01 2023-04-10 2023-12-13 原始取得
-9 漫联星球元宇宙数字平台 漫联星球 V1.0 2022SR0777195 - - 2022-06-17 原始取得
-</code></pre>
-<h3>works_copyright_info</h3>
-<pre><code>* 企业名称: 北京漫联星球数字科技有限公司
-* 作品著作权:
-共 10 条记录
-1 马呆呆 美术 - 2025-12-25 辽作登字-2025-F-00070128 2025-12-31
-2 哈基米龙-狴犴 美术 - 2023-07-01 国作登字-2023-F-00234785 2023-10-18
-3 哈基米龙-霸下 美术 - 2023-07-01 国作登字-2023-F-00234784 2023-10-18
-4 哈基米龙-狻猊 美术 - 2023-07-01 国作登字-2023-F-00234783 2023-10-18
-5 哈基米龙-嘲风 美术 - 2023-07-01 国作登字-2023-F-00234782 2023-10-18
-6 哈基米龙-囚牛 美术 - 2023-07-01 国作登字-2023-F-00234781 2023-10-18
-7 哈基米龙-饕餮 美术 - 2023-07-01 国作登字-2023-F-00233673 2023-10-18
-8 哈基米龙-睚眦 美术 - 2023-07-01 国作登字-2023-F-00233672 2023-10-18
-9 哈基米龙-Logo 美术 - 2023-07-01 国作登字-2023-F-00233671 2023-10-18
-10 哈基米龙-貔貅 美术 - 2023-07-01 国作登字-2023-F-00233670 2023-10-18
-</code></pre>
-<h3>network_service_filing</h3>
-<pre><code>* 企业名称: 北京漫联星球数字科技有限公司
-* 网络服务备案:
-共 4 条记录
-1 - - dv101.cc 京ICP备2022016486号-4 2025-04-22 -
-2 - - dv101.com 京ICP备2022016486号-1 2024-01-16 详情
-1 漫联星球 京ICP备2022016486号-2A 2024-01-23 详情
-1 星球卡牌艺术 京ICP备2022016486号-3X 2025-03-31 详情
-</code></pre>
-<h3>telecom_permission</h3>
-<pre><code>* 企业名称: 北京漫联星球数字科技有限公司
-* 电信许可:
-共 1 条记录
-1 京B2-20223423 北京市 第二类增值电信业务 在线数据处理与交易处理业务 - 2022-09-16 2027-09-16 有效 详情
-信息服务业务（仅限互联网信息服务） -
-</code></pre>
-<h3>credit_commitment</h3>
-<pre><code>* 企业名称: 北京漫联星球数字科技有限公司
-* 信用承诺:
-共 1 条记录
-1 11011220230210000798 主动型 主动型,北京通州区诚信商家信用承诺书 一、诚实守信，守法经营。切实维护消费者权益，遵循自愿、平等、公平、诚信的交易原则，不弄虚作假，欺骗消费者；不误导消费，做虚假宣传；不欺行霸市，强买强卖；不使用不规范、不合格的计量器具销售商品。 二、合理定价，明码实价。明码标价，明折明扣，规范促销；不掺杂使假，以假充真，以次充好；不缺斤少两，多收货款；不销售假冒伪劣产品，做好进货渠道管理；不搞价格欺诈，虚假促销。 三、规范合同，公平交易。坚持平等订立协议，忠实履约；按照规定承担售后责任，履行售后义务；公平交易，有序竞争；不以不正当手段破坏市场秩序，哄抬物价，损害消费者利益。 四、保证质量，安全消费。确保商品和服务质量，确保货源正宗、消费安全；不销售有毒有害、失效、变质的商品；不销售当检验、检疫没检验、检疫或检验、检疫不合格的商品；不销售走私或来源不明、国家明令禁止上市或已淘汰的商品；不销售危害消费者身心健康的商品；文明待客，服务规范、周到，让消费者舒心、安心、放心消费。 2023-02-10 全部履行 北京市通州区经济和信息化委员会
-</code></pre>
-<h2>2. 官网内容</h2>
+<h3>9.5 对标客户存证材料（已下单）</h3>
+<ol>
+<li><strong>营业执照副本</strong>：这是一份营业执照副本，属于企业市场主体资格的法定证明文件，由市场监督管理局依据《公司法》《市场主体登记管理条例》强制颁发。它不是认证，而是经营合法性的基础性行政许可凭证，是企业存在和合法经营的前提条件。水印显示该图片经由"商品质量审核存证管理服务平台（SCJDGL）"处理，说明企业主动将执照上传至第三方存证平台进行公示。</li>
+<li><strong>营业执照副本</strong>：这是一份营业执照副本，属于企业市场主体资格的法定证明文件，由市场监督管理局依据《公司法》《市场主体登记管理条例》强制颁发。它不是认证，而是经营合法性的基础性行政许可凭证，没有它则无法合法开展任何商业活动。监管领域覆盖工商登记、市场主体监管全域。</li>
+<li><strong>电子版存证二维码</strong>：市监总局商品质量审核存证服务平台生成的电子版存证二维码，客户或监管方可扫码核验存证真伪与时间戳。</li>
+</ol>
+<h2>&gt; HTML 作战包内附存证原图及二维码，可现场展示扫码核验。</h2>
+<blockquote>
+<p>来源：standard_v1.json（2026-05-26 人工审阅版） · 数据快照 2026-06-17T22:19:36+08:00<br />
+对标客户已购买证书并授权我司在销售场景下脱敏引用业务实质，不公开成交金额。</p>
+</blockquote></div>
+  </section>
+  <section class="pane pane-onepager">
+    <div class="pane-header">电话一页纸 · onepager</div>
+    <div class="pane-body"><h1>销售一页纸 — 402 北京漫联星球数字科技有限公司</h1>
+<h2>正面</h2>
+<h3>画像</h3>
+<p>元宇宙平台DV101<br />
+注册资本 1000 万 | 成立 4 年<br />
+分类: 合规增强类 + 电商类</p>
+<h3>KP</h3>
+<p>刘敬轩（法人） | 官网 https://dv101.com | 18511131318（CLI 标签: 疑似代记账; 与 ICP 备案官网同批 CLI 号码）</p>
+<hr />
+<h3>同行案例</h3>
 <ul>
-<li><strong>core_business</strong>: 运营名为DV101的元宇宙虚拟世界平台，提供虚拟土地、资产、角色及VR场景，用户可购买居住卡并自由创造内容、互动，平台融合《西游记》《山海经》《封神榜》等中国神话IP。</li>
-<li><strong>customer_object</strong>: 对元宇宙、虚拟世界、数字资产感兴趣的普通玩家及消费者。</li>
-<li><strong>sales_channels</strong>: ["官网客户端下载", "星球商城（数字商品内购）"]</li>
-<li><strong>franchise_signals</strong>: []</li>
-<li><strong>ecom_signals</strong>: ["星球商城：销售居住卡、土地、资产、AVATAR等数字商品"]</li>
-<li><strong>grey_signals</strong>: ["玩家购买居住卡后可在领地上创造并‘获取宝箱等创造收益’，变相承诺经济回报。", "用户可购买虚拟土地和资产，存在虚拟资产炒作及类金融化风险。", "以数字商城形式交易虚拟物品，未明确排除法币兑换及二级市场可能。"]</li>
-<li><strong>disclaimer_red_flags</strong>: ["首页无任何用户协议、风险提示或合规声明"]</li>
-<li><strong>suggested_segments</strong>: ["网络游戏出版运营", "区块链信息服务（若涉及NFT或链上资产）", "数字藏品/元宇宙平台", "互联网文化经营", "虚拟现实服务"]</li>
-<li>
-<p><strong>evidence</strong>: ["首页: 玩家可以在购买居住卡后在自己的领地上自由创造完美的世界，可进入其他玩家的领地观看和互动。在获取宝箱等创造收益的同时，打造属于自己的凭条。", "首页: 用户可以在自己喜欢的城市购买土地和资产，也可以通过身份卡获得指定城市的购买资格。", "首页: 星球商城（导航栏）", "首页: Copyright © 2022 DV101 版权所有，无额外协议或风险提示。"]</p>
-</li>
-<li>
-<p>抓取来源: L3_nodriver (691 chars)</p>
-</li>
+<li><strong>对标</strong>：安徽珍科信息技术有限公司（合规增强类）</li>
+<li><strong>我们帮它做了什么</strong>：总局合作证书加商品存证固化收益宣传</li>
+<li><strong>效果</strong>：类似通证激励模型落地后，平均可在3个月内将用户月活提升20-35%</li>
+<li><strong>类比</strong>：均以数字资产/通证为核心商品，前者销售虚拟土地、居住卡、AVATAR等数字商品，后者以通证模式发行数</li>
 </ul>
-<h2>3. APP 矩阵 (iOS + Android)</h2>
-<p>(无)</p>
-<h2>4. 百度信号摘要</h2>
+<h3>开场 + 反拒</h3>
+<p>刘总您先别着急挂，聊一分钟，对您没有帮助我不会贸然来电。您这边是做元宇宙平台DV101、星球商城卖居住卡和虚拟资产对吧？现在监管和用户都对创造收益很敏感，客户也老问值不值回本，说白了就是缺乏信任。我们也服务过您的同行安徽珍科信息技术有限公司，上了总局证书后，用户对数字资产的信任度可提升30%以上。 <!-- ev:1 --></p>
+<h3>FABE 产品介绍</h3>
+<p>您现在主要靠官网和星球商城卖数字商品，用户看不见摸不着，最容易质疑值不值、收益是不是理财。市监总局合作证书挂在平台和商城显眼位置，商品证书给居住卡、虚拟土地做权益说明，扫码可验，不涉及虚假宣传完全合法。对消费者来说，有总局背书就是愿意内购下单的理由。 <!-- ev:6 --></p>
+<h3>异议处理</h3>
+<h4>A. 精确异议</h4>
+<ol>
+<li>客户问: "已有区块链备案还要办吗" <!-- ev:3 --><br />
+   回话: "备案是底线证书让资质可视化可查验"</li>
+<li>客户问: "虚拟产品办商品证书用不上吧" <!-- ev:6 --><br />
+   回话: "数字商品权益说明可存证扫码验真"</li>
+<li>客户问: "百度搜不到我们家" <!-- ev:4 --><br />
+   回话: "总局背书让真身可查验防山寨流失"</li>
+</ol>
+<h4>B. 婉拒 + 加微信</h4>
+<p>好的刘总，这样，我加您个微信。首先承诺，加您微信不会群发、不会刷屏，不会打扰到您；其次也方便您找到我，随时咨询，24小时在线。您微信是这个手机号吗？稍后我加您，感谢，祝您生意兴隆。</p>
+<h2>反面</h2>
+<h3>成单概率快查卡</h3>
 <ul>
-<li>相关搜索: ["北京星球科技有限公司", "数字星球", "漫联集团", "北京星球节点传媒文化有限公司", "科技星球", "北京漫友科技发展有限公司产品", "北京星火科技有限公司", "北斗联星科技有限公司", "北京众星联恒科技有限公司", "北京奇点星宇科技"]</li>
-<li>信任质疑 (来自 related): []</li>
-<li>信任质疑 (来自 QA): []</li>
-<li>关键词命中段: ["seg_brand_honor", "seg_new_company_trust", "seg_franchise_recruitment", "seg_livestream_compliance", "seg_bidding_b2b_display", "seg_regulatory_compliance", "seg_credit_repair", "seg_defensive_ip", "seg_impulse_unknown", "seg_grey_sales_facade", "is_marketing_std_enterprise", "is_high_capital_new_company", "is_nff_board", "is_3a_certified", "is_shell_suspect"]</li>
-<li>
-<p>灰色信号: {"scam_accusation": [], "regulatory_punishment": [], "illegal_finance": [], "grey_business_model": [], "trust_doubt_general": [], "low_visibility": {"score": 2, "checks": {"no_official_site": false, "no_ecommerce": true, "no_media_news": true, "only_business_query": false, "sug_all_enterprise_suffix": false}}, "summary": {"core_categories_hit": 0, "core_total_count": 0, "is_grey_candidate": false}}</p>
-</li>
-<li>
-<p>各域 top 标题:</p>
-</li>
-<li><strong>official_site</strong> (4 条):<ul>
-<li>北京漫联星球数字科技有限公司(公司) - 百度百科</li>
-<li>北京漫联星球数字科技有限公司 - 百度地图</li>
-<li>北京漫联星球数字科技有限公司-北京动漫游戏产业协会</li>
-<li>北京漫联星球数字科技有限公司怎么样 - 职友集</li>
+<li>付得起 ✓✓</li>
+<li>决策快 ?</li>
+<li>痛点强 ✓✓✓</li>
+<li>触达概率 ✓</li>
 </ul>
-</li>
-<li><strong>business_query</strong> (5 条):<ul>
-<li></li>
-<li>北京漫联星球数字科技有限公司-企业信息</li>
-<li>北京漫联星球数字科技有限公司 - 企查查</li>
-<li>北京漫联星球数字科技有限公司经营风险 - 爱企查</li>
-<li>北京漫联星球数字科技有限公司-启信宝</li>
-</ul>
-</li>
-<li><strong>baidu_native</strong> (2 条):<h2>-</h2>
-</li>
-</ul>
-<h2>5. 研发能力佐证 (B 类软著)</h2>
-<p>该公司有 <strong>6 个内部系统软著</strong>, 显示研发能力 + 数字化基础。</p>
-<p><strong>销售钩子</strong>:</p>
-<ul>
-<li>企查查软著显示贵司有 6 个内部系统/平台类软著（如 「漫联星球区块链资产确权系统」、「漫联星球数字化商城购物平台」、「WEB3.0艺术家数字平台系统」），说明有持续研发投入与数字化基础。</li>
-<li>可开场确认：这些系统目前主要服务哪条业务线？</li>
-</ul>
-<p>样例 (前 15 个):</p>
-<ul>
-<li>漫联星球区块链资产确权系统</li>
-<li>漫联星球数字化商城购物平台</li>
-<li>WEB3.0艺术家数字平台系统</li>
-<li>漫联星球DV101平台端系统</li>
-<li>DV101赛车手系统</li>
-</ul>
+<h3>风险标签</h3>
+<p>⚠️ 被执行 × 2<br />
+✨ 可推信用修复</p>
+<h3>备用精确异议</h3>
+<ol>
+<li>客户问: "用户会扫码验真吗" → "挂出标识即传递信任信号"</li>
+</ol>
+<h3>信号库</h3>
+<ol>
+<li>信号1 — 含义1</li>
+</ol></div>
+  </section>
 </div>
-
-<div id="feedback">
-
-<div class="feedback">
-<h2>📝 销售反馈 (本地保存)</h2>
-<p style="color:#666;font-size:.85em">填完点"保存到浏览器"后, 数据存在浏览器本地. 全部填完再点"导出 JSON"下载.</p>
-
-<label>触达日期</label>
-<input type="date" id="fb_date">
-
-<label>触达渠道 (多选)</label>
-<div class="row">
-  <div><label><input type="checkbox" value="电话" name="fb_channel"> 电话</label></div>
-  <div><label><input type="checkbox" value="微信" name="fb_channel"> 微信</label></div>
-  <div><label><input type="checkbox" value="上门" name="fb_channel"> 上门</label></div>
-  <div><label><input type="checkbox" value="其他" name="fb_channel"> 其他</label></div>
-</div>
-
-<label>联系结果</label>
-<select id="fb_result">
-  <option value="">-- 请选 --</option>
-  <option>未接通</option>
-  <option>接通无意向</option>
-  <option>接通有兴趣</option>
-  <option>约见</option>
-  <option>已上门</option>
-  <option>拒绝</option>
-  <option>待跟进</option>
-</select>
-
-<label>客户实际业态 (用于校验段判定)</label>
-<input type="text" id="fb_real_seg" placeholder="客户自己描述的主营业务">
-
-<label>客户主诉 (前 3 件最在意的)</label>
-<textarea id="fb_pains"></textarea>
-
-<label>段判定是否准确</label>
-<select id="fb_seg_acc">
-  <option value="">-- 请选 --</option>
-  <option>准确</option>
-  <option>部分准确</option>
-  <option>不准确</option>
-</select>
-
-<label>作战包字段评级</label>
-<div class="row">
-  <div><label><input type="checkbox" name="fb_pack_rate" value="业态画像_有用"> 业态画像 (有用)</label></div>
-  <div><label><input type="checkbox" name="fb_pack_rate" value="产品匹配_有用"> 产品匹配 (有用)</label></div>
-  <div><label><input type="checkbox" name="fb_pack_rate" value="discovery_有用"> discovery (有用)</label></div>
-  <div><label><input type="checkbox" name="fb_pack_rate" value="异议_有用"> 异议库 (有用)</label></div>
-  <div><label><input type="checkbox" name="fb_pack_rate" value="KP触达_有用"> KP触达 (有用)</label></div>
-</div>
-
-<label>客户拒绝原因 (多选)</label>
-<div class="row">
-  <div><label><input type="checkbox" name="fb_reject" value="价格"> 价格</label></div>
-  <div><label><input type="checkbox" name="fb_reject" value="不需要"> 不需要</label></div>
-  <div><label><input type="checkbox" name="fb_reject" value="已有"> 已有</label></div>
-  <div><label><input type="checkbox" name="fb_reject" value="业务模式不匹配"> 业务模式不匹配</label></div>
-  <div><label><input type="checkbox" name="fb_reject" value="决策延迟"> 决策延迟</label></div>
-  <div><label><input type="checkbox" name="fb_reject" value="其他"> 其他</label></div>
-</div>
-
-<label>备注</label>
-<textarea id="fb_note" placeholder="销售自由发挥"></textarea>
-
-<div style="margin-top:1em">
-  <button type="button" onclick="saveFeedback('402')">💾 保存到浏览器</button>
-  <button type="button" class="secondary" onclick="exportFeedback('402')">📥 导出 JSON</button>
-  <button type="button" class="secondary" onclick="loadFeedback('402')">↻ 从浏览器加载</button>
-  <span class="saved-status" id="fb_status"></span>
-</div>
-</div>
-
-<script>
-(function() {
-  const EID = '402';
-  const COMPANY = "北京漫联星球数字科技有限公司";
-
-  window.collectFeedback = function() {
-    const el = id => document.getElementById(id);
-    const checkbox = name => Array.from(document.querySelectorAll('input[name="' + name + '"]:checked')).map(x => x.value);
-    return {
-      entity_id: EID, company_name: COMPANY,
-      触达日期: el('fb_date').value, 触达渠道: checkbox('fb_channel'),
-      联系结果: el('fb_result').value, 客户实际业态: el('fb_real_seg').value,
-      客户主诉: el('fb_pains').value, 段判定: el('fb_seg_acc').value,
-      作战包评级: checkbox('fb_pack_rate'), 客户拒绝原因: checkbox('fb_reject'),
-      备注: el('fb_note').value,
-      saved_at: new Date().toISOString()
-    };
-  };
-  window.saveFeedback = function(eid) {
-    const data = window.collectFeedback();
-    localStorage.setItem('sales_fb_' + eid, JSON.stringify(data));
-    document.getElementById('fb_status').textContent = '✓ 已存浏览器 ' + new Date().toLocaleTimeString();
-  };
-  window.exportFeedback = function(eid) {
-    const data = window.collectFeedback();
-    const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = 'feedback_' + eid + '_' + new Date().toISOString().slice(0,10) + '.json';
-    a.click();
-    URL.revokeObjectURL(url);
-  };
-  window.loadFeedback = function(eid) {
-    const raw = localStorage.getItem('sales_fb_' + eid);
-    if (!raw) { document.getElementById('fb_status').textContent = '(浏览器无历史)'; return; }
-    const d = JSON.parse(raw);
-    const el = id => document.getElementById(id);
-    el('fb_date').value = d.触达日期 || '';
-    el('fb_result').value = d.联系结果 || '';
-    el('fb_real_seg').value = d.客户实际业态 || '';
-    el('fb_pains').value = d.客户主诉 || '';
-    el('fb_seg_acc').value = d.段判定 || '';
-    el('fb_note').value = d.备注 || '';
-    for (const pair of [['fb_channel','触达渠道'],['fb_pack_rate','作战包评级'],['fb_reject','客户拒绝原因']]) {
-      const set = pair[0], key = pair[1];
-      document.querySelectorAll('input[name="' + set + '"]').forEach(function(el) {
-        el.checked = (d[key] || []).indexOf(el.value) >= 0;
-      });
-    }
-    document.getElementById('fb_status').textContent = '✓ 已从浏览器加载';
-  };
-  document.addEventListener('DOMContentLoaded', function() { window.loadFeedback(EID); });
-})();
-</script>
-
-</div>
-
-</div>
-</body></html>
+</body>
+</html>

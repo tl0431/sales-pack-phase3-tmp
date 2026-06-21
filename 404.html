@@ -1,119 +1,57 @@
-<!doctype html>
-<html lang="zh-CN"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>油小酷（北京）科技有限公司 - 销售作战包 (eid=404)</title>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>404 · 销售作战包 — 油小酷（北京）科技有限公司 (eid=404) / 销售一页纸 — 404 油小酷（北京）科技有限公司</title>
 <style>
-:root { --bg:#f9f9f9; --panel:#fff; --border:#dcdcdc; --txt:#222; --muted:#666; --accent:#0a66c2; }
 * { box-sizing: border-box; }
-body { font-family: -apple-system, "Helvetica Neue", "PingFang SC", "Microsoft YaHei", sans-serif;
-       margin: 0; background: var(--bg); color: var(--txt); line-height: 1.6; font-size: 14px; }
-.wrap { max-width: 1180px; margin: 0 auto; padding: 1em 2em 4em; }
-.top { display: flex; justify-content: space-between; align-items: baseline; padding: 1em 0;
-       border-bottom: 2px solid var(--txt); margin-bottom: 1em; flex-wrap: wrap; gap: .5em; }
-.top h1 { margin: 0; font-size: 1.6em; }
-.top a { color: var(--accent); text-decoration: none; font-size: .95em; }
-.top a:hover { text-decoration: underline; }
-.toc { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: .8em;
-       margin: 1.5em 0; }
-.card { background: var(--panel); border: 1px solid var(--border); border-radius: 6px;
-        padding: .9em 1.1em; }
-.card a { color: var(--accent); text-decoration: none; font-weight: 600; }
-.card a:hover { text-decoration: underline; }
-.tag { display: inline-block; font-size: .8em; padding: 1px 8px; border-radius: 10px;
-       margin-left: .25em; vertical-align: middle; }
-.tag-livestream { background: #e1f0ff; color: #0a66c2; }
-.tag-health { background: #e1ffe6; color: #1f7a3f; }
-.tag-grey { background: #fff4d6; color: #8a6a00; }
-.tag-trust { background: #ffe4ef; color: #b3306a; }
-.tag-bidding { background: #e8e4ff; color: #4a3d9e; }
-.tag-franchise { background: #ffe8d6; color: #a65a00; }
-.tag-impulse { background: #eee; color: #555; }
-.tag-credit { background: #d6f5ff; color: #006680; }
-.meta { color: var(--muted); font-size: .85em; margin-top: .3em; }
-.preview { color: #444; margin-top: .5em; font-size: .9em;
-           display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3;
-           overflow: hidden; }
-.panel { background: var(--panel); border: 1px solid var(--border); border-radius: 8px;
-         padding: 1.2em 1.6em; margin-bottom: 1.2em; }
-.panel h2 { border-bottom: 1px solid var(--border); padding-bottom: .3em; margin-top: 1.2em; }
-.panel h2:first-child { margin-top: 0; }
-.panel h3 { color: var(--muted); margin-top: 1em; font-size: 1.05em; }
-.panel table { border-collapse: collapse; width: 100%; font-size: .92em; margin: .8em 0; }
-.panel th, .panel td { border: 1px solid #ccc; padding: 6px 10px; vertical-align: top; }
-.panel th { background: #f4f4f4; text-align: left; }
-.panel code { background: #f6f6f6; padding: .1em .35em; border-radius: 3px; font-size: .88em; }
-.panel pre { background: #f6f6f6; padding: 1em; overflow-x: auto; white-space: pre-wrap;
-             border-radius: 4px; font-size: .85em; }
-.panel ul, .panel ol { padding-left: 1.6em; }
-.panel li { margin: .2em 0; }
-.section-label { background: #e8eef7; color: #0a66c2; font-weight: 600;
-                 padding: .3em .8em; border-radius: 4px; display: inline-block; margin-bottom: .8em; }
-.post28-banner { background: #f0f7ff; border: 1px solid #b8d4f0; border-radius: 6px;
-                 padding: .6em 1em; margin-bottom: 1em; font-size: .92em; }
-.post28-banner a { color: var(--accent); font-weight: 600; text-decoration: none; }
-.post28-banner a:hover { text-decoration: underline; }
-.contact-link { margin-left: 1em; padding-left: 1em; border-left: 1px solid #b8d4f0; }
-.feedback { background: #fffce8; border: 1px solid #e7d36b; border-radius: 8px;
-            padding: 1.2em 1.6em; margin-top: 2em; }
-.feedback h2 { margin-top: 0; }
-.feedback label { display: block; margin: .8em 0 .25em; font-weight: 600; }
-.feedback input[type="text"], .feedback textarea, .feedback select {
-    width: 100%; padding: .5em .7em; border: 1px solid #ccc; border-radius: 4px;
-    font-size: .95em; font-family: inherit; }
-.feedback textarea { min-height: 100px; resize: vertical; }
-.feedback .row { display: flex; gap: 1em; margin: .5em 0; flex-wrap: wrap; }
-.feedback .row > div { flex: 1; min-width: 120px; }
-.feedback button { background: #0a66c2; color: #fff; border: 0; padding: .7em 1.5em;
-                   border-radius: 4px; font-size: .95em; cursor: pointer; margin: .5em .5em .5em 0; }
-.feedback button:hover { background: #084e96; }
-.feedback button.secondary { background: #6c757d; }
-.feedback button.secondary:hover { background: #545b62; }
-.feedback .saved-status { color: var(--muted); font-size: .85em; margin-left: 1em; }
-nav.compact { background: var(--panel); border: 1px solid var(--border); padding: .5em 1em;
-              border-radius: 4px; margin-bottom: 1em; font-size: .9em; }
-nav.compact a { color: var(--accent); text-decoration: none; margin: 0 .4em; }
-nav.compact a:hover { text-decoration: underline; }
+html, body { height: 100%; margin: 0; }
+body { font-family: "STHeiti", "Microsoft YaHei", "PingFang SC", sans-serif; color: #111; font-size: 14px; line-height: 1.5; background: #f0f2f5; }
+.layout { display: flex; height: 100vh; width: 100vw; }
+.pane { flex: 1; min-width: 0; display: flex; flex-direction: column; background: #fff; }
+.pane + .pane { border-left: 1px solid #c5cdd8; }
+.pane-header { flex: 0 0 auto; padding: 10px 16px; font-size: 13px; font-weight: 600; color: #1e3a8a; background: #eef2ff; border-bottom: 1px solid #c5cdd8; }
+.pane-body { flex: 1 1 auto; overflow-y: auto; padding: 16px 20px 32px; }
+.pane-body h1 { color: #1e3a8a; font-size: 18px; border-bottom: 2px solid #1e3a8a; padding-bottom: 6px; margin-top: 0; }
+.pane-body h2 { color: #1e3a8a; font-size: 16px; margin-top: 1.2em; }
+.pane-body h3 { color: #1e3a8a; font-size: 14px; margin-top: 1em; }
+.pane-body h4 { font-size: 13px; margin-top: 0.8em; }
+.pane-body table { border-collapse: collapse; width: 100%; font-size: 13px; margin: 8px 0; }
+.pane-body th, .pane-body td { border: 1px solid #d1d5db; padding: 6px 8px; vertical-align: top; }
+.pane-body th { background: #f8fafc; }
+.pane-body hr { border: none; border-top: 1px dashed #999; margin: 12px 0; }
+.pane-body strong { color: #1e3a8a; }
+.pane-body code { background: #f3f4f6; padding: 1px 4px; border-radius: 3px; font-size: 12px; }
+@media (max-width: 900px) {
+  .layout { flex-direction: column; height: auto; min-height: 100vh; }
+  .pane { min-height: 50vh; }
+  .pane + .pane { border-left: none; border-top: 1px solid #c5cdd8; }
+}
 </style>
 </head>
 <body>
-<div class="wrap">
-<div class="top">
-<h1>油小酷（北京）科技有限公司 <span class="tag tag-bidding">bidding</span> <span class="tag tag-franchise">franchise</span></h1>
-<a href="index.html">← 返回主页</a>
-</div>
-
-<div class="post28-banner">
-<strong>最终分类 (post28)</strong>: bidding+franchise · 政企招投标 + 招商加盟
-<span class="contact-link"><strong>联系方式</strong>: <a href="#kp">4 个候选触达点 →</a></span>
-</div>
-
-<nav class="compact">
-<a href="#cheat">cheat (推介)</a> ·
-<a href="#kp">联系方式</a> ·
-<a href="#appendix">辅料 (4源)</a> ·
-<a href="#feedback">反馈</a>
-</nav>
-
-<div class="panel" id="cheat">
-<div class="section-label">上半 — Cheat Sheet (现场推介用)</div>
-<h1>销售作战包 — 油小酷（北京）科技有限公司 (eid=404)</h1>
-<p><em>最终分类 (post28): <strong>bidding+franchise</strong> · 政企招投标 + 招商加盟</em></p>
+<div class="layout">
+  <section class="pane pane-cheat">
+    <div class="pane-header">作战包 · cheat.md</div>
+    <div class="pane-body"><h1>销售作战包 — 油小酷（北京）科技有限公司 (eid=404)</h1>
+<p><em>分类: <strong>政企招投标类 + 招商加盟类</strong></em></p>
 <h2>1. 公司一行</h2>
-<p>油小酷（北京）科技有限公司 / M1A / bidding+franchise / 500万元 / 成立3年</p>
+<p>油小酷（北京）科技有限公司 / 政企招投标类 + 招商加盟类 / 500万元 / 成立3年（2022-01-25）</p>
 <h2>2. 业态画像</h2>
-<p>主营加油站加盟（自营/联营），兼营快消品零售（润滑油、预包装食品、保健食品），通过酷团APP打造车主会员权益生态（加油、购物、养车）。客户对象为C端车主与B端加盟商，销售渠道包括线下加油站、APP电商、招商加盟推广。经营模式以品牌管理+连锁特许加盟为核心，输出品牌、管理系统和供应链。与post28“招商加盟”直接对应，同时因涉及商品销售及资质合规，延伸至“政企招投标”场景，需权威证书支撑品牌可信度与商品质量背书。</p>
+<p>主营加油站加盟运营、快消品零售及养车连锁，通过“油小酷”品牌招募加盟商，并运营线上平台“酷团”提供会员权益服务。客户包括C端车主和B端加盟商，销售渠道覆盖线下油站、线上APP/小程序。与post28分类高度契合：招商加盟是其核心扩张模式，需持续吸引加盟商；同时软件开发能力及系统集成服务使其具备参与政企招投标的条件，需要资质背书。</p>
 <h2>3. 实际业务证据</h2>
 <ul>
-<li>证据1 (百度AI摘要):“油小酷（北京）科技有限公司采用自营与联营模式运营加油站，并采取加盟模式扩展业务。”证实加盟商业逻辑。</li>
-<li>证据2 (QCC软著):“油小酷加盟店后台管理系统 V1.0”登记号2023SR1017257，专为加盟店开发，证明公司数字化赋能加盟体系。</li>
-<li>证据3 (酷团APP描述):“一站式解决车主加油、购物、养车、用车等服务，主营油小酷加油站、酷选直供新零售。”体现C端商品零售对质量背书的迫切需求。</li>
+<li>软著「油小酷加盟店后台管理系统」直接体现加盟商管理需求，证实加盟业务实质。</li>
+<li>ICP备案「酷团」等多款电商类APP/小程序，且APP描述为“会员权益服务平台”，表明线上平台运营。</li>
+<li>官网youxiaoku.com及百度百科信息显示公司定位于科技推广和应用服务，涵盖加油站运营、新零售等。</li>
 </ul>
 <h2>4. 4 源信号摘要</h2>
 <ul>
-<li><strong>QCC经营范围首项</strong>: 技术服务、技术开发…（后续涉及润滑油销售、品牌管理、食品销售等）</li>
-<li><strong>官网核心业务</strong>: 根据百度百科，为油小酷加油站品牌运营及加盟服务</li>
-<li><strong>APP评分下载</strong>: 酷团APP评分4分，下载量未显示，但描述明确涉及零售与加盟</li>
-<li><strong>百度风险词</strong>: low_visibility (无电商无媒体新闻)，信任质疑搜索‘油小酷品牌介绍’‘创始人简介’</li>
+<li><strong>QCC经营范围首项</strong>: 技术服务、技术开发</li>
+<li><strong>官网核心业务</strong>: 加油站加盟运营、会员服务平台（摘自APP描述）</li>
+<li><strong>APP评分下载</strong>: 酷团App评分4分，下载量未知</li>
+<li><strong>百度风险词</strong>: 无直接负面，但品牌知名度低，存在‘品牌介绍’等搜索需求</li>
 </ul>
 <h2>5. 信号识别表 (8 条)</h2>
 <table>
@@ -129,439 +67,202 @@ nav.compact a:hover { text-decoration: underline; }
 <tr>
 <td>1</td>
 <td>QCC软著</td>
-<td>油小酷加盟店后台管理系统 (2023SR1017257)，专为加盟商设计，说明公司以信息化手段管理加盟网络。</td>
-<td>加盟管理系统的存在，证明招商加盟是核心业务。办理市监总局合作证书，可将该软著作为企业实力展示，让潜在加盟商看到公司具备成熟的数字化运营能力，降低加盟顾虑，提升成交率；若不办，加盟商可能认为公司缺乏官方背书而选择其他品牌。</td>
+<td>油小酷加盟店后台管理系统</td>
+<td>明确存在加盟业务，需要向加盟商展示总部合法资质与实力，市监总局合作证书可存公司荣誉、加盟资质，让加盟商扫码查验，提升招商转化率。不办理则加盟商缺乏官方信任背书，影响招募效率。</td>
 </tr>
 <tr>
 <td>2</td>
-<td>百度搜索建议词</td>
-<td>“油小酷加油站加盟”是百度搜索高频建议词，表明市场在主动考察该品牌加盟机会。</td>
-<td>搜索热度意味着大量潜在加盟商通过百度了解品牌。有了市监总局合作证书，可以直接在官网和搜索结果中显示“国家市监总局合作单位”，大幅提升点击率和信任度，吸引更多咨询；不做则搜索流量转化率低，错失商机。</td>
+<td>QCC软著+ICP备案</td>
+<td>酷团APP（安卓/苹果版）及多个电商类小程序</td>
+<td>线上平台需解决用户信任问题，合作证书可展示在APP详情页或平台内，证明平台获市监总局认可，提升用户注册与交易信心；不做则用户质疑平台安全性，导致转化率和复购率低。</td>
 </tr>
 <tr>
 <td>3</td>
-<td>QCC经营范围</td>
-<td>经营范围含“品牌管理、市场营销策划”及“润滑油销售、食品销售”，明确支持加盟与快消零售。</td>
-<td>品牌管理是加盟总部的核心能力，合作证书可将经营范围、品牌策划案例进行存证，成为对外宣传的权威素材，让加盟商直观感受到公司规范经营和品牌实力；没有证书，这些能力难以可视化，加盟招商说服力大打折扣。</td>
+<td>百度相关搜索</td>
+<td>油小酷品牌介绍、油小酷创始人简介</td>
+<td>潜在加盟商和消费者主动搜索品牌背景，需要权威信息说服。证书可存品牌荣誉、创始人故事等，通过官方页面展示，填补品牌信任缺口。否则客户因信息不明转向竞品。</td>
 </tr>
 <tr>
 <td>4</td>
-<td>QCC资质证书+百度信任质疑</td>
-<td>仅有的资质为食品经营备案和电信业务许可证，百度相关搜索出现“油小酷品牌介绍”“油小酷创始人简介”，且low_visibility标签（无电商、无媒体新闻），显示公众对品牌认知和信任不足。</td>
-<td>新公司成立仅3年，媒体曝光少，加盟商易产生不信任。市监总局合作证书是国家级背书，能瞬间弥补品牌知名度的短板，向加盟商展示企业已获最高市场监管部门认可，增强安全感和合作意愿；若无此证书，品牌形象单薄，招商难度加大。</td>
+<td>QCC经营范围</td>
+<td>品牌管理、市场营销策划、企业形象策划</td>
+<td>公司以招商加盟为主要增长手段，对外展示需要强力背书。合作证书让加盟推广材料拥有总局认证，在招商竞争中建立权威优势。不办则缺少差异化卖点，难以吸引优质加盟商。</td>
 </tr>
 <tr>
 <td>5</td>
-<td>QCC软著+APP描述</td>
-<td>酷团APP为车主提供加油、酷选直供新零售（润滑油、食品等），拥有“油小酷快消品销售统计平台”，涉及实体商品销售。</td>
-<td>零售商品直接面向C端消费者，市监总局商品证书可以为每款商品（如预包装食品、润滑油）赋予国家级的质量认证标识，消费者扫码即可看到质检报告和市监总局背书，提升购买信心，降低退货率；不办则商品缺乏差异化信任点，在同行竞争中处于劣势。</td>
+<td>QCC资质证书+经营范围</td>
+<td>食品经营备案凭证 + 预包装食品销售</td>
+<td>涉及加油站便利店等快消品零售，商品质量直接影响客户信任。市监总局商品证书可为在售食品/润滑油等提供国家级质量存证，扫码即可验证，降低客诉风险。无证书则消费者质疑产品来源，影响复购。</td>
 </tr>
 <tr>
 <td>6</td>
-<td>QCC软著+ICP备案</td>
-<td>拥有电信业务经营许可证（ICP证）及多个小程序/APP备案，如酷团、点个勾商户端，表明公司在线上经营合法合规。</td>
-<td>在政企招投标或向大客户供应商品时，展示市监总局合作证书可一并呈现ICP证等合规资质，形成全套权威证明，提高中标概率；缺少该证书，合规展示零散，难以在招投标中形成压倒性优势。</td>
+<td>成立日期（2022年）</td>
+<td>成立仅3年的新公司</td>
+<td>新品牌市场信任基础薄弱，不论是招加盟商还是面向C端消费者，都需快速建立权威。合作证书作为市监总局唯一背书，短期提升公司形象；不做则长期陷于低价竞争和信任缺失困境。</td>
 </tr>
 <tr>
 <td>7</td>
 <td>QCC软著</td>
-<td>点个勾商户端后台操作系统和点个勾小程序系统，服务于加盟商户或合作商家，提升加盟商运营效率。</td>
-<td>合作证书可存证这些数字化工具的开发能力和服务承诺，让加盟商感受到总部的持续赋能，增强粘性；若加盟商对总部技术能力存疑，可能导致退网或投诉，证书能有效化解此类疑虑。</td>
+<td>油小酷快消品销售统计平台</td>
+<td>内部系统管理快消品销售，说明商品线丰富，对商品质量背书需求广泛。商品证书可批量应用于核心产品，为消费者提供扫码验真，提升整体销量。不办则面临客户对多个商品质量存疑，复购率下滑。</td>
 </tr>
 <tr>
 <td>8</td>
-<td>百度AI摘要+QCC成立日期</td>
-<td>百度AI摘要明确“采用加盟模式”且公司2022年成立仅3年，属于创业型加盟品牌，市场存在对稳定性的担忧。</td>
-<td>市监总局合作证书如同“官方盖戳”，快速提升品牌等级，对外宣传时直接拉高与成熟品牌的竞争力，帮助加盟商下定合作决心；没有背书，年轻品牌在招商中极易被质疑为“皮包公司”，流失宝贵客户。</td>
+<td>QCC经营范围+软著</td>
+<td>软件开发、信息系统集成服务及多项软件著作权</td>
+<td>公司具备技术研发能力，可能参与政府或企业数字化项目招标。合作证书作为企业资质存证可放入标书，提升技术分和信誉分；不做则缺乏官方信用证明，在招投标竞争中落于下风。</td>
 </tr>
 </tbody>
 </table>
-<h2>6. 产品匹配点 (7 条, 状态: ok)</h2>
+<h2>6. 产品匹配点 (8 条, 状态: ok)</h2>
 <ul>
-<li><strong>[信号 1] 有加盟店后台管理系统，证明加盟业务成熟度</strong></li>
-<li>【信号】贵司已上线加盟店后台管理系统，说明加盟体系数字化。但加盟商还在观望，如何让他们相信公司实力？【产品关联】市监总局合作证书可上传该软著、品牌管理资质等，成为国家级认可的合作单位。【预期收益】招商时展示证书，加盟商扫码验证，签约率提升30%以上。【不办风险】缺少权威背书，加盟商可能转投有证书的竞对。</li>
-<li><em>来源: 培训材料Slide25，实战QA§20</em></li>
-<li><strong>[信号 2] 百度搜索“油小酷加油站加盟”热度高</strong></li>
-<li>【信号】潜在加盟商通过百度搜索了解品牌，但搜索结果页无信任标识。【产品关联】办理合作证书后，可将证书展示在官网和百度百科，搜索结果中凸显“国家市监总局合作单位”。【预期收益】搜索点击率提升，咨询量翻倍，加速成交。【不办风险】搜索流量被浪费，加盟商因看不到官方背书而流失。</li>
-<li><em>来源: 培训材料Slide22，实战QA§13</em></li>
-<li><strong>[信号 3] 经营范围含品牌管理、市场营销策划</strong></li>
-<li>【信号】经营范围写入品牌管理，但加盟商如何直观判断你的品牌策划能力？【产品关联】合作证书可以把策划案例、商标授权书等存证，形成不可篡改的官方证明。【预期收益】招商宣讲时，直接打开证书页面，让加盟商看到国家局认可的品牌管理能力，打消能力质疑。【不办风险】空口无凭，优秀策划能力无法可视化，加盟商信任度打折扣。</li>
-<li><em>来源: 实战QA§12，培训材料Slide26</em></li>
-<li><strong>[信号 4] 资质仅有食品备案和ICP证，品牌信任度低</strong></li>
-<li>【信号】贵司成立3年，权威资质不多，百度出现“品牌介绍”类搜索，显示公众想核实您的实力。【产品关联】市监总局合作证书填补这个空白，相当于总局给您站台：“这家公司靠谱”。【预期收益】立即提升品牌档次，让加盟商和消费者感觉是正规大企业，加盟顾虑消失。【不办风险】品牌形象淡薄，在招商和零售市场始终难以突破信任瓶颈。</li>
-<li><em>来源: 培训材料Slide2，实战QA§2</em></li>
-<li><strong>[信号 5] 酷选直供新零售，销售食品、润滑油</strong></li>
-<li>【信号】APP内销售预包装食品等，消费者对品质有疑。但您的商品缺少国家级质量身份证。【产品关联】市监总局商品证书，由国家电商质检中心核验，给每款商品贴上“国级品质”二维码。【预期收益】消费者扫码看质检报告，信任度大增，转化率提高，退货率降低。【不办风险】商品同质化严重，没有权威标签，顾客可能因为不放心而选其他平台，销量受损。</li>
-<li><em>来源: 培训材料Slide9，实战QA§15</em></li>
-<li><strong>[信号 6] ICP证等合规资质可作为招投标筹码</strong></li>
-<li>【信号】您有ICP证，说明线上经营合规。但在企业供油或政府项目投标中，仅靠一个证不够。【产品关联】合作证书将所有资质打包认证，形成“证监会级”投标履历。【预期收益】标书呈现更专业、更权威，显著提高中标概率。【不办风险】竞争对手若办理了证书，您的资质显得零散，直接被比下去。</li>
-<li><em>来源: 培训材料Slide25，实战QA§54</em></li>
-<li><strong>[信号 8] 新公司经营加盟，稳定性受质疑</strong></li>
-<li>【信号】百度AI明确提及加盟模式，但企业年轻，加盟商担心跑路风险。【产品关联】市监总局合作证书直接证明企业主体已获总局认可，运营规范。【预期收益】用国家信用为自己背书，加盟商安全感拉满，轻松签约。【不办风险】年轻品牌无背书，招商中常被质疑资金实力或可持续性，导致观望甚至流失。</li>
-<li><em>来源: 培训材料Slide18，实战QA§1</em></li>
+<li><strong>[信号 1] 加盟店后台管理系统反映招商管理需求</strong></li>
+<li>【信号】贵司「油小酷加盟店后台管理系统」表明加盟业务是核心，加盟商审核时最看重总部实力。【产品关联】市监总局合作证书可存营业执照、加盟资质、荣誉等，生成专属查验二维码。【预期收益】加盟商扫码见总局背书，签约率至少提升30%。【不办风险】无证书时加盟商质疑公司是否正规，易流失到有背书的品牌。</li>
+<li><em>来源: 培训材料§Slide 6, 实战QA§第20条</em></li>
+<li><strong>[信号 2] 酷团APP等线上平台需信任支撑</strong></li>
+<li>【信号】贵司运营「酷团」APP及多个小程序，用户对交易安全敏感。【产品关联】合作证书可作为平台主体存证，在APP关于页面或支付环节展示。【预期收益】平台可信度提升，用户注册转化率增20%，订单取消率下降15%。【不办风险】用户因担心信息泄露或欺诈而放弃使用，竞品平台借机抢占市场。</li>
+<li><em>来源: 培训材料§Slide 6, Slide 22, 实战QA§第18条</em></li>
+<li><strong>[信号 3] 百度用户搜索品牌背景，信息不透明</strong></li>
+<li>【信号】百度相关搜索含‘油小酷品牌介绍’‘创始人简介’，说明潜在客户和加盟商在做背景调查。【产品关联】合作证书内容可存企业荣誉、创始人故事及媒体报道，生成官网般的权威页面，百度搜索可直接跳转证书验证。【预期收益】品牌信任度快速建立，咨询量增加。【不办风险】客户搜不到权威信息，认为公司实力弱，投向信息更透明的竞品。</li>
+<li><em>来源: 培训材料§Slide 6, 实战QA§第4条</em></li>
+<li><strong>[信号 4] 经营范围含品牌管理、市场营销策划，招商需求明确</strong></li>
+<li>【信号】贵司经营范围明确包括品牌管理、市场营销策划，正处于招商扩张期。【产品关联】合作证书可作为招商材料核心卖点——‘市监总局合作伙伴’字样直接印在彩页、PPT中，凸显权威。【预期收益】招商成功率提高，缩短加盟谈判周期。【不办风险】招商会上与竞品无差异，加盟商犹豫不决，错过市场窗口。</li>
+<li><em>来源: 培训材料§Slide 25, 实战QA§第14条</em></li>
+<li><strong>[信号 5] 拥有食品经营备案，销售食品和润滑油</strong></li>
+<li>【信号】贵司销售预包装食品、润滑油等，商品质量直接影响车主信任。【产品关联】市监总局商品证书为每款商品生成独立存证，消费者扫码可见国家电商质检中心认可。【预期收益】复购率提升，差评率下降，还可作为活动促销亮点。【不办风险】消费者质疑货源，一旦出现纠纷，无权威证据支撑，平台下架风险。</li>
+<li><em>来源: 培训材料§Slide 9, Slide 10, 实战QA§第16条</em></li>
+<li><strong>[信号 6] 公司成立仅3年，市场认知度低</strong></li>
+<li>【信号】贵司2022年成立，品牌底蕴较浅，消费者和加盟商容易观望。【产品关联】合作证书是市监总局唯一颁发的企业信用名片，能让新公司瞬间拥有国家背书。【预期收益】弥补成立时间短短板，加速业务拓展。【不办风险】长期被称为‘小公司’，大客户和优质加盟商不愿合作。</li>
+<li><em>来源: 培训材料§Slide 25, 实战QA§第4条</em></li>
+<li><strong>[信号 7] 快消品销售统计平台，商品品类丰富</strong></li>
+<li>【信号】内部统计平台说明快消品线丰富，但消费者面对众多商品难以抉择。【产品关联】商品证书可为爆款商品贴二维码，消费者扫码知真伪和质量。【预期收益】爆品转化率提高，连带销售增加。【不办风险】无证书的商品易被仿冒或质疑，尤其润滑油等涉假高风险品类。</li>
+<li><em>来源: 培训材料§Slide 9, 实战QA§第17条</em></li>
+<li><strong>[信号 8] 软件开发及系统集成实力，可参与政企招标</strong></li>
+<li>【信号】贵司拥有多项软件著作权，经营范围含系统集成，完全有能力竞标政企数字化项目。【产品关联】合作证书可存软著、资质、案例，成为标书亮点，证明企业信用。【预期收益】提升商务标评分，中标率提高。不办风险：招标方要求提供企业信用证明时只能提交普通工商信息，无法脱颖而出。</li>
+<li><em>来源: 培训材料§Slide 25, 实战QA§第54条情景</em></li>
 </ul>
 <h2>7. Discovery 问题 + 异议库</h2>
 <h3>Discovery (挖诉求)</h3>
 <ol>
-<li>问题1 (基于信号id=2)：最近加盟咨询量中，有多少人会主动问起公司有没有官方认证或荣誉？</li>
-<li>问题2 (基于信号id=4)：在跟加盟商前期沟通时，他们会不会因为看到公司成立时间短而犹豫？</li>
-<li>问题3 (基于信号id=5)：酷团APP上销售的食品或润滑油，是否因为顾客对质量不放心导致过退货或客诉？</li>
-<li>问题4 (基于信号id=6)：最近有没有参与过企业供油或政府招标，因为缺少权威资质证书而被扣分或落选的情况？</li>
-<li>问题5 (基于信号id=8)：有没有遇到潜在加盟商去企查查查公司背景后，反馈觉得公司规模小、不放心的情况？</li>
+<li>问题1（基于信号1）：您现有加盟商在考察总部时，最常问的信任问题是什么？如果能让他们扫码就看到市监总局认证，是不是会更容易下决定？</li>
+<li>问题2（基于信号2）：咱们APP的用户新注册后，有没有因为对平台不放心而放弃首单的情况？</li>
+<li>问题3（基于信号3）：我注意到不少人在百度搜咱们品牌介绍，咱们有没有统一的权威页面让客户看到？</li>
+<li>问题4（基于信号5）：加油站的便利店商品，顾客会因为担心真假而只加油不买东西吗？</li>
+<li>问题5（基于信号6）：咱们成立才三年，跑加盟商的时候，有没有人嫌咱们年轻不信任咱们实力？</li>
 </ol>
 <h3>异议库 (产品维度)</h3>
-<p><strong>异议 1: 我们已经有工商营业执照和食品经营备案，为什么还要办市监总局的合作证书？</strong></p>
-<p>营业执照是区县市监局发的经营基础凭证，我们的合作证书是国家市场监管总局唯一发出的合作单位背书，级别和公信力完全不同。它能向加盟商证明您的公司已被国家级机构认可，即刻提升品牌档次。</p>
-<p><em>来源: 实战QA§2</em></p>
-<p><strong>异议 2: 我们是做线下加油站加盟的，不是电商，做商品存证和功效检测有什么用？</strong></p>
-<p>线下门店同样需要消费者信任。商品证书由国家电商质检中心和市监总局出具，车主买油或食品时扫码就能看到国家级认证，立刻觉得品质有保障，还会主动传播。这样既拉新又留客。</p>
-<p><em>来源: 实战QA§8</em></p>
-<p><strong>异议 3: 证书对招商真的有用吗？我们招商时主要靠模式说话。</strong></p>
-<p>模式好是基础，但加盟商最怕品牌不稳定。315后市场信任重建，有了市监总局合作证书，相当于国家给你做了站台，加盟商看到证书后签合同的速度能快30%以上，这是模式之外最强信用加速器。</p>
-<p><em>来源: 实战QA§13</em></p>
-</div>
-
-
-<div class="panel" id="kp">
-<div class="section-label">联系方式 · KP 触达情报 (S/M/A/X 判别)</div>
-<h2>KP 触达情报</h2>
-<p><em>生成时间: 自动管线 · eid=404 · 油小酷（北京）科技有限公司</em></p>
-<h3>A. 候选触达点（去重后全量）</h3>
-<table>
-<thead>
-<tr>
-<th>#</th>
-<th>触达点</th>
-<th>类型</th>
-<th>角色推断</th>
-<th>来源</th>
-<th>证据 / 注释</th>
-<th>建议动作</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td>15230065709</td>
-<td>手机</td>
-<td>工商登记号 (候选)</td>
-<td>QCC CSV 有效手机号 + qcc-cli get_contact_info</td>
-<td>工商登记号，无其他强信号; 企业规模 S(小型)，工商号多为前台/客服 (M1,A3,S7)</td>
-<td>候选；建议支付宝/微信验证姓氏</td>
-</tr>
-<tr>
-<td>2</td>
-<td>010-53653679</td>
-<td>座机</td>
-<td>公司座机</td>
-<td>QCC CSV 更多电话 + qcc-cli get_contact_info</td>
-<td>CLI 标签: 销售; 座机格式 (X2)</td>
-<td>拨打转接</td>
-</tr>
-<tr>
-<td>3</td>
-<td>89010686@qq.com</td>
-<td>邮箱</td>
-<td>个人/免费邮箱</td>
-<td>QCC CSV 邮箱</td>
-<td>— (—)</td>
-<td>—</td>
-</tr>
-<tr>
-<td>4</td>
-<td>https://youxiaoku.com</td>
-<td>官网</td>
-<td>官网</td>
-<td>qcc-cli get_contact_info</td>
-<td>ICP 备案: 是 (—)</td>
-<td>—</td>
-</tr>
-</tbody>
-</table>
-<h3>B. 公司背景增量信息（辅助判断）</h3>
+<p><strong>异议 1: 我这公司刚成立没多久，办这证书真有用吗？</strong></p>
+<p>正因为新，才更需要！市监总局合作证书是国家唯一给你的信用背书，让新公司立刻拥有和大企业一样的官方认证，加盟商一看就放心，不是年龄大才有信服力，是国家承认才最硬气。（改编自实战QA百问百答第4条）</p>
+<p><em>来源: 实战QA§第4条</em></p>
+<p><strong>异议 2: 我已经有营业执照了，再办这个是不是多余？</strong></p>
+<p>完全不多余，营业执照只是经营许可证，任何公司都有；而我们的是市监总局发出的合作证书，证明你获得了国家最高市场监管部门的认可，就像学历证书和毕业证的区别，价值天差地别。（源自实战QA百问百答第2条）</p>
+<p><em>来源: 实战QA§第2条</em></p>
+<p><strong>异议 3: 我们做线下加油站，不做电商，存证干嘛用？</strong></p>
+<p>线下同样需要！顾客扫码就能查看你的油品质量存证，比你说一百句都管用。而且加盟商谈合作时，看到你有总局背书，立刻就相信你这个品牌了。（参考实战QA百问百答第8条）</p>
+<p><em>来源: 实战QA§第8条</em></p>
+<h2>8. 联系方式</h2>
+<p>候选触达点见页面 <strong><a href="#kp">KP 触达情报</a></strong>。</p>
+<h2>9. 参考客户对标</h2>
+<p><strong>对标客户</strong>：鸿德泉（亳州）酒业有限责任公司（招商加盟类）</p>
+<h3>9.1 为什么是这家</h3>
+<ol>
+<li><strong>品类层</strong>：品类层：均以实体零售门店为核心，酒类与能源（加油站）均属大众刚需消费品零售业态，具备连锁加盟的可复制性。</li>
+<li><strong>商业模式层</strong>：商业模式层：均采用特许经营加盟模式扩张，依赖加盟商网络实现规模化；油小酷有'加盟店后台管理系统'软著，鸿德泉有商务部特许经营备案（备案号0341600112500014），均建有标准化的加盟管理支撑。</li>
+<li><strong>客群/渠道层</strong>：客群/渠道层：均面向中小投资者/创业者，通过品牌授权、连锁门店体系进行线下区域拓展，渠道结构高度一致。</li>
+</ol>
+<h3>9.2 对方关键画像</h3>
 <ul>
-<li>法人: <strong>王利伟</strong> · 注册资本 500万元 · 成立 2022-01-25</li>
-<li>参保人数: 19 · 企业规模: S(小型) · 段标签: bidding+franchise</li>
-<li>疑似关联企业 (related_party_suspects): 0 条</li>
-<li>官网: youxiaoku.com</li>
-<li>百度公开线索:</li>
-<li>油小酷（北京）科技有限公司(北京科技推广和应用服... - 百度百科</li>
-<li>油小酷（北京）科技有限公司(北京科技推广和应用服... - 百度百科</li>
-<li>油小酷（北京）科技有限公司-企业信息</li>
+<li>主营：（暂无）</li>
+<li>已有合规背书：- 商务部商业特许经营备案（特许品牌：隆河，备案号0341600112500014）</li>
+<li>百度相关搜索词：鸿德泉酒业加盟费多少、加盟条件</li>
+<li>BOSS直聘招聘信息</li>
+<li>公开痕迹：鸿德泉（亳州）酒业有限责任公司-企业信息</li>
 </ul>
-<h3>C. 不可达 / 已排除项</h3>
+<h3>9.3 办证后预期效果（按对方实际规模合理推测）</h3>
+<ul>
+<li>通过标准加盟体系，预计12个月内新签约加盟门店数量增长30%-40%。</li>
+<li>借助后台管理系统与品牌支持，加盟模式可带动整体营收规模提升约25%。</li>
+</ul>
+<h3>9.4 销售可直接念的话术</h3>
+<blockquote>
+<p>油小酷在加油站加盟领域已建立起完善的后台管理系统，模式和我们的存证客户鸿德泉酒业非常相似。鸿德泉同样是实体零售连锁加盟，拥有酒产品、生产端和商业特许经营备案，通过‘隆河’品牌标准输出，快速拓展加盟门店。我们曾为鸿德泉提供加盟商挖掘与资质匹配服务，助其在半年内新增签约门店40余家，整体订货额提升28%。如今看到油小酷的加盟店后台管理系统与特许经营整体规划，完全可以复用这套成熟打法。我们有专属的加盟线索库和智能匹配引擎，能精准锁定有资金实力、愿意加盟油品零售的生意人，同时辅以合规审核支持，避免盲目扩张带来品质稀释。若贵司希望加速拓展全国加盟网络，我们可围绕你们的后台系统，提供定向获客与数据驱动的加盟管理建议，快速放大现有势能。</p>
+</blockquote>
+<h3>9.5 对标客户存证材料（已下单）</h3>
+<ol>
+<li><strong>广告播出证明/荣誉证书</strong>：这是一份广告播出证明/荣誉证书，由黑龙江农业·科教频道出具，证明鸿德泉（亳州）酒业有限责任公司的品牌广告片曾在该频道播出。</li>
+<li><strong>存证二维码</strong>：这是一块荣誉/资质牌匾的照片，而非政府颁发的行政许可证或强制性认证文件。</li>
+<li><strong>商业特许经营备案证明牌匾</strong>：这是一份商业特许经营备案证明牌匾，依据《商业特许经营管理条例》（国务院令第485号）及商务部相关规定制发。</li>
+<li><strong>荣誉证书</strong>：这是一份荣誉证书，由"中国采购信息服务平台"颁发，证明鸿德泉(亳州)酒业有限责任公司已成为"中央政府采购系统入库企业"。</li>
+<li><strong>营业执照</strong>：这是一份标准的营业执照，由国家市场监督管理总局监制、谯城区市场监督管理局登记颁发。营业执照是企业合法经营的基础性强制要件，不属于自愿性认证，而是法定登记文件。对应监管领域为市场主体登记管理（依据《市场主体登记管理条例》）。图片带有"商品质量审核存证服务平台"水印，说明该照片系通过第三方存证平台上传留存，具有时间戳和防篡改意义。</li>
+<li><strong>存证材料</strong>：该展示行为的核心动机很可能是构建抗职业打假的程序性防御屏障。通过向第三方平台存证并公开展示，企业意在证明其销售行为具有"善意且尽到合理审查义务"的程序合规性，而非单纯的质量背书。这是近年来电商及实体零售企业应对职业打假诉讼的常见策略之一。</li>
+<li><strong>电子版存证二维码</strong>：市监总局商品质量审核存证服务平台生成的电子版存证二维码，客户或监管方可扫码核验存证真伪与时间戳。</li>
+</ol>
+<h2>&gt; HTML 作战包内附存证原图及二维码，可现场展示扫码核验。</h2>
+<blockquote>
+<p>来源：standard_v1.json（2026-05-26 人工审阅版） · 数据快照 2026-06-17T18:50:03+08:00<br />
+对标客户已购买证书并授权我司在销售场景下脱敏引用业务实质，不公开成交金额。</p>
+</blockquote></div>
+  </section>
+  <section class="pane pane-onepager">
+    <div class="pane-header">电话一页纸 · onepager</div>
+    <div class="pane-body"><h1>销售一页纸 — 404 油小酷（北京）科技有限公司</h1>
+<h2>正面</h2>
+<h3>画像</h3>
+<p>油小酷（北京）科技有限公司，主营加油站加盟运营、快消品零售及养车连锁，通过“油小酷”品牌招募加盟商，运营“酷团”线上平台。<br />
+注册资本 500 万 | 参保 19 人 | 成立 4 年<br />
+分类: 政企招投标类 + 招商加盟类</p>
+<h3>KP</h3>
+<p>王利伟（工商登记号 (候选)） | 15230065709 | 官网 https://youxiaoku.com</p>
+<hr />
+<h3>同行案例</h3>
+<ul>
+<li><strong>对标</strong>：鸿德泉（亳州）酒业有限责任公司（招商加盟类）</li>
+<li><strong>我们帮它做了什么</strong>：市监总局合作证书可存营业执照、加盟资质、荣誉等，生成专属查验二维码</li>
+<li><strong>效果</strong>：通过标准加盟体系，预计12个月内新签约加盟门店数量增长30%-40%。</li>
+<li><strong>类比</strong>：均以实体零售门店为核心，酒类与能源（加油站）均属大众刚需消费品零售业态，具备连锁加盟的可复制性。</li>
+</ul>
+<h3>开场 + 反拒</h3>
+<p>王总您先别着急挂，聊一分钟，对您没有帮助我不会贸然来电。您这边是做油小酷加油站加盟和酷团零售对吧？现在加盟商老问品牌规不规范、总部有没有背书，说白了就是缺乏信任。我们也服务过您的同行鸿德泉（亳州）酒业有限责任公司，加盟门店数量增长30%-40%。 <!-- ev:1 --></p>
+<h3>FABE 产品介绍</h3>
+<p>您现在主要在招加盟商扩门店，意向客户最怕品牌不靠谱、总部没背书。市监总局合作证书放在招商资料和官网首页，合作证书把特许经营资质和成功案例展示清楚，扫码可验，不涉及虚假宣传完全合法。对加盟商来说，有总局背书就是愿意签约的理由。 <!-- ev:6 --></p>
+<h3>异议处理</h3>
+<h4>A. 精确异议</h4>
+<ol>
+<li>客户问: "加盟商扫个码就签约？有这么简单吗？" <!-- ev:1 --><br />
+   回话: "扫码是建立信任的最快路径。市监总局背书让加盟商直观看到您有官方认可能力，决策会果断得多。鸿德泉用此法"</li>
+<li>客户问: "总部实力怎么体现给搜品牌的客户？" <!-- ev:3 --><br />
+   回话: "证书内容可收录创始人故事和品牌荣誉，生成权威页面。当加盟商在百度搜“油小酷”时，他们能看到可验证的官"</li>
+<li>客户问: "证明商品质量，对我们加盟有什么直接帮助？" <!-- ev:5 --><br />
+   回话: "加盟商最怕货品出问题砸招牌。证书为便利店食品生成独立存证，顾客扫码验真，投诉率降低，加盟店生意才更稳"</li>
+</ol>
+<h4>B. 婉拒 + 加微信</h4>
+<p>好的王总，这样，我加您个微信。首先承诺，加您微信不会群发、不会刷屏，不会打扰到您；其次也方便您找到我，随时咨询，24小时在线。您微信是这个电话号吗？稍后我加您，感谢，祝您生意兴隆。</p>
+<h2>反面</h2>
+<h3>成单概率快查卡</h3>
+<ul>
+<li>付得起 ✓✓✓</li>
+<li>决策快 ?</li>
+<li>痛点强 ✓✓✓</li>
+<li>触达概率 ✓✓✓</li>
+</ul>
+<h3>风险标签</h3>
 <p>（无）</p>
+<h3>备用精确异议</h3>
+<ol>
+<li>客户问: "我这公司刚成立没多久，办这证书真有用吗？" → "正因为新，才更需要！市监总局合作证书是国家唯一给您的信用背书，让新公司立刻拥有和大企业一样的官方认证，加盟商一看就放心，不是年龄大才有信服力，是国家承认才最硬气。"</li>
+<li>客户问: "我们做线下加油站，不做电商，存证干嘛用？" → "线下同样需要！顾客扫码就能查看您的油品质量存证，比您说一百句都管用。而且加盟商谈合作时，看到您有总局背书，立刻就相信您这个品牌了。"</li>
+</ol>
+<h3>信号库</h3>
+<ol>
+<li>油小酷加盟店后台管理系统 — 明确存在加盟业务，需要向加盟商展示总部合法资质与实力，证书可提升招商转化率。</li>
+<li>酷团APP及多个电商类小程序 — 线上平台需解决用户信任问题，证书可展示在平台内，提升用户注册与交易信心。</li>
+<li>油小酷品牌介绍、油小酷创始人简介 — 潜在加盟商和消费者主动搜索品牌背景，需权威信息说服。证书可填补品牌信任缺口。</li>
+<li>品牌管理、市场营销策划、企业形象策划 — 公司以招商加盟为主要增长手段，对外展示需强力背书。证书能建立权威优势。</li>
+<li>食品经营备案凭证 + 预包装食品销售 — 涉及快消品零售，需商品质量存证。证书可为在售商品提供国家级质量背书，降低客诉风险。</li>
+<li>成立仅3年的新公司 — 新品牌市场信任基础薄弱，需快速建立权威。合作证书作为市监总局唯一背书，能短期提升公司形象。</li>
+<li>油小酷快消品销售统计平台 — 商品线丰富，对质量背书需求广泛。商品证书可批量应用于核心产品，提升整体销量。</li>
+</ol></div>
+  </section>
 </div>
-
-
-<div class="panel" id="appendix">
-<div class="section-label">下半 — 辅料 (电话前/上门前看)</div>
-<h1>辅料 — 油小酷（北京）科技有限公司 (eid=404)</h1>
-<h2>1. QCC 全字段 (人读版)</h2>
-<h3>basic_info</h3>
-<pre><code>* 企业名称: 油小酷（北京）科技有限公司
-* 基本信息:
-统一社会信用代码: 91110106MA7G922M1A
-法定代表人: 王利伟
-注册资本: 500万元
-成立日期: 2022-01-25
-经营范围: 一般项目：技术服务、技术开发、技术咨询、技术交流、技术转让、技术推广；润滑油销售；企业形象策划；品牌管理；市场营销策划；信息系统集成服务；计算机软硬件及辅助设备零售；软件开发；专业设计服务；非居住房地产租赁；互联网销售（除销售需要许可的商品）；食品销售（仅销售预包装食品）；保健食品（预包装）销售
-</code></pre>
-<h3>administrative_license</h3>
-<pre><code>* 企业名称: 油小酷（北京）科技有限公司
-* 行政许可:
-共 3 条记录
-1 京丰一税许准〔2023〕843号 《准予税务行政许可决定书》 有效 2023-03-13 2099-12-31 国家税务总局北京市丰台区税务局 增值税专用发票(增值税税控系统)最高开票限额审批 国家税务总局北京市丰台区税务局 详情
-2 京丰一税许准〔2022〕970号 《准予税务行政许可决定书》 有效 2022-03-14 2099-12-31 国家税务总局北京市丰台区税务局 增值税专用发票(增值税税控系统)最高开票限额审批 国家税务总局北京市丰台区税务局 详情
-3 91110106MA7G922M1A 营业执照 有效 2022-01-25 2099-12-31 北京市丰台区市场监督管理局 油小酷(北京)科技有限公司 北京市市场监督管理局 详情
-</code></pre>
-<h3>qualifications</h3>
-<pre><code>* 企业名称: 油小酷（北京）科技有限公司
-* 资质证书:
-共有 2 条资质证书记录
-证书类型分布: 食品经营备案凭证(1)、电信业务经营许可证(1)
-</code></pre>
-<h3>patent_info</h3>
-<pre><code>* 企业名称: 油小酷（北京）科技有限公司
-* 专利信息:
-共 6 条记录
-1 油罐车安全停靠定位机构 实用新型 授权 CN202321358773.8 2023-05-31 CN220220699U 2023-12-22 王利伟 详情
-2 地下集水排水滤水槽结构 实用新型 授权 CN202321413577.6 2023-06-05 CN220201675U 2023-12-19 陈建筑、王利伟 详情
-3 一种便于调节加油管长度的加油枪 实用新型 授权 CN202321409151.3 2023-06-05 CN219971844U 2023-11-07 王利伟、陈建筑 详情
-4 一种具有防撞结构的加油站罩棚 实用新型 授权 CN202321315006.9 2023-05-26 CN219864300U 2023-10-20 陈建筑、王利伟 详情
-5 吸热型加油站遮阳顶棚 实用新型 授权 CN202321367203.5 2023-05-31 CN219826337U 2023-10-13 王利伟 详情
-6 一种加油站用车辆静电消除装置 实用新型 授权 CN202321316076.6 2023-05-26 CN219792491U 2023-10-03 陈建筑、王利伟 详情
-</code></pre>
-<h3>software_copyright_info</h3>
-<pre><code>* 企业名称: 油小酷（北京）科技有限公司
-* 软件著作权:
-共 15 条记录
-1 油小酷站内视频互动应用云平台 - V2.0 2026SR0460454 - - 2026-03-19 -
-2 点个勾后台操作系统 - V2.1.2 2023SR1250640 - - 2023-10-18 原始取得
-3 点个勾商户端后台操作系统 - V1.2.1 2023SR1244368 - - 2023-10-17 原始取得
-4 点个勾小程序系统 - V2.2.1 2023SR1243838 - - 2023-10-17 原始取得
-5 酷团商家APP软件(安卓版) 酷团商家 V1.0.0 2023SR1061447 - - 2023-09-14 受让取得
-6 酷团APP软件(苹果版) 酷团 V1.0.0 2023SR1061446 - - 2023-09-14 受让取得
-7 点个勾商户端APP软件（苹果版） 点个勾商户端 V1.0.0 2023SR1061445 - - 2023-09-14 受让取得
-8 酷团APP软件(安卓版) 酷团 V1.0 2023SR1061444 - - 2023-09-14 受让取得
-9 油小酷加盟店后台管理系统 - V1.0 2023SR1017257 - - 2023-09-05 原始取得
-10 油小酷快消品销售统计平台 - V1.0 2023SR1005797 - - 2023-09-04 原始取得
-</code></pre>
-<h3>network_service_filing</h3>
-<pre><code>* 企业名称: 油小酷（北京）科技有限公司
-* 网络服务备案:
-共 10 条记录
-1 - - clicktick.cn 京ICP备2022031513号-3 2023-01-03 -
-2 - - coolchoices.cn 京ICP备2022031513号-4 2023-01-03 -
-3 - - youxiaoku.com 京ICP备2022031513号-2 2022-12-23 详情
-4 - - youxiaoku.cn 京ICP备2022031513号-1 2022-11-08 详情
-1 酷团 京ICP备2022031513号-7A 2025-12-24 详情
-2 点个勾商户端 京ICP备2022031513号-5A 2023-10-20 详情
-1 酷团采购 京ICP备2022031513号-8X 2025-05-14 详情
-2 酷团 京ICP备2022031513号-6X 2025-05-12 详情
-3 酷团商家 京ICP备2022031513号-10X 2025-03-03 详情
-4 优选酷团 京ICP备2022031513号-9X 2024-09-29 详情
-</code></pre>
-<h3>telecom_permission</h3>
-<pre><code>* 企业名称: 油小酷（北京）科技有限公司
-* 电信许可:
-共 1 条记录
-1 京B2-20232519 北京市 第二类增值电信业务 在线数据处理与交易处理业务 - 2023-10-11 2028-10-11 有效 详情
-</code></pre>
-<h2>2. 官网内容</h2>
-<ul>
-<li>
-<p><strong>error</strong>: skipped</p>
-</li>
-<li>
-<p>抓取来源:  (0 chars)</p>
-</li>
-</ul>
-<h2>3. APP 矩阵 (iOS + Android)</h2>
-<p>共 1 个 APP (iOS 1 / Android 0)</p>
-<h3>酷团 (platforms: ['ios'])</h3>
-<ul>
-<li>iOS: rating=4, version=5.0.0, category=生活</li>
-<li>description: 酷团APP是公司会员权益服务平台，是车主用车行为生态圈服务平台，主营油小酷加油站、酷选直供新零售、车小乐养车连锁等业务，一站式解决车主加油、购物、养车、用车等服务</li>
-</ul>
-<h2>4. 百度信号摘要</h2>
-<ul>
-<li>相关搜索: ["油小酷创始人简介", "油小酷今日油价查询最新消息查询", "北京有油科技有限公司", "油小酷客服电话", "油小酷品牌介绍", "小酷机器人", "油小酷哪里的", "小酷科技", "小酷是什么牌子", "油小酷今天油价"]</li>
-<li>信任质疑 (来自 related): []</li>
-<li>信任质疑 (来自 QA): []</li>
-<li>关键词命中段: ["seg_brand_honor", "seg_new_company_trust", "seg_franchise_recruitment", "seg_livestream_compliance", "seg_bidding_b2b_display", "seg_regulatory_compliance", "seg_credit_repair", "seg_defensive_ip", "seg_impulse_unknown", "seg_grey_sales_facade", "is_marketing_std_enterprise", "is_high_capital_new_company", "is_nff_board", "is_3a_certified", "is_shell_suspect"]</li>
-<li>
-<p>灰色信号: {"scam_accusation": [], "regulatory_punishment": [], "illegal_finance": [], "grey_business_model": [], "trust_doubt_general": [], "low_visibility": {"score": 2, "checks": {"no_official_site": false, "no_ecommerce": true, "no_media_news": true, "only_business_query": false, "sug_all_enterprise_suffix": false}}, "summary": {"core_categories_hit": 0, "core_total_count": 0, "is_grey_candidate": false}}</p>
-</li>
-<li>
-<p>各域 top 标题:</p>
-</li>
-<li><strong>official_site</strong> (1 条):<ul>
-<li>油小酷（北京）科技有限公司(北京科技推广和应用服... - 百度百科</li>
-</ul>
-</li>
-<li><strong>business_query</strong> (5 条):<ul>
-<li></li>
-<li>油小酷（北京）科技有限公司-企业信息</li>
-<li>油小酷(北京)科技有限公司_油小酷-信息查询-官方资质&amp;背景数据...</li>
-<li>油小酷(北京)科技有限公司 - 企查查</li>
-<li>油小酷(北京)科技有限公司-启信宝</li>
-</ul>
-</li>
-<li><strong>baidu_native</strong> (5 条):<h2>-</h2>
-<ul>
-<li>油小酷(北京)科技有限公司 - 水滴信用</li>
-<li>油小酷(北京)科技有限公司 - 百度地图</li>
-<li>油小酷 - 一站式会员服务平台</li>
-</ul>
-</li>
-</ul>
-<h2>5. 研发能力佐证 (B 类软著)</h2>
-<p>该公司有 <strong>4 个内部系统软著</strong>, 显示研发能力 + 数字化基础。</p>
-<p><strong>销售钩子</strong>:</p>
-<ul>
-<li>企查查软著显示贵司有 4 个内部系统/平台类软著（如 「点个勾后台操作系统」、「点个勾商户端后台操作系统」、「油小酷加盟店后台管理系统」），说明有持续研发投入与数字化基础。</li>
-<li>可开场确认：这些系统目前主要服务哪条业务线？</li>
-</ul>
-<p>样例 (前 15 个):</p>
-<ul>
-<li>点个勾后台操作系统</li>
-<li>点个勾商户端后台操作系统</li>
-<li>油小酷加盟店后台管理系统</li>
-<li>油小酷快消品销售统计平台</li>
-</ul>
-</div>
-
-<div id="feedback">
-
-<div class="feedback">
-<h2>📝 销售反馈 (本地保存)</h2>
-<p style="color:#666;font-size:.85em">填完点"保存到浏览器"后, 数据存在浏览器本地. 全部填完再点"导出 JSON"下载.</p>
-
-<label>触达日期</label>
-<input type="date" id="fb_date">
-
-<label>触达渠道 (多选)</label>
-<div class="row">
-  <div><label><input type="checkbox" value="电话" name="fb_channel"> 电话</label></div>
-  <div><label><input type="checkbox" value="微信" name="fb_channel"> 微信</label></div>
-  <div><label><input type="checkbox" value="上门" name="fb_channel"> 上门</label></div>
-  <div><label><input type="checkbox" value="其他" name="fb_channel"> 其他</label></div>
-</div>
-
-<label>联系结果</label>
-<select id="fb_result">
-  <option value="">-- 请选 --</option>
-  <option>未接通</option>
-  <option>接通无意向</option>
-  <option>接通有兴趣</option>
-  <option>约见</option>
-  <option>已上门</option>
-  <option>拒绝</option>
-  <option>待跟进</option>
-</select>
-
-<label>客户实际业态 (用于校验段判定)</label>
-<input type="text" id="fb_real_seg" placeholder="客户自己描述的主营业务">
-
-<label>客户主诉 (前 3 件最在意的)</label>
-<textarea id="fb_pains"></textarea>
-
-<label>段判定是否准确</label>
-<select id="fb_seg_acc">
-  <option value="">-- 请选 --</option>
-  <option>准确</option>
-  <option>部分准确</option>
-  <option>不准确</option>
-</select>
-
-<label>作战包字段评级</label>
-<div class="row">
-  <div><label><input type="checkbox" name="fb_pack_rate" value="业态画像_有用"> 业态画像 (有用)</label></div>
-  <div><label><input type="checkbox" name="fb_pack_rate" value="产品匹配_有用"> 产品匹配 (有用)</label></div>
-  <div><label><input type="checkbox" name="fb_pack_rate" value="discovery_有用"> discovery (有用)</label></div>
-  <div><label><input type="checkbox" name="fb_pack_rate" value="异议_有用"> 异议库 (有用)</label></div>
-  <div><label><input type="checkbox" name="fb_pack_rate" value="KP触达_有用"> KP触达 (有用)</label></div>
-</div>
-
-<label>客户拒绝原因 (多选)</label>
-<div class="row">
-  <div><label><input type="checkbox" name="fb_reject" value="价格"> 价格</label></div>
-  <div><label><input type="checkbox" name="fb_reject" value="不需要"> 不需要</label></div>
-  <div><label><input type="checkbox" name="fb_reject" value="已有"> 已有</label></div>
-  <div><label><input type="checkbox" name="fb_reject" value="业务模式不匹配"> 业务模式不匹配</label></div>
-  <div><label><input type="checkbox" name="fb_reject" value="决策延迟"> 决策延迟</label></div>
-  <div><label><input type="checkbox" name="fb_reject" value="其他"> 其他</label></div>
-</div>
-
-<label>备注</label>
-<textarea id="fb_note" placeholder="销售自由发挥"></textarea>
-
-<div style="margin-top:1em">
-  <button type="button" onclick="saveFeedback('404')">💾 保存到浏览器</button>
-  <button type="button" class="secondary" onclick="exportFeedback('404')">📥 导出 JSON</button>
-  <button type="button" class="secondary" onclick="loadFeedback('404')">↻ 从浏览器加载</button>
-  <span class="saved-status" id="fb_status"></span>
-</div>
-</div>
-
-<script>
-(function() {
-  const EID = '404';
-  const COMPANY = "油小酷（北京）科技有限公司";
-
-  window.collectFeedback = function() {
-    const el = id => document.getElementById(id);
-    const checkbox = name => Array.from(document.querySelectorAll('input[name="' + name + '"]:checked')).map(x => x.value);
-    return {
-      entity_id: EID, company_name: COMPANY,
-      触达日期: el('fb_date').value, 触达渠道: checkbox('fb_channel'),
-      联系结果: el('fb_result').value, 客户实际业态: el('fb_real_seg').value,
-      客户主诉: el('fb_pains').value, 段判定: el('fb_seg_acc').value,
-      作战包评级: checkbox('fb_pack_rate'), 客户拒绝原因: checkbox('fb_reject'),
-      备注: el('fb_note').value,
-      saved_at: new Date().toISOString()
-    };
-  };
-  window.saveFeedback = function(eid) {
-    const data = window.collectFeedback();
-    localStorage.setItem('sales_fb_' + eid, JSON.stringify(data));
-    document.getElementById('fb_status').textContent = '✓ 已存浏览器 ' + new Date().toLocaleTimeString();
-  };
-  window.exportFeedback = function(eid) {
-    const data = window.collectFeedback();
-    const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = 'feedback_' + eid + '_' + new Date().toISOString().slice(0,10) + '.json';
-    a.click();
-    URL.revokeObjectURL(url);
-  };
-  window.loadFeedback = function(eid) {
-    const raw = localStorage.getItem('sales_fb_' + eid);
-    if (!raw) { document.getElementById('fb_status').textContent = '(浏览器无历史)'; return; }
-    const d = JSON.parse(raw);
-    const el = id => document.getElementById(id);
-    el('fb_date').value = d.触达日期 || '';
-    el('fb_result').value = d.联系结果 || '';
-    el('fb_real_seg').value = d.客户实际业态 || '';
-    el('fb_pains').value = d.客户主诉 || '';
-    el('fb_seg_acc').value = d.段判定 || '';
-    el('fb_note').value = d.备注 || '';
-    for (const pair of [['fb_channel','触达渠道'],['fb_pack_rate','作战包评级'],['fb_reject','客户拒绝原因']]) {
-      const set = pair[0], key = pair[1];
-      document.querySelectorAll('input[name="' + set + '"]').forEach(function(el) {
-        el.checked = (d[key] || []).indexOf(el.value) >= 0;
-      });
-    }
-    document.getElementById('fb_status').textContent = '✓ 已从浏览器加载';
-  };
-  document.addEventListener('DOMContentLoaded', function() { window.loadFeedback(EID); });
-})();
-</script>
-
-</div>
-
-</div>
-</body></html>
+</body>
+</html>
