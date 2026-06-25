@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Phase 3 销售作战包 — 25 家</title>
+<style>
+:root { --bg:#f9f9f9; --panel:#fff; --border:#dcdcdc; --txt:#222; --muted:#666; --accent:#0a66c2; }
+* { box-sizing: border-box; }
+body { font-family: -apple-system, "Helvetica Neue", "PingFang SC", "Microsoft YaHei", sans-serif;
+       margin: 0; background: var(--bg); color: var(--txt); line-height: 1.6; font-size: 14px; }
+.wrap { max-width: 1180px; margin: 0 auto; padding: 1em 2em 4em; }
+.top { display: flex; justify-content: space-between; align-items: baseline; padding: 1em 0;
+       border-bottom: 2px solid var(--txt); margin-bottom: 1em; flex-wrap: wrap; gap: .5em; }
+.top h1 { margin: 0; font-size: 1.6em; }
+.top a { color: var(--accent); text-decoration: none; font-size: .95em; }
+.top a:hover { text-decoration: underline; }
+.toc { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: .8em;
+       margin: 1.5em 0; }
+.card { background: var(--panel); border: 1px solid var(--border); border-radius: 6px;
+        padding: .9em 1.1em; }
+.card a { color: var(--accent); text-decoration: none; font-weight: 600; }
+.card a:hover { text-decoration: underline; }
+.tag { display: inline-block; font-size: .8em; padding: 1px 8px; border-radius: 10px;
+       margin-left: .25em; vertical-align: middle; }
+.tag-livestream { background: #e1f0ff; color: #0a66c2; }
+.tag-health { background: #e1ffe6; color: #1f7a3f; }
+.tag-grey { background: #fff4d6; color: #8a6a00; }
+.tag-trust { background: #ffe4ef; color: #b3306a; }
+.tag-bidding { background: #e8e4ff; color: #4a3d9e; }
+.tag-franchise { background: #ffe8d6; color: #a65a00; }
+.tag-impulse { background: #eee; color: #555; }
+.tag-credit { background: #d6f5ff; color: #006680; }
+.meta { color: var(--muted); font-size: .85em; margin-top: .3em; }
+.preview { color: #444; margin-top: .5em; font-size: .9em;
+           display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3;
+           overflow: hidden; }
+.panel { background: var(--panel); border: 1px solid var(--border); border-radius: 8px;
+         padding: 1.2em 1.6em; margin-bottom: 1.2em; }
+.panel h2 { border-bottom: 1px solid var(--border); padding-bottom: .3em; margin-top: 1.2em; }
+.panel h2:first-child { margin-top: 0; }
+.panel h3 { color: var(--muted); margin-top: 1em; font-size: 1.05em; }
+.panel table { border-collapse: collapse; width: 100%; font-size: .92em; margin: .8em 0; }
+.panel th, .panel td { border: 1px solid #ccc; padding: 6px 10px; vertical-align: top; }
+.panel th { background: #f4f4f4; text-align: left; }
+.panel code { background: #f6f6f6; padding: .1em .35em; border-radius: 3px; font-size: .88em; }
+.panel pre { background: #f6f6f6; padding: 1em; overflow-x: auto; white-space: pre-wrap;
+             border-radius: 4px; font-size: .85em; }
+.panel ul, .panel ol { padding-left: 1.6em; }
+.panel li { margin: .2em 0; }
+.section-label { background: #e8eef7; color: #0a66c2; font-weight: 600;
+                 padding: .3em .8em; border-radius: 4px; display: inline-block; margin-bottom: .8em; }
+.post28-banner { background: #f0f7ff; border: 1px solid #b8d4f0; border-radius: 6px;
+                 padding: .6em 1em; margin-bottom: 1em; font-size: .92em; }
+.post28-banner a { color: var(--accent); font-weight: 600; text-decoration: none; }
+.post28-banner a:hover { text-decoration: underline; }
+.contact-link { margin-left: 1em; padding-left: 1em; border-left: 1px solid #b8d4f0; }
+.feedback { background: #fffce8; border: 1px solid #e7d36b; border-radius: 8px;
+            padding: 1.2em 1.6em; margin-top: 2em; }
+.feedback h2 { margin-top: 0; }
+.feedback label { display: block; margin: .8em 0 .25em; font-weight: 600; }
+.feedback input[type="text"], .feedback textarea, .feedback select {
+    width: 100%; padding: .5em .7em; border: 1px solid #ccc; border-radius: 4px;
+    font-size: .95em; font-family: inherit; }
+.feedback textarea { min-height: 100px; resize: vertical; }
+.feedback .row { display: flex; gap: 1em; margin: .5em 0; flex-wrap: wrap; }
+.feedback .row > div { flex: 1; min-width: 120px; }
+.feedback button { background: #0a66c2; color: #fff; border: 0; padding: .7em 1.5em;
+                   border-radius: 4px; font-size: .95em; cursor: pointer; margin: .5em .5em .5em 0; }
+.feedback button:hover { background: #084e96; }
+.feedback button.secondary { background: #6c757d; }
+.feedback button.secondary:hover { background: #545b62; }
+.feedback .saved-status { color: var(--muted); font-size: .85em; margin-left: 1em; }
+nav.compact { background: var(--panel); border: 1px solid var(--border); padding: .5em 1em;
+              border-radius: 4px; margin-bottom: 1em; font-size: .9em; }
+nav.compact a { color: var(--accent); text-decoration: none; margin: 0 .4em; }
+nav.compact a:hover { text-decoration: underline; }
+.evidence-intro { color: var(--muted); font-size: .9em; margin: 0 0 1em; }
+.evidence-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1em; }
+.evidence-card { border: 1px solid var(--border); border-radius: 8px; overflow: hidden; background: #fafafa; }
+.evidence-card.evidence-qr { border-color: #b8d4f0; background: #f7fbff; }
+.evidence-img-wrap { background: #eee; text-align: center; padding: .5em; min-height: 160px; display: flex; align-items: center; justify-content: center; }
+.evidence-img-wrap img { max-width: 100%; max-height: 280px; object-fit: contain; }
+.evidence-body { padding: .8em 1em 1em; }
+.evidence-body h4 { margin: 0 0 .4em; font-size: 1em; }
+.evidence-body p { margin: 0; color: #444; font-size: .9em; line-height: 1.55; }
+details.detail-panel { background: var(--panel); border: 1px solid var(--border); border-radius: 8px;
+                      margin-bottom: 1.2em; overflow: hidden; }
+details.detail-panel > summary { cursor: pointer; padding: .9em 1.2em; font-weight: 600;
+                                 background: #f4f6f8; list-style: none; }
+details.detail-panel > summary::-webkit-details-marker { display: none; }
+details.detail-panel > summary::before { content: "▸ "; color: var(--accent); }
+details.detail-panel[open] > summary::before { content: "▾ "; }
+details.detail-panel .detail-body { padding: 0 1.6em 1.2em; border-top: 1px solid var(--border); }
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="top">
+<h1>Phase 3 销售作战包</h1>
+<span>25 家 · 段标签已同步 post28</span>
+</div>
+<h2>政企招投标类 (4 家)</h2>
+<div class="toc">
+<div class="card">
+<a href="913.html">温州市捷康医疗器材有限公司</a> <span class="tag tag-bidding">政企招投标类</span> <span class="tag tag-health">大健康类</span>
+<div class="meta">eid=913 | post28: bidding+health |  | 注册资本  | 成立 </div>
+<div class="preview">主营：第二类医疗器械销售、医护人员防护用品批发及国内贸易代理；经营模式：B2B贸易，参与政企招投标；主要客户：医院、医疗机构、政府卫健部门、经销商；销售渠道：线下投标、电话/座机直销；其他：属医疗健康与政企招投标交叉领域，公司线上存在感弱，依赖资质背书获取订单</div>
+</div>
+<div class="card">
+<a href="929.html">乐清市超跃食品配送有限公司</a> <span class="tag tag-bidding">政企招投标类</span> <span class="tag tag-health">大健康类</span>
+<div class="meta">eid=929 | post28: bidding+health |  | 注册资本  | 成立 </div>
+<div class="preview">主营：食品配送(食用农产品, 鲜肉, 水产, 水果蔬菜等), 主要服务单位食堂后勤。；经营模式：B2B直营配送, 通过招投标获取政府与企事业单位订单。；主要客户：政府机关食堂, 学校食堂, 企业后勤部门等。；销售渠道：线下招投标, 合同直销, 无线上渠道。；其他：与post28 bidding段强相关(参与政企招投标), health段因食品经营许可合规问题凸显。</div>
+</div>
+<div class="card">
+<a href="930.html">温州谷荟食品有限公司</a> <span class="tag tag-bidding">政企招投标类</span> <span class="tag tag-ecom">电商类</span> <span class="tag tag-health">大健康类</span>
+<div class="meta">eid=930 | post28: bidding+ecom+health |  | 注册资本  | 成立 </div>
+<div class="preview">主营：预包装食品、保健食品的互联网与线下销售，兼营农产品种植、初加工及日用百货批发零售；经营模式：自营电商 + 线下实体批发；主要客户：终端消费者（C端）、渠道批发商/零售商（B端）、潜在政企采购方；销售渠道：自营电商网站（覆盖互联网渠道）、线下实体批发零售；其他：已参与政企招投标，急需权威证书背书；保健食品广告合规风险突出，功能报告是刚需</div>
+</div>
+<div class="card">
+<a href="939.html">温州广寻信息科技有限公司</a> <span class="tag tag-bidding">政企招投标类</span>
+<div class="meta">eid=939 | post28: bidding |  | 注册资本  | 成立 </div>
+<div class="preview">主营：信息技术开发与咨询、计算机软硬件批发、自费出国留学中介服务；经营模式：线下直销、线上推广获客、留学中介网点；主要客户：有技术需求的企业客户、计算机硬件采购商、出国留学意向个人；销售渠道：线下直销、线上批发平台、中介服务网点；其他：主航道为B2B技术服务与硬件批发，高度依赖政企招投标获取订单；另涉C端留学中介需资质背书，整体属于高信任要求的复合业态。</div>
+</div>
+</div>
+<h2>大健康类 (9 家)</h2>
+<div class="toc">
+<div class="card">
+<a href="906.html">温州跃鑫医疗器械有限公司</a> <span class="tag tag-health">大健康类</span>
+<div class="meta">eid=906 | post28: health |  | 注册资本  | 成立 </div>
+<div class="preview">主营：第二类医疗器械销售及健康咨询服务；经营模式：线下销售代理；主要客户：有医疗器械、保健品及健康管理需求的终端消费者或机构；销售渠道：纯线下代理，无电商及加盟；其他：属大健康合规类，存在健康咨询与远程管理服务合规模糊点，跨品类经营医疗器械与食品，急需权威资质背书</div>
+</div>
+<div class="card">
+<a href="912.html">乐清市王微丹药品销售有限公司</a> <span class="tag tag-health">大健康类</span>
+<div class="meta">eid=912 | post28: health |  | 注册资本  | 成立 </div>
+<div class="preview">主营：药品零售、第二类医疗器械销售、保健用品销售及日用化学品零售；经营模式：直营药店（存在多店关联迹象）；主要客户：C端个人消费者（含医保患者）；销售渠道：线下实体药店 + 网络经营（三小行业含网络经营）；其他：已获温州市‘双通道’管理定点零售药店资格，可销售国家谈判药品，属于大健康合规领域的较高层级经营者。</div>
+</div>
+<div class="card">
+<a href="923.html">温州源润食品有限公司</a> <span class="tag tag-health">大健康类</span>
+<div class="meta">eid=923 | post28: health |  | 注册资本  | 成立 </div>
+<div class="preview">主营：食品、初级食用农产品、生活日用品及烟草的零售与网上销售；经营模式：直营零售（线下实体+网上销售）；主要客户：C端普通消费者；销售渠道：线下实体零售、网上销售（电商平台/自营）；其他：属大健康合规类，以食品零售为核心，线上线下一体化，需注重商品品质背书与消费者信任建设</div>
+</div>
+<div class="card">
+<a href="924.html">瑞安市齐鑫食品有限公司</a> <span class="tag tag-health">大健康类</span>
+<div class="meta">eid=924 | post28: health |  | 注册资本  | 成立 </div>
+<div class="preview">主营：预包装食品（不含冷藏冷冻）及散装食品销售；经营模式：纯贸易型食品销售商，非生产商；主要客户：下游零售商、餐饮企业、团购批发等B端客户；销售渠道：线下门店或批发商超等传统渠道，无官网、无电商店铺；其他：属于大健康合规强监管领域，对食品经营资质和产品质量背书有刚性需求</div>
+</div>
+<div class="card">
+<a href="926.html">温州市餐侣食品有限公司</a> <span class="tag tag-health">大健康类</span>
+<div class="meta">eid=926 | post28: health |  | 注册资本  | 成立 </div>
+<div class="preview">主营：预包装食品销售与食用农产品批发，疑似涉及代餐健康食品；经营模式：直营贸易批发，可能兼有电商；主要客户：C端消费者、线下零售商；销售渠道：线下批发门店、线上电商平台（未明确）；其他：归属大健康合规赛道，消费者对食品安全与标准敏感，信任壁垒高；同时存在负面信任质疑，需国家背书快速建立信誉</div>
+</div>
+<div class="card">
+<a href="928.html">温州市嘉澜食品有限公司</a> <span class="tag tag-health">大健康类</span>
+<div class="meta">eid=928 | post28: health |  | 注册资本  | 成立 </div>
+<div class="preview">主营：食品销售、烟草及电子烟零售，兼营日用品、农产品、化妆品、卫生用品、口罩等；经营模式：推测为线下实体零售或批发（无电商、小程序证据）；主要客户：个人消费者、可能的社区团购或B端食品客户；销售渠道：线下门店（推断），无官网、无线上商城；其他：属于大健康合规范畴，经营多类食品、食用农产品及健康相关快消品，需应对市场监管抽检与消费者信任挑战</div>
+</div>
+<div class="card">
+<a href="931.html">温州玖鸿食品有限公司</a> <span class="tag tag-health">大健康类</span>
+<div class="meta">eid=931 | post28: health |  | 注册资本  | 成立 </div>
+<div class="preview">主营：食品经营（预包装、散装食品等）及百货销售；经营模式：直营线下批发与零售；主要客户：个人消费者、企业客户（批发商、零售商）；销售渠道：线下实体门店（无官网、无电商）；其他：属大健康合规（食品）领域，曾因食品不合格被市场监管部门核查，面临监管高压，急需权威背书恢复信任</div>
+</div>
+<div class="card">
+<a href="932.html">温州市小喔商贸有限公司</a> <span class="tag tag-health">大健康类</span>
+<div class="meta">eid=932 | post28: health |  | 注册资本  | 成立 </div>
+<div class="preview">主营：预包装食品批发零售，兼营日用百货销售；经营模式：传统商贸直营（推测为小型批发或门店零售）；主要客户：C端个人消费者及小型便利店等B端渠道；销售渠道：线下实体经营为主，暂未发现线上商城或APP；其他：归属大健康合规领域，食品经营需兼顾监管合规与消费信任构建；新成立企业，网络曝光度极低，亟需权威背书破局。</div>
+</div>
+<div class="card">
+<a href="935.html">温州市柏艺鸿食品有限公司</a> <span class="tag tag-health">大健康类</span>
+<div class="meta">eid=935 | post28: health |  | 注册资本  | 成立 </div>
+<div class="preview">主营：食用农产品初加工、预包装食品销售、食品进出口及餐饮管理；经营模式：生产型+贸易型，可能涉及加盟与外卖服务；主要客户：C端消费者、餐饮商户、海外采购商；销售渠道：以线下传统渠道为主，尚未建立线上电商店铺；其他：新成立企业，急需通过权威背书打破信任壁垒，并应对食品行业高频监管抽检。</div>
+</div>
+</div>
+<h2>招商加盟类 (1 家)</h2>
+<div class="toc">
+<div class="card">
+<a href="937.html">温州鼎校甄选教育科技有限公司</a> <span class="tag tag-franchise">招商加盟类</span>
+<div class="meta">eid=937 | post28: franchise |  | 注册资本  | 成立 </div>
+<div class="preview">主营：英语加盟品牌的招商与运营，配套教育咨询服务；经营模式：加盟；主要客户：寻求教育项目的小微创业者/加盟商；销售渠道：线上加盟平台、百度搜索推广、线下招商会；其他：品牌新、无官网，依赖百度百科式介绍与地图标注，信任基础薄弱</div>
+</div>
+</div>
+<h2>高信任业务类 (5 家)</h2>
+<div class="toc">
+<div class="card">
+<a href="914.html">龙港万连家政有限公司</a> <span class="tag tag-trust">高信任业务类</span>
+<div class="meta">eid=914 | post28: trust |  | 注册资本  | 成立 </div>
+<div class="preview">主营：家政服务、专业保洁、清洗、消毒、建筑物清洁、家电维修等；经营模式：直营（或个体中介）为主，线下门店接单，可能通过本地生活平台派单；主要客户：C端家庭消费者（保姆、保洁）、B端企业客户（楼宇保洁、物业外包）；销售渠道：线下门店、美团/大众点评等本地服务平台、微信社群及转介绍，无官网和自有APP；其他：属于高信任行业，新成立小公司面临信任建设缺失、线上可见度低两大核心痛点，与trust分类高度吻</div>
+</div>
+<div class="card">
+<a href="915.html">温州零起点家政服务有限公司</a> <span class="tag tag-trust">高信任业务类</span>
+<div class="meta">eid=915 | post28: trust |  | 注册资本  | 成立 </div>
+<div class="preview">主营：家政服务（保姆、月嫂、居家保洁等）、母婴护理、婚庆礼仪等；经营模式：直营（无明确加盟信号），可能位于温州人社局家政服务市场内运营；主要客户：C端家庭消费者，追求信任与安全的本地居民；销售渠道：线下门店、口碑转介绍、本地生活服务平台（如58同城、美团等），无官网或自有APP；其他：属于高信任行业，入户服务对人员背景与公司信誉要求高；低可见度与新公司特征加剧信任挑战，需权威背书破局</div>
+</div>
+<div class="card">
+<a href="920.html">温州市溢美家政服务有限公司</a> <span class="tag tag-trust">高信任业务类</span>
+<div class="meta">eid=920 | post28: trust |  | 注册资本  | 成立 </div>
+<div class="preview">主营：家政保洁、家电维修清洗、母婴护理、养老服务等生活服务；经营模式：直营门店或社区服务，无加盟；主要客户：C端家庭客户，尤其是有老人、婴幼儿的家庭；销售渠道：线下门店/社区推广/口碑介绍（无官网、无电商），电话约单；其他：属高信任行业，且网络可见度极低，客户决策时易因缺少权威背书而流失</div>
+</div>
+<div class="card">
+<a href="921.html">温州市强能家政服务有限公司</a> <span class="tag tag-trust">高信任业务类</span>
+<div class="meta">eid=921 | post28: trust |  | 注册资本  | 成立 </div>
+<div class="preview">主营：家庭保洁、搬家、专业清洗、消毒等家政服务；经营模式：推测直营为主, 暂无明确加盟证据；主要客户：C端家庭用户, 以及需要保洁消毒的B端企业；销售渠道：线下门店、百度地图/电话预约, 无官网及APP；其他：属高信任行业(trust), 新公司亟需建立外部信任; 温州家政条例实施下合规需求上升</div>
+</div>
+<div class="card">
+<a href="938.html">温州益爱教育科技有限公司</a> <span class="tag tag-trust">高信任业务类</span>
+<div class="meta">eid=938 | post28: trust |  | 注册资本  | 成立 </div>
+<div class="preview">主营：教育咨询、招生辅助、技术推广等综合服务；经营模式：直营，面向B端学校/机构与C端家长/学员；主要客户：寻求教育规划的学生家长、教培机构合作方；销售渠道：线下为主，无官网及线上获客系统；其他：高信任行业但企业基础薄弱，急需权威背书应对客户质疑与退费纠纷</div>
+</div>
+</div>
+<h2>动机不明类 (4 家)</h2>
+<div class="toc">
+<div class="card">
+<a href="925.html">瑞安市三好食品有限公司</a> <span class="tag tag-impulse">动机不明类</span>
+<div class="meta">eid=925 | post28: impulse |  | 注册资本  | 成立 </div>
+<div class="preview">主营：豆制品初加工、销售；经营模式：传统直营加工模式，无加盟或电商证据；主要客户：线下B端批发、农贸市场商户、本地小店铺等；销售渠道：推测主要为线下门店或批发；其他：公司在线可见度极低，无官网、无电商、无数字化业务系统，属于典型的传统小微食品加工企业</div>
+</div>
+<div class="card">
+<a href="927.html">温州市方众食品机械有限公司</a> <span class="tag tag-impulse">动机不明类</span>
+<div class="meta">eid=927 | post28: impulse |  | 注册资本  | 成立 </div>
+<div class="preview">主营：食品机械及包装专用设备销售；经营模式：B2B贸易商，非生产型；主要客户：食品加工企业、餐饮连锁等采购方；销售渠道：线下直销为主，可能参与招投标，尚无独立电商店铺；其他：低可见度新公司，处于竞争激烈的食品机械市场，法人关联企业众多，招投标标记为true</div>
+</div>
+<div class="card">
+<a href="933.html">温州汇泰商贸有限公司</a> <span class="tag tag-impulse">动机不明类</span>
+<div class="meta">eid=933 | post28: impulse |  | 注册资本  | 成立 </div>
+<div class="preview">主营：预包装食品、日用百货、化妆品、五金等多品类批发零售与互联网销售。；经营模式：纯商贸流通，疑似关联实体箱包贸易，无自有品牌。；主要客户：线下零售商/中小商户（B端）及线上消费者（C端）。；销售渠道：未发现独立官网或APP，推测以线下批零+第三方电商平台（如1688/淘宝）为主。；其他：post28分类为impulse（动机不明），实际业务因信息极度稀疏难以精准画像，但经营范围与低可见度突显信任</div>
+</div>
+<div class="card">
+<a href="936.html">昊宸（温州）教育科技有限公司</a> <span class="tag tag-impulse">动机不明类</span>
+<div class="meta">eid=936 | post28: impulse |  | 注册资本  | 成立 </div>
+<div class="preview">主营：教育咨询服务及日用品互联网销售，兼营食品销售；经营模式：直营（无加盟或平台迹象）；主要客户：C端消费者（电商）与B端企业（教育合作）；销售渠道：互联网电商（尚无独立APP，可能入驻第三方平台）及线下温州本地校企合作；其他：分类属‘动机不明’因公开信息极度稀疏，急需权威背书打破市场怀疑；涉食品销售需商品质量证明。</div>
+</div>
+</div>
+
+</div>
+</body></html>
